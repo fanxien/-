@@ -1,1 +1,2 @@
-
+negative_reviews.csv为爬取的评论
+negative_translation_reviews.xlsm中的评论为筛选出有关翻译的评论
