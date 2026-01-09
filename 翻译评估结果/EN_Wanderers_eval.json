@@ -1,0 +1,588 @@
+[
+  {
+    "overall_comment": "第一版翻译整体忠实于原文，含义准确，风格与角色语气匹配，结构标签无误。翻译流畅，无明显错误。",
+    "issues": [],
+    "entry_name": "SNAILS_ACT3_MEET_PT2"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上准确传达了英文原文，风格口语化与原文匹配，结构简单无误，无明显问题。",
+    "issues": [],
+    "entry_name": "GRINDLE_ITEM_TOOL_METAL"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和语气上基本匹配原文的非正式和催促感，但关键部分“宰客”一词存在语义偏差，扭曲了原文中关于顾客绝望而非商家欺诈的含义，影响了整体准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Desperate times make for desperate customers",
+        "zh_v1_span": "世道混乱，方便宰客",
+        "zh_v2_span": "",
+        "description": "原文意为“绝望的时刻造就绝望的顾客”，暗示在困难时期顾客更愿意交易，而中文翻译“宰客”特指欺诈或索要高价，引入了原文没有的负面道德色彩，导致语义错译。"
+      }
+    ],
+    "entry_name": "GRINDLE_SHOP_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译存在多处漏译，简化了原文细节，如喘气声、关键疑问句和特定词汇“bug”，导致含义不完整，风格也有所削弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Huu... Huu.",
+        "zh_v1_span": "呼……",
+        "zh_v2_span": "",
+        "description": "英文原文有两个分开的喘气声“Huu... Huu.”，中文翻译只有一个“呼……”，漏掉了一个喘气声，可能影响语气表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Was it the course?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的疑问句“Was it the course?”完全未翻译，信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的“bug”一词未翻译，可能是一个昵称或重要术语，中文版本中缺失，影响角色互动。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Her of such skill",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文“Her of such skill that my wish could, at last, be granted?”中的“Her of such skill”部分未翻译，漏掉了对玩家技能的描述和赞美。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "for your speed, nimble bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中“Another reward must be given for your speed, nimble bug.”的原因和昵称“for your speed, nimble bug”未翻译，奖励的上下文和角色昵称丢失。"
+      }
+    ],
+    "entry_name": "SPRINTMASTER_HERO_WIN_PRE_2"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文匹配，结构标签正确，但存在一处关键形容词漏译，影响了描述的生动性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the strange and succulent shell",
+        "zh_v1_span": "奇异的甲壳",
+        "zh_v2_span": "",
+        "description": "原文中的 'succulent'（意为多汁的、诱人的）一词在翻译中被遗漏，只翻译了 'strange' 为 '奇异的'，导致对外壳的描述不够完整。"
+      }
+    ],
+    "entry_name": "HUNTER_FAN_HINT_ZANGO"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上传达了原文的意思，风格也较为接近，但存在两处明显的准确性错误：一是'weary shells'被误译为'累瘫的虫子'，可能导致语义偏差；二是完全漏译了'red maiden!'，缺失了关键称呼。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Golden bells, for weary shells!",
+        "zh_v1_span": "金钟给累瘫的虫子报时！",
+        "zh_v2_span": "",
+        "description": "'weary shells'被误译为'累瘫的虫子'，'shells'可能指甲壳或游戏中的特定概念，翻译为'虫子'不准确，造成语义错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "red maiden!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文末尾的'red maiden!'在翻译中完全漏译，缺失了对角色的称呼或关键信息。"
+      }
+    ],
+    "entry_name": "SHERMA_BELLHART_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在基本意思上传达了原文内容，但漏译了关键称呼'bug'并简化了'for my skill'的细节，导致文本的完整性和角色语气受到影响。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You have keen sight for my skill, bug,",
+        "zh_v1_span": "你的眼力不错，我确是一名战士，",
+        "zh_v2_span": "",
+        "description": "原文中的称呼'bug'被完全漏译，未在中文中体现，这可能是一个重要的人物称呼或语气词；同时，'for my skill'（对我的技能）被简化为'眼力不错'，未准确传达对技能的眼力这一细节，导致含义不完整并可能影响角色互动风格。"
+      }
+    ],
+    "entry_name": "MAPPER_MEET_BONE_1C"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义、风格和结构上都忠实于英文原文，省略号的本地化处理恰当，结构标签正确无误。",
+    "issues": [],
+    "entry_name": "HORNET_SILENCE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，但存在多处漏译和简化，导致原文细节丢失，如角色名称、关键描述和语气词被省略，影响忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The time is close, Shakra. The cost was grave, and the challenge steep, but I have claimed a power that can put end to this disaster.",
+        "zh_v1_span": "时机到了。虽然代价惨重，但我找到了终结灾祸的方法。",
+        "zh_v2_span": "",
+        "description": "漏译了角色名 'Shakra' 和 'the challenge steep'（挑战陡峭），原文中这些元素丰富了语境，翻译简化后丢失了细节。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Gendaa... This is good, Hornet Wielding Needle, essential.",
+        "zh_v1_span": "哏嗒……太好了，小姑娘。",
+        "zh_v2_span": "",
+        "description": "专有名词 'Hornet Wielding Needle' 被意译为 '小姑娘'，未保留原文的特定称呼或称号，可能导致角色识别不清或设定不一致。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Gendaa... This is good, Hornet Wielding Needle, essential.",
+        "zh_v1_span": "哏嗒……太好了，小姑娘。",
+        "zh_v2_span": "",
+        "description": "漏译了 'essential'（必要的/关键的），原文中此词强调事件的重要性，翻译缺失后削弱了语气。"
+      }
+    ],
+    "entry_name": "MAPPER_WHITE_FLOWER_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但存在漏译和语气偏差，导致信息不完整且风格不如原文正式和鼓舞。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "those impressive scores",
+        "zh_v1_span": "改天我要挑战看看！",
+        "zh_v2_span": "",
+        "description": "原文明确提到“那些令人印象深刻的分数”，但中文翻译中省略了这一关键信息，仅用“挑战看看”模糊带过，造成信息缺失。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Your achievements in the games are inspiring! In time, I may have to challenge...",
+        "zh_v1_span": "你创下的记录真令我激动！改天我要挑战看看！",
+        "zh_v2_span": "",
+        "description": "原文语气鼓舞且委婉（如“inspiring”意为鼓舞人心，“may have to”表示可能性），而中文翻译变得口语化和直接（“激动”偏向兴奋，“我要”更确定），丢失了原文的激励性和适度谦逊感。"
+      }
+    ],
+    "entry_name": "SETH_FESTIVAL_REPEAT_POST_MEMENTO"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但内容上存在多处漏译和可能错译。漏译了人物名称 'Garmond'、'for your fellows passed' 的细节，以及第二部分的 'Aye!' 和 'Zaza and I'll'，导致含义不完整和角色语气失真；此外，'bugs held in our hearts' 的翻译可能不准确，丢失了原文意象。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Good luck on your quest Garmond. If you hope to claim justice for your fellows passed, I suspect you’ve some challenge yet ahead.",
+        "zh_v1_span": "祝你们好运，要找圣堡讨公道可不容易。",
+        "zh_v2_span": "",
+        "description": "原文明确提及 'Garmond' 和 'for your fellows passed'（为逝去的同伴伸张正义），翻译中省略了这些具体信息，使人物指向和背景模糊。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Aye! Zaza and I’ll fight to cavern’s end if it need be,",
+        "zh_v1_span": "就算要杀遍每处洞穴我们也在所不惜！",
+        "zh_v2_span": "",
+        "description": "原文的感叹词 'Aye!' 和主语 'Zaza and I’ll' 被省略，失去了角色的激昂语气和具体指代，仅用 '我们' 泛化处理。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "for the bugs held in our hearts,",
+        "zh_v1_span": "为了心中的记忆，",
+        "zh_v2_span": "",
+        "description": "'bugs held in our hearts' 可能指虫类或游戏中的特定概念（如情感象征），翻译为 '心中的记忆' 可能错误，丢失了原文的意象，导致语义不准确。"
+      }
+    ],
+    "entry_name": "GARMOND_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义和语气，语言流畅自然，结构标签正确无误。",
+    "issues": [],
+    "entry_name": "GARMOND_AID_MEET_FORUM"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文情节，但存在多处漏译和语义偏差，尤其是口语语气和角色特有表达的缺失，影响了对话的生动性和忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "poor old Grindle? That’s a well-deserved end, we reckon.",
+        "zh_v1_span": "格林德尔恶霸虫是什么下场？真是活该！",
+        "zh_v2_span": "",
+        "description": "漏译了 'poor old'（可怜的老）和 'we reckon'（我们估计），削弱了角色对格林德尔的同情语气和主观判断。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "We heard",
+        "zh_v1_span": "都说",
+        "zh_v2_span": "",
+        "description": "'We heard'（我们听说）被翻译为 '都说'（大家都说），改变了信息来源，可能影响角色观点的直接性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "So what’s happened, eh? Why’s it crawlin’ with bullies and busybodies?",
+        "zh_v1_span": "怎么全是打手？",
+        "zh_v2_span": "",
+        "description": "漏译了语气词 'eh?' 和 'busybodies'（多管闲事的人），使对话 less colloquial and misses some nuances."
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The creature that haunts this place is stirring, little thief. The Citadel’s caste now roam the halls.",
+        "zh_v1_span": "掌控此地的怪物正在苏醒，圣堡的守卫四处游荡",
+        "zh_v2_span": "",
+        "description": "'haunts'（出没）翻译为 '掌控' 不准确；'caste'（种姓或阶层）翻译为 '守卫' 可能窄化了原意，丢失了世界观细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "What what? You bein’ mirthful?",
+        "zh_v1_span": "怕什么！",
+        "zh_v2_span": "",
+        "description": "完全漏译了 'What what? You bein’ mirthful?'（什么？你在开玩笑吗？），丢失了对话的互动性和惊讶语气。"
+      }
+    ],
+    "entry_name": "GRINDLE_CITADEL_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在前两段基本忠实于原文，但第三段存在准确性错误：关键描述被错译和添加未有的信息，同时漏译了部分内容，影响了整体含义的传达。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "miss grown-up, older, stiffer, a shell less precious",
+        "zh_v1_span": "大姐姐，你甲壳厚实，经验丰富",
+        "zh_v2_span": "",
+        "description": "原文描述为‘长大了、更老、更僵硬、甲壳不那么珍贵’，但翻译将‘less precious’错译为‘厚实’，并添加了‘经验丰富’，导致语义相反且加入了原文没有的信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Seek the cave, and the things within.",
+        "zh_v1_span": "去探查那个洞穴吧！",
+        "zh_v2_span": "",
+        "description": "原文明确包括‘寻找洞穴以及里面的东西’，但翻译只提及‘探查那个洞穴’，漏译了‘the things within’，造成信息缺失。"
+      }
+    ],
+    "entry_name": "HUNTER_FAN_HINT_VOLTNEST"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本正确，风格口语化，符合角色语气，但存在多处漏译，简化了原文的细节描述和情感表达。结构标签使用正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ahh miss grown-up, Nuu hoped you would return here. For clever Nuu can track well where you have been, she sees your cut-marks and sniffs out your fragrant trail!",
+        "zh_v1_span": "大姐姐！努努跟着你的刀痕和体香找到这啦！",
+        "zh_v2_span": "",
+        "description": "漏译了 'Ahh' 语气词、'Nuu hoped you would return here' 的直接表达以及 'clever Nuu' 的强调，翻译将多句简化为一句，丢失了部分信息和情感色彩。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "And look where the trail has led sweet Nuu!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "整个句子 'And look where the trail has led sweet Nuu!' 被漏译，原文中表达努努跟随踪迹的喜悦和互动，翻译中缺失此细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "patient Nuu",
+        "zh_v1_span": "努努",
+        "zh_v2_span": "",
+        "description": "漏译了 'patient' 一词，该词描述了努努的耐心特质，翻译中省略，削弱了角色性格刻画。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "in these crusted highlands Nuu",
+        "zh_v1_span": "这里",
+        "zh_v2_span": "",
+        "description": "漏译了具体地点描述 'crusted highlands' 和直接称呼 'Nuu'，翻译简化为 '这里'，丢失了场景细节和角色指向。"
+      }
+    ],
+    "entry_name": "HUNTER_FAN_ZAPNEST_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译严重遗漏了英文原文的关键内容，包括昵称和一句鼓励话语，整体不忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "nimble bug!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的昵称或称呼 'nimble bug' 被完全漏译。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Let us soar swift together!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文的最后一句鼓励一起飞翔的话语被完全漏译。"
+      }
+    ],
+    "entry_name": "SPRINTMASTER_HERO_LOSE"
+  },
+  {
+    "overall_comment": "第一版翻译在主要情节上大致正确，但存在两处重要漏译，包括细节描述和结尾的庆幸表达，导致内容不完整且角色口语化风格减弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "It was a simple thing, small bug. I assume you are Tipp, the courier?",
+        "zh_v1_span": "举手之劳。你是蒂普？",
+        "zh_v2_span": "",
+        "description": "原文中的'small bug'（小麻烦）和'the courier'（信使身份）被漏译，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "But still... is lucky-lucky for me you came.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "完全漏译了最后一句，原文表达了对玩家到来的庆幸之情，缺失后影响角色语气和段落完整性。"
+      }
+    ],
+    "entry_name": "COURIER_SHORT_THANK_PT1"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思，但“沙川”的翻译可能存在语义偏差，建议检查术语准确性以确保与原文“Sands”的含义一致。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Sands of Karak",
+        "zh_v1_span": "卡拉卡沙川",
+        "zh_v2_span": "",
+        "description": "'Sands of Karak' 被翻译为 '卡拉卡沙川'，其中 '沙川' 可能误译了 'Sands'，原文指沙地或沙漠，而 '川' 在中文中通常表示河流，导致语义不准确，建议调整为更贴切的译法如 '沙地'。"
+      }
+    ],
+    "entry_name": "MAPPER_ITEM_MAP_CORALCAVERNS_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了口语化，但存在准确性问题：添加了原文没有的‘送货’动作，并省略了地点信息‘in the bell’，导致含义不忠实。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Well, I’m is be off now.",
+        "zh_v1_span": "好吧，我这就送货去。",
+        "zh_v2_span": "",
+        "description": "原文意思是‘我要走了’，但翻译添加了‘送货去’，引入了原文没有的动作信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "That old grubly-grub in the bell",
+        "zh_v1_span": "那个老、老财迷",
+        "zh_v2_span": "",
+        "description": "原文中‘in the bell’（可能在钟楼里）表示地点，但翻译完全省略，导致信息缺失。"
+      }
+    ],
+    "entry_name": "COURIER_SHORT_THANK_PT2"
+  },
+  {
+    "overall_comment": "第一版中文翻译大体流畅，但存在明显的漏译问题，导致原文的部分含义和上下文丢失，尤其是具体情境和昵称未被翻译，整体忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Now I must train, and strive, further and faster by your example.",
+        "zh_v1_span": "现在，我要以你为榜样加倍训练！",
+        "zh_v2_span": "",
+        "description": "英文原文中的'strive, further and faster'（努力，更快更远）未被翻译，仅用'加倍训练'简化，遗漏了强调持续努力和速度变化的含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your skill upon these tracks has roused my spirit, nimble bug.",
+        "zh_v1_span": "你点燃了我的斗志！",
+        "zh_v2_span": "",
+        "description": "翻译中完全遗漏了'upon these tracks'（在这些赛道上）的具体情境和昵称'nimble bug'（敏捷的虫子），导致上下文和角色称呼缺失。"
+      }
+    ],
+    "entry_name": "SPRINTMASTER_HERO_WIN_AFTER_WISH_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译简洁流畅，但严重漏译了英文原文中关于钟脉贯穿 Pharloom 核心的关键描述，导致世界观设定信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A town built within the thick vein of bells that runs through Pharloom’s core.",
+        "zh_v1_span": "建在钟脉上的小镇。",
+        "zh_v2_span": "",
+        "description": "英文原文明确指出钟脉贯穿 Pharloom 的核心（runs through Pharloom’s core），但第一版翻译漏译了此部分，缺失了重要的地理位置和设定细节，可能影响玩家对游戏世界的理解。"
+      }
+    ],
+    "entry_name": "MAPPER_ITEM_MAP_BELLHART_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译结构标签正确，风格口语化符合语境，但存在两处漏译，导致部分原文信息缺失，影响完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Much work I must do to achieve that goal.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文明确表达了‘我必须做很多工作来达到那个目标’，但第一版翻译完全省略了这句话，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Raise that blade and test my rings!",
+        "zh_v1_span": "亮兵器吧！",
+        "zh_v2_span": "",
+        "description": "原文中‘test my rings’（测试我的武器或技能）未被翻译，第一版只翻译了‘Raise that blade’（举起那把剑），漏译了关键动作描述。"
+      }
+    ],
+    "entry_name": "MAPPER_SPAR_INTRO"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的对话感，但准确性有欠缺，漏译了关键人名和修饰词，部分意思表达不准确，存在多处理解偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your charts and tools show fine skill, Shakra.",
+        "zh_v1_span": "你的图纸工具很专业，很少见过这般手艺。",
+        "zh_v2_span": "",
+        "description": "原文中直接称呼人名 'Shakra'，但在翻译中完全漏掉，使得对话失去针对性和角色互动感。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "It is a craft-skill common amongst my tribe.",
+        "zh_v1_span": "这是我们部落必学的手艺，",
+        "zh_v2_span": "",
+        "description": "'common' 意为'常见的'，但翻译成'必学的'，错误地暗示了强制性，而非原文表达的普遍性。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "the memory of travel,",
+        "zh_v1_span": "画路线、",
+        "zh_v2_span": "",
+        "description": "'memory of travel' 应指'旅行的记忆'，但翻译为'画路线'，意思不准确，偏离了原意。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "the knowing of one’s place within the kingdom,",
+        "zh_v1_span": "辨方位",
+        "zh_v2_span": "",
+        "description": "原文明确提到'王国之内'（within the kingdom），但翻译中只泛泛译为'辨方位'，漏掉了具体的空间范围信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "my great mentor",
+        "zh_v1_span": "我得导师",
+        "zh_v2_span": "",
+        "description": "'great mentor' 中的 'great'（伟大的）在翻译中被遗漏，削弱了对导师的尊敬和重要性描述。"
+      },
+      {
+        "type": "fluency.punctuation",
+        "source_span": "my great mentor",
+        "zh_v1_span": "我得导师",
+        "zh_v2_span": "",
+        "description": "'我得导师' 中的 '得' 是错别字，应为 '的'，属于字符错误，影响文本的正确性和阅读流畅度。"
+      }
+    ],
+    "entry_name": "MAPPER_MAPPING"
+  },
+  {
+    "overall_comment": "第一版翻译部分传达了原文的幽默风格，但存在严重漏译和错译问题。漏掉了整个句子'What a favour those lugs did us!'，并且将'bring a lucky little snitchbug like Grindle'误译为'格林德尔就爱关在这种地方'，导致含义失真。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "What a favour those lugs did us!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中'What a favour those lugs did us!'（那些笨蛋帮了我们大忙啊！）被完全漏译，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "lovely place to bring a lucky little snitchbug like Grindle!",
+        "zh_v1_span": "格林德尔就爱关在这种地方！",
+        "zh_v2_span": "",
+        "description": "原文意思是'对于像格林德尔这样的幸运小告密虫来说，这是个可爱的地方！'或'带格林德尔来真是个好地方！'，但翻译为'格林德尔就爱关在这种地方！'，将'带来'的动作误译为'爱被关'，并漏掉了'lucky little snitchbug'的描述，导致语义错误。"
+      }
+    ],
+    "entry_name": "GRINDLE_SLAB_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了含义和撒娇失望的语气，结构标签<hpage>使用正确，整体流畅自然。",
+    "issues": [],
+    "entry_name": "HUNTER_FAN_JOURNAL_DECLINED_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义和语气，亲切活泼，符合角色形象。无结构标签问题，整体处理得当。",
+    "issues": [],
+    "entry_name": "HUNTER_FAN_GREET"
+  },
+  {
+    "overall_comment": "第一版翻译语言流畅，风格统一，但存在多处信息漏译，包括描述性细节和角色称呼，导致原文的完整含义和语气有所缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Now its wounds run deep, and I can hear the groaning of its final breaths.",
+        "zh_v1_span": "如今却只能发出垂死呻吟。",
+        "zh_v2_span": "",
+        "description": "漏译了 'its wounds run deep'，原文描述了建筑的伤痕深重，中文只翻译了呻吟部分，信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "a privilege I’ll not squander",
+        "zh_v1_span": "荣幸",
+        "zh_v2_span": "",
+        "description": "漏译了 'I’ll not squander'，原文强调不会浪费这个特权，中文只译为'荣幸'，缺失了动作意图。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "friend Hornet",
+        "zh_v1_span": "你呢？",
+        "zh_v2_span": "",
+        "description": "漏译了称呼 'friend Hornet'，原文直接对Hornet说话，中文省略了名字，可能影响角色互动和上下文明确性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "sir",
+        "zh_v1_span": "但这与你无关。",
+        "zh_v2_span": "",
+        "description": "漏译了敬语 'sir'，原文中带有礼貌称呼，中文省略，可能影响语气和角色关系表达。"
+      }
+    ],
+    "entry_name": "SETH_CITADEL_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文核心意思，但存在多处信息漏译，包括情感细节、动作描述和礼貌用语，影响了完整性和角色语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "To our safe haven? Our home...",
+        "zh_v1_span": "这里原本是我们的避难所……",
+        "zh_v2_span": "",
+        "description": "原文中 'Our home...' 表达了对家园的情感，中文翻译未体现，只翻译了避难所部分，漏译了关键信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Everything shook and fell apart",
+        "zh_v1_span": "天花板塌了",
+        "zh_v2_span": "",
+        "description": "原文描述一切震动并崩塌，中文只简化翻译为天花板塌了，漏译了 'shook'（震动）的细节，导致场景描述不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "carried you back to us",
+        "zh_v1_span": "发现你昏倒在路边",
+        "zh_v2_span": "",
+        "description": "原文提到逃难的朝圣者将主角带回，中文只翻译了发现昏倒，漏译了 'carried you back to us'（带回）这一关键动作。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Oh, yes.",
+        "zh_v1_span": "他让我照顾留下的人",
+        "zh_v2_span": "",
+        "description": "原文中的开场语 'Oh, yes.' 未翻译，直接进入下一句，可能影响对话的流畅性和应答语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Thank you, Sherma.",
+        "zh_v1_span": "我得去找他们。你多保重",
+        "zh_v2_span": "",
+        "description": "原文表达感谢 'Thank you, Sherma.'，中文翻译漏译，丢失了礼貌用语和角色名称的提及，影响角色互动。"
+      }
+    ],
+    "entry_name": "SHERMA_CARETAKER_MEET_B"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体准确传达了英文原文的含义和胜利后的积极语气，句子流畅自然。在术语处理上，如'鬼圣堡'可能略有风格偏差，但由于与第二版一致，可能符合游戏设定。",
+    "issues": [],
+    "entry_name": "SHAKRA_GRAND_FORUM"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文含义，但在细节上漏译了'ascending'的上升意象，可能影响场景描述。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Huge caves ascending to Pharloom’s Citadel.",
+        "zh_v1_span": "通向圣堡的巨洞。",
+        "zh_v2_span": "",
+        "description": "英文中'ascending to'有向上移动或上升的含义，中文翻译为'通向'丢失了垂直方向的意象，使描述不够精确。"
+      }
+    ],
+    "entry_name": "MAPPER_ITEM_MAP_JUDGESTEPS_DESC"
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，保持了宗教庄严的风格，结构标签处理正确，没有明显问题。",
+    "issues": [],
+    "entry_name": "MARROW_START_SIGN"
+  },
+  {
+    "overall_comment": "第一版翻译在流畅度和风格上表现良好，但在准确性方面存在一些问题，包括添加原文未明确的信息和关键短语的误译，影响了与原文的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "I knew the wish, and the price to achieve it.",
+        "zh_v1_span": "我知道您寄望于我，也知道达成这期愿的代价。",
+        "zh_v2_span": "",
+        "description": "原文没有指定'您寄望于我'，中文添加了未明确的信息，可能误导读者认为愿望是针对说话者的。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "So much pain you must have passed to speak our hope so simply...",
+        "zh_v1_span": "你一定历经了不可估量之苦痛，才得此彻悟……",
+        "zh_v2_span": "",
+        "description": "原文'to speak our hope so simply'意为'简单地表达我们的希望'，中文翻译为'得此彻悟'，意思变为达到透彻领悟，偏离了原意。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "For her you become... who knows clear our desire",
+        "zh_v1_span": "既然你已经成长……明晰我们的期愿",
+        "zh_v2_span": "",
+        "description": "原文'For her you become... who knows clear our desire'可能意为'因为你成为了清楚我们欲望的人'，中文翻译为'既然你已经成长……'，丢失了'become'的具体含义和结构，导致语义模糊。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_ROOT2"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅优美，基本抓住了原诗的意境和韵律风格。但在第三行的准确性上存在轻微的漏译问题，遗漏了原文的空间位置关系。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Upon our river free of time.",
+        "zh_v1_span": "河流超脱时光之外。",
+        "zh_v2_span": "",
+        "description": "原句“Upon our river free of time”意为“在我们这条超脱时间的河流之上”，强调了一种空间上的依存关系。译文“河流超脱时光之外”准确地处理了后半部分，但遗漏了“Upon”和“our”所表达的“在...之上”及“我们的”含义，使得原文的空间感和归属感有所缺失。"
+      }
+    ],
+    "entry_name": "CORAL_CRUST_TAB_1"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上匹配原文的破碎句式，但添加了'于此'一词，导致多译，可能偏离原文的简洁含义。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "...Arrived... At last...",
+        "zh_v1_span": "……终至……于此……",
+        "zh_v2_span": "",
+        "description": "中文翻译增加了'于此'（意为'在这里'），而英文原文中没有对应的地点指示，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_03"
+  },
+  {
+    "overall_comment": "第一版翻译 '……我等灵丝……' 准确传达了英文 '...Our Silk...' 的基本含义，风格与原文一致，结构完整，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_04"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文相近，但在准确性方面存在几处问题，包括不必要的添加和一处错译，影响了原文的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Witness, the first light.",
+        "zh_v1_span": "来吧，见证这道最初的光芒。",
+        "zh_v2_span": "",
+        "description": "原文是直接的指令'见证那最初的光'，没有'来吧'；翻译中添加了'来吧'，改变了语气，可能影响角色口吻的准确性。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "child grown strong.",
+        "zh_v1_span": "你已通过历练变得强大。",
+        "zh_v2_span": "",
+        "description": "原文是'孩子变得强大'，未提及如何变得强大；翻译中添加了'通过历练'，这是额外信息，可能偏离原文的简洁表达。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Burn yourself free from our sad fate...",
+        "zh_v1_span": "焚尽我们悲惨宿命的枷锁……",
+        "zh_v2_span": "",
+        "description": "原文意思是'烧掉自己以从悲惨命运中解脱'，强调动作主体'yourself'；翻译变成了'烧尽命运的枷锁'，漏译了'yourself'且改变了语义，可能弱化了角色的牺牲或解脱意味。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_ROOT3"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，结构上与原文保持一致。用词“我等”在风格上略显正式，但第二版翻译相同，表明这可能是本地化中的有意选择，无明显错误。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_05"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，'我等本质'对应'Our nature'，风格简洁且结构一致，没有明显问题。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_06"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上使用古风词汇“吾等”，与原文诗意语气基本匹配，但漏译了英文中的关键元素“One”，导致信息不完整，可能影响整体含义的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "One to wish our waking...",
+        "zh_v1_span": "……祈愿吾等苏醒……",
+        "zh_v2_span": "",
+        "description": "英文原文包含“One”，可能指代主体或对象，但中文翻译完全漏译此词，使得原文信息缺失，翻译不忠实。"
+      }
+    ],
+    "entry_name": "SILK_HEART_MEMORY_LACE_4"
+  },
+  {
+    "overall_comment": "第一版翻译整体上准确传达了原文的诗意和忧郁风格，结构标签处理正确。但在细节上存在漏译和歧义问题，影响语义的完整性和清晰度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "...another hope... beyond...",
+        "zh_v1_span": "……另一线希望……",
+        "zh_v2_span": "……另一线希望……",
+        "description": "原文中的 'beyond...' 被漏译，该词暗示希望存在于更遥远或超越的境地，缺失后削弱了原文的层次感。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "...Will you even remember me, child? Could you?...",
+        "zh_v1_span": "……你可会记得？你可会记得我？...",
+        "zh_v2_span": "……你可会记得？你可会记得我？...",
+        "description": "原文为两个独立问句：'你会记得我吗，孩子？你能吗？'。中文翻译中，第一个问句'你可会记得？'缺少宾语，导致歧义（可能指记得这些话或记得我），且漏译了'child'（孩子）这一称呼，影响了语气的亲密感和清晰度。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_BEAST"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于原文，结构标签正确，风格与原文的神秘语气相符。但存在一处漏译，省略了关键代词，影响了完整意思的传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Show us your craft, child",
+        "zh_v1_span": "展现你的技艺，孩子",
+        "zh_v2_span": "",
+        "description": "英文中的'us'（我们）在翻译中被省略，导致'向我们展示'的含义缺失。原文是'Show us your craft'，翻译为'展现你的技艺'，缺少了间接宾语'我们'，属于漏译。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_WEAVERS"
+  },
+  {
+    "overall_comment": "第一版翻译在结构上忠实于原文，保持了诗歌形式和三行布局，标签使用正确。但在含义准确性上存在偏差，特别是'water's source'的翻译不精确，以及'born last to rule'的翻译添加了原文没有的将来时态，可能影响原意传达。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "At water’s source",
+        "zh_v1_span": "水源尽头",
+        "zh_v2_span": "",
+        "description": "原文'water's source'意为'水的源头'或'水源'，指水的起点；翻译为'水源尽头'将源头误译为尽头（末端），意思相反，可能导致玩家误解地理位置或象征意义。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Our lord born last to rule",
+        "zh_v1_span": "末生之主将临",
+        "zh_v2_span": "",
+        "description": "原文'born last to rule'意为'最后出生的主来统治'，强调出生顺序和统治事实；翻译中添加了'将临'（将要来临），引入了原文没有的将来时态和额外动作，可能改变原句的陈述语气和意图。"
+      }
+    ],
+    "entry_name": "CORAL_CRUST_TAB_2"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和核心意思上基本忠实于原文，但个别用词略有偏差，特别是将 'She lied' 意译为 '皆是谎言'，添加了原文没有的强调。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "She lied",
+        "zh_v1_span": "皆是谎言",
+        "zh_v2_span": "",
+        "description": "英文 'She lied' 意为 '她撒谎了'，直接陈述事实；中文翻译添加了 '皆' 字（意为 '全部'），变成 '全是谎言'，这扩大了原文范围，可能暗示所有相关话都是谎言，而原文仅指她撒谎的行为。"
+      }
+    ],
+    "entry_name": "MEMORY_FIRSTWEAVER_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，'孩子'和'织者'的翻译恰当，省略号的使用符合中文本地化规范，整体忠实于原文的风格和结构。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_01"
+  },
+  {
+    "overall_comment": "第一版翻译'同心共念'在风格上保持了原文的诗意，但'共念'对'union'的翻译不够准确，可能未完全传达'联合'或'团结'的核心语义。整体含义大致忠实，但存在用词问题。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "One union",
+        "zh_v1_span": "共念",
+        "zh_v2_span": "",
+        "description": "'union' 通常指联合、团结或联盟，强调行动或实体上的统一；'共念' 意为共享念头，侧重于思想层面，语义不完全对应，可能导致含义偏差。"
+      }
+    ],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_08"
+  },
+  {
+    "overall_comment": "第一版中文翻译'……孩子……蛛族……'忠实于英文原文'...Child... Spider...'，含义准确，'孩子'对应'Child'，'蛛族'作为游戏设定术语可能合理；风格和结构保持一致，使用中文省略号，没有明显错误。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_02"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文相近，但存在漏译和词汇翻译不准确的问题，影响了原文细节的表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "For our ways",
+        "zh_v1_span": "（无对应）",
+        "zh_v2_span": "",
+        "description": "原文'For our ways'表示'因为我们的方式'，是'you will think us harsh'的原因，翻译中完全省略，导致逻辑关系缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "unrepentant",
+        "zh_v1_span": "固执",
+        "zh_v2_span": "",
+        "description": "'unrepentant' 意为'不悔改的、顽固不化的'，强调不后悔；翻译为'固执'偏向'stubborn'，语义有偏差，未能准确传达原文情绪。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_ROOT"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，省略号的使用符合中文标点规范，风格与原文一致，整体翻译忠实且无问题。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_02"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，'Bind their shells' 被恰当翻译为 '缚其躯壳'，风格简洁且符合游戏语境。没有发现明显的错误或结构标签问题。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译在结构和含义上基本忠实于英文原文，'voices' 和 'song' 的翻译符合上下文，但 '圣咏' 可能略微风格化，整体可接受。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_01"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的片段感，但漏译了关键代词 'them'，导致含义不完整，整体忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Raise them... Up...",
+        "zh_v1_span": "……高举……登阶……",
+        "zh_v2_span": "",
+        "description": "英文原文中的 'them' 未被翻译，中文翻译遗漏了此代词，使得'高举'的对象缺失，可能影响含义清晰度。"
+      }
+    ],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_06"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，'献身'对应'To devote'，'永恒'对应'Eternal'，省略号使用恰当，风格与原文一致。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_07"
+  },
+  {
+    "overall_comment": "第一版中文翻译“缚其灵魂”准确传达了英文“Bind their souls”的含义，风格简洁直接，与原文一致；省略号使用恰当，无结构标签问题。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_04"
+  },
+  {
+    "overall_comment": "第一版翻译“尽数禁锢”准确传达了英文原文“Bind them all”的含义，省略号的使用与原文风格一致，整体翻译忠实且流畅。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_WARDBOSS_05"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本忠实于英文原文，准确传达了'daughters'为'女儿'，'divine'意译为'天选'在语境中可接受，省略号和结构保持一致。",
+    "issues": [],
+    "entry_name": "MEMORY_FIRSTWEAVER_1"
+  },
+  {
+    "overall_comment": "第一版翻译在 'We are life' 和 'We are growth' 部分准确传达了原文含义，但第三部分将英文的问句改为陈述句并添加比喻，导致语气和风格略有失真。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "What world without us?",
+        "zh_v1_span": "无我则世如荒土",
+        "zh_v2_span": "",
+        "description": "英文原文是问句 'What world without us?'，表达一种哲学性的反问；第一版翻译改为陈述句 '无我则世如荒土'，并添加比喻 '如荒土'，改变了语气从反问到陈述，可能削弱了原文的诗意和反问效果。"
+      }
+    ],
+    "entry_name": "HEART_OUTRO_FLOWER"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了'Rise'的含义，但原文重复使用相同词汇可能强调单一动作或语气，翻译中采用不同词汇（'苏醒'和'复苏'）可能弱化了这种重复效果，导致语义不够忠实。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "...Rise... Rise...",
+        "zh_v1_span": "……苏醒……复苏……",
+        "zh_v2_span": "",
+        "description": "原文重复使用'Rise'两次，可能表示持续、强调或单一动作；翻译为'苏醒'和'复苏'两个不同词汇，改变了重复性，可能引入不必要的语义区分或模糊原意。"
+      }
+    ],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_08"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了原文的含义和风格，翻译流畅自然，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "SILK_HEART_MEMORY_BELLBEAST_FINAL"
+  },
+  {
+    "overall_comment": "第一版翻译在基本含义和风格上忠实于原文，语言风格简洁有力。但存在两处关键信息漏译，影响了‘谁来’以及‘为何’的准确性，使得威胁的指向性变得模糊。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "...In time, they will come for you...",
+        "zh_v1_span": "……终有一日，畏惧你本性者将至……",
+        "zh_v2_span": "……终有一日，畏惧你本性者将至……",
+        "description": "漏译了‘come for you（为你而来）’这一关键动作。原文明确表达这些人是主动‘来寻你’，目标明确，而译文仅说‘将至（将会到来）’，指向性和威胁性减弱，属于信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "To survive our world,",
+        "zh_v1_span": "欲存于世，",
+        "zh_v2_span": "欲存于世，",
+        "description": "漏译了限定词‘our（我们的）’。原文是‘在我们的世界中生存’，带有特定归属感或背景设定。译为‘于世’过于泛化，丢失了这层特定的所属关系。"
+      }
+    ],
+    "entry_name": "RED_MEMORY_HIVE"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，保持了相同的平行结构和庄重风格，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "HEART_OUTRO_CORAL"
+  }
+]

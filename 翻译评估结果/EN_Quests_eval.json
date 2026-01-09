@@ -1,0 +1,269 @@
+[
+  {
+    "overall_comment": "第一版翻译整体意思基本正确，风格口语化与原文匹配，但存在准确性偏差：'阅读'被误译为'看到'，且漏译了'旁边'的方位信息，并添加了额外内容'找我'。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "That you readin’ this?",
+        "zh_v1_span": "你有看到吗？",
+        "zh_v2_span": "",
+        "description": "原文'readin’'是'reading'的口语形式，意为'阅读'。翻译成'看到'（see）不准确，应更贴近'读'或'阅读这个信息'以忠实于原文语义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "beside the shrine",
+        "zh_v1_span": "钟殿",
+        "zh_v2_span": "",
+        "description": "原文'beside the shrine'明确指出位置是'在神社旁边'。翻译中只用了'钟殿'（可能对应'shrine'），漏掉了'旁边'这一关键方位信息。此外，翻译中添加了'找我'，原文未提及，属于多余添加。"
+      }
+    ],
+    "entry_name": "Q_SOUL_SNARE_PRE_DESC_WALL"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，句子流畅自然，没有结构标签问题，忠实于原文。",
+    "issues": [],
+    "entry_name": "SQ_MELODY_ARCHITECT_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，用词恰当，风格与游戏文本一致，没有发现明显的翻译问题。",
+    "issues": [],
+    "entry_name": "SQ_BLACKTHREAD_5_FLOWER_DESC_END"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '骸底补给' 准确传达了英文原文 'Bone Bottom Supplies' 的含义，'Bone Bottom' 译为 '骸底' 符合专有名词的本地化习惯，'Supplies' 译为 '补给' 恰当，整体风格与游戏语境一致。",
+    "issues": [],
+    "entry_name": "QUEST_COURIER_BONEBOTTOM_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译'灰沼雅纳碧'准确对应英文'Yarnaby of Greymoor'，名称翻译忠实，音译与意译结合恰当，风格一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "QUEST_DOCTOR_CURSE_CURE_LOC"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，结构清晰，风格与游戏任务描述一致，无明显问题。",
+    "issues": [],
+    "entry_name": "QUEST_TROBBIO_2_DESC_INV"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原英文的诗意，但存在准确性上的小问题，如漏译了'可能'的含义并可能多译了'主'的概念。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "That the age may pass",
+        "zh_v1_span": "纪元歇",
+        "zh_v2_span": "",
+        "description": "原文中 'may pass' 表示时代可能过去，但中文翻译 '纪元歇' 是肯定式，漏掉了可能性含义。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "this shroom",
+        "zh_v1_span": "菌主",
+        "zh_v2_span": "",
+        "description": "原文 'this shroom' 直接指 '这个蘑菇'，但中文翻译 '菌主' 引入了 '主人' 或 '主体' 的概念，可能添加了原文没有的含义。"
+      }
+    ],
+    "entry_name": "QUEST_MRMUSHROOM_DESC_END"
+  },
+  {
+    "overall_comment": "第一版翻译 '暗藏其下' 在风格上保持了神秘感，但在含义上多译了 'hidden' 的意思，与英文原文 'The Dark Below' 的直译略有偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "The Dark Below",
+        "zh_v1_span": "暗藏其下",
+        "zh_v2_span": "",
+        "description": "英文原文 'The Dark Below' 是名词短语，意为 '下方的黑暗'。中文翻译 '暗藏其下' 中添加了 '藏'（hidden）的含义，这可能不在原文中，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "MQ_DIVINGBELL_3_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译“苦痛巡礼”将原文的三个并列痛苦情感词汇合并并添加了“巡礼”概念，改变了原文的直接性和情感强度，不够忠实。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Pain, Anguish and Misery",
+        "zh_v1_span": "苦痛巡礼",
+        "zh_v2_span": "",
+        "description": "原文使用三个并列词汇强调多种苦难，翻译改为“苦痛的巡礼”，漏译了“Anguish”和“Misery”，并添加了原文没有的“巡礼”意象，导致语义错译和风格不符。"
+      }
+    ],
+    "entry_name": "QUEST_TROBBIO_2_TITLE"
+  },
+  {
+    "overall_comment": "第一版中文翻译'骸底镇居民'忠实地传达了英文原文'Residents of Bone Bottom'的含义，地名处理符合本地化习惯，整体准确无误。",
+    "issues": [],
+    "entry_name": "QUEST_ROCK_ROLLERS_LOC"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文含义，将'Flintbeetles'和'the Marrow'分别译为'燧甲虫'和'髓骨洞窟'，术语一致；句子流畅自然，语气鼓励性匹配原文风格，整体忠实度高。",
+    "issues": [],
+    "entry_name": "QUEST_ROCK_ROLLERS_DESC_WALL"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地传达了'直面'的核心指令，但在细节上存在漏译，省略了原文中'土地'的具体信息，可能影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the lands of Pharloom",
+        "zh_v1_span": "纺络",
+        "zh_v2_span": "纺络",
+        "description": "原文明确提到'the lands of Pharloom'（Pharloom的土地），但中文翻译中只用了'纺络'，省略了'土地'的含义，导致信息不完整。"
+      }
+    ],
+    "entry_name": "MQ_CITADEL_ASCENT_DESC_SILK"
+  },
+  {
+    "overall_comment": "第一版翻译‘育巢盛宴’在含义和风格上基本忠实于英文‘Broodfeast’，保持了简洁的名称结构和盛宴的意象。‘育巢’对‘brood’的翻译可能不够精确，但整体是可接受的本地化，且与第二版一致。",
+    "issues": [],
+    "entry_name": "QUEST_HUNTRESS_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确音译了专有名词 'Mooshka' 和 'Fleatopia'，忠实于英文原文的含义和风格，结构上无错误。",
+    "issues": [],
+    "entry_name": "QUEST_FLEAGAMES_LOC"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于英文原文，含义准确，风格一致，专有名词处理得当，没有明显错误。",
+    "issues": [],
+    "entry_name": "MQ_DIVINGBELL_2_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的大意，语句通顺，但在关键动作描述上存在语义偏差和细节遗漏，导致准确性不足。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "test my pin in combat one last time",
+        "zh_v1_span": "我希望最后一次用针证明自己",
+        "zh_v2_span": "",
+        "description": "英文'测试我的针在战斗中'被翻译为'用针证明自己'，将焦点从'测试针的性能'转移到'证明自己'，语义发生偏差，且弱化了'在战斗中'的语境。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "my home at border’s edge",
+        "zh_v1_span": "边境小屋",
+        "zh_v2_span": "",
+        "description": "英文'border's edge'（边境边缘）翻译为'边境'，漏译了'edge'（边缘）的细节，可能影响位置描述的精确性。"
+      }
+    ],
+    "entry_name": "QUEST_PINSTRESS_BATTLE_PRE_DESC_WALL"
+  },
+  {
+    "overall_comment": "第一版翻译在‘寂静’部分准确，但将‘Halls’（大厅）误译为‘圣堡’（神圣堡垒），导致语义不忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Silent Halls",
+        "zh_v1_span": "寂静圣堡",
+        "zh_v2_span": "",
+        "description": "英文‘Halls’意为‘大厅’或‘厅堂’，但中文翻译为‘圣堡’，意为‘神圣堡垒’，语义错误，未准确反映原文含义。"
+      }
+    ],
+    "entry_name": "MQ_CITADEL_INVESTIGATE_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译 '针锋对决' 在含义上与英文原文 'Fatal Resolve' 存在偏差，将重心从内在的决心转向外在的对抗，未能忠实传达原文的语义焦点。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Fatal Resolve",
+        "zh_v1_span": "针锋对决",
+        "zh_v2_span": "针锋对决",
+        "description": "英文 'Fatal Resolve' 意指 '致命的决心' 或 '决定性的决断'，强调内在的坚决态度；中文翻译 '针锋对决' 意为 '尖锐的对决'，侧重于外在的对抗场景，语义错译导致原意失真。"
+      }
+    ],
+    "entry_name": "QUEST_PINSTRESS_BATTLE_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译“钟心镇居民”准确传达了英文原文“Residents of Bellhart”的含义，风格与结构保持一致，没有明显问题。",
+    "issues": [],
+    "entry_name": "GARMOND_BLACK_THREADED_LOC"
+  },
+  {
+    "overall_comment": "翻译流畅且风格匹配，但漏译了 'location' 一词，使原文意思从'揭示侍从的位置'变成了'寻找侍从'，准确性有欠缺。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "to uncover the location of her vassal",
+        "zh_v1_span": "并寻找其侍从",
+        "zh_v2_span": "",
+        "description": "原文明确包含 'the location of her vassal'（她的侍从的位置），但中文翻译省略了 '位置'，仅译为 '寻找其侍从'，可能导致玩家误解为直接寻找侍从本身，而非其位置信息。"
+      }
+    ],
+    "entry_name": "QUEST_STEELSENTINEL_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译‘钟心镇居民’准确地传达了英文‘Residents of Bellhart’的含义，地名本地化合理，风格与原文一致，没有明显的翻译错误。",
+    "issues": [],
+    "entry_name": "QUEST_SHINY_BELL_GOOMBAS_LOC"
+  },
+  {
+    "overall_comment": "第一版翻译只翻译了英文原文的部分内容，漏掉了'of Blasted Steps'这个关键地点信息，导致名称不完整，不忠实于原文含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pinstress of Blasted Steps",
+        "zh_v1_span": "针姬",
+        "zh_v2_span": "针姬",
+        "description": "英文原文'Pinstress of Blasted Steps'中的'of Blasted Steps'部分在翻译中被遗漏，只翻译了'Pinstress'为'针姬'，导致原文指定地点的含义缺失，不够准确。"
+      }
+    ],
+    "entry_name": "QUEST_PINSTRESS_BATTLE_LOC"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '蚤托邦补给' 准确传达了英文原文 'Fleatopia Supplies' 的含义，通过音译与意译结合的方式保持了原词的创意风格，且结构正确无误。",
+    "issues": [],
+    "entry_name": "QUEST_COURIER_FLEATOPIA_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译在语义上基本准确，核心信息‘与克雷吉对话’正确传达，但添加了‘前往’一词，属于多译。整体风格流畅，符合中文游戏任务描述的习惯。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Speak to Creige of the Halfway Home in Greymoor.",
+        "zh_v1_span": "前往灰沼中途酒馆与克雷吉对话。",
+        "zh_v2_span": "",
+        "description": "原文只指示‘与...对话’，但翻译添加了‘前往’，增加了未在原文中指定的动作，可能影响准确性。"
+      }
+    ],
+    "entry_name": "QUEST_CROW_PRE_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译'钟心荣光'忠实传达了英文原文'Bellhart’s Glory'的核心含义，风格简洁有力，适合作为任务标题。专有名词'钟心'的译法与第二版一致，未见明显错误。",
+    "issues": [],
+    "entry_name": "QUEST_BELL_HOUSE_CONT_TITLE"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '圣歌盟地居民' 准确传达了 'Residents of Songclave' 的含义，翻译忠实于原文，结构简单且流畅，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "QUEST_SAVE CITYMERCHANT_LOC"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，用词恰当，句子流畅，且与第二版翻译一致，表明翻译质量可靠。",
+    "issues": [],
+    "entry_name": "QUEST_BEASTFLY_DESC_READY"
+  },
+  {
+    "overall_comment": "第一版翻译整体通顺，但“ascend”一词的翻译“穿越”未能准确传达向上攀登的意味，略有语义偏差。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Ascend through the lands of Pharloom",
+        "zh_v1_span": "穿越纺络大地",
+        "zh_v2_span": "",
+        "description": "英文“Ascend”意为向上移动或攀登，强调上升过程，但中文“穿越”仅表示穿过或横越，缺失了向上的动态感，导致语义不准确。"
+      }
+    ],
+    "entry_name": "MQ_CITADEL_SEEKER_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译‘古之心’准确传达了英文原文‘The Old Hearts’的核心含义，风格简洁。从字面上看，两者对应关系清晰，没有发现明显的翻译问题。",
+    "issues": [],
+    "entry_name": "MQ_BLACKTHREAD_5_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确地传达了英文原文的含义，'Caretaker of Songclave' 被正确译为 '圣歌盟地看守者'，术语处理一致且风格合适，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "Q_SOUL_SNARE_LOC"
+  }
+]

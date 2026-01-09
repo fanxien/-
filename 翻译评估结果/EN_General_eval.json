@@ -1,0 +1,172 @@
+[
+  {
+    "overall_comment": "第一版中文翻译在感谢部分正确，但添加了原文未提及的'试玩版体验结束'，导致含义不忠实于英文原文，属于多译问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Thank you for playing the demo.",
+        "zh_v1_span": "试玩版体验结束，感谢您的游玩！",
+        "zh_v2_span": "",
+        "description": "原文仅表达感谢玩家玩demo，而第一版翻译添加了'试玩版体验结束'这一额外信息，这是原文中没有的内容，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "DEMO_END_MESSAGE"
+  },
+  {
+    "overall_comment": "第一版翻译直接复制了英文原文，没有进行中文本地化处理，不符合游戏标题的翻译标准，应提供中文译名以适应中文玩家。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Hollow Knight: Silksong",
+        "zh_v1_span": "Hollow Knight: Silksong",
+        "zh_v2_span": "Hollow Knight: Silksong",
+        "description": "游戏标题作为专有名词没有翻译成中文，直接使用了英文原名。在中文游戏本地化中，标题通常需要翻译或音译（如'Hollow Knight'译作'空洞骑士'），以保持术语一致性和文化适应性。"
+      }
+    ],
+    "entry_name": "GAME_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译在准确性上存在明显问题，错误地将 'see' 译为 '赞美'，导致语义偏差；同时添加了原文没有的 '片刻'，引入了额外信息。整体翻译不忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "They see",
+        "zh_v1_span": "赞美你",
+        "zh_v2_span": "",
+        "description": "英文原文 'They see' 意为 '他们看到'，但翻译为 '赞美你'，意思错误，将观察行为误译为赞美行为。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "your peace",
+        "zh_v1_span": "片刻安宁",
+        "zh_v2_span": "",
+        "description": "原文 'your peace' 没有 '片刻' 的含义，翻译中添加了 '片刻'，引入了原文没有的信息，可能改变 'peace' 的原意。"
+      }
+    ],
+    "entry_name": "PROLOGUE_EXCERPT_02"
+  },
+  {
+    "overall_comment": "第一版翻译 '第三幕' 准确对应了英文原文 'ACT 3'，含义忠实，风格符合游戏本地化惯例，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "ACT_3_SUPER"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体基本忠实于原文，结构标签一致。但第二句添加了'强行'一词，属于多余信息，可能略微改变原意或造成误导。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Please do not turn off the software while this symbol is displayed.",
+        "zh_v1_span": "如果屏幕上出现此标志，请不要强行关闭游戏。",
+        "zh_v2_span": "",
+        "description": "原文中'turn off'意为'关闭'，翻译中添加了'强行'，这是原文没有的信息，属于多译，可能导致不必要的强调或误导玩家认为只能通过特定方式关闭。"
+      }
+    ],
+    "entry_name": "SAVE_WARNING"
+  },
+  {
+    "overall_comment": "第一版翻译“大黄蜂”准确传达了英文“Hornet”的含义，作为名称直译恰当，无结构标签问题。",
+    "issues": [],
+    "entry_name": "HORNET_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译“第二幕”准确传达了英文“ACT 2”的含义，风格匹配游戏语境，结构一致，无错误。",
+    "issues": [],
+    "entry_name": "ACT_2_SUPER"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确无误，忠实传达了英文原文的含义和语气，术语使用得当且流畅自然。",
+    "issues": [],
+    "entry_name": "CONTROL_PROMPT"
+  },
+  {
+    "overall_comment": "第一版中文翻译“圣歌城堡”准确传达了“CITADEL OF SONG”的核心含义，翻译简洁明了，符合游戏章节名称的风格。",
+    "issues": [],
+    "entry_name": "ACT_2_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的引用信息，风格正式且符合中文表达习惯，结构忠实于英文原文。",
+    "issues": [],
+    "entry_name": "PROLOGUE_EXCERPT_AUTHOR"
+  },
+  {
+    "overall_comment": "第一版翻译准确，将 'ACT 1' 正确本地化为 '第一幕'，含义、风格和结构均忠实于原文。",
+    "issues": [],
+    "entry_name": "ACT_1_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译将英文陈述句转化为反问句，并添加了'野兽'一词，增强了文学性，但偏离了原文的字面意思，可能存在准确性和风格上的问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "your heart",
+        "zh_v1_span": "野兽之心",
+        "zh_v2_span": "野兽之心",
+        "description": "原文为'your heart'（你的心），但翻译中添加了'野兽'，变成'野兽之心'，这是原文中没有的信息，属于多译。"
+      }
+    ],
+    "entry_name": "PROLOGUE_EXCERPT_03"
+  },
+  {
+    "overall_comment": "第一版翻译的核心动作和描述对象发生了偏移，将中性的观察‘看到’转为了带有崇敬情感的‘敬仰’，并将具体的特质‘脆弱而精致’泛化为带有宗教神圣感的‘神迹之美’，导致语气和风格与原文产生显著差异，忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "They see your beauty, so frail and fine,",
+        "zh_v1_span": "虫豸皆敬仰你纤弱的神迹之美，",
+        "zh_v2_span": "虫豸皆敬仰你纤弱的神迹之美，",
+        "description": "关键动词‘see’（看到/看见）被译为情感色彩强烈的‘敬仰’，属于错译。形容词短语‘so frail and fine’（如此脆弱而精致）被简化为‘纤弱’，并搭配了原文没有的‘神迹之美’，添加了宗教神圣化含义，扭曲了原文描述一种易碎、精巧之美的本意。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "They see your beauty, so frail and fine,",
+        "zh_v1_span": "虫豸皆敬仰你纤弱的神迹之美，",
+        "zh_v2_span": "虫豸皆敬仰你纤弱的神迹之美，",
+        "description": "原文是平实的观察性描述，语气中性偏诗意。译文的‘敬仰’与‘神迹之美’赋予了原文没有的崇拜、神圣语气，使整体情绪从‘描述一种特质’转变为‘进行一种赞颂’，语气失真。"
+      }
+    ],
+    "entry_name": "PROLOGUE_EXCERPT_01"
+  },
+  {
+    "overall_comment": "第一版翻译‘纺络’与英文原文‘PHARLOOM’对应，作为章节名称的专有名词翻译，风格和结构均忠实于原文，且与第二版翻译一致，无明显问题。",
+    "issues": [],
+    "entry_name": "ACT_1_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译'深渊'准确对应英文'ABYSS'，含义忠实，风格匹配名称设定，无结构标签错误。",
+    "issues": [],
+    "entry_name": "ACT_3_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译诗意化处理了'When you wake'，但将'they shall see your truth'译为'挣裂千丝缠茧'，关键信息未被忠实传达，整体准确性不足。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "they shall see your truth,",
+        "zh_v1_span": "挣裂千丝缠茧——",
+        "zh_v2_span": "",
+        "description": "英文原文'they shall see your truth'意为'他们将看到你的真相'，但中文翻译为'挣裂千丝缠茧'（意为挣扎撕裂千丝缠绕的茧），这是一个隐喻性表达，未准确传达原意，导致语义错译。"
+      }
+    ],
+    "entry_name": "PROLOGUE_EXCERPT_04"
+  },
+  {
+    "overall_comment": "第一版翻译采用文学化表达，风格提升，但存在准确性问题，漏译了'beast’s'的具体指代，并添加了原文没有的'惊恐'情绪，导致含义不忠实。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A beast’s",
+        "zh_v1_span": "本性",
+        "zh_v2_span": "",
+        "description": "原文明确指'野兽的'，翻译中只用了'本性'，漏译了具体指代，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "bare to all",
+        "zh_v1_span": "众生骇见",
+        "zh_v2_span": "",
+        "description": "原文'bare to all'意为'对所有人暴露'，中性描述；翻译中'骇见'添加了'惊恐'的情绪，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "PROLOGUE_EXCERPT_05"
+  }
+]

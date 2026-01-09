@@ -1,0 +1,458 @@
+[
+  {
+    "overall_comment": "第一版翻译在核心意思上基本正确，但漏译了'my offer'和'dear'，导致信息不完整且亲昵语气缺失，整体忠实度有所降低。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ready to reconsider my offer?",
+        "zh_v1_span": "回心转意了？",
+        "zh_v2_span": "",
+        "description": "漏译了'my offer'（我的提议），原文明确指代具体提议，翻译中未体现，信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "dear",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了亲昵称呼'dear'，原文中用于表达亲切语气，翻译中缺失，影响角色对话风格。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_QUEST_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于英文原文，含义准确传达了警告和条件性帮助的语气，风格口语化且自然，结构标签使用正确。",
+    "issues": [],
+    "entry_name": "SEAMSTRESS_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译通过音译忠实复制了英文原文的发音，每个部分对应准确，没有遗漏或错误添加信息。风格与虚构语言场景保持一致，符合预期。",
+    "issues": [],
+    "entry_name": "ANT_MERCHANT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构和风格上基本忠实于原文，表达流畅，但关键部分存在语义错译，影响了准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "share your rosaries",
+        "zh_v1_span": "把念珠拿来交易",
+        "zh_v2_span": "",
+        "description": "英文'share'意为分享或交换，中文翻译为'交易'（trade/business）可能不准确，原意更偏向于分享或赠与，而非商业交易。"
+      }
+    ],
+    "entry_name": "PILGRIM_REST_SHOP_REMEET"
+  },
+  {
+    "overall_comment": "第一版翻译在基本意思传达上尚可，但存在多处信息遗漏和一处严重错译，导致细节丢失和语气偏差。标签结构保持正确，无技术性问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’m loath to spoil the surprise, but curiosity begs me to ask. Do you know why they pursued you?",
+        "zh_v1_span": "我本来不想多嘴，但实在好奇，圣堡的虫为何追你？",
+        "zh_v2_span": "",
+        "description": "漏译了 'I’m loath to spoil the surprise'（我本不愿破坏惊喜）和 'Do you know why'（你知道为什么吗）的询问语气，简化了原文表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have seen their Citadel and its state",
+        "zh_v1_span": "见过如今的圣堡后",
+        "zh_v2_span": "",
+        "description": "漏译了 'and its state'（及其状态），中文仅用'如今的圣堡'概括，未明确提及状态信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Not for themselves but for the one atop it all.",
+        "zh_v1_span": "而且是为了顶上那位。",
+        "zh_v2_span": "",
+        "description": "漏译了 'Not for themselves'（不是为了它们自己），中文的'而且'未能强调原文的转折关系。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’ve seen their Silk at work, in vast scale.",
+        "zh_v1_span": "曾见识过相似的灵丝。",
+        "zh_v2_span": "",
+        "description": "漏译了 'at work, in vast scale'（在运作中，大规模地），中文仅提'相似的灵丝'，缺失了动态和规模描述。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Hmm... You’ve looked far towards the truth of it. Closer even than I’d dare to dig. But then you’re clearly of the countenance to be coping with such heady stuff...",
+        "zh_v1_span": "嗯……你眼力不错！圣堡啊……答案都在那条路上，慢慢攀吧姑娘。",
+        "zh_v2_span": "",
+        "description": "严重错译和漏译。原文表达对方探究真相很深，甚至超过说话者敢挖掘的深度，并称赞对方有应对沉重事情的面容。中文变成了鼓励对方慢慢攀登寻找答案，完全改变了原意、语气和逻辑。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Your style",
+        "zh_v1_span": "长得英姿飒爽",
+        "zh_v2_span": "",
+        "description": "错译。'Your style' 在上下文中可能指你的风格、方式或外表，但翻译为'长得英姿飒爽'过于具体和窄化，可能丢失原意的模糊性，导致不准确。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_EXTRA_LORE_2_ALT"
+  },
+  {
+    "overall_comment": "第一版翻译整体质量尚可，准确传达了原文的基本指令和警告语气，结构标签使用正确。但在术语准确性和部分用词的自然度上存在可以改进的空间。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "spine cores",
+        "zh_v1_span": "棘刺",
+        "zh_v2_span": "棘刺",
+        "description": "将“spine cores”译为“棘刺”不够准确。“core”意指核心或中心部分，这里应更准确地传达出是某种“核心”或“芯体”的概念，而非仅仅是外部的“刺”。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "if you hang around too long, those Citadel bugs’ll turn their gaze on me as well.",
+        "zh_v1_span": "但你在这待太久会连累我也遭到圣堡注目。",
+        "zh_v2_span": "但你在这待太久会连累我也遭到圣堡注目。",
+        "description": "“遭到...注目”这个搭配稍显生硬且书面化。原文是口语化的威胁/警告语气，译为“引来圣堡虫子的注意”或“害得我也被圣堡虫子盯上”会更自然、更符合游戏对话语境。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_QUEST_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体风格和流畅度上表现良好，但存在明显的漏译问题，关键信息如“核心”和“切割”未被准确传达，可能影响玩家对任务要求的理解。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "spine with a marvellous core",
+        "zh_v1_span": "奇妙棘刺",
+        "zh_v2_span": "",
+        "description": "原文明确描述为“带有奇妙核心的棘刺”，翻译只提“奇妙棘刺”，漏译了“核心”这一关键元素，可能导致玩家忽略收集核心的任务目标。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Cut their spines and collect the cores.",
+        "zh_v1_span": "收集棘刺",
+        "zh_v2_span": "",
+        "description": "原文指令为“切割它们的棘刺并收集核心”，翻译简化为“收集棘刺”，漏译了“切割”动作和“收集核心”的具体对象，任务步骤描述不完整。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_QUEST_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和结构标签上基本匹配原文，但存在准确性偏差，如添加原文没有的专有名词和指代错误，影响了语义忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "you writing harsh our final fate",
+        "zh_v1_span": "汝书写的，是斯卡尔的终章",
+        "zh_v2_span": "",
+        "description": "原文'our final fate'（我们最终的命运）被翻译为'斯卡尔的终章'，添加了'斯卡尔的'这一专有名词，而英文没有此内容，可能误导信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "to break them free from this fatal sickness born of thread and void",
+        "zh_v1_span": "将众生从丝线与虚空带来的灾厄中解放",
+        "zh_v2_span": "",
+        "description": "英文'them'指代前文的'这些土地(lands)'，但翻译成'众生'，改变了所指对象，导致语义偏差。"
+      }
+    ],
+    "entry_name": "ANT_QUEEN_BG_MEET"
+  },
+  {
+    "overall_comment": "翻译整体流畅，语气与原文匹配，但关键术语 'cores' 的翻译可能不准确，需要核对游戏内物品名称。",
+    "issues": [
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "cores",
+        "zh_v1_span": "棘刺",
+        "zh_v2_span": "棘刺",
+        "description": "'cores' 在英文中通常指核心或果核，但翻译为 '棘刺'（意为荆棘或刺）可能错误，可能与游戏内特定物品的官方译名不符。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_HANDIN_ASK"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，含义准确无误，使用了文言风格（如'若汝'）以增强古风氛围，与原文的悲怆语气和省略号停顿相符。",
+    "issues": [],
+    "entry_name": "ANT_QUEEN_BG_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了疲惫的语气和宗教意味，语言流畅自然，结构与原文对应。",
+    "issues": [],
+    "entry_name": "RESTING_PILGRIM_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文含义，核心信息如'好吧'对应'Very well'、'留着你的内脏'对应'Keep your organsss'均正确。通过添加拟声词'咝——'模仿了英文'sss'的声音效果，风格处理得当。整体翻译质量良好，无明显问题。",
+    "issues": [],
+    "entry_name": "HUNTRESS_QUEST_DECLINE"
+  },
+  {
+    "overall_comment": "翻译整体流畅，基本保持了原文的口语化风格和感叹语气，但存在多处信息漏译，导致关键描述缺失，影响了内容的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "That place is long lost... generations lost",
+        "zh_v1_span": "（对应部分缺失）",
+        "zh_v2_span": "",
+        "description": "原文中描述圣堡状态为'长期失落……世代失落'，但中文翻译完全漏译了这一关键信息，只保留了后续的比喻部分，导致背景信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I now see clearly the source of their unity, and their strange strength...",
+        "zh_v1_span": "我也看清了。",
+        "zh_v2_span": "",
+        "description": "原文明确表达了'我清楚看到了他们团结和奇特力量的来源'，但中文翻译仅简化为'我也看清了'，漏掉了对'来源'的具体描述，信息传达不充分。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Look at you!",
+        "zh_v1_span": "（缺失）",
+        "zh_v2_span": "",
+        "description": "原文开头的感叹'Look at you!'在中文翻译中被漏译，削弱了角色的即时反应和语气表现，可能影响对话的生动性。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_VISITED_CITADEL"
+  },
+  {
+    "overall_comment": "第一版翻译在口语风格上基本匹配，但存在明显的漏译和含义偏差，特别是省略了'碎片'、具体工作方式以及正面语气，导致原文信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "With the scraps left here and a little work, I could add some pockets for you, let you carry more tools and shards",
+        "zh_v1_span": "我能加点布料，让它能多塞工具",
+        "zh_v2_span": "",
+        "description": "漏译了'with the scraps left here and a little work'（用这里剩下的碎片和一些工作）以及'shards'（碎片），中文翻译只简化为'加点布料'和提及工具，丢失了原文的细节和具体内容。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "add some pockets for you",
+        "zh_v1_span": "让它能多塞工具",
+        "zh_v2_span": "",
+        "description": "原文是'添加一些口袋'，但中文翻译为'让它能多塞工具'，更注重功能而非具体动作，导致含义偏差，可能模糊了添加口袋的意图。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "That’d be nice, wouldn’t it?",
+        "zh_v1_span": "对吧？",
+        "zh_v2_span": "",
+        "description": "原文的'That’d be nice'（那会很好）被省略，只翻译了反问部分'对吧？'，丢失了正面评价的语气和情感色彩。"
+      }
+    ],
+    "entry_name": "PILGRIM_REST_SHOP_ITEM_DESC_TOOLPOUCH"
+  },
+  {
+    "overall_comment": "第一版翻译整体质量较好，准确传达了原文残忍且略带嘲讽的语调，用词生动（如“连哄带骗，又咬又戳”）。主要问题在于遗漏了原文中一处关键的、用于塑造角色声音特质（模仿蛇类嘶声）的文本风格标记。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Their ssmall sssacrifice",
+        "zh_v1_span": "这点小牺牲",
+        "zh_v2_span": "这点小牺牲",
+        "description": "原文 “ssmall sssacrifice” 中的多个 ‘s’ 是刻意拼写，旨在模仿蛇的嘶嘶声，是塑造说话者（推测为蛇类或相关角色）声音特质和性格的重要风格元素。翻译为“小牺牲”虽然传达了基本词义，但完全丢失了这一层声音风格和角色塑造信息，属于信息缺失。应在译文中尝试以某种形式（如保留嘶声拟音或添加注释说明）体现。"
+      }
+    ],
+    "entry_name": "HUNTRESS_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构上基本对应英文，但存在关键信息的漏译和语义错译。第一句漏译了报酬的具体物品“念珠”，第二句将“shell”（可能指外壳）误译为“行囊”，可能影响游戏设定的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "For your efforts, take these rosaries as payment.",
+        "zh_v1_span": "这是酬劳",
+        "zh_v2_span": "",
+        "description": "英文明确指定报酬是'rosaries'（念珠），但中文第一句只泛泛地说'这是酬劳'，漏译了具体物品，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "May they not lay too heavy upon your shell.",
+        "zh_v1_span": "但愿念珠不会压垮你的行囊。",
+        "zh_v2_span": "",
+        "description": "英文'shell'可能指外壳（如龟壳或角色设定中的外壳），但中文翻译成'行囊'（背包），语义不准确，可能扭曲原意并影响游戏设定的一致性。"
+      }
+    ],
+    "entry_name": "PILGRIM_REST_SHOP_TALK_DELIVERY_POST"
+  },
+  {
+    "overall_comment": "第一版中文翻译在大部分内容上准确传达了英文原文的含义，并较好地模仿了蛇的嘶嘶声和威胁语气，结构标签也保持一致。但在最后一句中漏译了关键短语，导致信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "for the sssslaughter.",
+        "zh_v1_span": "完成我的需求，必有重谢。",
+        "zh_v2_span": "",
+        "description": "原文中 'for the sssslaughter'（为了这场屠杀）在翻译中被省略，中文只说了 '完成我的需求'，漏掉了对 'slaughter' 的提及，可能影响角色威胁语气的完整性和上下文连贯性。"
+      }
+    ],
+    "entry_name": "HUNTRESS_QUEST_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译存在多处严重漏译，包括物品名称细节、语气修饰和整个后续动作，导致信息不完整且不忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "spine cores",
+        "zh_v1_span": "棘刺",
+        "zh_v2_span": "",
+        "description": "原文 'spine cores'（棘刺核心）被简化为 '棘刺'，漏译了 'cores'（核心）部分，可能影响物品描述的准确性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Good, good! ... floating carelessly in the warm air",
+        "zh_v1_span": "好！附近的洞窟里到处是那种浮空的蠢虫。",
+        "zh_v2_span": "",
+        "description": "原文 'Good, good!' 的重复语气被简化为单次 '好！'，且 'floating carelessly in the warm air'（在温暖的空气中随意漂浮）只翻译为 '浮空的'，漏译了 'carelessly'（随意地）和 'in the warm air'（温暖的空气）等描述细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Then it’s only a quick matter of cutting them open and grabbing the cores.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文的后续动作 'Then it’s only a quick matter of cutting them open and grabbing the cores.'（然后只需要迅速切开它们取出核心）完全漏译，导致句子不完整，丢失了关键流程信息。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_QUEST_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上基本忠实于英文原文，风格简洁流畅，结构对应合理，没有明显错误。",
+    "issues": [],
+    "entry_name": "PILGRIM_REST_SHOP_ITEM_DESC_WEIGHTED_ANKLET"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本传达了原文的含义，但省略了‘I wonder’这一表达思考的部分，使得语气稍显直接。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I wonder, will your rosaries weigh you down during your ascent?",
+        "zh_v1_span": "揣着念珠攀登不怕负担过重？",
+        "zh_v2_span": "",
+        "description": "原文中的‘I wonder’（我想知道）被漏译，缺失了说话者思考或疑问的语气。"
+      }
+    ],
+    "entry_name": "PILGRIM_REST_SHOP_CANCEL"
+  },
+  {
+    "overall_comment": "第一版翻译基本通顺，但存在准确性偏差：漏译了原文中的强调语气，并擅自添加负面形容词，导致信息失真和风格不符。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "These should be more than enough.",
+        "zh_v1_span": "这些够用了。",
+        "zh_v2_span": "",
+        "description": "原文'more than enough'意为'绰绰有余'，翻译'够用了'仅表示足够，弱化了强调语气，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "these lowlands",
+        "zh_v1_span": "这破地方",
+        "zh_v2_span": "",
+        "description": "原文'lowlands'是中性地理描述'低地'，翻译中添加'破'字，引入了原文没有的负面含义，属于多译。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_BROLLY_QUEST_COMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，保持了对话风格和音译一致性，结构标签使用正确无误。整体翻译质量良好，没有明显问题。",
+    "issues": [],
+    "entry_name": "ANT_MERCHANT_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在催促和抱怨的语气上基本吻合，但存在明显的漏译和过度简化，如省略了关键称呼'stray one'和受苦原因'for your conflict'，并简化了'act towards calmer conclusions'的表述，影响原文准确性和角色塑造。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Get a move on, stray one!",
+        "zh_v1_span": "快去吧！",
+        "zh_v2_span": "",
+        "description": "原文中的称呼'stray one'（迷路者/漂泊者）在翻译中被完全遗漏，这削弱了角色对话的特定指向性和语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "for your conflict",
+        "zh_v1_span": "大伙都在遭罪……",
+        "zh_v2_span": "",
+        "description": "原文明确表示'因为你的冲突而受苦'，但翻译中只说了'遭罪'，省略了'你的冲突'这一关键原因，导致上下文信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "act towards calmer conclusions",
+        "zh_v1_span": "悠着点",
+        "zh_v2_span": "",
+        "description": "原文'act towards calmer conclusions'意为'朝着更平静的结局行动'，翻译简化为'悠着点'（慢点、小心点），丢失了'结局'和'平静行动'的具体含义，可能使意图模糊。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_ACT_3_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在准确性上存在问题。漏译了 'humble' 一词，并将 'vision' 错译为 '技巧'，导致原文的激励语气和含义失真。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "These humble shards",
+        "zh_v1_span": "这些碎片",
+        "zh_v2_span": "",
+        "description": "漏译了 'humble'（卑微/普通），原文强调了碎片的普通属性，而中文翻译缺失了这一描述。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "if you possess the vision to shape them",
+        "zh_v1_span": "但要看你有无打磨的技巧",
+        "zh_v2_span": "",
+        "description": "将 'vision'（视野/眼光/远见）错译为 '技巧'，原文强调的是塑造的远见和想象力，而非具体的技术或技能。"
+      }
+    ],
+    "entry_name": "PILGRIM_REST_SHOP_ITEM_DESC_SHARD_POUCH"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体忠实于英文原文，含义准确，风格口语化且略带调侃，与原文语气匹配。翻译中根据游戏上下文将'spoils'具体化为'棘刺'，符合本地化需求。",
+    "issues": [],
+    "entry_name": "SEAMSTRESS_BROLLY_HANDIN_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文意思和对话风格，但在专有名词处理和个别短语的细微含义上有遗漏，需要改进准确性。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Seamstress",
+        "zh_v1_span": "女士",
+        "zh_v2_span": "",
+        "description": "专有名词 'Seamstress' 被翻译为通用称呼 '女士'，未保留角色特定名称或更准确译名，可能导致设定不一致。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "given freely",
+        "zh_v1_span": "公平比斗赢来的",
+        "zh_v2_span": "",
+        "description": "原文 'given freely'（自愿给予）的含义未在翻译中直接体现，只强调了 '赢来的'，漏译了 'freely' 的细微差别，可能影响语气和上下文逻辑。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_WEARING_ORDER_BADGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译为音译，忠实于英文原文的发音，没有漏译或多译，符合虚构语言的风格。",
+    "issues": [],
+    "entry_name": "ANT_MERCHANT_SHARD_POUCH_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了原文的虔诚语气和肯定态度，语义忠实，无错译或漏译，结构与风格匹配良好。",
+    "issues": [],
+    "entry_name": "PILGRIM_REST_SHOP_PURCHASED"
+  },
+  {
+    "overall_comment": "第一版翻译在整体流畅度和风格上尚可，但存在明显的漏译问题，特别是开头部分和角色对话的具体意图被简化，导致准确性不足。结构标签一致，没有技术问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Well, aren’t you a sight! No, don’t tell me! You’re as odd as they come.",
+        "zh_v1_span": "瞧瞧这模样！让我猜猜，你不是这里的虫吧？",
+        "zh_v2_span": "",
+        "description": "原文包含三个部分：感叹'aren’t you a sight'、打断'No, don’t tell me!'和习语描述'as odd as they come'（意为非常古怪）。中文简化合并，漏译了部分语气和内容，且'as odd as they come'的翻译不够精确，未能完全传达原文的古怪程度。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I now seek for one who would answer why, and will ask with force as needed.",
+        "zh_v1_span": "我打算向圣堡讨个说法。",
+        "zh_v2_span": "",
+        "description": "原文明确表示'寻找一个能解释原因的人，并在必要时使用武力'，中文只概括为'向圣堡讨个说法'，漏掉了具体的寻找对象和可能使用武力的细节，导致信息缺失。"
+      }
+    ],
+    "entry_name": "SEAMSTRESS_MEET_ALT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实再现了英文原文的拟声效果，情感表达和语气匹配准确，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "RESTING_PILGRIM_DAZED"
+  }
+]

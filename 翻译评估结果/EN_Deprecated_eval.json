@@ -1,0 +1,455 @@
+[
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何中文内容，导致英文原文的信息和结构标签都未呈现。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Oh spider dear! The way you pluck and pound at that crude instrument! What tragedy!<page>(etc.)",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "整个文本未翻译，包括文本内容和结构标签 <page>，导致原文信息完全缺失。"
+      }
+    ],
+    "entry_name": "LACE_NEEDOLIN_PLAYED"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有提供任何中文翻译内容，严重漏译了英文原文 'Coral Curative'，导致任务标题空白。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Coral Curative",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，完全没有翻译英文原文，漏掉了任务标题的全部信息，玩家无法理解任务名称。"
+      }
+    ],
+    "entry_name": "QUEST_CORAL_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有提供任何翻译内容，因此无法评估其在含义、风格和结构上的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "<hpage>I saw your request upon Bone Bottom’s wishwall, sir, and have accepted. This is an unusual task... but I am well able to assist.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，导致英文原文的整个内容未被翻译，包括结构标签和文本信息均缺失。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_ACCEPTED_WISHWALL"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有提供任何中文文本。这导致原文内容未被翻译，无法传达含义和结构，是一个严重的漏译错误。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Death... or something worse, perhaps?<page>It matters not. I have sworn a holy oath, to halt my pilgrimage here until I can understand this affliction. And perhaps through understanding... resist it.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空，完全遗漏了英文原文的整个文本内容，包括文本和结构标签<page>。这导致翻译缺失，无法表达原文意思。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_MEET_2_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译缺失，为空字符串，没有提供任何中文翻译内容，无法评估其忠实性，与英文原文严重不符。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Hunt coral-shelled creatures and collect Coral Crust from their bodies.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译完全为空字符串，未翻译任何英文内容，导致原文信息全部缺失。"
+      }
+    ],
+    "entry_name": "QUEST_CORAL_INV_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，包括文本内容和结构标签，无法评估其忠实度。需要提供完整的翻译以匹配英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’m eager for the mossblood, assistant. While research needs doing, one must never slack.<hpage>If time permits, sir, I shall acquire your samples for you.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文的整个文本内容未被翻译，导致信息完全缺失。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<hpage>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签 <hpage> 在中文翻译中缺失，可能导致分页显示问题。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_QUEST2_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有任何内容，这导致原文的全部信息和结构标签都未翻译。这是一个严重的漏译问题，无法判断其忠实性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ahh! At last, one as curious as myself! Hurry then! Hunt down lost, wandering pilgrims and wrench the organs from within their shells!<page>Together, we will come to understand. We will learn what haunts the pilgrims...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，未提供任何翻译内容，导致原文的文本信息完全漏译。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签 '<page>' 在翻译中缺失，可能影响文本的分页显示或格式。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何内容，导致原文信息无法传达给玩家，严重影响游戏体验。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Our medicines are in short supply and pilgrims often arrive here injured. We can prepare a soothing salve from the ground shells of coral creatures, if we only had some...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，完全漏译了英文原文的所有信息，包括药品短缺、朝圣者受伤以及从珊瑚生物外壳制作药膏的可能性，使玩家无法理解任务描述。"
+      }
+    ],
+    "entry_name": "QUEST_CORAL_WALL_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译内容，导致英文原文信息完全丢失。这是一个严重的漏译问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Hm. Something is haunting the steps of we pilgrims. Tugging at the fringes of our minds, pulling us deep into madness. Leaving nothing but a babbling, grovelling shell.<page>I have halted my own pilgrimage until I can understand this affliction. I won’t allow myself to be overcome, to have my sacred journey end in such a pathetic fashion!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空字符串，英文原文内容完全未翻译，包括文本和结构标签均缺失，导致信息丢失。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_MEET_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，没有提供任何翻译内容，导致原文信息全部遗漏。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Assistant? Would you still do it? For me? For us? Still... assist? The blood, we need more, further... to understand.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，漏译了整个英文原文的内容，没有任何中文文本对应。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST3_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何中文文本，导致英文原文的内容和结构标签均未翻译，严重不忠实于原文，无法进行含义、风格和结构的评估。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "We’ve arrived, small spider. Bellhart waits just through that tunnel. From this distance at least it seems safe enough?<page>Perhaps the rumours of its danger were overstated? If you’re needing travel here again, I’m inclined to offer a more reasonable rate.<hpage>Thank you for your service, sir. It may seem safe from here, but I shall keep my guard up nonetheless.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空，未翻译任何英文原文内容，导致所有文本信息丢失，包括对话和情节。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>Perhaps the rumours of its danger were overstated? If you’re needing travel here again, I’m inclined to offer a more reasonable rate.<hpage>Thank you for your service, sir. It may seem safe from here, but I shall keep my guard up nonetheless.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签<page>和<hpage>在翻译中完全丢失，这些标签用于文本分段或显示控制，缺失可能导致游戏界面显示异常。"
+      }
+    ],
+    "entry_name": "CARAVAN_SPIDER_BELLHART_ARRIVE"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译内容，导致原文信息完全丢失，需要补充翻译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A Weaver tuning mechanism.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，漏译了英文原文的全部内容，未能传达'一个织工调谐机制'的含义。"
+      }
+    ],
+    "entry_name": "TUNING_FORK_INSPECT"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全为空，未提供任何翻译内容，导致英文原文的整体含义、风格和结构全部缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "These are crucial studies, assistant! Plasmium’s nature demands understanding.<page>If that doesn’t motivate you, then I worry your mind has dulled.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空，未翻译英文原文的任何部分，包括文本内容和结构标签，导致信息完全遗漏。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_QUEST2_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有提供任何中文文本，包括结构标签。这导致无法进行本地化，需要补充完整翻译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The muckblood... Please, dear Assistant. Plasmium demands its final challenge.<page>Use the Phial... Strike deep. Suck that foul liquid from the swamp things’ shells... For your forever...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空，原文的完整文本和含义均未翻译，信息完全缺失。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签 <page> 缺失，可能导致分页显示异常或内容布局错误。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST3_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何中文内容，导致原文信息全部遗漏，无法评估忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "(purchased passage, “get in!” etc)",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空字符串，未翻译任何内容，导致原文的整个片段信息缺失。"
+      }
+    ],
+    "entry_name": "CARAVAN_SPIDER_PURCHASED"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译内容，因此无法评估其忠实于英文原文的程度。这是一个严重的遗漏错误。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Those bells. Even you’re impressed? The Weavers worked out the way, tapping the resonance of the land itself, and the lingering echoes of song, feeding it up here.<page>It’s all so wonderous, but awakened it’s a blasted nuisance! I’d just about accepted our fate to come, then you had to appear and stir everything up!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "整个英文文本未翻译，导致所有信息缺失，玩家将无法理解游戏内容。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的结构标签 <page> 在第一版翻译中缺失，可能导致显示或布局异常。"
+      }
+    ],
+    "entry_name": "CARETAKER_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何中文译文，导致原文内容完全丢失，无法评估忠实度或风格。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ohh-hhh.... organs... for me...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空字符串，漏译了整个英文原文。原文表达了角色对器官的渴望或感叹，但翻译未提供任何内容，属于严重漏译。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_FINAL_DECLINE"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译文本和结构标签，导致玩家无法理解任务内容，严重影响本地化质量和游戏体验。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You assent, then... hurry and begin the task. Hunt down lost, wandering pilgrims and take the organs from within their shells.<page>Together, we will come to understand. We will learn what haunts the pilgrims...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译漏译了整个英文原文，包括所有文本内容，玩家无法看到任何中文翻译。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签 <page> 被漏掉，这可能导致文本分页显示异常，影响阅读流程。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_ACCEPT_ACT3"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译，导致英文原文内容未被本地化，玩家无法理解游戏文本。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You, who are not a pilgrim. Though your path is not holy, you can still aid me!<page>I wish to understand what haunts these pilgrims, and to do that I must peer into their bodies. Their organs hold the secret of their terrible affliction! You must harvest them for me!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，完全漏译了英文原文的所有文本内容，包括结构标签 <page>，未进行任何本地化处理。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_OFFER"
+  },
+  {
+    "overall_comment": "第一版中文翻译为空，完全没有翻译内容，无法评估其忠实度。这意味着所有原文信息均被遗漏，翻译不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "How sad. A little spider has fallen from its cage. So lost. So weak. Poor little morsel.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译完全缺失，漏译了整段英文原文。"
+      }
+    ],
+    "entry_name": "LACE_MEET_GROTTO_1"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，没有任何内容，因此无法评估其对英文原文的忠实度，所有信息包括结构标签都未翻译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Gah! Of course it had to be you bellringer! Wriggling your way up here, making all this racket!<page>Now look at what you’ve done! Activated the old bells, the lot of’em and linked’em!<page>There they go, peeling out their sorrowful song, weakening our monarch, even as she wakes.<hpage>You’d still remain cowled before me, sir? Your family is known to me, and no ordinary bug would dare ascend to this cradle. Don’t you think it’s past time you dropped the act of helpless pilgrim?<page>Gah! Curse you, Old One! Permit a bug their small disguise will ya! It’s been a pleasant thing to play the fool! And I weren’t calling for change, even if you insist on bringing it!<hpage>Change was unavoidable, whether I arrived or not. The monarch stirs. My prescence only accelerates the inevitable.<page>So what is it your hopin to achieve, missy? Planning to usurp, aye? Want to become the new queen above us all, to string us up in your own beastly web? Surely it’s the way of Weavers and gods both...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空，没有提供任何中文文本，导致英文原文的所有内容、结构标签（如<page>和<hpage>）和信息全部丢失。"
+      }
+    ],
+    "entry_name": "CARETAKER_MEET"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何文本内容，无法评估其准确性、流畅度或结构完整性。这是一个严重的翻译遗漏，玩家将无法获取对话信息。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Many thanks for freeing me, small spider. It was a careless move, to blundered into those deadly threads.<hpage>You too look a spider, but these ropes suggest you use no silk in your service?<page>Hoi. No! Don’t mistake. I am arachni, sure, but no Weaver, and the better for it! If I could produce silk I’d be fast seized by the Citadel.<page>To weave... Quite a talent, and I’ll not deny some envy, but my weakness means my hide stays safe.<page>It’s no matter really. I’m a fair talent with my vineropes. Trade me a few rosaries and I’ll take you via routes only I’m able to scale.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "整个英文原文未被翻译成中文，所有对话内容完全缺失，玩家无法理解角色的台词和剧情发展。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<hpage>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签<hpage>缺失，同时所有<page>标签也缺失。这可能导致游戏中的文本分页或显示格式异常，影响阅读体验。"
+      }
+    ],
+    "entry_name": "CARAVAN_SPIDER_MEET_NO_BELLHART"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何中文内容，导致原文含义、风格和结构均未传达，无法进行有效本地化。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Dear Assistant. Loyal, wonderful... Zango... you have done it. Without you... never could we have, so much... transfigured.<page>I need only consume this last... pure blood... To force the reaction. To become a source. For all... For you... May you be eternal...<page>Take my gift, dear Zango. A symbol... of us... Now.... Always. Reach in, deep. Feel the new form that grows within my shell... It is yours. Yours forever...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空字符串，漏译了所有英文原文的文本内容，包括对话和情感表达。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译中未复制任何结构标签（如 <page>），导致标签完全缺失，可能影响游戏中的分页显示和文本布局。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST3_COMPLETE"
+  },
+  {
+    "overall_comment": "第一版中文翻译为空，完全漏译了英文原文的内容，需要补充翻译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "(final lace line)",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文 '(final lace line)' 在第一版中文翻译中缺失，属于漏译，必须补充翻译以保持含义完整。"
+      }
+    ],
+    "entry_name": "LACE_NEEDOLIN_R"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，没有任何中文文本，导致原文内容全部漏译，结构标签也未保留。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Gah! Traveller, please! This wretched thread has me snared tight. <page>There must be a thick knot up above. Cut me free!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，没有提供任何中文文本或结构标签，导致英文原文的全部内容和标签信息缺失。"
+      }
+    ],
+    "entry_name": "CARAVAN_SPIDER_STRUNG_MEET"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，没有提供任何翻译内容，导致原文信息完全丢失，不符合本地化要求。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Delicious! I like you already!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译为空字符串，漏译了整个英文原文的内容。"
+      }
+    ],
+    "entry_name": "LACE_MEET_GROTTO_3"
+  },
+  {
+    "overall_comment": "第一版翻译严重漏译，仅保留结构标签 <hpage> 而完全缺失文本内容，无法传达原文的任何信息、风格或含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "<hpage>I remember now, sir. You left your request upon Bone Bottom’s wishwall, and I accepted it. The nature of this Haunting has changed since then, but I can aid you still.",
+        "zh_v1_span": "<hpage>",
+        "zh_v2_span": "",
+        "description": "第一版翻译只复制了结构标签 <hpage>，但完全没有翻译英文原文的文本内容，导致整个句子的语义、风格和信息全部缺失。"
+      }
+    ],
+    "entry_name": "PILGRIM_STOMPER_QUEST_ACCEPTED_WISHWALL_ACT3"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何翻译内容，因此无法在含义、风格和结构上忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "With the Needle Phial... The mossblood from the humid caves at Pharloom’s base...<page>We shall force the Plasmium to respond... We need it... You need it... Bring the mossblood...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版翻译完全缺失，未翻译英文原文的任何内容，导致所有信息丢失。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "结构标签 <page> 在第一版翻译中缺失，可能导致分页显示异常或功能错误。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全缺失，未提供任何内容。英文原文 'Travel to Bellhart?' 没有被翻译，这是一个严重的漏译问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Travel to Bellhart?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空，缺失了整个原文内容。英文原文 'Travel to Bellhart?' 应被翻译为中文。"
+      }
+    ],
+    "entry_name": "CARAVAN_SPIDER_BELLHART_CONFIRM_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译完全缺失，未提供任何翻译内容，属于严重漏译问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "No? Assistant... But you must. For your forever... you must.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "第一版中文翻译为空，未翻译英文原文的任何文本，导致所有信息缺失。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST3_DECLINE"
+  }
+]

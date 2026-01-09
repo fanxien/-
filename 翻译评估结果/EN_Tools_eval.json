@@ -1,0 +1,252 @@
+[
+  {
+    "overall_comment": "第一版翻译准确忠实地传达了英文原文的含义，风格简洁直接，符合游戏中的提示消息语境，没有发现明显的翻译或结构问题。",
+    "issues": [],
+    "entry_name": "EQUIP_BENCH_MSG_CURSED_TOOL"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，含义准确传达了原意，风格与游戏描述性文本匹配，结构标签使用正确。",
+    "issues": [],
+    "entry_name": "SYRINGE_LIFEBLOOD_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实传达了英文原文的含义，术语使用一致（如“白愈厅”、“灵丝”、“缚丝”），风格符合游戏描述文本，结构标签处理正确。",
+    "issues": [],
+    "entry_name": "QUICKBIND_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，句子结构简洁，符合游戏UI消息的风格，没有明显错误。",
+    "issues": [],
+    "entry_name": "EQUIP_BENCH_MSG_TRANSFORM"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文意思，但在第一句中对 'bugs and husks' 的翻译不够精确，可能漏译了活虫部分。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "from bugs and husks",
+        "zh_v1_span": "从虫尸",
+        "zh_v2_span": "",
+        "description": "原文 'bugs and husks' 指活虫和虫尸/外壳，中文 '虫尸' 只强调了尸体部分，可能漏译了活虫 (bugs) 的含义，导致信息不完整。"
+      }
+    ],
+    "entry_name": "THIEF_CLAW_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思，但存在漏译和术语不准确的问题，例如 'vicious' 未翻译，'bracelet' 和 'needle' 的译法可能不够精确，影响了描述的忠实性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Vicious bracelet",
+        "zh_v1_span": "刑器",
+        "zh_v2_span": "",
+        "description": "英文原文中的 'vicious'（恶毒的）一词未在翻译中体现，遗漏了描述该物品特性的重要形容词。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "bracelet",
+        "zh_v1_span": "刑器",
+        "zh_v2_span": "",
+        "description": "'bracelet' 意为 '手镯' 或 '腕带'，翻译为 '刑器' 丢失了其作为腕部饰品的具体性，可能导致玩家误解物品形态。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "the needle",
+        "zh_v1_span": "织针",
+        "zh_v2_span": "",
+        "description": "英文 'the needle' 仅指 '针'，翻译中添加了 '织' 字，变为 '织针'，引入了原文没有的 '编织' 含义，可能不准确或与游戏设定不符。"
+      }
+    ],
+    "entry_name": "BARBED_WIRE_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译准确无误，忠实于英文原文的含义和UI按钮的简洁风格，没有发现任何翻译问题。",
+    "issues": [],
+    "entry_name": "UI_BUTTON_EQUIP"
+  },
+  {
+    "overall_comment": "第一版翻译'双生爪镜'在流畅度上没有问题，但添加了原文中没有的'双生'概念，可能导致含义偏离英文原意。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Claw Mirrors",
+        "zh_v1_span": "双生爪镜",
+        "zh_v2_span": "",
+        "description": "英文原文'Claw Mirrors'直接意为'爪镜'，中文翻译添加了'双生'（意指'twin'或'dual'），这是原文中没有的信息，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "DAZZLE_BIND_UPG_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译“扩展”准确传达了英文“Expand”的含义，风格简洁明了，符合UI提示的语境，无任何问题。",
+    "issues": [],
+    "entry_name": "UI_PROMPT_UNLOCK_SLOT"
+  },
+  {
+    "overall_comment": "第一版翻译“念珠炮”准确传达了英文“Rosary Cannon”的含义，作为名称翻译，风格和结构都忠实于原文，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "ROSARYCANNON_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译整体简洁流畅，风格与原文相似，但‘潜行猎杀’对‘stalk prey’的翻译略有歧义，可能过度强调了杀死，而原文更侧重于潜行追踪和攻击。",
+    "issues": [
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "Stalk prey",
+        "zh_v1_span": "潜行猎杀",
+        "zh_v2_span": "潜行猎杀",
+        "description": "原文‘Stalk prey’清楚表示潜行追踪猎物，而翻译‘潜行猎杀’可能隐含了杀死，导致信息变得模糊，未精确传达‘追踪’的含义。"
+      }
+    ],
+    "entry_name": "CREST_HUNTER_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译 '丝弹' 忠实于英文原文 'Silkshot'，含义准确且风格一致，作为一个名称翻译简洁合理。",
+    "issues": [],
+    "entry_name": "SILKSHOT_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，句子流畅自然，符合游戏UI提示的简洁风格。没有发现错译、漏译或风格不符的问题。",
+    "issues": [],
+    "entry_name": "EQUIP_BENCH_MSG_TOOL"
+  },
+  {
+    "overall_comment": "第一版翻译“漫游者”准确对应英文“Wanderer”，含义忠实，风格一致，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "CREST_PILGRIM_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译 '针徽' 与英文 'Pin Badge' 在含义和结构上基本对应，但 '针' 的用词可能不够准确，通常 '别针' 更符合 'pin' 的语境，建议优化以提升自然度。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "Pin Badge",
+        "zh_v1_span": "针徽",
+        "zh_v2_span": "",
+        "description": "'针' 在中文中多指缝纫针或注射针，而 'pin' 在徽章上下文中常译为 '别针'，'针徽' 的搭配略显生硬，可能影响玩家理解，建议调整为 '别针徽章' 等更自然的表达。"
+      }
+    ],
+    "entry_name": "PINSTRESS_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译 '转换' 准确传达了英文 'Transform' 的含义，简洁直接，符合UI按钮的文本风格，与第二版翻译一致。",
+    "issues": [],
+    "entry_name": "UI_BUTTON_TOGGLE_STATE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和大部分内容上准确，但遗漏了英文原文中的关键形容词'Flexible'，这可能会影响玩家对物品特性的理解。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Flexible belt of serrated metal teeth",
+        "zh_v1_span": "锯齿金属带",
+        "zh_v2_span": "",
+        "description": "原文中的'Flexible'（灵活的）在翻译中被漏译，导致物品的灵活属性缺失，可能影响游戏描述准确性。"
+      }
+    ],
+    "entry_name": "BROLLYSPIKE_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和结构上基本忠实于原文，但用词准确性有待提升，例如'撒布'和'刺伤'的译法可能弱化了原文的精确描述。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "designed to be scattered along the ground",
+        "zh_v1_span": "设计用于撒布地面",
+        "zh_v2_span": "",
+        "description": "‘撒布’用词不当，非标准中文表达，建议改为‘散布’以更准确地传达‘scattered’（散落）的含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "will pierce",
+        "zh_v1_span": "会刺伤",
+        "zh_v2_span": "",
+        "description": "‘pierce’意为‘刺穿’，强调穿透动作，而‘刺伤’可能仅暗示造成伤害，未完全体现原文力度，建议使用‘刺穿’以保持语义准确。"
+      }
+    ],
+    "entry_name": "TACK_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译 '多重缚丝器' 准确对应英文原文 'Multibinder' 的语义，术语使用与第二版一致，没有发现明显的翻译或结构问题。",
+    "issues": [],
+    "entry_name": "MULTIBIND_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上基本忠实于英文原文，但第二句的流畅度有待提高，句子结构略显生硬。",
+    "issues": [
+      {
+        "type": "fluency.grammar",
+        "source_span": "When binding, emits a searing blast that damages surrounding enemies.",
+        "zh_v1_span": "当缚丝时释放灼热冲击伤害周围敌人",
+        "zh_v2_span": "",
+        "description": "中文句子结构不完整，缺少必要的标点或连接词，导致阅读不流畅。建议添加逗号或调整语序，例如改为'当缚丝时，释放灼热冲击伤害周围敌人'或类似结构。"
+      }
+    ],
+    "entry_name": "DAZZLE_BIND_UPG_DESC"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了'View Crests'的含义，用词简洁且符合UI按钮的风格，术语'纹章'使用一致，无明显问题。",
+    "issues": [],
+    "entry_name": "UI_BUTTON_VIEW_CRESTS"
+  },
+  {
+    "overall_comment": "第一版翻译“选择纹章”准确无误地传达了“Select Crest”的语义，风格简洁明了，完全符合UI按钮的语境要求。",
+    "issues": [],
+    "entry_name": "UI_BUTTON_SELECT_CREST"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了原文的含义，风格与原文一致，结构完整，没有明显问题。",
+    "issues": [],
+    "entry_name": "CREST_HUNTER_UPGRADED_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译 '螺切刃' 准确传达了英文原文 'Conchcutter' 的含义，作为名称翻译简洁，风格与原文一致，没有明显问题。",
+    "issues": [],
+    "entry_name": "CONCH_DRILL_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译 '蚤母卵' 基本忠实于英文原文 'Egg of Flealia'，通过意译将 'Flealia' 处理为 '蚤母'，整体含义和风格一致。无结构标签问题。",
+    "issues": [],
+    "entry_name": "FLEA_CHARM_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '电枢球' 与第二版翻译一致，作为游戏术语名称，翻译简洁，但未完全直接对应英文 'Voltvessels' 的字面含义（电压容器），可能在游戏上下文中是设定的译名。",
+    "issues": [],
+    "entry_name": "LIGHTNING_ROD_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译“登极握爪”在含义上准确传达了英文原文“Ascendant’s Grip”的核心意思，风格上保持了游戏术语的庄严感，没有明显问题。",
+    "issues": [],
+    "entry_name": "WALLCLING_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译'长爪'准确地对应了英文'Longclaw'的含义，作为专有名词翻译简洁且忠实，没有发现翻译或结构问题。",
+    "issues": [],
+    "entry_name": "LONGNEEDLE_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译在结构上忠实，无标签问题，但在术语准确性上略有不足，如 'conchspire' 的翻译可能不准确，以及第二句简化了 'catch prey off guard' 的含义。",
+    "issues": [
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "hardened conchspire",
+        "zh_v1_span": "硬化螺角",
+        "zh_v2_span": "硬化螺角",
+        "description": "'conchspire' 可能是一个游戏特定术语，翻译为 '螺角' 可能不贴切，因为它结合了 'conch'（海螺）和 'spire'（螺旋或尖顶），建议考虑更准确的译法如 '螺壳' 或保留原词风格。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "catch prey off guard",
+        "zh_v1_span": "突袭目标",
+        "zh_v2_span": "突袭目标",
+        "description": "原文 'catch prey off guard' 包含了 '出其不意地捕获猎物' 的完整含义，翻译为 '突袭目标' 漏译了 'off guard'（出其不意）的细节，建议补充以更忠实于原文。"
+      }
+    ],
+    "entry_name": "CONCH_DRILL_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译'伏特丝'准确传达了'Volt Filament'的含义，与第二版一致，无漏译或错译，风格和结构都忠实于原文。",
+    "issues": [],
+    "entry_name": "ZAP_IMBUEMENT_NAME"
+  }
+]

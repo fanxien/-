@@ -1,0 +1,216 @@
+[
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但漏译了'must'和'them all'的强调语气，使得表达不够有力，情感色彩减弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "must know them all",
+        "zh_v1_span": "都知晓",
+        "zh_v2_span": "",
+        "description": "原文中的'must'（一定）表示肯定语气，'them all'（全部）强调范围，翻译仅为'都知晓'，漏译了这些强调元素，未能完整传达原文的肯定和全部含义。"
+      }
+    ],
+    "entry_name": "HUNTER_FAN_02"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的诗意和简洁，但将原文的‘翅膀’和‘腿’具体化为‘飞行者’和‘走兽’，添加了原文没有的实体信息。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Wings that beat, legs that crawl...",
+        "zh_v1_span": "振翅的飞者，爬行的走兽……",
+        "zh_v2_span": "",
+        "description": "英文原文描述‘振动的翅膀’和‘爬行的腿’，翻译中加入了‘飞者’和‘走兽’等实体，添加了原文没有的明确主体，可能改变了原意的抽象描述。"
+      }
+    ],
+    "entry_name": "HUNTER_FAN_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的诗意描述，含义忠实，风格匹配，结构一致。翻译简洁自然，没有明显错误。",
+    "issues": [],
+    "entry_name": "HUNTER_FAN_04"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地传达了原文的命令式语气，'小的' 对应 'Smaller'，'抓起来' 捕捉了 'catch the prey' 的核心动作，整体含义基本忠实。风格上保持简短有力，符合游戏场景。",
+    "issues": [],
+    "entry_name": "CITADEL_BAT_04"
+  },
+  {
+    "overall_comment": "第一版中文翻译'攀以侍奉'忠实于英文原文'Climb and serve'的含义，准确传达了'攀登并侍奉'的意思，并采用文言风格连接词'以'以保持简洁，整体无结构标签问题。",
+    "issues": [],
+    "entry_name": "BONEGRAVE_03"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，'Guardian’s call' 被正确译为'守护者召唤'，省略号的使用也保持一致，整体翻译忠实且流畅。",
+    "issues": [],
+    "entry_name": "SETH_GUARDIAN_03"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文中催促孵化的可爱语气，用词恰当且风格一致，没有明显错误。",
+    "issues": [],
+    "entry_name": "BROODMOTHER_01"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '看我劳作……' 在含义上基本忠实于英文原文 'See me work...'，传达了观察工作的意图；风格上使用 '劳作' 略显正式但整体合适，结构一致；没有发现重大翻译问题。",
+    "issues": [],
+    "entry_name": "UNDERWORKER_LOAM_01"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了'持续注视'的含义，风格上保持了原文的简洁和悬念感，结构一致。",
+    "issues": [],
+    "entry_name": "GREY_WARRIOR_04"
+  },
+  {
+    "overall_comment": "第一版翻译将英文的'躺下'指令错误地译为'认罪'，含义严重不忠实于原文，导致语义完全失真。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Lay yourself down...",
+        "zh_v1_span": "俯首认罪……",
+        "zh_v2_span": "俯首认罪……",
+        "description": "英文原文意思是'躺下'，而中文翻译译为'低头认罪'，语义完全错误，意思不匹配。"
+      }
+    ],
+    "entry_name": "SLAB_FLY_CAGE_02"
+  },
+  {
+    "overall_comment": "第一版翻译‘无饥饿之忧……’准确传达了英文原文‘None shall starve...’的核心含义，即保证无人挨饿，风格正式且匹配原文的承诺语气。没有结构标签问题，翻译流畅自然。",
+    "issues": [],
+    "entry_name": "ROACHKEEPER_04"
+  },
+  {
+    "overall_comment": "第一版翻译在整体上传达了跟随道路的意思，但将 'the path' 译为 '圣道' 可能添加了神圣的意味，原文并未明确指定；结构标签方面没有发现问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "the path",
+        "zh_v1_span": "圣道",
+        "zh_v2_span": "",
+        "description": "英文原文 'the path' 是中性词，指道路；中文翻译 '圣道' 添加了 '圣'（神圣的）一词，可能改变了原意，除非游戏设定中确指神圣道路。"
+      }
+    ],
+    "entry_name": "PILGRIM_GREATGATE_03"
+  },
+  {
+    "overall_comment": "第一版翻译'地心炽血奔流……'准确传达了英文原文'World’s blood runs hot...'的诗意隐喻，用词恰当，风格一致，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "DOCK_ELDER_B_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确地传达了英文原文的含义，保持了相同的并列结构和诗意风格，没有明显的翻译问题。",
+    "issues": [],
+    "entry_name": "BONE_HOPPER_04"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了'身后的路已过、危险尽消'的含义，风格上采用成语式表达，与原文的诗意反思语气匹配。省略号使用符合中文本地化规范，无结构标签问题。",
+    "issues": [],
+    "entry_name": "FLEATOPIA_02"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的修补和恢复完整的含义，风格简洁，结构处理恰当，使用了并列短语和省略号来匹配原文的节奏和语气。",
+    "issues": [],
+    "entry_name": "SEAMSTRESS_01"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，'修缮' 对应 'To mend'，'永无止境' 对应 'Unending'，省略号的使用也保持了原文的风格，整体忠实无误。",
+    "issues": [],
+    "entry_name": "ARCHITECT_01"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文“To seed... To grow...”的含义，省略号使用正确，结构保持一致，没有明显的翻译问题。",
+    "issues": [],
+    "entry_name": "THREAD_MEMORY_BLOOM_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译将 'Black threads' 误译为 '黑暗之灾'，含义严重失真，未能准确传达原文 '线程' 或 '线索' 的意象，风格虽保留了省略号但核心词翻译错误。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Black threads...",
+        "zh_v1_span": "黑暗之灾……",
+        "zh_v2_span": "",
+        "description": "英文 'threads' 指线、线程或隐喻线索，但中文翻译为 '灾'（灾难），语义完全错误，导致含义偏离原文。"
+      }
+    ],
+    "entry_name": "BELLTOWN_ACT3_06"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和结构上基本忠实于英文原文，保持了诗意的省略号格式，但关键词'spun'的翻译可能未准确传达原意。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "spun",
+        "zh_v1_span": "编织",
+        "zh_v2_span": "",
+        "description": "'spun'在此上下文中更可能意指'旋转'或'使旋转'，译为'编织'可能导致语义偏差，影响对动作意图的理解。"
+      }
+    ],
+    "entry_name": "THREAD_MEMORY_ORGAN_TANK_02"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和风格上基本忠实于原文，准确传达了疑问句和亲密称呼，但添加了原文没有的省略号，这可能会轻微改变语气或暗示延续。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Why us, sister?",
+        "zh_v1_span": "为何是我们，姐妹？……",
+        "zh_v2_span": "",
+        "description": "原文以问号结束，没有省略号；第一版翻译在问号后添加了省略号，这是多余的添加，可能暗示延续或犹豫，而原文没有这种表达。"
+      }
+    ],
+    "entry_name": "THREAD_MEMORY_ORGAN_TANK_03"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文'Always ours...'的含义和语气，'永远属于我们……'在语义和风格上忠实，省略号的使用保持了原文的沉思感，没有明显问题。",
+    "issues": [],
+    "entry_name": "SPIDER_GENERIC_04"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义上基本忠实于英文原文，'spun' 翻译为 '编织' 在比喻意义上合理，'fade' 译为 '消亡' 准确，风格简洁诗意，结构匹配，没有明显错误。",
+    "issues": [],
+    "entry_name": "THREAD_MEMORY_ORGAN_TANK_01"
+  },
+  {
+    "overall_comment": "第一版中文翻译“无巢无家……”准确传达了英文原文“No nest, no home...”的含义和风格，简洁且忠实，保持了原句的忧郁语气和省略号的使用。",
+    "issues": [],
+    "entry_name": "HUNTER_05"
+  },
+  {
+    "overall_comment": "翻译在含义上基本准确，但添加了原文中没有的省略号，导致多余的信息，影响了忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Why us?",
+        "zh_v1_span": "为何是我们？……",
+        "zh_v2_span": "为何是我们？……",
+        "description": "原文 'Why us?' 仅包含问句，没有省略号；第一版翻译中增加了 '……'，这是原文没有的信息，属于多余添加。"
+      }
+    ],
+    "entry_name": "THREAD_MEMORY_ORGAN_TANK_04"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和风格，省略号的使用恰当，整体翻译忠实且流畅，没有明显问题。",
+    "issues": [],
+    "entry_name": "SPIDER_GENERIC_01"
+  },
+  {
+    "overall_comment": "第一版翻译准确地传达了英文原文的含义和风格，保持了简洁性和省略号的语气，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "SPIDER_GENERIC_02"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，动词对应正确，省略号使用符合中文风格，整体忠实于原文的简洁氛围。",
+    "issues": [],
+    "entry_name": "SPIDER_GENERIC_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和风格，忠实还原了诗意、神秘的氛围，结构正确，没有明显问题。",
+    "issues": [],
+    "entry_name": "PLINNEY_SHELLGRAVE_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和诗意风格，结构一致，没有明显错误。",
+    "issues": [],
+    "entry_name": "PLINNEY_SHELLGRAVE_02"
+  }
+]

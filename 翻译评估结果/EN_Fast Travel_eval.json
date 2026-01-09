@@ -1,0 +1,181 @@
+[
+  {
+    "overall_comment": "第一版翻译'甲木林'准确传达了英文'Shellwood'的含义，'甲'对应'Shell'（甲壳），'木林'对应'wood'（树木），风格符合地名设定，无结构标签问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_SHELLWOOD"
+  },
+  {
+    "overall_comment": "第一版翻译 '深坞' 准确传达了 'Deep Docks' 的字面意思，作为名称翻译简洁且忠实。没有发现标签错误或翻译问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_DOCKS"
+  },
+  {
+    "overall_comment": "第一版翻译“腐汁泽”准确传达了英文地名“Bilewater”的黑暗与沼泽意象，风格与游戏氛围匹配，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_SHADOW"
+  },
+  {
+    "overall_comment": "第一版翻译'高庭'直接对应英文'High Halls'，但作为地名或术语，'庭'在中文中常指庭院而非大厅，可能不够准确，建议核查标准译名以确保一致性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "High Halls",
+        "zh_v1_span": "高庭",
+        "zh_v2_span": "",
+        "description": "英文'Halls'通常指大厅或礼堂，应翻译为'厅'或'堂'，而'庭'更常指庭院或法庭，可能导致含义偏差。建议使用'高堂'或'高大殿'等更贴切的译法。"
+      }
+    ],
+    "entry_name": "TUBE_NAME_HANG"
+  },
+  {
+    "overall_comment": "第一版翻译“圣脉枢管”忠实于英文原文“VENTRICA”，采用意译方式创造了有幻想风格的术语，适合作为游戏列表标题，没有明显错误。",
+    "issues": [],
+    "entry_name": "TUBE_LIST_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译 '圣咏殿' 在含义上忠实于英文原文 'Choral Chambers'，传达了'合唱殿堂'的核心概念，风格匹配且结构正确。",
+    "issues": [],
+    "entry_name": "TUBE_NAME_SONG"
+  },
+  {
+    "overall_comment": "第一版翻译‘终界站’在术语选择上可能不忠实于英文‘Terminus’，后者在游戏本地化中常译为‘终点站’；‘终界’一词易与‘The End’等游戏术语混淆，可能影响玩家理解。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Terminus",
+        "zh_v1_span": "终界站",
+        "zh_v2_span": "终界站",
+        "description": "英文‘Terminus’应译为‘终点站’以准确表达终点或枢纽的含义；‘终界站’中的‘终界’可能源于其他游戏术语（如‘The End’的翻译），在此处使用不当，易导致歧义或与设定不一致。"
+      }
+    ],
+    "entry_name": "TUBE_NAME_HUB"
+  },
+  {
+    "overall_comment": "第一版中文翻译“远野”忠实于英文原文“Far Fields”，含义准确，风格符合地名描述，没有结构标签问题。翻译简洁自然，与第二版一致。",
+    "issues": [],
+    "entry_name": "STATION_NAME_BONEFOREST_EAST"
+  },
+  {
+    "overall_comment": "第一版翻译‘织巢’准确对应英文‘Weavenest’的含义，风格简洁自然，符合地名翻译习惯，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_WEAVE"
+  },
+  {
+    "overall_comment": "第一版翻译 '钟道站' 与英文 'BELLWAYS' 对应，采用意译方式，可能基于游戏上下文或设定。翻译在含义上基本忠实，结构标签无缺失或错位。",
+    "issues": [],
+    "entry_name": "MAP_LIST_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译将 'Grand Bellway' 译为 '圣堡钟道'，整体风格符合地名翻译，但 'Grand' 的译法可能未忠实传达原意，存在准确性疑虑。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Grand",
+        "zh_v1_span": "圣堡",
+        "zh_v2_span": "圣堡钟道",
+        "description": "英文 'Grand' 通常意为 '宏伟的' 或 '大的'，但中文翻译为 '圣堡'（意为 '神圣堡垒'），可能未准确传达原词含义，而 'Bellway' 译为 '钟道' 尚可接受。第二版翻译相同，问题依旧存在。"
+      }
+    ],
+    "entry_name": "STATION_NAME_CITADEL"
+  },
+  {
+    "overall_comment": "第一版翻译“圣堡钟道”准确传达了英文“Grand Bellway”的含义，通过意译保留了“Grand”的宏伟感和“Bellway”的钟与道路元素，风格符合地名翻译，没有明显问题。",
+    "issues": [],
+    "entry_name": "TUBE_NAME_CITYBELLWAY"
+  },
+  {
+    "overall_comment": "第一版翻译“钟心镇”将英文地名“Bellhart”合理音译为中文，保持了车站名称的风格，与第二版一致，整体忠实于原文。",
+    "issues": [],
+    "entry_name": "STATION_NAME_BELLTOWN"
+  },
+  {
+    "overall_comment": "第一版翻译'骸底镇'准确传达了英文'Bone Bottom'的含义，'骸'对应'Bone'，'底'对应'Bottom'，添加'镇'符合中文地名本地化习惯，风格恰当，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_BONETOWN"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文“Insert Rosaries?”的含义，翻译为“投入念珠？”在语义和风格上均忠实于原文，没有发现明显的错误或问题。",
+    "issues": [],
+    "entry_name": "PAY_TOLL_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译将'Shrine'误译为'钟殿'，含义与原文'神殿'不符，可能导致玩家误解。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "First Shrine",
+        "zh_v1_span": "始源钟殿",
+        "zh_v2_span": "",
+        "description": "'Shrine' 通常应译为'神殿'或'圣地'，但翻译为'钟殿'，语义错误，偏离了原文的宗教或神圣场所含义。"
+      }
+    ],
+    "entry_name": "TUBE_NAME_ENCLAVE"
+  },
+  {
+    "overall_comment": "第一版翻译“罪石牢狱”对英文“The Slab”进行了意译，但添加了原文中没有的“罪恶”概念，可能偏离了原名简洁中性的风格。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "The Slab",
+        "zh_v1_span": "罪石牢狱",
+        "zh_v2_span": "罪石牢狱",
+        "description": "中文翻译添加了“罪”字，而英文原文“The Slab”本身没有明确表达罪恶的含义，这可能是一种多译或臆译，影响了忠实度。"
+      }
+    ],
+    "entry_name": "STATION_NAME_PEAK"
+  },
+  {
+    "overall_comment": "第一版翻译 '腐殖渠' 在含义上不忠实于英文原文 'Putrified Ducts'，'腐殖' 可能误译了 'putrified' 的准确意思，影响地名传达的腐败感。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Putrified Ducts",
+        "zh_v1_span": "腐殖渠",
+        "zh_v2_span": "",
+        "description": "英文 'Putrified' 意指腐败、腐烂，翻译成 '腐殖' 不准确，因为 '腐殖' 在中文中通常与腐殖质相关，未能正确表达原文的腐败含义，属于语义错译。"
+      }
+    ],
+    "entry_name": "STATION_NAME_AQUEDUCT"
+  },
+  {
+    "overall_comment": "第一版翻译 '圣堡工厂' 在含义上与英文 'Underworks' 不匹配，后者暗示地下工程或工厂，而中文翻译引入了 '神圣城堡' 的概念，可能导致误解。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Underworks",
+        "zh_v1_span": "圣堡工厂",
+        "zh_v2_span": "",
+        "description": "英文 'Underworks' 意为地下工程或工厂，强调地下位置；中文翻译为 '圣堡工厂'，添加了 '神圣城堡' 的含义，与原文语义不符。"
+      }
+    ],
+    "entry_name": "TUBE_NAME_UNDER"
+  },
+  {
+    "overall_comment": "第一版翻译将站名'The Marrow'译为'髓骨洞窟'，在'髓骨'部分基本忠实，但添加了'洞窟'一词，使地名更具体，可能偏离了原文的简洁性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "The Marrow",
+        "zh_v1_span": "髓骨洞窟",
+        "zh_v2_span": "髓骨洞窟",
+        "description": "原文'The Marrow'是一个简洁的站名，没有指定类型；中文翻译添加了'洞窟'一词，加入了原文没有的信息，属于臆译。"
+      }
+    ],
+    "entry_name": "STATION_NAME_BONE"
+  },
+  {
+    "overall_comment": "第一版翻译‘蚀阶’准确表达了英文‘Blasted Steps’中受损或侵蚀台阶的含义，风格简洁匹配，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_CORAL_TOWER"
+  },
+  {
+    "overall_comment": "第一版中文翻译'灰沼'忠实于英文原文'Greymoor'，通过意译准确传达了'灰色沼泽'的含义，风格简洁自然，符合地名翻译惯例。没有发现结构标签问题。",
+    "issues": [],
+    "entry_name": "STATION_NAME_GREYMOOR"
+  },
+  {
+    "overall_comment": "第一版翻译 '忆廊' 在含义上贴合了英文 'Memorium' 的记忆相关主题，作为专有名词的翻译，风格简洁且一致，没有明显错误。",
+    "issues": [],
+    "entry_name": "TUBE_NAME_ARBORIUM"
+  }
+]

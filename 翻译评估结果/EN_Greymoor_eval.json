@@ -1,0 +1,506 @@
+[
+  {
+    "overall_comment": "第一版中文翻译 '购买陈年蜜露？' 准确传达了英文原文 'Purchase Vintage Nectar?' 的含义，保持了相同的疑问语气和简洁风格。没有发现翻译错误、术语不一致或结构标签问题。",
+    "issues": [],
+    "entry_name": "HH_BARTENDER_NECTAR_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译在流畅度和风格上表现良好，但存在多处添加和语义偏差，影响了忠实度。添加了原文没有的询问和所有格信息，并且对关键句子的翻译可能导致歧义，建议修正以更准确传达原意。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Ho, traveller! With the lands outside fresh struck by fell events, it’s good to see someone still survivin’.",
+        "zh_v1_span": "噢，旅行者！您没事吧？外头刚遭了灾，能见到还活着的虫子真让我宽心。",
+        "zh_v2_span": "",
+        "description": "原文没有询问旅行者是否安好，中文添加了'您没事吧？'，属于多余信息。同时，将'someone'具体化为'虫子'，添加了原文未明确的信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Aye, well, you’re welcome to do the same.",
+        "zh_v1_span": "您说的对，您要乐意也可以留下。",
+        "zh_v2_span": "",
+        "description": "英文'you’re welcome to do the same'指酒保也可以像旅行者一样待在墙内以确保安全，中文翻译为'也可以留下'，可能误解为邀请留在当前位置，导致意思不准确和上下文逻辑模糊。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "though, given the scale to them shakes, I’m thinkin’ it might take more’n just a few.",
+        "zh_v1_span": "不过看这地动山摇的架势，怕得喝光我的存货才够压惊的。",
+        "zh_v2_span": "",
+        "description": "原文只说可能需要不止几杯蜜露，中文添加了'我的存货'，属于多译，引入了原文没有的所有格信息。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_GREET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在语气和风格上基本匹配原文，口语化处理得当，整体流畅。但存在一处信息遗漏，导致原文的细节未完全传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A parasite of your land",
+        "zh_v1_span": "我的甲壳里钻入了寄生物",
+        "zh_v2_span": "",
+        "description": "漏译了 'of your land'，原文指定了寄生物的来源是'你们土地上的'，中文只翻译为'寄生物'，缺失了所属信息，可能影响上下文理解。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_CURSED"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文的意思和口语风格，但在'shells'一词的翻译上不够精确，丢失了具体意象。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The shells",
+        "zh_v1_span": "存货",
+        "zh_v2_span": "",
+        "description": "英文'shells'具体指装蜜露的壳或容器，与游戏设定可能相关，但中文翻译为'存货'，泛化了原意，导致具体意象丢失。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_NECTAR_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，结构标签正确，基本传达了原文含义。但在第二部分中，漏译了条件从句，导致语义不完全准确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "if you find yourself feelin’ different.",
+        "zh_v1_span": "想来一盏就招呼我一声。",
+        "zh_v2_span": "",
+        "description": "漏译了条件部分 'if you find yourself feelin’ different.'，原文意为'如果你发现自己感觉不同了（可能需要食物）'，中文翻译直接假设为'想来一盏'，没有体现条件从句，导致信息缺失。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_DRINK_DECLINED"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语风格与原文匹配，但存在信息缺失和语义偏差：漏译了原文的保证语气，且对'finer bugs'的翻译不够准确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "but I assure you,",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'but I assure you'（但我向你保证）被完全省略，导致语气上的强调和保证缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "the few finer bugs",
+        "zh_v1_span": "阔绰顾客",
+        "zh_v2_span": "",
+        "description": "'finer bugs'意为'更优雅或高贵的虫子'，强调身份或品质；翻译为'阔绰顾客'突出了富有，但丢失了'优雅'的语义，可能导致角色形象偏差。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_NECTAR_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心请求（处理麻烦并承诺酬劳）及大意，但将原文询问‘是否有机会重新考虑’（Any chance you’d reconsider）的直接请求，简化并转化为略带指责意味的确认句‘真不打算帮我……’，在准确性及风格上与原句有偏差。原文‘blasted’所含的烦躁情绪也未充分体现。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Any chance you’d reconsider dealing with my blasted craw problem?",
+        "zh_v1_span": "真不打算帮我收拾房顶上的麻烦？",
+        "zh_v2_span": "",
+        "description": "将原文询问‘重新考虑’可能性的委婉请求‘Any chance you’d reconsider...’，改为了一个事实性的反问句‘真不打算帮我……’，失去了原文礼貌探讨的可能性的语气，并隐含了原文没有的指责（‘真不打算’）。同时，‘blasted’所表达的‘恼人的、该死的’的情绪也未能体现。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’d offer fair reward for your efforts.",
+        "zh_v1_span": "酬劳保证让您满意。",
+        "zh_v2_span": "",
+        "description": "原文‘fair reward’强调的是‘公平、合理的报酬’，是一个比较客观中性的承诺。译文‘让您满意’更侧重于结果‘令人满意’，虽然语义相近，但遗漏了原文关于酬劳性质（公平）的具体修饰，且在语气上显得更为主动保证，略有不同。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_OFFER_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于英文原文，语义准确，风格口语化且符合游戏对话语境。结构标签使用正确，与原文保持一致。",
+    "issues": [],
+    "entry_name": "HH_BARTENDER_OFFER_QUEST"
+  },
+  {
+    "overall_comment": "翻译整体流畅，准确传达了攀登艰难和精力恢复的主要意思，但漏译了英文中的亲切称呼'sister'，影响了角色互动的语气和风格。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "eh, sister?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文中包含口语化称呼 'eh, sister?'，中文翻译中完全省略，导致语气和角色关系信息缺失。"
+      }
+    ],
+    "entry_name": "HH_PATRON_LEFT_TALK_1"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的邀请和温暖意图，语气也较口语化，但漏译了‘kick’（劲道/刺激感）这一关键描述，导致部分含义丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "got a kick",
+        "zh_v1_span": "最能驱寒",
+        "zh_v2_span": "",
+        "description": "原文‘got a kick’强调蜜露的刺激感或酒精劲道，但翻译仅用‘最能驱寒’概括了温暖效果，漏掉了‘kick’的具体含义，可能削弱角色推销饮料时的生动性。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在语气和基本意思上大致匹配原文，但存在多处漏译和多译，导致信息不完整且添加了原文没有的内容，影响忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "these drenched and dangerous lands",
+        "zh_v1_span": "这种鬼地方",
+        "zh_v2_span": "",
+        "description": "原文描述为'湿透且危险的土地'，翻译只用了'鬼地方'，漏掉了'drenched'（湿透）这一关键描述，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "good bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的称呼'good bug'未被翻译，漏掉了对说话对象的亲切称呼，影响对话的互动感。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "None that would offer easy aid",
+        "zh_v1_span": "没有什么秘诀，在这种地方只能靠自己",
+        "zh_v2_span": "",
+        "description": "翻译中添加了'在这种地方只能靠自己'，原文没有此内容，属于多译或臆译，可能扭曲原意。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "may it continue on your journey",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文的祝福语'愿它继续陪伴你的旅程'未被翻译，漏掉了对话的结尾祝福，导致语气不完整。"
+      }
+    ],
+    "entry_name": "HH_PATRON_RIGHT_TALK_1"
+  },
+  {
+    "overall_comment": "第一版翻译在对话语气和核心意思上基本准确，整体风格也比较口语化，与原文风格基本匹配。但存在一处关键信息遗漏。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "into our blighted lands",
+        "zh_v1_span": "出发前",
+        "zh_v2_span": "出发前",
+        "description": "原文中的 'into our blighted lands'（进入我们这片荒芜/凋敝之地）这一关键的环境描述被完全遗漏。该信息对于塑造游戏世界氛围和角色对话情境很重要，翻译中应予保留。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_NECTAR_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和大部分内容上基本忠实，但存在两处关键错误：一是将居民误译为'虫子'，导致语义偏差；二是漏译了'我会告诉他们'的承诺，影响了对话的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "So Pharloom’s curse has strung’em tight.",
+        "zh_v1_span": "纺络的诅咒把那儿的虫子紧紧束缚",
+        "zh_v2_span": "",
+        "description": "英文中'strung’em tight'的'em'指代前文的居民（residents），但中文误译为'虫子'，导致语义错误。应译为'居民'或类似表述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Aye. I’ll let’em know, traveller",
+        "zh_v1_span": "没问题，旅行者。",
+        "zh_v2_span": "",
+        "description": "英文中'I’ll let’em know'（我会告诉他们）在中文翻译中被漏掉，只翻译了'Aye.'为'没问题'，然后直接接'旅行者'，遗漏了关键的动作承诺。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_BELLHARTHAUNTED"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体忠实于英文原文，准确传达了建议看医生和医生方法可疑但急需治疗的信息。风格口语化，与原文匹配，结构标签正确放置。",
+    "issues": [],
+    "entry_name": "HH_BARTENDER_CURSED_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在关键部分有严重错译，将‘花费短暂时间鼓起勇气’误译为‘多喝点才能鼓足勇气’，并添加了原文没有的‘继续上路’信息。整体含义不忠实，风格与原文不符。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Might have taken me a beat to build the courage",
+        "zh_v1_span": "我可能得多喝点才能鼓足勇气",
+        "zh_v2_span": "",
+        "description": "将 'a beat'（意为短暂时间或瞬间）错误翻译为 '多喝点'（暗示喝酒），完全改变了原意，原文是关于时间而非饮酒。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Might have taken me a beat to build the courage",
+        "zh_v1_span": "我可能得多喝点才能鼓足勇气，继续上路了。",
+        "zh_v2_span": "",
+        "description": "原文只描述鼓起勇气的过程，没有提到‘继续上路’；翻译中添加了这一动作，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "HH_PATRON_LEFT_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本传达了原文的意思，风格口语化，结构标签正确。但存在两处漏译：第二句未译出“mighty”（强大的）一词，第三句未明确提及“害虫”，导致部分信息丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "building that mighty scarecraw",
+        "zh_v1_span": "扎稻草人",
+        "zh_v2_span": "",
+        "description": "原文中的“mighty”（强大的）修饰“scarecraw”，强调稻草人的规模或威力，但中文翻译仅译为“扎稻草人”，漏译了该修饰词，削弱了原文表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "clear of those pests",
+        "zh_v1_span": "房顶应该已经清静了",
+        "zh_v2_span": "",
+        "description": "原文明确提到“those pests”（那些害虫），但中文翻译仅用“清静了”概括，未指定害虫对象，导致信息模糊，可能让玩家误解清除的对象。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_COMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格上尝试匹配原文的口语化语气，但在位置描述和动作细节上存在准确性偏差，可能导致玩家误解。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "those young’ns above here’ll be slim pickings.",
+        "zh_v1_span": "房顶那些小崽子可不够用。",
+        "zh_v2_span": "",
+        "description": "英文“above here”意为“这里上方”，是一个相对模糊的位置描述；翻译为“房顶”可能过于具体化，若游戏设定中虫子不在房顶，则会导致语义错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "They’ll drop the stuff a-plenty.",
+        "zh_v1_span": "它们身上有更多的货。",
+        "zh_v2_span": "",
+        "description": "原文“drop”明确表示“掉落”物品，是游戏机制相关的动作；翻译为“身上有”遗漏了掉落这一关键信息，可能影响玩家对游戏机制的理解。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_ACTIVE"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文的核心意思，但在细节忠实度和语气还原上存在不足，有多处漏译和一处多译，影响了角色对话的委婉感和完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I trust everything went... erm, smoothly?",
+        "zh_v1_span": "没出什么岔子吧？",
+        "zh_v2_span": "",
+        "description": "漏译了 'I trust'（我信任/相信）和犹豫语气词 'erm'，导致原文中说话者的信任态度和轻微迟疑感丢失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I assume, in sending me down, it merely slipped your mind to mention?",
+        "zh_v1_span": "怎么不提前知会？",
+        "zh_v2_span": "",
+        "description": "简化了原文的委婉表达，漏译了 'I assume'（我猜想）和 'merely slipped your mind'（只是你忘了），使语气变得直接，削弱了原文的礼貌和试探性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Well, with your weapon, and talent, and what... I’m sure they didn’t pose a problem? Ahem.",
+        "zh_v1_span": "您这身手……小小蚂蚁肯定不在话下嘛！是吧？",
+        "zh_v2_span": "",
+        "description": "漏译了具体细节 'weapon, and talent, and what'（武器、天赋等）以及尴尬的咳嗽声 'Ahem'，导致角色对话的丰富性和尴尬语气缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Enjoy your nectar, miss.",
+        "zh_v1_span": "小姐，好好享受这瓶蜜露吧。",
+        "zh_v2_span": "",
+        "description": "原文未指定 '这瓶'（this bottle），翻译中添加了额外信息，可能不准确，除非上下文明确指代。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_NECTAR_GOT"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本传达，语言流畅自然，但漏译了原文中的称呼‘traveller’和强调词‘no doubt’，导致角色互动细节和语气强度有所损失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "traveller",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中称呼‘traveller’（旅行者）被漏译，中文直接使用‘你’，丢失了特定称呼，可能影响角色身份设定和语境。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "no doubt",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文‘no doubt’（毫无疑问）被漏译，中文仅用‘吧’结尾，语气较软，弱化了肯定的强调，可能使自信的语气失真。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_DECLINE_QUEST"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的意思，风格也较为自然。但存在一处明显的漏译，使得人物对‘不会回来’这一判断的因果逻辑变得模糊，原文中的时间依据（‘离开得够久了’）被省略了。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "but they’ve been gone long enough now, I know they won’t be returning.",
+        "zh_v1_span": "但那位怕是已经回不来了。",
+        "zh_v2_span": "但那位怕是已经回不来了。",
+        "description": "漏译了关键时间状语“been gone long enough now”。原文强调因为对方‘离开得足够久了’，所以‘知道’（I know）他们不会回来了。译文直接跳到结论“怕是已经回不来了”，省略了推导出结论的依据，使得语气从一种基于时间的确定判断，变成了略带揣测的模糊表达。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_COMPLETE_2"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上准确，但第二句将‘值得的交易’误译为‘很有帮助’，导致含义偏差，丢失了原文中‘交易’的上下文。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "This is a worthy trade for my work.",
+        "zh_v1_span": "这东西对我很有帮助。",
+        "zh_v2_span": "",
+        "description": "原文‘This is a worthy trade for my work.’ 意为‘这对于我的工作来说是一个值得的交易’，但翻译为‘这东西对我很有帮助’，漏译了‘trade’（交易）的概念，且将‘worthy’（值得的）泛化为‘有帮助’，导致语义错译。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_COMPLETE_3"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，核心意思传达正确，风格上与原文的神话感匹配；但漏译了 'shell' 这一关键词语，可能削弱了原文的比喻或特定含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "My sore shell",
+        "zh_v1_span": "现在疼就疼点吧",
+        "zh_v2_span": "",
+        "description": "原文中的 'sore shell' 可能是一个比喻或特定术语，但翻译只表达了 '疼' 的意思，完全漏译了 'shell' 的意象，导致信息缺失。"
+      }
+    ],
+    "entry_name": "HH_PATRON_RIGHT_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格口语化符合角色，但漏译了关键细节，如'vessel you're owed'（应得的容器），并添加了原文没有的反问语气，影响了准确性和原意表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’ll trust you to collect only the vessel you’re owed.",
+        "zh_v1_span": "我相信您是不会多拿的，对吧？",
+        "zh_v2_span": "我相信您是不会多拿的，对吧？",
+        "description": "漏译了'vessel you're owed'部分，原文明确指定只拿应得的容器，翻译泛化为'不会多拿'，缺失了具体物品信息。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "I’ll trust you to collect only the vessel you’re owed.",
+        "zh_v1_span": "我相信您是不会多拿的，对吧？",
+        "zh_v2_span": "我相信您是不会多拿的，对吧？",
+        "description": "添加了原文没有的反问'对吧？'，将肯定陈述变为疑问，改变了角色的信任语气，可能引入不必要的互动。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_NECTAR_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但存在漏译和语气偏差。漏译了'Poor sods'这一表达情感的关键词，且对'few'的数量感翻译不准确，使语气有所改变。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Poor sods, left to wander.",
+        "zh_v1_span": "剩下的都被纺络的诅咒害成游魂了。",
+        "zh_v2_span": "",
+        "description": "原文中的'Poor sods'（可怜的家伙们）被完全省略，导致情感色彩丢失，削弱了对受害者的同情表达。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "S’only those few stronger pilgrims",
+        "zh_v1_span": "如今能来到我这儿的，大多是足够强大的朝圣者",
+        "zh_v2_span": "",
+        "description": "原文'few'强调少数幸存者，但翻译成'大多是'暗示了多数，改变了数量感和原文的稀缺性。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "or something else entirely...?",
+        "zh_v1_span": "还是别的什么鬼东西在作祟……？",
+        "zh_v2_span": "",
+        "description": "原文'something else entirely'是中性、探索性的表达，翻译添加了'鬼东西'，带有负面和灵异色彩，可能使语气变得更具偏见或恐惧感。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_RUMOUR_1"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于原文，保持了口语化叙事，但存在多译、不精确和漏译的细节问题，影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "heart of the path’n all",
+        "zh_v1_span": "被称为朝圣之路的“心脏”",
+        "zh_v2_span": "",
+        "description": "原文 'path’n all' 可能泛指道路或路径，中文添加了 '朝圣'，属于多译或意译，可能偏离原意，除非游戏设定中确指 '朝圣之路'。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "right smack in the middle of these midlands",
+        "zh_v1_span": "位于整个中部地区的腹地",
+        "zh_v2_span": "",
+        "description": "'right smack in the middle' 强调正中间或正中位置，中文 '腹地' 通常指内陆或深处，不够精确，可能导致位置描述模糊或错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "that can fairly claim to offer safety",
+        "zh_v1_span": "早没安全地界啦",
+        "zh_v2_span": "",
+        "description": "原文 'fairly claim' 表示 '合理声称' 或 '真正能提供安全'，中文省略了这个修饰，直接说 '没安全地界'，漏译了 'fairly claim' 的限定含义。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_RUMOUR_2"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于原文，口语化语气匹配，但存在少量准确性问题，如漏译传闻语气和多译具体肉类类型。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "its told...",
+        "zh_v1_span": "（省略）",
+        "zh_v2_span": "",
+        "description": "英文中 'its told' 可能意为 '据说'，表示这是传闻，但中文翻译省略了这个语气词，直接陈述事实，改变了原文的传闻性质。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "growing meat or some such",
+        "zh_v1_span": "搞正经蟑螂肉养殖的",
+        "zh_v2_span": "",
+        "description": "原文只说 'growing meat'（养殖肉类），未指定类型，但中文添加了 '蟑螂'，具体化了肉的种类，属于多译。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "the meat’s running feral and free",
+        "zh_v1_span": "养的蟑螂全都跑出来撒野",
+        "zh_v2_span": "",
+        "description": "原文 'the meat’s' 泛指肉类，但中文指定为 '蟑螂'，添加了原文没有的具体信息。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_RUMOUR_3"
+  },
+  {
+    "overall_comment": "第一版翻译整体语气自然，但漏译了关键信息，影响了原文的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "from those mangy crawbugs",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'from those mangy crawbugs' 描述了收集 Ragpelt 的来源，中文翻译完全漏掉了这部分，导致信息缺失。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_CANCOMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文'Buy a drink?'的含义，询问自然流畅，符合调酒师的日常口语风格。",
+    "issues": [],
+    "entry_name": "HH_BARTENDER_DRINK_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的询问和请求重新考虑的意思，但在表达感激的部分添加了恳求的意味，导致语气与原文的中性感激有所偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "but I’d sure appreciate it if you reconsider.",
+        "zh_v1_span": "但求您发发善心，再考虑考虑。",
+        "zh_v2_span": "",
+        "description": "原文是表达感激 ('appreciate')，没有恳求的意味，但中文翻译加入了 '求您发发善心'，这属于多译或臆译，使语气变得过于卑微，可能不符合角色原本的友好中性态度。"
+      }
+    ],
+    "entry_name": "HH_BARTENDER_QUEST_DECLINEPELTS"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义，风格自然流畅，结构标签使用正确，整体忠实于英文原文。",
+    "issues": [],
+    "entry_name": "HH_BARTENDER_NECTAR_PAID"
+  }
+]

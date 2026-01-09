@@ -1,0 +1,578 @@
+[
+  {
+    "overall_comment": "第一版翻译基本传达了原文的命令和意图，但存在两处准确性问题：一是漏译了 'great' 弱化了主人的尊贵形象；二是将 'ponder on flavours anew' 具体化为 '构思新菜式了'，添加了原文没有的菜肴概念，可能导致信息偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "My great master",
+        "zh_v1_span": "主人",
+        "zh_v2_span": "",
+        "description": "原文 'great master' 强调主人的尊贵地位，翻译为 '主人' 漏译了 'great'，削弱了语气和角色形象。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "ponder on flavours anew",
+        "zh_v1_span": "构思新菜式了",
+        "zh_v2_span": "",
+        "description": "原文是 '重新思考味道'，翻译为 '构思新菜式了'，将抽象的味道思考具体化为构思新菜肴，添加了原文没有的菜肴信息，可能偏离原意。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，风格庄严且与宗教主题相符，结构标签使用正确，整体质量良好。",
+    "issues": [],
+    "entry_name": "COG_STATUE_ALL_TALK_B"
+  },
+  {
+    "overall_comment": "第一版翻译在前两段准确传达了原文的宗教戒律风格，用词恰当且结构标签正确，但第三段存在明显漏译，导致部分关键信息缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Left unpunish... thin our pure chorus... eir seductive sin... pread like flame...",
+        "zh_v1_span": "若不惩戒……污秽将如野火蔓延……",
+        "zh_v2_span": "",
+        "description": "中文翻译漏译了英文中的'within our pure chorus'（在我们纯洁的合唱中）和'seductive'（诱人的），原文强调罪孽在纯洁群体中未经惩戒而传播，且罪孽具有诱惑性，翻译后这些细节丢失，含义不完整。"
+      }
+    ],
+    "entry_name": "LIBRARY_STATUE_SPEAK_1"
+  },
+  {
+    "overall_comment": "第一版翻译在模仿结巴风格（如“信、信物”对应“t-t-token”）和结构标签处理上基本正确，但存在一处可能的含义简化问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "a t-t-token of the sentinel’s order",
+        "zh_v1_span": "哨卫信、信物",
+        "zh_v2_span": "",
+        "description": "英文 'sentinel’s order' 被翻译为 '哨卫信物'，省略了 'order'（可能指指令、命令或特定组织）的直译，可能导致原文中潜在的设定或含义缺失。"
+      }
+    ],
+    "entry_name": "SONG_KNIGHT_OUTRO_2"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签使用上正确，但内容存在准确性错误，包括漏译关键句子、添加多余词语和省略主语，导致含义不完整，影响忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "She may see it.",
+        "zh_v1_span": "可以。",
+        "zh_v2_span": "",
+        "description": "省略了主语'She'，使得'可以'的指代不明确，可能造成歧义或信息不全。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "A perfect set.",
+        "zh_v1_span": "看这完美收藏。",
+        "zh_v2_span": "",
+        "description": "翻译中添加了原文没有的'看这'，属于多余信息，偏离原文简洁表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "This Vaultkeeper is rich with insights.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的句子'This Vaultkeeper is rich with insights.'在翻译中完全缺失，导致重要信息丢失。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_NO_RELICS_FULL"
+  },
+  {
+    "overall_comment": "第一版翻译省略了英文原文开头的感叹和提问部分，以及描述肉被绑紧的细节，导致内容不完整，忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Aaaahh. What’s this? The rasher of a courier, tied up tight!",
+        "zh_v1_span": "送货虫的熏肉！",
+        "zh_v2_span": "",
+        "description": "原文中的 'Aaaahh. What’s this?' 和 'tied up tight!' 被完全遗漏，未在翻译中体现，丢失了角色的兴奋语气和肉被绑紧的描述。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_ITEM_GIVE_MEAT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但添加了原文未提及的'德鲁伊的'，并漏译了一个'Good'，导致信息不完整和风格轻微失真。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "This stew, of Mossberries stirred thick.",
+        "zh_v1_span": "德鲁伊的苔莓浓汤，够稠",
+        "zh_v2_span": "",
+        "description": "原文未提及'德鲁伊'，翻译中额外添加了此信息，属于多译或臆译。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Good. Good!",
+        "zh_v1_span": "够味！",
+        "zh_v2_span": "",
+        "description": "原文使用两个'Good'以强调满意或兴奋，翻译中只用一个'够味！'对应，漏译了一个'Good'，信息缺失。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_ITEM_GIVE_STEW"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文的对话基调和情绪，但在描述罪过的严重性和影响范围时存在关键信息遗漏，导致准确性稍欠。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A grave transgression, the cause of much pain for many.",
+        "zh_v1_span": "我犯的错带来了许多伤痛。",
+        "zh_v2_span": "",
+        "description": "翻译省略了原文中 'grave'（严重）和 'for many'（为许多人）的关键修饰信息，只概括为 '带来了许多伤痛'，未能充分表达罪过的严重程度及其影响的广泛性。"
+      }
+    ],
+    "entry_name": "SLAB_PRISONER_REMEET"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，询问是否交出物品，风格符合提示语语境，无结构标签问题。",
+    "issues": [],
+    "entry_name": "LIBRARIAN_RELIC_ASK_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口吃效果模仿得当，基本忠实于原文风格，但存在明显漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Is this truly failure, gilded one?",
+        "zh_v1_span": "真有失职吗？",
+        "zh_v2_span": "",
+        "description": "漏译了称呼 'gilded one'，这是一个可能的专有名词或角色称号，影响上下文理解和角色辨识。"
+      }
+    ],
+    "entry_name": "SONG_KNIGHT_OUTRO_1"
+  },
+  {
+    "overall_comment": "第一版翻译存在明显漏译，省略了原文中关于腌淤秽蛆的描述和卢戈利被放逐的具体原因，同时将中性称呼 'the great chef' 译为贬义词汇，改变了原文语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the sacred treat revered and reviled for its intensity. It was a specialty of the chef Lugoli, long ago banished for culinary sacrilege.",
+        "zh_v1_span": "那是被放逐的卢戈利大厨的招牌菜。",
+        "zh_v2_span": "",
+        "description": "漏译了 'the sacred treat revered and reviled for its intensity'（因强度被尊崇和厌恶的神圣款待）以及 'long ago banished for culinary sacrilege'（很久以前因烹饪亵渎被放逐），导致原文信息缺失。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "the great chef",
+        "zh_v1_span": "那混蛋",
+        "zh_v2_span": "",
+        "description": "原文 'the great chef' 是中性或略带尊重的称呼，翻译为 '那混蛋' 带有贬义和敌意，显著改变了语气和角色形象。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_ROACHEGG"
+  },
+  {
+    "overall_comment": "第一版翻译整体简化过度，多处漏译和错译，导致原文信息缺失、语气变化，且专有名词未妥善处理，忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "With this I have fulfilled my promise, sir. The ingredients have all been delivered. I trust now the meal can be made, and the oil awarded for my efforts?",
+        "zh_v1_span": "现在食材已备齐，该给我油了吧？",
+        "zh_v2_span": "",
+        "description": "原文包含履行承诺、食材交付、信任餐食可制作并请求奖赏油等细节，翻译仅简化为食材备齐和要油，漏掉关键信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "enough to rouse my master and see them sated.",
+        "zh_v1_span": "才能唤醒主人。",
+        "zh_v2_span": "",
+        "description": "原文‘rouse my master and see them sated’表示唤醒主人并让他们满足，翻译只提到唤醒，漏掉了满足的部分。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Permit me to work my skill",
+        "zh_v1_span": "在这好好看着！",
+        "zh_v2_span": "",
+        "description": "原文是请求允许施展厨艺技能，翻译误译为命令对方观看，语义错误。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Pharloom",
+        "zh_v1_span": "飘香万里",
+        "zh_v2_span": "",
+        "description": "‘Pharloom’可能为专有名词（如地名），翻译中未保留或音译，而是用‘飘香万里’替代，导致设定信息丢失。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "sir",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文使用‘sir’表示尊敬或正式语气，翻译中省略，使角色对话的礼貌程度降低，语气失真。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_QUEST_COMPLETE_1"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语化风格符合角色语气，但存在两处明显的漏译，导致原文细节和情感色彩丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "My master must be shielded from such inconveniences, else their digestion be disrupted.",
+        "zh_v1_span": "惊扰主人的消化谁担待得起！",
+        "zh_v2_span": "",
+        "description": "漏译了原文中‘必须保护主人免受这些不便’的表述，中文直接跳到消化被打乱的后果，缺失了对具体不便的描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "these recent, wretched times!",
+        "zh_v1_span": "现在",
+        "zh_v2_span": "",
+        "description": "原文中的‘wretched’（悲惨的）一词未翻译，中文只用了‘现在’，失去了对时代负面评价的情感色彩。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文大意，但存在多处准确性问题：漏译了'Keeps it.'和'coveted'等关键词，并添加了原文没有的时间修饰和副词，可能削弱了角色的紧迫感和文本的精确度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Keeps it.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中单独的短句'Keeps it.'被漏译，丢失了对话的节奏和对'保持'的强调。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "coveted",
+        "zh_v1_span": "揣在披风里",
+        "zh_v2_span": "",
+        "description": "形容词'coveted'（渴望的）未翻译，未能传达物品被珍视或渴望的含义。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "This one searched for it.",
+        "zh_v1_span": "本管理员找了好久。",
+        "zh_v2_span": "",
+        "description": "原文没有指定搜索时间，中文添加了'好久'（long time），可能引入了不准确的时间信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Give it to us!",
+        "zh_v1_span": "立刻交出来！",
+        "zh_v2_span": "",
+        "description": "原文'to us'（给我们）被漏译，导致命令对象不明确，缺失了'给我们'的指向。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Give it to us!",
+        "zh_v1_span": "立刻交出来！",
+        "zh_v2_span": "",
+        "description": "原文没有'immediately'（立刻）一词，中文添加后改变了命令的紧迫程度，可能失真。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_FIRST_RELIC_ASK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体上传达了原文的核心意思，但存在明显的漏译和意译不准确问题，特别是在细节表达和角色称呼上，影响了文本的完整性和语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "held in mind to carry beyond our walls",
+        "zh_v1_span": "带出圣堡吧",
+        "zh_v2_span": "",
+        "description": "漏译了 'held in mind'（铭记在心），原文强调需要将旋律记在心中并带出，翻译只提及带出行动，丢失了心理层面的描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "It was, Vaultkeeper.",
+        "zh_v1_span": "值得，",
+        "zh_v2_span": "",
+        "description": "漏译了角色称呼 'Vaultkeeper'（保管者），这影响对话中角色的身份识别和正式语气，可能导致玩家对角色关系理解模糊。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Was the learning worth its thieving?",
+        "zh_v1_span": "这番追寻值得吗？",
+        "zh_v2_span": "",
+        "description": "原文中 'learning'（学习）和 'thieving'（偷窃）的特定比喻被泛化为 '追寻'，改变了原意的微妙之处，可能丢失与游戏设定或角色动机的关联。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "And know to me your service continues.",
+        "zh_v1_span": "而你将继续为我效命。",
+        "zh_v2_span": "",
+        "description": "简化了 'know to me'（要知道，对我来说），直接翻译为效命，丢失了原文中强调个人认知或命令语气的部分，可能影响角色权威感。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_MELODY_PLAY_POST"
+  },
+  {
+    "overall_comment": "第一版翻译在整体风格和流畅度上表现良好，符合游戏文本的神秘史诗感，但存在一处关键错译，影响了原文含义的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Dear... grim...",
+        "zh_v1_span": "亲爱的……朝圣者……",
+        "zh_v2_span": "",
+        "description": "英文 'grim' 意为“严峻的”或“阴森的”，是一个形容词，但第一版翻译错误地译为名词“朝圣者”，改变了原文的描述性含义，可能导致玩家误解。"
+      }
+    ],
+    "entry_name": "LIBRARY_STATUE_SPEAK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在第二段较准确，但第一段漏译了关键烹饪语境和请求语气，影响角色表达的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "For a sweet simmer, find me some Vintage Nectar. A rare brew, treasured by bugs with a keen scent for excellence.",
+        "zh_v1_span": "甜味得用陈年蜜露，嗅觉敏锐的老饕才懂欣赏。",
+        "zh_v2_span": "",
+        "description": "原文中的 'simmer'（炖煮）和 'find me'（帮我找）未被翻译，导致烹饪语境缺失和请求语气减弱；同时 'A rare brew,'（一种稀有的酿造）也未明确翻译，丢失了强调稀有性的信息。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_NECTAR"
+  },
+  {
+    "overall_comment": "第一版翻译在整体风格和结构上基本忠实于原文，保留了断断续续的语调和庄严感，但存在个别准确性问题和信息遗漏。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "arloom commands...",
+        "zh_v1_span": "纺络……命你……",
+        "zh_v2_span": "纺络……命你……",
+        "description": "英文'arloom commands'可能是一个特定短语或专有名词，翻译为'纺络'缺乏依据，导致语义模糊或错误，建议根据上下文或游戏设定核实。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "our stark Citadel of stone...",
+        "zh_v1_span": "圣堡",
+        "zh_v2_span": "圣堡",
+        "description": "原文'stark Citadel of stone'（严峻的石头城堡）包含描述性修饰，翻译简化为'圣堡'，遗漏了'stark'（严峻）和'of stone'（石头）的关键细节，可能削弱文本的意象和氛围。"
+      }
+    ],
+    "entry_name": "LIBRARY_STATUE_WAKEUP"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上保持一致，但内容上存在多处漏译和添加，导致含义不忠实于原文，简化了英文的生动描述并丢失关键信息。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I saw many a courier gorge upon this fatty snack.",
+        "zh_v1_span": "往日时常能在这看见他们",
+        "zh_v2_span": "",
+        "description": "漏译了'gorge upon this fatty snack'部分，原文明确描述送货虫贪婪地吃这个肥美零食，中文只提到看见他们，缺失了行为细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Have they abandoned their holy toil?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "完全漏译了这句疑问，原文问'他们是否放弃了神圣的辛劳？'，中文中没有对应，导致情绪和主题缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "The rasher of a courier, those spritely bugs who once arrived at the toll of every second bell.",
+        "zh_v1_span": "主菜要送货虫的熏肉，那群按点报时的家伙最爱吃。",
+        "zh_v2_span": "",
+        "description": "中文中添加了'最爱吃'，英文原文中没有提到送货虫爱吃这个肉，只是描述他们曾经按时到达，属于臆译添加信息。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_COURIERMEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅且风格生动，但存在准确性缺陷：漏译了‘为安全担心’的具体信息，并且第二部分错译了原比喻，导致忠诚陪伴的含义偏移为主动保护。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "makes me fearful for their safety",
+        "zh_v1_span": "太吓人了",
+        "zh_v2_span": "",
+        "description": "原文明确表达了‘为他们的安全担心’，但中文翻译仅说‘太吓人了’，漏掉了对安全担忧的特定描述，可能弱化角色关切。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I will stay by their side until my old shell crumbles away.",
+        "zh_v1_span": "我就算拼了命也会保护主人！",
+        "zh_v2_span": "",
+        "description": "原文意思是‘留在他们身边直到我的旧壳碎裂’，强调忠诚陪伴直到自我消亡（可能指角色设定中的壳比喻）；中文翻译变为‘拼了命也会保护主人’，虽然传达了保护意图，但失去了原比喻（shell）并可能将被动陪伴转为主动保护，导致含义偏移。"
+      }
+    ],
+    "entry_name": "GOURMAND_SERVANT_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于原文，保持了可爱的儿童说话风格，核心意思传达准确，但在细节上有轻微漏译和多译问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Eggy, eggy, hee hee!",
+        "zh_v1_span": "蛋蛋，生蛋蛋！",
+        "zh_v2_span": "",
+        "description": "原文第一句包含笑声 'hee hee'，但翻译中缺失，漏译了第一处的笑声。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Eggy, eggy",
+        "zh_v1_span": "蛋蛋，生蛋蛋",
+        "zh_v2_span": "",
+        "description": "原文 'Eggy, eggy' 仅指蛋，翻译加上了 '生蛋蛋'，增加了动作 '生'，属于多译。"
+      }
+    ],
+    "entry_name": "BROOD_MOTHER_TINY_TALK"
+  },
+  {
+    "overall_comment": "第一版翻译在处理口吃和结构标签上基本正确，但存在信息遗漏和语义偏差，影响了对角色关系和语气的准确传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "<hpage>I had thought I was answering your summons as a friend, or at least an ally, but now that we stand together in this place I can sense your intent.",
+        "zh_v1_span": "<hpage>原以为响应的是友军召唤，但此刻感知到你的意图。",
+        "zh_v2_span": "",
+        "description": "漏译了'as a friend, or at least an ally'（作为朋友，或至少盟友）和'stand together in this place'（在此地并肩而立），导致角色关系背景和场景信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I think you are more perceptive than that.",
+        "zh_v1_span": "恐怕你错了",
+        "zh_v2_span": "",
+        "description": "英文原意是'我认为你比那更敏锐'，表达对方可能更聪明或理解更深；中文翻译为'恐怕你错了'，直接否定对方，改变了语义和推测语气，可能影响角色互动。"
+      }
+    ],
+    "entry_name": "SONG_KNIGHT_INTRO_2"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地表达了锁具的华丽和带有锁孔，但漏译了'at its centre'，导致位置信息缺失，不完全忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "with a keyhole at its centre",
+        "zh_v1_span": "带有锁孔的华丽锁具",
+        "zh_v2_span": "",
+        "description": "英文原文明确锁孔位于中心（'at its centre'），但中文翻译仅说'带有锁孔'，漏译了位置细节，信息不完整。"
+      }
+    ],
+    "entry_name": "WARD_PIT_KEYHOLE_INSPECT"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本忠实于英文原文，准确传达了激动语气和核心含义，如'陈年蜜露'对应'The nectar'，'全都得给主人留着'对应'My master must have every drop'，整体风格自然。尽管'What an exquisite tragedy'译为'没福品尝'稍简化了文学性表达，但无重大错误。",
+    "issues": [],
+    "entry_name": "GOURMAND_SERVANT_ITEM_GIVE_NECTAR"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体流畅，风格与原文基本匹配，角色语气一致，但存在一处关键信息漏译，影响语义完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have passed the relic, Vaultkeeper. Now uphold your promise and aid me with your insight.",
+        "zh_v1_span": "遗物给你了，管理员。该兑现承诺了。",
+        "zh_v2_span": "",
+        "description": "漏译了 'aid me with your insight'（用你的洞察力帮助我），导致原文中请求帮助的部分缺失，影响对话逻辑。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_FIRST_RELIC_GOT"
+  },
+  {
+    "overall_comment": "第一版翻译整体上传达了原文的核心意思和戏剧性风格，结构标签正确无误。但存在两处漏译，导致原文的细节描述和情感色彩有所损失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "you who timidly step upon the Great Stage",
+        "zh_v1_span": "既踏上伟大舞台",
+        "zh_v2_span": "",
+        "description": "漏译了 'timidly'（胆怯地），原文描述了角色胆怯地踏上舞台，中文省略了这个修饰词，使得角色状态的细节缺失，影响语气表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "this once great land",
+        "zh_v1_span": "这片土地",
+        "zh_v2_span": "",
+        "description": "漏译了 'once great'（曾经伟大的），原文强调土地曾经的辉煌，中文只译为'这片土地'，丢失了历史维度的描述，削弱了文本的怀旧与激励感。"
+      }
+    ],
+    "entry_name": "TROBBIO_BOSS_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，但存在术语不准确和细节漏译问题，影响了原文的情绪表达和角色刻画。",
+    "issues": [
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "Vaultkeeper",
+        "zh_v1_span": "管理员",
+        "zh_v2_span": "",
+        "description": "“Vaultkeeper”应翻译为更符合游戏设定的术语，如“书库守护者”，当前译法“管理员”可能不够精确，削弱了角色身份。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "jealously, covetously...",
+        "zh_v1_span": "知晓",
+        "zh_v2_span": "",
+        "description": "原文中描述主教持有旋律时的嫉妒和贪婪情绪（“jealously, covetously”）被省略，仅翻译为“知晓”，导致角色情感色彩缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "A learning for the highest Vaultkeeper, and them alone.",
+        "zh_v1_span": "最高机密，独享的学识……",
+        "zh_v2_span": "",
+        "description": "原文意为“专为最高管理员（Vaultkeeper）提供的学识，且仅限他们”，翻译成“最高机密”模糊了对象，可能造成歧义。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_QUEST"
+  },
+  {
+    "overall_comment": "第一版翻译在准确性上存在多个问题，包括关键词语的错译和部分信息的漏译，导致整体含义与原文不符。术语选择也可能不精确，影响角色设定。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "A fair gift",
+        "zh_v1_span": "公平交易",
+        "zh_v2_span": "",
+        "description": "'fair gift' 意为'公平的礼物'，但翻译为'公平交易'，错误地将礼物概念变为交易，语义错译。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "glean",
+        "zh_v1_span": "解析",
+        "zh_v2_span": "",
+        "description": "'glean' 意为收集或搜集（尤指信息），但翻译为'解析'（analyze），动词含义不匹配，导致动作描述错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "what knowledge a great mind can",
+        "zh_v1_span": "其中奥义",
+        "zh_v2_span": "",
+        "description": "原文中'what knowledge a great mind can' 表达了'一个伟大头脑所能收集的知识'，但翻译简化为'其中奥义'，漏译了'a great mind'的指代和原句结构。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "Vaultkeeper",
+        "zh_v1_span": "管理员",
+        "zh_v2_span": "",
+        "description": "'Vaultkeeper' 可能是一个特定角色或职位（如宝库守护者），翻译为'管理员'可能不够精确，不符合游戏术语设定。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_RELIC_GOT"
+  },
+  {
+    "overall_comment": "第一版翻译在第二句基本忠实，但第一句添加了原文没有的'圣域'概念，导致含义不准确，整体风格偏向诗意但可能偏离原意。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "As it was sung, our song sustains.",
+        "zh_v1_span": "歌咏不息，圣域不堕。",
+        "zh_v2_span": "",
+        "description": "原文意为'正如它被歌唱，我们的歌曲维持着'，但中文翻译添加了'圣域不堕'这一原文没有的信息，可能引入额外含义或造成误解。"
+      }
+    ],
+    "entry_name": "COG_STATUE_CONDUCTOR_TALK_B"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的急切语气，但省略了部分细节并添加了额外内容，影响了准确性和语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "More treasures waiting on a Keeper’s insight, yes?",
+        "zh_v1_span": "更多需要解读的圣物？",
+        "zh_v2_span": "",
+        "description": "原文中的 'yes?' 和 'Keeper’s insight' 被省略，丢失了对话的语气和特定术语 'Keeper'。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Now! She must!",
+        "zh_v1_span": "必须立刻交出来！",
+        "zh_v2_span": "",
+        "description": "原文是简单的 'Now! She must!'，翻译中添加了 '立刻'，改变了原文的直接命令语气。"
+      }
+    ],
+    "entry_name": "LIBRARIAN_RELIC_ASK"
+  }
+]

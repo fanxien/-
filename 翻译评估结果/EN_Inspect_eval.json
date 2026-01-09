@@ -1,0 +1,308 @@
+[
+  {
+    "overall_comment": "第一版翻译在结构和字面上基本对应英文，但关键术语 'bellhome' 的翻译 '钟居' 可能不够准确，需结合上下文核实其含义。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "bellhome",
+        "zh_v1_span": "钟居",
+        "zh_v2_span": "钟居",
+        "description": "英文 'bellhome' 可能指特定地点或术语（如与 BELLTOWN 相关），翻译为 '钟居' 过于直译，可能未准确传达其含义，建议根据名称 BELLTOWN_HOUSE_LOCKED 调整译法以确保准确性。"
+      }
+    ],
+    "entry_name": "BELLTOWN_HOUSE_LOCKED"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文'Construct tool?'的含义，疑问句风格匹配，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "WISP_BOMB_PROMPT"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和诗意风格，表达流畅自然，符合游戏本地化的要求。",
+    "issues": [],
+    "entry_name": "CLOVER_LAKE_PLINTH"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签和大部分内容上忠实于原文，风格庄严匹配，但单复数处理存在偏差，可能影响原意的精确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Bug born of Pharloom. You have been chosen.",
+        "zh_v1_span": "纺络的虫民，你们已被选中，",
+        "zh_v2_span": "",
+        "description": "英文使用单数 'Bug' 和 'You'，可能指一个虫民被选中，但中文翻译为复数 '虫民' 和 '你们'，改变了数量关系，可能导致含义不准确。"
+      }
+    ],
+    "entry_name": "JUDGE_NURSERY"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，'描绘虚空化形的符文卷轴' 简洁地表达了 'A rune-scroll depicting void given form.'，风格符合游戏物品描述。没有结构标签问题。",
+    "issues": [],
+    "entry_name": "WEAVE_DARK"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文，保持了诗歌的韵律和风格，但在细节上用词略有添加，如将中性描述的 'these waters' 译为带有纯洁含义的 '净水'。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "watch these waters flow",
+        "zh_v1_span": "观此净水长流",
+        "zh_v2_span": "",
+        "description": "原文 'these waters' 为中性描述，未指定水的纯净度，但翻译中添加了 '净' 字，可能改变了原意或加入了额外信息。"
+      }
+    ],
+    "entry_name": "WEAVE_WHITE_LAKE"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和结构上基本忠实于英文原文，指令内容准确传达，术语如“烟岩”和“甜熔渣”保持一致，结构标签正确对应。翻译流畅自然，符合游戏笔记的正式风格。",
+    "issues": [],
+    "entry_name": "DOCKS_NOTE_1"
+  },
+  {
+    "overall_comment": "第一版翻译“高庭地图”准确忠实于英文原文“High Halls Map”，含义清晰，风格中性，且与第二版翻译完全一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "HANG_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译'翠庭地图'准确对应英文原文'Verdania Map'，专有名词'Verdania'译为'翠庭'符合术语一致性，整体翻译忠实、流畅，无结构或内容问题。",
+    "issues": [],
+    "entry_name": "CLOVER_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译'圣堡工厂地图'直接对应英文'Underworks Map'，'地图'部分准确，但'Underworks'作为可能专有名词的译法'圣堡工厂'略显意译，需确认游戏内术语一致性；第二版翻译相同，暗示该译法可能已被接受。",
+    "issues": [],
+    "entry_name": "UNDERSTORE_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译在诗意风格上基本忠实，但漏译了'our'，使得圣坛的归属感缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "our sacred shrine",
+        "zh_v1_span": "圣坛",
+        "zh_v2_span": "",
+        "description": "原文中的'our sacred shrine'包含'our'（我们的），强调圣坛的归属或集体性，但中文翻译'圣坛'省略了'our'，导致信息不完整。"
+      }
+    ],
+    "entry_name": "CLOVER_LAKE_PLAQUE"
+  },
+  {
+    "overall_comment": "第一版翻译在核心含义和诗体节奏上基本忠实于原文，且结构标签使用正确。主要问题在于将原文复数第一人称的集体呐喊“We”多处译为单数的“我”，削弱了群体宣言的力度，并存在时态处理上的一些偏差。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "No more! We say! No more! We cry!",
+        "zh_v1_span": "到此为止！我在此宣言！到此为止！我在此高呼！",
+        "zh_v2_span": "",
+        "description": "原文是复数第一人称的集体呐喊‘We’，译为单数‘我’改变了语气的性质，削弱了‘受诅咒的我们’这一群体共同发声的力量感，与上文‘万众’、‘我们’的集体形象不一致。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Fair Pharloom’s fall has come at last.",
+        "zh_v1_span": "荣光纺络终将陨落，",
+        "zh_v2_span": "",
+        "description": "‘has come at last’意为‘终于到来’，强调事件已经发生或正在发生。‘终将陨落’则表示‘终究将要陨落’，是将来时，未能准确传达原文的完成/进行时态和‘最终时刻已至’的紧迫感。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Its end we now accept.",
+        "zh_v1_span": "我们应接受终局。",
+        "zh_v2_span": "",
+        "description": "‘we now accept’是直陈语气，意为‘我们现在接受’。译文中加入‘应’字，变成了‘应该接受’，添加了建议或义务的语气，偏离了原文陈述既定事实或决断的语气。"
+      }
+    ],
+    "entry_name": "LIBRARY_THEATRE_LINES_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，诗化风格合适，但在第三句漏译了 'dregs'，破坏了原文的重复结构和核心意象。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "May we spool the dregs and never falter.",
+        "zh_v1_span": "愿我们纺线不怠。",
+        "zh_v2_span": "",
+        "description": "原文中的 'spool the dregs' 被翻译为 '纺线'，漏译了 'dregs'（渣滓），导致信息缺失和与前面 '滤渣'、'清秽' 的术语不一致。"
+      }
+    ],
+    "entry_name": "GREY_LORE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和大部分内容上忠实于原文，但第二行存在明显的语义错译，将‘none’误译为‘虫’，导致意思扭曲，整体誓言风格保持得较好。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "While song must be sung, none may falter.",
+        "zh_v1_span": "歌不可辍，虫不可怠。",
+        "zh_v2_span": "",
+        "description": "英文‘none may falter’意为‘无人可懈怠’，但中文翻译为‘虫不可怠’，‘虫’字错误（可能为打字错误），应为‘人’、‘众’或类似词语，导致语义完全偏离。"
+      }
+    ],
+    "entry_name": "WARD_OATH"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和结构上基本准确，风格匹配原文的正式语气，但存在术语不一致的问题。",
+    "issues": [
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "Penitent, Fourth of the Fourth. and Penitent, Twelfth of the First.",
+        "zh_v1_span": "罪者，第四组第四号。 and 罪人，第一组第十二号。",
+        "zh_v2_span": "",
+        "description": "英文原文中两个部分的 'Penitent' 均指同一概念，但中文翻译第一部分使用 '罪者'，第二部分使用 '罪人'，造成术语不一致。建议统一为同一个词汇以确保一致性。"
+      }
+    ],
+    "entry_name": "SLAB_ORDERS_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和正式风格，结构标签使用正确，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "SLAB_ORDERS_1"
+  },
+  {
+    "overall_comment": "第一版翻译在句子结构和流畅度上没有问题，但关键术语处理不当，将游戏中的专有生物名‘Muckroach’翻译为普通名词‘蟑螂’，这可能导致设定混淆和世界观不一致。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Muckroach",
+        "zh_v1_span": "蟑螂",
+        "zh_v2_span": "",
+        "description": "原文‘Muckroach’是游戏中的专有生物名称，不应翻译为普通名词‘蟑螂’，这会导致术语不一致，影响游戏设定，建议保留或使用官方译名。"
+      }
+    ],
+    "entry_name": "DUSTROACH_GUTS_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上保持一致，但存在内容准确性问题：漏译了 'flat' 描述阿克尼的状态，并多译了 '祭' 字，可能偏离原文意思。整体风格类似原文的诗歌体，但细节需修正。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Twelve aknids flat, all juices strained.",
+        "zh_v1_span": "十二只阿克尼，榨尽汁液。",
+        "zh_v2_span": "十二只阿克尼，榨尽汁液。",
+        "description": "原文中的 'flat' 描述阿克尼的状态（如平躺或压扁）被漏译，中文只翻译了 'all juices strained'，缺失了关键信息。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Six pilgrims living",
+        "zh_v1_span": "六名活祭朝圣者",
+        "zh_v2_span": "六名活祭朝圣者",
+        "description": "原文 'pilgrims living' 意为 '活着的朝圣者'，中文翻译添加了 '祭' 字，暗示牺牲，是原文没有的信息，可能造成误解。"
+      }
+    ],
+    "entry_name": "SHAMAN_STONE_CHAPEL"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文含义，但'white'译为'苍白'存在语义偏差，可能影响描述的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "white",
+        "zh_v1_span": "苍白",
+        "zh_v2_span": "",
+        "description": "英文'white'应译为'白色'，中文'苍白'通常指暗淡或病态的白色，与原文中性描述不符，导致语义错译。"
+      }
+    ],
+    "entry_name": "WARD_LIFT_KEYHOLE"
+  },
+  {
+    "overall_comment": "第一版翻译准确、流畅，忠实传达了原文的含义和风格，与第二版完全一致，没有明显问题。",
+    "issues": [],
+    "entry_name": "WEAVE_HARP_MAP"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '罪石地图' 准确翻译了英文原文 'Slab Map'，术语使用一致，风格符合物品名称的简洁描述性，没有结构标签错误。",
+    "issues": [],
+    "entry_name": "SLAB_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，风格匹配，没有发现明显的翻译错误或结构标签问题。",
+    "issues": [],
+    "entry_name": "LIBRARY_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和风格，结构标签正确，句子流畅且语气匹配。",
+    "issues": [],
+    "entry_name": "SWAMP_STOREROOM"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于英文原文，保持了简短的指令风格和结构标签的一致性，专有名词翻译合理。",
+    "issues": [],
+    "entry_name": "ARBORIUM_ORDERS"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，保持了庄严的纪念碑风格，结构标签使用正确，无漏译或错译。",
+    "issues": [],
+    "entry_name": "ARBORIUM_PLAQUE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和风格上基本忠实于原文，但存在关键信息遗漏的问题，导致含义不够完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "paths away from Pharloom",
+        "zh_v1_span": "离开纺络通路",
+        "zh_v2_span": "描绘离开纺络通路的符文",
+        "description": "原文中'paths'（路径）一词在翻译中被遗漏，中文'离开纺络通路'未体现'路径'的含义，使得描述不够精确。"
+      }
+    ],
+    "entry_name": "WEAVE_WILDS"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本传达了英文原文的含义和疑问语气，但在语法流畅度上略有不足，缺少必要的'的'字，使得表达不够自然。",
+    "issues": [
+      {
+        "type": "fluency.grammar",
+        "source_span": "Repair the Ruined Tool?",
+        "zh_v1_span": "修复损坏工具？",
+        "zh_v2_span": "",
+        "description": "中文翻译'修复损坏工具？'中，'损坏工具'缺少'的'，应改为'损坏的工具'以使语法结构更完整和自然，符合中文表达习惯。"
+      }
+    ],
+    "entry_name": "WEB_SHOT_WORKSHOP_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了'Grand Gate Map'的核心意思，但添加了'神圣'的色彩，可能不忠实于原文的准确含义。第二版相同，但问题依然存在。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Grand Gate",
+        "zh_v1_span": "巨扉圣门",
+        "zh_v2_span": "巨扉圣门",
+        "description": "原文'Grand Gate'没有'神圣'的含义，翻译添加了'圣'字，属于多译，可能偏离原意。"
+      }
+    ],
+    "entry_name": "SONGGATE_MAP_GET_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的公告信息，但在细节准确性上存在一些问题，如第一句的术语模糊和第二句的语气弱化，影响了原文的精确性和强调感。",
+    "issues": [
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "Due to unacceptably high injury and unsanctioned deaths",
+        "zh_v1_span": "鉴于伤亡过甚并且非授命死亡",
+        "zh_v2_span": "",
+        "description": "原文明确区分'不可接受的高伤害'和'未授权死亡'两个独立概念，但翻译中'伤亡'一词可能涵盖伤害和死亡，导致信息重叠或模糊了原意的区分。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "must never die",
+        "zh_v1_span": "需要活着的",
+        "zh_v2_span": "",
+        "description": "原文'必须永不死亡'强调了强制性和永恒性的语气，但翻译仅用'需要活着的'，漏译了'必须永不'这一关键部分，弱化了原文的庄严和命令感。"
+      }
+    ],
+    "entry_name": "TUBE_HUB_NOTICE"
+  },
+  {
+    "overall_comment": "第一版翻译'织巢地图'简洁地传达了核心概念，但可能遗漏了原文中的部分信息，导致名称不够完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Atla",
+        "zh_v1_span": "织巢地图",
+        "zh_v2_span": "",
+        "description": "原文中的'Atla'在翻译中未被体现，这可能是个重要术语或名称的一部分，漏译可能导致信息缺失或不准确。"
+      }
+    ],
+    "entry_name": "WEAVE_MAP_GET_MSG"
+  }
+]

@@ -1,0 +1,648 @@
+[
+  {
+    "overall_comment": "第一版翻译在风格和流畅度上表现良好，但存在漏译问题，导致原文中虫子们的完整情感状态未能准确传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pharloom’s bugs are wishing, waiting, sad and scared.",
+        "zh_v1_span": "纺络的虫子们又怕又急，都等着物资呢！",
+        "zh_v2_span": "",
+        "description": "原文明确描述了虫子们的四种状态：'wishing'（希望）、'waiting'（等待）、'sad'（悲伤）和 'scared'（害怕）。中文翻译只表达了 '怕'（害怕）和 '急'（着急），漏译了 '希望' 和 '悲伤' 这两个关键情感信息。"
+      }
+    ],
+    "entry_name": "COURIER_SHOP_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的惊讶语气和口语化风格，但在细节上存在一些准确性偏差，可能导致歧义。",
+    "issues": [
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "I smell something on you right now!",
+        "zh_v1_span": "你身上有味儿！",
+        "zh_v2_span": "",
+        "description": "原文 'I smell something on you' 意思是 '我闻到某物在你身上'，强调即时发现；翻译成 '你身上有味儿' 可能被误解为身体有气味，而不是携带物品，信息变得模糊，且漏译了 'right now' 的强调意味。"
+      }
+    ],
+    "entry_name": "RELIC_DEALER_RELICS_FIRST"
+  },
+  {
+    "overall_comment": "第一版翻译在语气上试图体现角色的兴奋感，但存在明显的错译和漏译，导致原意部分失真，例如将事实陈述误译为催促手术，并丢失了关键形容词。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Specimen, you have them!",
+        "zh_v1_span": "病患，该手术了！",
+        "zh_v2_span": "",
+        "description": "原文是事实陈述'标本（或病患），你拥有它们（棘刺）！'，但翻译成'病患，该手术了！'，将拥有棘刺的意思错误地转变为催促手术，语义错译。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "wriggling torment",
+        "zh_v1_span": "痛苦",
+        "zh_v2_span": "",
+        "description": "原文'wriggling torment'（蠕动的折磨）被简化为'痛苦'，丢失了'wriggling'的生动意象，属于信息漏译。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "show my genius clear",
+        "zh_v1_span": "见证本神医天才手段吧",
+        "zh_v2_span": "",
+        "description": "原文'show my genius clear'（清晰地展示我的天才）翻译为'见证本神医天才手段吧'，漏译了'clear'（清晰地）这一修饰词，影响语气强调。"
+      }
+    ],
+    "entry_name": "DOCTOR_CURSE_FIX_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格口语化，贴近原文语气，但在第二段中存在一处信息漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Perhaps you have something that could help me? A medicine?",
+        "zh_v1_span": "可有药能治？",
+        "zh_v2_span": "",
+        "description": "英文原文先泛问‘也许你有什么能帮我的？’，再具体问‘药？’；中文翻译直接简化为‘可有药能治？’，漏掉了泛问部分，导致信息缺失。"
+      }
+    ],
+    "entry_name": "SHOPKEEP_CURSED"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思并保留了结巴风格，但存在多处漏译和一处翻译不准确，导致细节缺失和语气偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your body is all twisting, creaking!",
+        "zh_v1_span": "您甲壳里在扭动！",
+        "zh_v2_span": "",
+        "description": "漏译了'creaking'（吱吱声），原文描述身体扭动并发出声音，翻译中缺失了这一感官细节，影响画面感。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "A parasite has lodged deep inside my shell. It has taken some strength of will to keep its thrashing at bay.",
+        "zh_v1_span": "是寄生体，暂时压制住了。",
+        "zh_v2_span": "",
+        "description": "漏译了'deep inside my shell'（深深嵌入甲壳内）和'some strength of will'（一些意志力），简化了原文对寄生体位置和压制难度的描述，丢失了深度和意志力的强调。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Very well, couriers.",
+        "zh_v1_span": "有道理，",
+        "zh_v2_span": "",
+        "description": "'Very well' 应翻译为'好吧'或'很好'，表示同意或接受，'有道理'更偏向逻辑认同，与原文中直接回应的语气不完全匹配，可能导致角色态度失真。"
+      }
+    ],
+    "entry_name": "COURIER_SHOP_CURSED_TALK_1"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，语气与原文匹配，结构标签正确，但在第二句中漏译了'stranger'一词，导致信息缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Slave? I am a traveller, stranger, not a slave.",
+        "zh_v1_span": "奴隶？我是旅者，不是奴隶。",
+        "zh_v2_span": "",
+        "description": "原文中的'stranger'（陌生人）在翻译中被漏掉，这使得角色自称的身份信息不完整，应译为'陌生人'或类似表述。"
+      }
+    ],
+    "entry_name": "BELLHERMIT_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译结构标签正确，整体流畅，但存在漏译和语义错译问题，特别是第二句的重复语气缺失和'知晓'被误译为'带上'，影响了原文的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Of course, dear resident! Of course!",
+        "zh_v1_span": "放心吧，亲爱的居民！",
+        "zh_v2_span": "",
+        "description": "英文中重复使用'Of course!'以强调语气，但中文只翻译了一次'放心吧'，漏译了第二个'Of course!'，导致语气弱化。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Know all our faith, and our wishes go with you.",
+        "zh_v1_span": "请带上我们全体的信念与祈愿前行吧。",
+        "zh_v2_span": "",
+        "description": "英文'Know all our faith'意为'请知晓我们全部的信念'，但翻译为'请带上我们全体的信念'，将'知晓'误译为'带上'，语义错误，改变了原意。"
+      }
+    ],
+    "entry_name": "GREETER_REPEAT2_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心信息，但存在漏译问题，且风格上未能完全保留原文的生动比喻和自信语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "and I’m a deft claw at stringing them tight!",
+        "zh_v1_span": "但我能将其编成项链！",
+        "zh_v2_span": "",
+        "description": "原文中 'I’m a deft claw at stringing them tight!' 表达了说话者手巧且能编得紧，但中文翻译省略了 'deft claw'（灵巧的手）和 'tight'（紧）的细节，导致信息缺失。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "I’m a deft claw at stringing them tight!",
+        "zh_v1_span": "但我能将其编成项链！",
+        "zh_v2_span": "",
+        "description": "原文使用 'deft claw' 作为比喻，增强了自信和生动的口语化语气，中文翻译直接陈述，显得较为平淡，未能完全传达原文的个性和趣味性。"
+      }
+    ],
+    "entry_name": "SHOP_ITEM_ROSARYSTRING_M_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文意思，但存在多处漏译和简化，如漏掉名字 'Tipp' 和关键词 'safe'，对 'miss saving' 和 'My faith goes all with you!' 的翻译可能不准确或弱化了原意，影响了对话的亲切感和语气。结构标签处理正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have taken your wish, Tipp.",
+        "zh_v1_span": "我接下了你的祈愿",
+        "zh_v2_span": "",
+        "description": "漏译了名字 'Tipp'，原文中是对说话对象的直接称呼，丢失后使对话失去亲切感。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "If I find your brother safe",
+        "zh_v1_span": "若找到皮尔",
+        "zh_v2_span": "",
+        "description": "漏译了 'safe'，原文强调找到兄弟并确保其安全，翻译后丢失了安全含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "miss saving",
+        "zh_v1_span": "救星小姐",
+        "zh_v2_span": "",
+        "description": "'miss saving' 可能被误译为 '救星小姐'，原意可能指 '小姐' 或特定称呼，翻译不准确导致风格偏差。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "My faith goes all with you!",
+        "zh_v1_span": "祝您好运！",
+        "zh_v2_span": "",
+        "description": "简化了原句，将 'faith'（信念、信任）的含义丢失，翻译为通用祝福，弱化了原文的语气和情感深度。"
+      }
+    ],
+    "entry_name": "COURIER_SHORT_QUEST_ACCEPTED"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保留了原文的神话色彩，但存在明显的漏译和多译问题，导致部分信息不准确或添加了原文没有的内容。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Bestow it upon this fine pinmaster",
+        "zh_v1_span": "取来此油",
+        "zh_v2_span": "",
+        "description": "漏译了 'Bestow it upon this fine pinmaster'，原文明确要求将油赐予这位优秀的针匠，但翻译只提到取油，缺失了赐予对象和针匠的修饰。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Keep your skills sharp.",
+        "zh_v1_span": "磨好利爪等候。",
+        "zh_v2_span": "",
+        "description": "多译了 '等候'，原文 'Keep your skills sharp.' 仅表示保持技能锋利，没有表达等待的意思，翻译添加了未有的信息。"
+      }
+    ],
+    "entry_name": "PINSMITH_QUEST_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体风格和语气上基本贴合原文，角色个性突出，但存在多处关键信息漏译，影响了对话的完整性和戏剧性表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Do you even know who I am? Why, ‘tis the great Yarnaby, genius physician, unfairly outcast, who now towers before you!",
+        "zh_v1_span": "知道我是谁吗？伟大的雅纳碧！遭庸才排挤的天才医师！",
+        "zh_v2_span": "",
+        "description": "漏译了 'who now towers before you!'（现在矗立在你面前！），该部分增强了角色的自豪感和现场感，是对话中的强调点。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "If you possess the skills and tools, I would see it removed.",
+        "zh_v1_span": "若您真有本事，请帮我去除。",
+        "zh_v2_span": "",
+        "description": "原文明确提到 'skills and tools'（技能和工具），中文只翻译了 '本事'，漏译了 'tools'（工具），忽略了角色对工具的需求。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "That changes matters, yes. Turns them on their head!",
+        "zh_v1_span": "这就另当别论了！",
+        "zh_v2_span": "",
+        "description": "漏译了 'Turns them on their head!'（彻底颠覆了局面！），该短语是语气强化，表达了情况的完全转变。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "The healing can be done, yes! But before that my mighty Extricator needs an upgrade!",
+        "zh_v1_span": "……但想撬开你这硬壳，得先升级机器！",
+        "zh_v2_span": "",
+        "description": "漏译了 'The healing can be done, yes!'（治疗是可以完成的，是的！），该句是角色对治疗可能性的肯定，是对话中的重要过渡。"
+      }
+    ],
+    "entry_name": "DOCTOR_CURSE_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文大意，但存在多处漏译和细节缺失，导致信息不完整，部分术语翻译可能不准确，影响了整体忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "spare shards",
+        "zh_v1_span": "碎片",
+        "zh_v2_span": "",
+        "description": "英文 'spare shards' 意为 '备用碎片'，中文翻译漏掉了 'spare'（备用），只译为 '碎片'，可能影响玩家对物品用途的理解。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Bellharters",
+        "zh_v1_span": "钟心镇的虫",
+        "zh_v2_span": "",
+        "description": "'Bellharters' 可能是一个专有名词（如种族或地名），中文翻译为 '钟心镇的虫'，需要确认是否与游戏设定中的术语一致，以避免世界观混淆。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "fine claw-work",
+        "zh_v1_span": "各种技艺",
+        "zh_v2_span": "",
+        "description": "英文 'fine claw-work' 特指 '精细的爪工'，中文泛化为 '各种技艺'，漏译了 'claw'（爪）的具体性和 'fine'（精细）的修饰，导致细节丢失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "modern pilgrims",
+        "zh_v1_span": "朝圣者",
+        "zh_v2_span": "",
+        "description": "英文 'modern pilgrims' 意为 '现代朝圣者'，中文翻译漏掉了 'modern'（现代），只译为 '朝圣者'，可能影响时间背景的传达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "excepting yourself I’m sure",
+        "zh_v1_span": "你除外",
+        "zh_v2_span": "",
+        "description": "英文 'excepting yourself I’m sure' 包含 '我确信' 的语气，中文翻译只译为 '你除外'，漏译了 'I’m sure'，减弱了说话者的确信态度。"
+      }
+    ],
+    "entry_name": "SHOP_ITEM_SHARD_POUCH"
+  },
+  {
+    "overall_comment": "第一版翻译总体上忠实于原文，保持了角色的轻蔑语气和基本含义，但在个别句子中添加了主观判断或简化了细节，导致准确性略有偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "To free them was no favour.",
+        "zh_v1_span": "蠢材才会解救他们！",
+        "zh_v2_span": "",
+        "description": "原文是中性陈述'解救他们不是恩惠'，翻译中添加了'蠢材'一词，引入了原文没有的贬低意味和主观判断。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "its service returned",
+        "zh_v1_span": "回复往常",
+        "zh_v2_span": "",
+        "description": "原文'its service returned'可能指镇子的服务或功能恢复，翻译简化为'回复往常'，遗漏了'service'的具体信息，导致细节缺失。"
+      }
+    ],
+    "entry_name": "BELLHERMIT_SAVED_3"
+  },
+  {
+    "overall_comment": "第一版翻译存在漏译和术语不准确的问题，将英文的三句话简化为两句，丢失了诗意描述，且术语'好货'未能忠实传达'relic'的具体含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Heavy with the past, you are.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了 'Heavy with the past, you are.'，原文描述角色充满过去气息，是重要诗意表达，中文翻译中完全缺失。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "You have a relic for me, don’t you?",
+        "zh_v1_span": "你肯定藏着好货！",
+        "zh_v2_span": "你肯定藏着好货！",
+        "description": "'relic' 被翻译为 '好货'，过于泛化且不够准确，可能游戏中是特定术语（如遗物或古董），翻译应更贴合原文含义。"
+      }
+    ],
+    "entry_name": "RELIC_DEALER_RELICS"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文核心意思，但存在多处信息遗漏和简化，削弱了原文的语气和细节精确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Wait! Yes.",
+        "zh_v1_span": "慢着！",
+        "zh_v2_span": "",
+        "description": "原文中的 'Yes' 被漏译，可能影响语气转折和肯定意味。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "some small store of that miraculous elixir may remain within its halls",
+        "zh_v1_span": "但没准还囤着点",
+        "zh_v2_span": "",
+        "description": "翻译过度简化，漏掉了 'miraculous elixir'（神奇灵药）的强调和 'within its halls'（在大厅内）的具体位置信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Were even a meagre drop pilfered, and gifted upon Plinney",
+        "zh_v1_span": "偷来几滴给我",
+        "zh_v2_span": "",
+        "description": "'meagre'（微小的）未被翻译；'upon Plinney' 翻译为 '给我'，虽然可能隐含，但失去了给特定对象（Plinney）的直接性。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Just know, dear friend,",
+        "zh_v1_span": "但丑话说前头，",
+        "zh_v2_span": "",
+        "description": "'dear friend'（亲爱的朋友）被省略，替换为习语 '丑话说前头'，导致亲密语气丢失，可能影响角色关系表达。"
+      }
+    ],
+    "entry_name": "PINSMITH_QUEST_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译基本流畅，但漏译了英文原文中关于携带更多工具和碎片的重要信息，且对“renowned”的翻译不够准确，弱化了原意。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "so you can carry more tools, and more shards to make’em.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文详细说明了添加口袋的目的：能携带更多工具和更多碎片来制作工具，但第一版翻译完全遗漏了这一关键信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "My sewing skills are quite renowned in these parts.",
+        "zh_v1_span": "附近就数我的手艺最好了。",
+        "zh_v2_span": "附近就数我的手艺最好了。",
+        "description": "原文“quite renowned”意为“相当著名”，强调技能在这一带的声誉；翻译成“最好了”侧重于“最好”而非“著名”，语义上存在偏差。"
+      }
+    ],
+    "entry_name": "SHOP_ITEM_TOOL_POUCH_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译在内容上有多处漏译和多译，结构标签不一致，且未能完全捕捉原文的口语化风格和角色特点，整体忠实性不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "<page=S>Miss saving! We are together, at last! My brother and myself, both returned to safety’s safe.",
+        "zh_v1_span": "<page=S>救星小姐！我们兄弟终于团圆啦！",
+        "zh_v2_span": "<page=S>救星小姐！我们兄弟终于团圆啦！",
+        "description": "漏译了 'both returned to safety’s safe.'，丢失了安全回归的关键信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "<hpage>I am pleased you have found one another. If you are planning to venture out again, I would urge you reconsider for the sake of your shells.",
+        "zh_v1_span": "<hpage>我很欣慰你们能重逢，但若再想外出送货，要小心。",
+        "zh_v2_span": "<hpage>我很欣慰你们能重逢，但若再想外出送货，要小心。",
+        "description": "'for the sake of your shells' 被简化为 '要小心'，漏译了 'shells' 的概念，且 'venture out' 被具体化为 '外出送货'，可能不准确。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "<page=S>We know it! Muchly-much! We cannot be leaving this home of bells. No more! Heres we will remain, for shells to survive.",
+        "zh_v1_span": "<page=S>知、知道啦！我们再也不离开钟心镇了。保命要紧。",
+        "zh_v2_span": "<page=S>知、知道啦！我们再也不离开钟心镇了。保命要紧。",
+        "description": "漏译了 'Muchly-much!' 和 'Heres we will remain,'，并简化了 'for shells to survive'，丢失了原文的口语化强调和细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "<page=T>Even you, miss saving! Yes-yes! Saving is done. Our wishes now we ask. Now is time for miss courier!",
+        "zh_v1_span": "<page=T>救星小姐也可以！您送完了货，换我们帮您实现愿望！",
+        "zh_v2_span": "<page=T>救星小姐也可以！您送完了货，换我们帮您实现愿望！",
+        "description": "漏译了 'Yes-yes! Saving is done.' 和 'Now is time for miss courier!'；'Our wishes now we ask.' 可能被错译，原文指他们请求愿望，而非帮玩家实现愿望。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "",
+        "zh_v1_span": "<page=S>每单顺、顺利送达，客户都会给念珠！快看待送清单！",
+        "zh_v2_span": "<page=S>每单顺、顺利送达，客户都会给念珠！快看待送清单！",
+        "description": "原文中没有这部分内容，是多译或添加的信息，与原文不符。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "整体标签序列：<page=S>, <hpage>, <page=S>, <page=T>, <page=T>",
+        "zh_v1_span": "整体标签序列：<page=S>, <hpage>, <page=S>, <page=T>, <page=T>, <page=S>",
+        "zh_v2_span": "",
+        "description": "结构标签不一致：zh_v1 多了一个 <page=S> 标签，导致标签顺序和数量与原文不符，可能影响显示。"
+      }
+    ],
+    "entry_name": "COURIER_SHOP_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和情感上基本忠实于原文，文学语气匹配，但存在一处内容添加，引入了原文没有的'壳'的概念。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "the many stabbing pins you’d face in its seeking.",
+        "zh_v1_span": "多少针刺等着扎穿您的壳呢。",
+        "zh_v2_span": "",
+        "description": "原文仅描述'你会面对的许多刺针'，翻译中添加了'扎穿您的壳'，'壳'是原文没有的信息，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "PINSMITH_QUEST_REOFFER"
+  },
+  {
+    "overall_comment": "第一版中文翻译漏译了原文中的称呼'resident'和具体对象'bell'，导致信息不完整和语境缺失，尽管语气和整体意思大致正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "We’ve made a good start on the painting, resident!",
+        "zh_v1_span": "刷漆进度不错！",
+        "zh_v2_span": "",
+        "description": "漏译了称呼'resident'，原文中是对居民说话，翻译中省略了，可能导致语境缺失和角色互动感减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "your bell’ll be shining like new.",
+        "zh_v1_span": "保准焕然一新！",
+        "zh_v2_span": "",
+        "description": "漏译了具体对象'bell'，原文中指定了'your bell'会焕然一新，翻译中泛化为整体焕然一新，失去了特定性，可能影响游戏机制或设定理解。"
+      }
+    ],
+    "entry_name": "SHOPKEEP_PAINT_POST"
+  },
+  {
+    "overall_comment": "第一版中文翻译在整体风格和语气上与原文基本一致，保持了轻蔑和讽刺的语调。但存在两处明显的漏译，影响了信息的完整性和角色语气的表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Will you not provide your aid, bug?",
+        "zh_v1_span": "不帮忙吗？",
+        "zh_v2_span": "不帮忙吗？",
+        "description": "原文中的侮辱性称呼 'bug' 被漏译，失去了角色对说话对象的蔑视语气和特定称谓。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "So much soul, found and formed.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文描述了灵魂被找到和形成的过程，翻译中完全省略了这部分，导致信息不全，削弱了后文‘浪费’的语境。"
+      }
+    ],
+    "entry_name": "BELLHERMIT_SNARE"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了“一个上锁的钟居”和“喊门”的询问含义，风格自然，结构标签使用正确。",
+    "issues": [],
+    "entry_name": "DOCTOR_DOOR_INSPECT"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体流畅，保持了原文的口语风格和情绪，但将专有名词 'Yarnaby' 泛译为 '神医'，可能导致角色身份模糊。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "The great Yarnaby",
+        "zh_v1_span": "本神医",
+        "zh_v2_span": "",
+        "description": "专有名词 'Yarnaby' 被错误翻译为 '神医'，丢失了原名称，可能影响角色识别或术语一致性。"
+      }
+    ],
+    "entry_name": "DOCTOR_LIFEBLOOD_STATE"
+  },
+  {
+    "overall_comment": "第一版翻译口语化风格尚可，但存在多处漏译和误译，导致原文信息不完整或失真，需要修正以忠实反映英文内容。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "What is it?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文的第四个问句 'What is it?' 被完全漏译，中文翻译只有三个问句，缺失了询问具体情况的含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Greetings, ma’am.",
+        "zh_v1_span": "女士",
+        "zh_v2_span": "",
+        "description": "漏译了问候语 'Greetings'，只翻译了 'ma'am' 为 '女士'，使得开场白不够完整和礼貌。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "rending of these lands",
+        "zh_v1_span": "外面的响动",
+        "zh_v2_span": "",
+        "description": "'rending of these lands' 意为 '这些土地的撕裂或动荡'，带有破坏性的意象，翻译为 '外面的响动' 过于简化和模糊，丢失了原意的严重性和具体性。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "them outside",
+        "zh_v1_span": "虫子",
+        "zh_v2_span": "",
+        "description": "原文 'them outside' 指 '外面的人'，中文添加了 '虫子' 这一贬义称呼，属于臆译，可能不符合角色原本的语气或设定。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "fine old stuff",
+        "zh_v1_span": "老物件",
+        "zh_v2_span": "",
+        "description": "漏译了 'fine'（精美的）一词，原文强调物品的精美和历史价值，中文只翻译为 '老物件'，削弱了物品的品质描述。"
+      }
+    ],
+    "entry_name": "RELIC_DEALER_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，整体流畅，但关键术语 'courier' 被错译为 '救星'，导致语义不准确，不符合角色身份。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "miss courier",
+        "zh_v1_span": "救星小姐",
+        "zh_v2_span": "救星小姐",
+        "description": "将 'miss courier' 错译为 '救星小姐'，原文意为 '快递小姐' 或 '信使小姐'，'救星' 表示救世主或英雄，与角色身份不符，属于语义错误。"
+      }
+    ],
+    "entry_name": "COURIER_SHOP_INPROGRESS_1"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了催促的急切感，但存在术语错误和内容遗漏。将‘miss courier’译为‘救星小姐’可能不准确，且原文中部分独特表达被简化省略。",
+    "issues": [
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "miss courier",
+        "zh_v1_span": "救星小姐",
+        "zh_v2_span": "",
+        "description": "原文‘miss courier’应指‘信使小姐’，翻译为‘救星小姐’可能错误，不符合角色身份或游戏术语约定。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "so nows you must away! A quick-quick bug, you must become yourself.",
+        "zh_v1_span": "赶紧动、动身吧！要快！",
+        "zh_v2_span": "",
+        "description": "原文中的‘so nows’（所以现在）和比喻句‘A quick-quick bug, you must become yourself.’（一个快快的虫子，你必须成为你自己）被完全省略，只概括了核心意思，导致信息缺失和风格失真。"
+      }
+    ],
+    "entry_name": "COURIER_SHOP_INPROGRESS_3"
+  },
+  {
+    "overall_comment": "第一版中文翻译在结构标签上保持一致，但在内容上有多处漏译，导致原文信息缺失，影响完整性和准确性。翻译风格模仿了原文的语气，但细节不够忠实。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Tipp, I have promised a wish to an old bug of the Citadel, ingredients for a dish to stir a gourmand’s stomach.",
+        "zh_v1_span": "蒂普，我答应了圣堡老虫做道大菜，需要送货虫的熏肉。",
+        "zh_v2_span": "",
+        "description": "漏译了 'a wish' 和 'to stir a gourmand’s stomach' 的含义，原意是承诺一个愿望并为一道刺激美食家胃口的菜准备食材，中文简化为做道大菜，信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Do you hold in your belongings a Courier’s Rasher? It seems a key element.",
+        "zh_v1_span": "你身上有存货吗？若有，我想讨要。",
+        "zh_v2_span": "",
+        "description": "完全漏译了 'It seems a key element.'，原意说明这是一个关键元素，中文没有提及，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Courier’s Rasher! Not me, miss savings! Smelly, fatty foods, good for most. Not good for my sensitive stomach!",
+        "zh_v1_span": "熏肉？我才不带！油腻腻的，我肠胃可受不了！",
+        "zh_v2_span": "",
+        "description": "漏译了 'miss savings' 以及 'Smelly' 和 'good for most' 的描述，只保留了部分内容，原文细节丢失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Can prepare them fresh for you, but first, Pill must be found, saved, safe-safe!",
+        "zh_v1_span": "但得先找到他，救、救回来！",
+        "zh_v2_span": "",
+        "description": "漏译了 'Can prepare them fresh for you' 和 'safe-safe'，原意是皮尔可以新鲜准备熏肉，并且强调要安全，中文只提到找到和救回来，信息不完整。"
+      }
+    ],
+    "entry_name": "COURIER_SHORT_GOURMAND_HINT"
+  },
+  {
+    "overall_comment": "第一版翻译在第一部分基本准确，语气匹配，但第二部分严重漏译了关键信息如'返回'、'请求的'和'从我壳中'，导致含义不忠实于原文，信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have returned with the spines requested.",
+        "zh_v1_span": "棘刺已准备好",
+        "zh_v2_span": "",
+        "description": "漏译了 'returned'（返回）和 'requested'（请求的），原文表示角色已经返回并带着要求的棘刺，翻译只提到棘刺准备好，缺失了动作和修饰信息，使句子含义不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "that you may remove this parasite from my shell.",
+        "zh_v1_span": "为我去除寄生体。",
+        "zh_v2_span": "",
+        "description": "漏译了 'from my shell'（从我壳中），原文明确指定了寄生虫的位置，翻译没有体现这一细节，可能导致信息模糊或丢失上下文。"
+      }
+    ],
+    "entry_name": "DOCTOR_CLOSED_QUEST_END"
+  },
+  {
+    "overall_comment": "第一版翻译 '要磨针吗？' 准确传达了英文原文 'Sharpen Needle?' 的含义和疑问语气，语义正确，表达流畅，没有明显问题。",
+    "issues": [],
+    "entry_name": "PINSMITH_UPGRADE_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，语气激昂，符合原文的感叹风格，但在准确性上存在添加内容和对关键词翻译不精确的问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Pharloom may ail, but across its morbid dim, your needle will shine bright.",
+        "zh_v1_span": "旅者，纵使纺络病入膏肓，您的针芒也将照亮死寂！",
+        "zh_v2_span": "",
+        "description": "原文中没有'旅者'这一称呼，翻译中额外添加了，属于多译或臆译。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "across its morbid dim",
+        "zh_v1_span": "照亮死寂",
+        "zh_v2_span": "",
+        "description": "'morbid dim' 意为'病态的昏暗'，翻译为'死寂'丢失了'昏暗'的核心含义，可能导致语义偏差。"
+      }
+    ],
+    "entry_name": "PINSMITH_UPGRADED_COMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的邀请和关怀语气，用词自然流畅，忠实于含义和风格，无明显错误。",
+    "issues": [],
+    "entry_name": "SHOP_ITEM_FURNISHING_SPA_DESC"
+  }
+]

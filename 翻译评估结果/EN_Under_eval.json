@@ -1,0 +1,497 @@
+[
+  {
+    "overall_comment": "第一版翻译在含义和结构上基本忠实于英文原文，结构标签一致。但在风格处理上，英文中用于体现角色说话特点的 stuttering（如'S-s-s-such'）在中文翻译中被简化，未能完全传达角色人设。",
+    "issues": [
+      {
+        "type": "style.character_voice",
+        "source_span": "S-s-s-such behaviour",
+        "zh_v1_span": "这种行为",
+        "zh_v2_span": "",
+        "description": "英文中使用 stuttering（S-s-s-such）来表现角色口吃或断续的说话风格，中文翻译简化为'这种行为'，丢失了风格元素，可能影响角色人设的传达。"
+      }
+    ],
+    "entry_name": "ARCHITECT_AFTER_SHRINE"
+  },
+  {
+    "overall_comment": "第一版翻译在核心含义上准确，'Speak' 和 'confession' 分别译为 '说' 和 '忏悔' 正确，但漏译了英文中的额外省略号序列，导致断断续续的语气和节奏有所减弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": " ... ",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文 'Speak... ... confession...' 中包含中间的省略号序列 ' ... '，表示更长的停顿或破碎感，但第一版中文翻译 '说……忏悔……' 漏译了这一部分，直接连接词语，使得原文的语气和节奏未能完全传达。"
+      }
+    ],
+    "entry_name": "CONFESSIONAL_START_BROKEN"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义上基本正确，但存在漏译和风格处理不当的问题，特别是口吃效果和角色特定用语的缺失，影响了原文语气和角色特点的还原。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I believe so, Master.",
+        "zh_v1_span": "应该是。",
+        "zh_v2_span": "",
+        "description": "原文中角色称呼对方为 'Master'，但翻译中缺失该词，导致漏译，可能影响对话的尊称语气和角色关系。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "f-f-first children",
+        "zh_v1_span": "初代织者子嗣",
+        "zh_v2_span": "",
+        "description": "原文 'f-f-first children' 有口吃效果，表示角色说话结巴，但翻译中 '初代织者子嗣' 没有体现口吃，丢失了角色的语音特点和情绪表达。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "desire-demand",
+        "zh_v1_span": "有要求",
+        "zh_v2_span": "",
+        "description": "原文 'desire-demand' 可能表示重复或强调，带有口吃或犹豫的语气，但翻译为 '有要求' 过于简化和平淡，没有保留原文的语气特点。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "my own mind-directives",
+        "zh_v1_span": "我的",
+        "zh_v2_span": "",
+        "description": "漏译了 'mind-directives'，原文中特指角色的思维指令或意图，翻译中仅用 '我的' 概括，丢失了具体含义和角色特质。"
+      }
+    ],
+    "entry_name": "ARCHITECT_WEAVER_SHOOT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思，但漏译了关键专有名词“Pharloom”，并且未完全复制原文的结巴效果，可能削弱角色声音的独特性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "An intricate implement of Pharloom’s first children.",
+        "zh_v1_span": "初代子嗣的精巧造物。",
+        "zh_v2_span": "",
+        "description": "原文明确提到“Pharloom's first children”，但中文翻译遗漏了“Pharloom”这个地名，导致信息不完整。"
+      },
+      {
+        "type": "style.character_voice",
+        "source_span": "the w-w-weapon",
+        "zh_v1_span": "此武具",
+        "zh_v2_span": "",
+        "description": "原文“w-w-weapon”通过字母重复表现说话结巴，体现角色特点；中文翻译“武具”未体现这种结巴效果，可能使角色声音失真。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_SILKSHOT"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上成功模仿了原文的结巴效果，但将复数人称'we'误译为单数'我'，可能导致集体含义的丢失。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "We shall create",
+        "zh_v1_span": "我将创造",
+        "zh_v2_span": "",
+        "description": "原文使用复数'we'，表示说话者是一个集体或团队，但翻译成单数'我'，改变了数的含义，可能影响上下文的一致性。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了‘Speak now. Thy confession will be heard.’的含义和宗教忏悔风格，结构一致，无显著问题。",
+    "issues": [],
+    "entry_name": "CONFESSIONAL_START"
+  },
+  {
+    "overall_comment": "第一版中文翻译在语义和风格上基本准确，符合原文的口语和非正式语气，但存在结构标签错误和额外添加内容的问题。",
+    "issues": [
+      {
+        "type": "tech.markup",
+        "source_span": "<page>It make it painful hard to work, such remembers. Me must keep working. Please, friend. Do not make them sounds no more.",
+        "zh_v1_span": "<page>求你了……别再……",
+        "zh_v2_span": "",
+        "description": "第一版翻译包含两个<page>标签，而英文原文只有一个<page>标签，导致文本被错误分割为三部分，可能影响分页显示。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Do not make them sounds no more.",
+        "zh_v1_span": "求你了……别再……",
+        "zh_v2_span": "",
+        "description": "第一版翻译添加了原文没有的文本'求你了……别再……'，在已经翻译完整请求后多译，属于额外添加。"
+      }
+    ],
+    "entry_name": "LARGE_COG_WORK_SONG"
+  },
+  {
+    "overall_comment": "第一版中文翻译在整体含义和风格上基本忠实于英文原文，模仿了口吃效果和情感基调。但存在术语不一致和个别词汇漏译的问题，影响了准确性和一致性。",
+    "issues": [
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "Architects",
+        "zh_v1_span": "工匠",
+        "zh_v2_span": "工匠",
+        "description": "术语 'Architect' 在中文翻译中不一致，在“锻造建筑师的技艺”中译为“建筑师”，但在“再无工匠维缮新建”和“无工匠何谈永恒”中译为“工匠”。应统一术语以保持上下文一致性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "d-d-directive-cage",
+        "zh_v1_span": "指-指-令",
+        "zh_v2_span": "指-指-令",
+        "description": "英文 'directive-cage' 被简化为“指令”，漏译了“cage”（笼子）部分，可能丢失了原文的特定意象或设定含义。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "S-s-strange",
+        "zh_v1_span": "荒-荒-谬",
+        "zh_v2_span": "荒-荒-谬",
+        "description": "英文 'strange'（奇怪、诧异）被译为“荒谬”（absurd），语气可能过强或带有否定意味，与原文角色表达疑惑或不确定感的语气不符。"
+      }
+    ],
+    "entry_name": "ARCHITECT_WILL_LEAVE"
+  },
+  {
+    "overall_comment": "第一版翻译整体准确，忠实传达了原文的含义和角色风格，结构标签正确无误。中文使用“咱”作为第一人称，恰当体现了角色非标准的语法和口语化特点，与原文情绪和语境匹配。",
+    "issues": [],
+    "entry_name": "LARGE_COG_WORK_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在模仿口吃风格上部分忠实，但关键句 'Our duty is l-l-long' 被误译为 '职责已尽'，语义相反，影响了整体准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Our duty is l-l-long",
+        "zh_v1_span": "职责已尽",
+        "zh_v2_span": "",
+        "description": "英文 'Our duty is l-l-long' 意为 '我们的职责很漫长'，表示持续状态；中文 '职责已尽' 意为 '职责已经完成'，语义相反，属于错译。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_TALK_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在整体意思上基本正确，但存在明显的漏译问题，并且添加了原文没有的说话风格，可能影响角色语气的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "with our implements, and others like,",
+        "zh_v1_span": "精通我等器械",
+        "zh_v2_span": "精通我等器械",
+        "description": "漏译了 'and others like'，原文中这部分表示 '以及类似的器械'，但翻译只提到了 '器械'，缺失了关键信息。"
+      },
+      {
+        "type": "style.character_voice",
+        "source_span": "could prove their aptitude",
+        "zh_v1_span": "能证-证-明精通",
+        "zh_v2_span": "能证-证-明精通",
+        "description": "原文没有破折号或口吃暗示，翻译中 '证-证-明' 添加了破折号，引入了结巴或犹豫的说话风格，这可能改变角色的原始语气，与原文的流畅表达不一致。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_KEY"
+  },
+  {
+    "overall_comment": "第一版翻译成功模仿了原文的 stuttering 风格，但在准确性上存在多处问题，包括漏译关键信息和一处错译，影响了内容的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "one part of a sequence,",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了 'one part of a sequence'，原文明确说明旋律是序列的一部分，中文翻译缺失此信息，可能导致玩家误解旋律的性质。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I r-r-recall! Yes!",
+        "zh_v1_span": "确-确-曾存在！",
+        "zh_v2_span": "",
+        "description": "'recall' 意为 '回忆'，但中文译为 '曾存在'，意思错误；应更准确地表达为 '我回-回-回忆起来！是的！'，以匹配原文的回忆动作。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "From my mind-vault, the imprint has f-f-faded.",
+        "zh_v1_span": "使我记忆缺损",
+        "zh_v2_span": "",
+        "description": "漏译了 'From my mind-vault' 和 'the imprint' 的具体表述，中文简化后丢失了 '心智宝库' 和 '印记' 的意象，削弱了原文的生动性。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "means-s-s-system",
+        "zh_v1_span": "奏鸣构造",
+        "zh_v2_span": "",
+        "description": "原文 'means-s-s-system' 可能指 '机制系统'，但中文添加了 '奏鸣' 一词，属于臆译；这可能导致玩家误以为该系统专为音乐设计，而原文未明确此点。"
+      }
+    ],
+    "entry_name": "ARCHITECT_MELODY"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上有多处遗漏和错误，尤其是漏译了关键称呼（如Bug-Red、Master）和口吃效果（b-b-before），并将'in due course'错译为'若是需要'，导致整体不忠实于原文。风格上部分保留了口吃效果，但信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Are you still to c-c-climb our grand core, Bug-Red?",
+        "zh_v1_span": "您仍要攀-攀-登伟大核心？",
+        "zh_v2_span": "",
+        "description": "英文中称呼'Bug-Red'被漏译，缺少了对说话对象的指定，可能导致语境不清晰。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "all those passed b-b-before",
+        "zh_v1_span": "包括我的拙作",
+        "zh_v2_span": "",
+        "description": "原文有口吃效果'b-b-before'和完整列表'my own, and all those passed before'，翻译中简化了，口吃效果丢失，且没有完全传达'所有那些过去的'的含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Within",
+        "zh_v1_span": "路上",
+        "zh_v2_span": "",
+        "description": "'Within'可能指在核心内部，翻译为'路上'不准确，导致地点含义偏差，可能影响玩家理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Master",
+        "zh_v1_span": "我有许多地方要去",
+        "zh_v2_span": "",
+        "description": "英文中称呼'Master'被漏译，缺少了对听者的尊称，影响人物关系和语气。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "in due course",
+        "zh_v1_span": "但若是需要",
+        "zh_v2_span": "",
+        "description": "'in due course'意为'在适当时候'或'最终'，翻译为'若是需要'错误地改变了时间或条件关系，意思不准确。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "atop it",
+        "zh_v1_span": "我会登顶获取旋律",
+        "zh_v2_span": "",
+        "description": "'atop it'强调在核心的顶上，翻译中漏译，导致位置信息不完整，可能削弱场景描述。"
+      }
+    ],
+    "entry_name": "ARCHITECT_MELODY_RETURN"
+  },
+  {
+    "overall_comment": "第一版翻译整体准确，忠实传达了原文的含义和角色口语风格，结构标签与原文一致，无明显错误。",
+    "issues": [],
+    "entry_name": "LARGE_COG_WORK_CITADEL"
+  },
+  {
+    "overall_comment": "翻译准确忠实于英文原文，含义和风格均得到保留，结构标签一致无误。",
+    "issues": [],
+    "entry_name": "CONFESSIONAL_END"
+  },
+  {
+    "overall_comment": "第一版翻译基本捕捉了原文的口语化风格和兴奋语气，但在语义准确性上存在细微偏差，可能导致意思不精确。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Is more work done!",
+        "zh_v1_span": "活干得更快！",
+        "zh_v2_span": "",
+        "description": "原文意为“更多工作完成”，强调工作数量；翻译成“活干得更快”强调速度，意思有偏差。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "how worthy us is!",
+        "zh_v1_span": "咱多卖力！",
+        "zh_v2_span": "",
+        "description": "原文“worthy”意为“有价值的”或“值得的”，涉及价值评判；翻译成“卖力”意为“努力工作”，语义不完全对应，可能丢失了价值层面的含义。"
+      }
+    ],
+    "entry_name": "LARGE_COG_WORK_TOGETHER"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于英文原文，成功模仿了结巴效果和诗意风格，语言流畅且结构标签正确。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "The minds of Architects inspired.",
+        "zh_v1_span": "建筑师们迸发的智慧，",
+        "zh_v2_span": "",
+        "description": "原文 'The minds of Architects inspired.' 强调建筑师们的头脑受启发或充满灵感，翻译为 '建筑师们迸发的智慧' 中 '迸发' 一词更强调主动性或爆发性，与原文的被动受启发状态略有偏差，但大致意思正确。用词可以更精准地传达原意。"
+      }
+    ],
+    "entry_name": "ARCHITECT_MELODY_GAINED"
+  },
+  {
+    "overall_comment": "第一版翻译在整体风格和角色口吃特征的再现上做得不错，但在关键信息的准确性上存在严重问题，两处错译/漏译影响了角色身份的揭示和世界观设定。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Rare-e-e-extinct. Or not it does so seem.",
+        "zh_v1_span": "稀-稀-稀有种？但又似乎不是。",
+        "zh_v2_span": "稀-稀-稀有种？但又似乎不是。",
+        "description": "原文‘Rare-e-e-extinct.’意为‘稀-稀-稀有种？已灭绝的’，zh_v1完全漏译了‘extinct’（灭绝）这一关键信息，削弱了对角色‘初代子嗣’稀有甚至被认为已灭绝状态的描述。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I bear the lineage of Weaver, along with other strands, equally strange.",
+        "zh_v1_span": "我确实有织者血脉，但只有一半。",
+        "zh_v2_span": "我确实有织者血脉，但只有一半。",
+        "description": "原文明确表示主角继承了‘织者的血脉，以及其他同样奇异的血脉’，即多种血脉并存。zh_v1将其错译为‘但只有一半’，完全改变了原意，曲解了角色的血统设定。"
+      }
+    ],
+    "entry_name": "ARCHITECT_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，结构标签正确，但在准确性上存在漏译和错译问题，且专有名词翻译不一致。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Rare-e-e-extinct. Or not it does so seem.",
+        "zh_v1_span": "稀-稀-稀有种？但又似乎不是。",
+        "zh_v2_span": "",
+        "description": "漏译了 'extinct'（灭绝）部分。英文 'Rare-e-e-extinct' 应翻译为 '稀有-灭绝' 或类似表达，但中文只翻译了 '稀有'，缺失关键信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I bear the lineage of Weavers, along with other strands, equally strange.",
+        "zh_v1_span": "我确实有织者血脉，但只有一半。",
+        "zh_v2_span": "",
+        "description": "错译原意。英文意为 '我拥有织者的血统，以及其他同样奇怪的 strands（血统或线）'，但中文翻译为 '但只有一半'，漏掉了 'along with other strands, equally strange' 并添加了 '一半' 的臆测信息，导致语义失真。"
+      },
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "Bug-Red",
+        "zh_v1_span": "红姑娘",
+        "zh_v2_span": "",
+        "description": "术语不一致。英文专有名词 'Bug-Red' 在第二段翻译为 '红衣虫'，但在此处翻译为 '红姑娘'，前后不统一，应保持相同译名。"
+      }
+    ],
+    "entry_name": "ARCHITECT_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在数字上错误，将'Twelfth'（第十二）错误地处理为'13'，导致含义不忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Twelfth Architect",
+        "zh_v1_span": "建筑师-13",
+        "zh_v2_span": "建筑师-13",
+        "description": "英文原文'Twelfth'意为'第十二'，但翻译中用了'13'，造成语义错译；应为'12'以准确反映原文含义。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上忠实于原文，非标准英语的口语化风格得到较好保留，结构标签正确。但存在一处细微漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The burden this toil is placing on your shell is plain to see.",
+        "zh_v1_span": "这苦役正在摧残你的甲壳。",
+        "zh_v2_span": "",
+        "description": "漏译了 'plain to see'（显而易见）的含义，原文强调负担是显而易见的，但翻译中未体现此信息，导致语气弱化。"
+      }
+    ],
+    "entry_name": "LARGE_COG_WORK_WORK"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上大致正确，但存在明显漏译，导致信息不完整和语义模糊，需要改进以更忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Tools of my craft.",
+        "zh_v1_span": "我的工具。",
+        "zh_v2_span": "",
+        "description": "漏译了'of my craft'，原文指'我的手艺的工具'，翻译中丢失了'手艺'的修饰，可能影响玩家对工具用途的理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Make harder, sharper.",
+        "zh_v1_span": "更硬，更利。",
+        "zh_v2_span": "",
+        "description": "漏译了动词'Make'，原文意思是'使（工具）更硬、更锋利'，翻译中只给出形容词，缺少动作指示，使句子不完整和模糊。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_TOOL_KIT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和结构上基本忠实于英文原文，风格匹配。但在用词上存在轻微不精确，'flexibility' 译为 '机动性' 可能未完全传达原意。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "enhance a weave-type’s flexibility",
+        "zh_v1_span": "提升织者机动性",
+        "zh_v2_span": "",
+        "description": "英文 'flexibility' 通常指 '灵活性' 或 '柔韧性'，翻译为 '机动性' 可能侧重于移动能力，与原意略有偏差，建议根据游戏术语确认最佳译法。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_SCUTTLEBRACE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上完全一致，保留了原文的省略号和分页格式，但内容上有两处准确性错误，影响了语义忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "begins....",
+        "zh_v1_span": "周期始....",
+        "zh_v2_span": "",
+        "description": "原文'begins'意为'开始'，但翻译添加了'周期'一词，变为'周期始'，属于多译或臆译，原文无此概念。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "forgiven.",
+        "zh_v1_span": "救赎。",
+        "zh_v2_span": "",
+        "description": "原文'forgiven'意为'被原谅'，但翻译成'救赎'，语义错误；'救赎'对应'redemption'，与'原谅'意思不同。"
+      }
+    ],
+    "entry_name": "CONFESSIONAL_END_BROKEN"
+  },
+  {
+    "overall_comment": "翻译总体上传达了原文的意思，风格上模仿了结巴，但'Make them retract'和'Make them force-store'的翻译存在多译和可能的意思偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Make them retract.",
+        "zh_v1_span": "加回收装置。",
+        "zh_v2_span": "",
+        "description": "原文意思是'让它们收回'，翻译为'加回收装置'，增加了原文没有的'装置'一词，属于多译。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Make them force-store.",
+        "zh_v1_span": "强化储能。",
+        "zh_v2_span": "",
+        "description": "原文'force-store'可能指'强制存储'或游戏特定术语，翻译为'强化储能'可能不准确，'强化'未准确传达'force'的含义，'储能'可能不完全对应'store'。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_COGWORK_SAW"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了“获取更多工具以证明能力”的含义，结构标签 {0} 正确放置，翻译流畅且风格匹配游戏语境。",
+    "issues": [],
+    "entry_name": "ARCHITECT_SHOP_DESC_KEY_REQUIRE"
+  },
+  {
+    "overall_comment": "第一版翻译在口语化风格和大部分内容上基本忠实，但将 'Thems is watching.' 翻译为 '上边看着呢。'，添加了原文没有的位置信息，可能改变了原意的模糊性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Thems is watching.",
+        "zh_v1_span": "上边看着呢。",
+        "zh_v2_span": "",
+        "description": "英文 'Thems is watching.' 直译为 '他们在看着。'，但中文翻译为 '上边看着呢。'，添加了 '上边'（意指上级或上面的人）这一具体指代，而原文仅使用非标准的 'Thems' 表示一般性的 '他们'，未指定身份或位置，这可能导致含义偏差或减少原文的模糊性。"
+      }
+    ],
+    "entry_name": "LARGE_COG_WORK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义，'一扇锁住的门，刻有建筑师徽记' 与英文 'A locked gate bearing the symbol of an Architect' 完全对应，风格自然，没有结构标签问题。",
+    "issues": [],
+    "entry_name": "AUTO_SHRINE_DOOR_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上存在明显漏译，省略了'for creation'，导致信息不完整；使用成语'有备无患'虽然模仿了结巴风格，但可能改变了原文的直接目的性语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "for creation",
+        "zh_v1_span": "原材料，随身携带。",
+        "zh_v2_span": "",
+        "description": "原文中的'for creation'（用于创造）被完全漏译，中文翻译只提到'原材料，随身携带'，没有说明原材料的用途。"
+      }
+    ],
+    "entry_name": "ARCHITECT_SHOP_DESC_SHARDPOUCH"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，'再收集1件工具以证明资质' 与 'Acquire 1 more tool to prove aptitude' 意思一致。句子流畅自然，没有结构标签问题。",
+    "issues": [],
+    "entry_name": "ARCHITECT_SHOP_DESC_KEY_REQUIRE_SINGLE"
+  }
+]

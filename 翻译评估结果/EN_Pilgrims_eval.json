@@ -1,0 +1,146 @@
+[
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于英文原文，保持了宗教神圣的氛围，用词如'圣堡'、'赐福'恰当。但存在一处明显的漏译，影响了对话的互动性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I will awaken the bells, pilgrim.",
+        "zh_v1_span": "我会敲响那些巨钟。",
+        "zh_v2_span": "",
+        "description": "原文中的 'pilgrim'（朝圣者）作为直接称呼被漏译，翻译中未体现该词，导致对话失去具体的称呼对象，可能影响角色互动和语境。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_REMEET_NO_SHRINES"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和核心含义上基本忠实于原文，保持了神圣和恳求的氛围，但'see'的翻译导致语气略有偏差。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "see the bells awoken",
+        "zh_v1_span": "令众钟苏醒",
+        "zh_v2_span": "",
+        "description": "原文'see'在恳求语境中意为'确保'或'目睹'，传达谦卑的请求；翻译为'令'（命令式）使得语气变得强硬，与'We beg you'的恳求口吻不一致。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_REPEAT_NO_SHRINES"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体流畅，风格与原文基本匹配，语气热情，但在准确性上有两处明显问题：漏译了原文中的一句话，并在结尾添加了原文没有的信息。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "All along the path.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文有 'All along the path.'（沿途皆是），但在中文翻译中完全缺失，导致信息遗漏。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Play, and we will sing!",
+        "zh_v1_span": "演奏吧，我们将为你歌唱！",
+        "zh_v2_span": "演奏吧，我们将为你歌唱！",
+        "description": "原文是 'we will sing'（我们将歌唱），但翻译中添加了 '为你'，引入了原文没有的指向性信息。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_REMEET_GOT_SHRINES"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于原文，结构标签正确，语气符合宗教神秘风格。但在细节处理上存在少量准确性问题，如多余添加修饰词和省略关键动词，可能影响原意的精确传达。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Call out to the bells of the path",
+        "zh_v1_span": "呼唤圣途钟声",
+        "zh_v2_span": "",
+        "description": "翻译中加入了 '圣' 字修饰 '途'，原文 'the path' 无此修饰，属于额外添加，可能不必要地改变原意或风格一致性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "see the gate open",
+        "zh_v1_span": "开启此门",
+        "zh_v2_span": "",
+        "description": "原文 'see' 表示观察动作后的结果，翻译省略此词，直接译为 '开启'，使句子从描述结果变为直接命令，可能导致语气和语义的轻微失真。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_REMEET_SHRINES"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格符合宗教语境，但存在一处关键信息漏译，影响了原文的完整含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "and see the Grand Gate open",
+        "zh_v1_span": "开启巨扉圣门",
+        "zh_v2_span": "",
+        "description": "原文中的'see'（看到）被漏译，翻译直接处理为'开启'，忽略了'见证大门开启'的感知意味，可能削弱了请求的语气和动作的连贯性。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_REPEAT_SHRINES"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于原文，保持了诗意的语气和角色互动感，但存在漏译和用词不当的问题，需要微调以提升准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I see no gatekeepers to heed your plea, pilgrim,",
+        "zh_v1_span": "看来没有守门者回应答你的祈愿。",
+        "zh_v2_span": "",
+        "description": "漏译了 'pilgrim' 这个直接称呼，原文中说话者以 'pilgrim' 称呼对方，翻译缺失此称呼，影响对话语气和角色互动。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "heed your plea",
+        "zh_v1_span": "回应答你的祈愿",
+        "zh_v2_span": "",
+        "description": "'回应答' 用词不当，不标准，可能是 '回应' 或 '应答' 的误写，导致表达不流畅，建议修正为更自然的说法。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_MEET"
+  },
+  {
+    "overall_comment": "第一版中文翻译在准确性、流畅度和风格方面整体表现良好，忠实传达了原文的语义、语气和段落结构，无明显问题。",
+    "issues": [],
+    "entry_name": "GATE_PILGRIM_MEET_NO_SHRINES"
+  },
+  {
+    "overall_comment": "第一版翻译在大多数部分准确传达了原文的宗教恳求语气和结构，但存在一处明显漏译，影响了原文的完整性和情感表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "We are so close!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'We are so close!'（我们如此接近！）表达朝圣者接近目标的急切心情，但在第一版中文翻译中被完全漏译，导致该情感信息缺失。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_MEET_ALT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构和主要意思上基本忠实，但存在几处细节遗漏和翻译不精确，影响了原文的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "housed in old shrines",
+        "zh_v1_span": "钟殿内",
+        "zh_v2_span": "",
+        "description": "原文描述钟 housed in old shrines（置于古老的神龛中），中文仅译作“钟殿内”，漏译了“古老”（old）这一关键修饰，削弱了场景的历史感。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "to see us pass beyond",
+        "zh_v1_span": "还需要怎样的仪式吗？",
+        "zh_v2_span": "",
+        "description": "原文 to see us pass beyond 意为“让我们通过（此门/界限）”，中文简化为“还需要怎样的仪式吗？”，完全漏译了“通过”这一动作目标，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "played fair and true",
+        "zh_v1_span": "真诚演奏",
+        "zh_v2_span": "",
+        "description": "原文 played fair and true 可能指音乐演奏得“美好而真实”或“公正而真诚”，中文仅译作“真诚演奏”，漏译了 fair（可能指美好、公正）的涵义，导致语义不完整。"
+      }
+    ],
+    "entry_name": "GATE_PILGRIM_MEET_SHRINES"
+  }
+]

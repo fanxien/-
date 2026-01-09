@@ -1,0 +1,383 @@
+[
+  {
+    "overall_comment": "第一版翻译整体质量良好，忠实地传达了英文原文的含义和口语化风格。翻译准确，语气匹配，结构标签使用正确，没有发现重大错误。",
+    "issues": [],
+    "entry_name": "TRADERS_QUEST_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文含义，结构标签正确无误。但角色特有的嘶嘶口吃声和发音细节在中文中体现不足，部分用词简化了原文的风格特点，影响角色形象的还原。",
+    "issues": [
+      {
+        "type": "style.character_voice",
+        "source_span": "my dear misss-stress",
+        "zh_v1_span": "主人",
+        "zh_v2_span": "",
+        "description": "原文中角色用带嘶嘶声的‘misss-stress’并强调‘dear’，翻译简化为‘主人’，丢失了口吃发音和亲昵语气，导致角色声音特点失真，与角色设定不符。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_DELIVERY"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上基本忠实于英文原文，准确传达了口语化和幽默的语气，结构标签也完全匹配。",
+    "issues": [],
+    "entry_name": "TRADERS_TALK_GENERIC_2"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上模仿了原文的蛇音效果和仆从语气，整体流畅，但存在关键词漏译和过度意译的问题，影响了准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "morsss-ssels will I grow",
+        "zh_v1_span": "奴才便会辛勤劳作，为主人进行培育",
+        "zh_v2_span": "",
+        "description": "原文 'morsss-ssels' 可能指小块食物或培育物，是具体意象，但翻译中完全省略了该词，只概括了 'grow' 的动作，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "alwayssss...",
+        "zh_v1_span": "至死方休！",
+        "zh_v2_span": "",
+        "description": "原文 'alwayssss...' 强调永远持续工作，但翻译为 '至死方休' 添加了死亡的明确意象，属于臆译，可能扭曲了原意的持续性。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_GROWING_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上准确传达了原文意思，结构标签正确，但在最后一句中存在添加和意译问题，影响了忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Specially as more and more of them keepers are succumbing to the strange sickness.",
+        "zh_v1_span": "你看吧，越来越多的监管者都染上怪病。",
+        "zh_v2_span": "",
+        "description": "将英文 'Specially as'（尤其是因为/特别是当）翻译为 '你看吧'，意思不准确，添加了说话者的引导语气，而原文是陈述原因或时间关系。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Only means more meat for us. Har!",
+        "zh_v1_span": "但往好处想，对我们来说，肉倒是更加管够了！哈！",
+        "zh_v2_span": "",
+        "description": "添加了原文没有的短语 '但往好处想'，属于多译，使句子带有额外的乐观色彩，而原文是直接陈述事实。"
+      }
+    ],
+    "entry_name": "TRADERS_TALK_GENERIC_1"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上准确，风格贴近口语，但遗漏了英文中的 'Content, like.' 这一短语，导致信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Content, like.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文中的 'Content, like.' 表达了说话者的满意或肯定情绪，但第一版中文翻译中完全遗漏了这一部分，属于漏译，影响了对话的完整性和语气。"
+      }
+    ],
+    "entry_name": "TRADERS_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的询问意图，用词简洁直接，符合游戏提示的风格。没有发现明显的翻译错误或结构问题。",
+    "issues": [],
+    "entry_name": "TRADERS_PINS_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本正确，但存在漏译问题，且未忠实再现原文中的嘶嘶声和口吃风格，导致角色特征丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I will grow you another...",
+        "zh_v1_span": "奴才我继续努力……",
+        "zh_v2_span": "",
+        "description": "英文原意是'我会为你再养一个食物'，但中文译为'继续努力'，缺失了'另一个食物'的具体概念，属于信息遗漏。"
+      },
+      {
+        "type": "style.character_voice",
+        "source_span": "for I am your sss-ssslave.",
+        "zh_v1_span": "因为我永远是您的仆从。",
+        "zh_v2_span": "",
+        "description": "英文中'sss-ssslave'带有明显的嘶嘶声和口吃效果，体现角色非人类或蛇类特征，但中文翻译未保留这种声音风格，导致角色人设失真。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_POPPED"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义和风格，结构标签处理正确，无明显错译或漏译，蛇的口音效果和角色语气得到恰当体现。",
+    "issues": [],
+    "entry_name": "GRUBFARMER_MEET_3_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文，含义准确，风格口语化，结构标签正确。但个别句子在表达流畅度上稍有欠缺。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "Promises is easily broken.",
+        "zh_v1_span": "承诺不就是易碎。",
+        "zh_v2_span": "",
+        "description": "中文表达 '承诺不就是易碎' 略显生硬，带有反问意味，而英文是简单陈述句 '承诺容易破碎'。这可能导致流畅度不足，建议调整为更自然的陈述句，如 '承诺易碎' 或 '承诺容易破碎'。"
+      }
+    ],
+    "entry_name": "TRADERS_TALK_REFUSE_GIVE"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于原文，意思准确，口语化风格匹配，结构标签使用正确，无明显错误。",
+    "issues": [],
+    "entry_name": "TRADERS_PINS_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译整体上较好地传达了原文的含义和角色谦卑、带嘶嘶声的风格，结构标签正确无误。但存在两处准确性上的小问题：漏译了称呼并添加了不必要的重复词。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’ve no interest in mastery over you, sir.",
+        "zh_v1_span": "我无意成为你的主人。",
+        "zh_v2_span": "",
+        "description": "原文中的称呼'sir'被漏译，导致角色对话时的恭敬语气有所缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Farewell...? No...",
+        "zh_v1_span": "告辞？不行不行……",
+        "zh_v2_span": "",
+        "description": "原文为'No...'，中文翻译为'不行不行……'，添加了重复词汇，轻微偏离了原文的简洁表达。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_MEET_3"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，用词恰当，风格中性，符合描述性文本的要求。没有发现任何明显问题。",
+    "issues": [],
+    "entry_name": "PRINCE_CELL_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译在拟声词和句子基本结构上正确，但添加了原文没有的谦称'奴才'，并略微改变了'what you did'的含义，可能影响角色语气和忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "I sssss-saw what you did!",
+        "zh_v1_span": "奴才我看见您的手段了！",
+        "zh_v2_span": "奴才我看见您的手段了！",
+        "description": "原文中角色自称'I'，没有谦卑或特定身份暗示，但翻译添加了'奴才'，引入了原文没有的自称，改变了角色语气和可能的人设。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "what you did",
+        "zh_v1_span": "手段",
+        "zh_v2_span": "手段",
+        "description": "'what you did'应更直接地翻译为'你做了什么'，译为'手段'可能偏向强调方法或诡计，与原意稍有偏离。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_MEET_1"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实传达了英文原文的含义，语气和结构均匹配，标签处理正确，没有明显错误。",
+    "issues": [],
+    "entry_name": "GRUBFARM_MIMIC_REMEET_PRE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语风格与原文方言匹配，但存在两处准确性问题：漏译角色名称和误译角色指代，影响对话逻辑。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "She’s a sad sight for sure Crull",
+        "zh_v1_span": "惨是惨",
+        "zh_v2_span": "",
+        "description": "原文中 'Crull' 是称呼另一个角色的名字，中文翻译漏掉了这个名称，导致信息缺失，可能影响角色识别。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "‘Fraid the little one speaks true",
+        "zh_v1_span": "班金说得对",
+        "zh_v2_span": "",
+        "description": "原文 'the little one' 可能指前一个说话者（标签 S 的角色），但中文翻译指定为 '班金'（Benj’n），这可能导致角色指代错误，混淆对话中的称呼逻辑。"
+      }
+    ],
+    "entry_name": "TRADERS_PINS_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于原文，准确传达了含义和风格。拟声词'咝——'处理得当，角色语气一致，结构对应无误，没有明显错误。",
+    "issues": [],
+    "entry_name": "GRUBFARMER_MEET_2"
+  },
+  {
+    "overall_comment": "第一版翻译在'Leave it, bug. I accept my place.'部分翻译准确流畅，但后半部分漏译了'prisoner'，导致原文的称呼缺失，意思不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Very well, prisoner.",
+        "zh_v1_span": "悉听尊便。",
+        "zh_v2_span": "",
+        "description": "原文中的'prisoner'（囚犯）在翻译中被遗漏。'Very well, prisoner.'应包含对'prisoner'的翻译，但中文只译了'悉听尊便'，漏掉了关键称呼，使信息缺失。"
+      }
+    ],
+    "entry_name": "PRINCE_CELL_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本正确，但存在漏译和风格失真问题。漏译了原文中关于声音被捕捉的生动描述，且忽略了角色的口吃特征，影响了角色声音的塑造和氛围的传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Such sssss-sounds, plucked from the air and caught in your Silk!",
+        "zh_v1_span": "此等丝弦天籁",
+        "zh_v2_span": "",
+        "description": "漏译了 'plucked from the air and caught in your Silk'，原文中描述声音被从空中采摘并捕捉在丝中，翻译中缺失此细节，导致信息不完整。"
+      },
+      {
+        "type": "style.character_voice",
+        "source_span": "my misss-stress... and But the sssound... is so ssssss-soothing...",
+        "zh_v1_span": "主人 and 但这天籁之音……实在是令我感到抚慰……",
+        "zh_v2_span": "",
+        "description": "原文中的口吃（如 'misss-stress', 'ssssound', 'ssssss-soothing'）在翻译中被标准化为正常语言，丢失了角色的独特说话风格和情绪表达，可能削弱角色塑造。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_NEEDOLIN"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义上基本准确，结构标签正确，但未能充分再现英文原文中通过拼写变形（如 'sss'）表现的蛇类角色说话风格，导致角色声音不够鲜明和一致。",
+    "issues": [
+      {
+        "type": "style.character_voice",
+        "source_span": "More morsss-ssels can I grow for you now! Are you pleasss-sed with me, my missstress-ss?",
+        "zh_v1_span": "现在奴才我可以为您培育更多的食物了！您对我满意吗，我的主人？",
+        "zh_v2_span": "",
+        "description": "英文原文通过 'morsss-ssels'、'pleasss-sed'、'missstress-ss' 等拼写变形模拟蛇的嘶嘶声，体现角色特征；中文翻译使用标准词汇（如 '食物'、'满意'、'主人'），没有类似风格处理，仅在最后部分添加了拟声词 '咝——！'，但整体风格一致性不足，削弱了角色人设。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_DELIVERY_POST_SETUP"
+  },
+  {
+    "overall_comment": "第一版翻译在基本含义上忠实于原文，但丢失了角色说话的口音特色（如蛇嘶声），并且漏译了 'mighty' 一词。整体流畅，但角色声音表现不足。",
+    "issues": [
+      {
+        "type": "style.character_voice",
+        "source_span": "You must conss-sume... conssss-sume and become sss-stronger.",
+        "zh_v1_span": "请享用……变得更强大。",
+        "zh_v2_span": "",
+        "description": "英文中角色说话带有明显的蛇嘶口音（如 'conss-sume', 'sss-strong'），中文翻译没有体现这些口音，导致角色声音特色和语气失真。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "my mighty misssss-tresss",
+        "zh_v1_span": "主人",
+        "zh_v2_span": "",
+        "description": "英文 'mighty'（意为强大的）一词在翻译中被遗漏，使得对主人的描述不够完整。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_OPENED1"
+  },
+  {
+    "overall_comment": "第一版翻译整体良好，准确传达了原文的含义和口语化风格，结构标签一致，但存在一处细节漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A pointed weapon of me own makin’",
+        "zh_v1_span": "亲手制作的武器",
+        "zh_v2_span": "",
+        "description": "原文中武器被描述为 'pointed'（尖锐的），但翻译中漏掉了这一关键特征，导致信息缺失。"
+      }
+    ],
+    "entry_name": "TRADERS_QUEST_COMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译在第三句将'Give them.'错误翻译为'给我.'，导致意思完全相反，严重影响了语义准确性。第一句'Take.'被翻译为'我要拿走.'，添加了主语，改变了原文的直接语气。整体翻译需要修正以忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Give them.",
+        "zh_v1_span": "给我。",
+        "zh_v2_span": "给我。",
+        "description": "将英文的'给他们'错误翻译为'给我'，意思完全相反，导致语义错误，可能影响游戏交互或剧情理解。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Take.",
+        "zh_v1_span": "我要拿走。",
+        "zh_v2_span": "我要拿走。",
+        "description": "原文是直接动作'拿'，翻译中添加了'我要'，改变了语气并添加了原文没有的信息，可能导致意图表达不准确。"
+      }
+    ],
+    "entry_name": "GRUBFARM_MIMIC_GIVE_POST"
+  },
+  {
+    "overall_comment": "第一版翻译整体准确，通过'咝——'模拟了原文的嘶嘶声，风格符合角色设定。但漏译了'caringly'的情感含义，使语气略有减弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "caringly delivered by the misstresss",
+        "zh_v1_span": "主人亲自护送过来的",
+        "zh_v2_span": "",
+        "description": "英文原文'caringly'表示'关爱地递送'，强调情感色彩，但中文翻译为'亲自'只强调了动作由主人完成，漏译了'关爱'的含义，导致语气偏差。"
+      }
+    ],
+    "entry_name": "GRUBFARMER_DELIVERY_POST_DELIVERY"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文基本一致，但存在一处关键漏译，影响了角色对话的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "As you wish, prisoner.",
+        "zh_v1_span": "如你所愿。",
+        "zh_v2_span": "如你所愿。",
+        "description": "原文中的 'prisoner'（囚犯）被漏译，中文翻译只翻译了 'As you wish'，缺失了称呼部分，可能导致对话语境和角色关系不明确。"
+      }
+    ],
+    "entry_name": "PRINCE_CELL_TALK_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文，含义准确，风格自然。中文将英文的两个部分流畅地合并，使表达更完整，没有明显的错误或遗漏。",
+    "issues": [],
+    "entry_name": "GRUBFARM_MIMIC_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体含义准确，风格口语化大致匹配原文，结构标签无误。但存在一处轻微的多译问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Those spines are sharp",
+        "zh_v1_span": "这些钢棘锋利如初",
+        "zh_v2_span": "",
+        "description": "原文 'sharp' 仅表示锋利，中文添加了 '如初'，暗示了时间比较（像最初一样），这是原文没有的信息。"
+      }
+    ],
+    "entry_name": "TRADERS_PINS_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体语气和角色口吻把握较好，但在第二页遗漏了原文对内脏“美味”这一描述的翻译，属于轻微的漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "pull out the tasty guts! Mmmmm!",
+        "zh_v1_span": "把内脏取来。唔——我都流口水了！",
+        "zh_v2_span": "把内脏取来。唔——我都流口水了！",
+        "description": "原文明确强调了内脏是‘tasty’（美味的），并用‘Mmmmm!’强化了垂涎欲滴的感觉。译文中‘把内脏取来’漏译了‘美味的’这一定语，仅通过‘流口水了’间接表达，未能完全传达原文对‘美味’的直接描述。"
+      }
+    ],
+    "entry_name": "TRADERS_QUEST_ACTIVE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在‘Give them’部分存在明显错译，将英文‘给他们’误译为‘给我’，改变了原文对象和含义。其余部分如模拟stuttering的风格处理基本忠实，但整体准确性受影响。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Give them",
+        "zh_v1_span": "给我",
+        "zh_v2_span": "",
+        "description": "英文 'Give them' 意为‘给他们’，指代复数第三人称对象，但中文翻译为‘给我’，错误地将对象改为第一人称单数，导致语义错译和含义偏差。"
+      }
+    ],
+    "entry_name": "GRUBFARM_MIMIC_GIVE_DENY"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体上传达了英文原文的意思，语气也基本匹配，但添加了不必要的修饰词，可能影响含义的准确性。结构标签 <hpage> 正确无误，没有技术问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "hidden in the darkness",
+        "zh_v1_span": "隐匿于黑暗之中的那位",
+        "zh_v2_span": "隐匿于黑暗之中的那位",
+        "description": "翻译中添加了 '那位'，而英文原文 'hidden in the darkness' 没有指定对象的单数、性别或特定性，这可能导致含义不准确，使原文更中性的 'you' 变得具体化。"
+      }
+    ],
+    "entry_name": "GRUBFARM_MIMIC_MEET_PRE"
+  }
+]

@@ -1,0 +1,644 @@
+[
+  {
+    "overall_comment": "第一版翻译在含义上大致准确，风格也基本匹配，但存在关键术语漏译和结构标签缺失的问题，可能影响游戏内文本的完整性和显示效果。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I presume too much of one who is not a flea.",
+        "zh_v1_span": "对外族提这种要求太过分了。",
+        "zh_v2_span": "",
+        "description": "原文中 'one who is not a flea' 被意译为 '外族'，但完全省略了 'flea' 这一可能具有游戏内特定含义的术语，导致信息缺失。"
+      },
+      {
+        "type": "tech.markup",
+        "source_span": "<page>",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文在结尾处有第二个 <page> 标签，但第一版中文翻译中缺失，可能导致文本分页或布局显示不一致。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_DECLINE_QUEST1"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但含义上有显著问题：误译了'Bug not flea'，漏译了'my learnings'和'save'，导致原文信息缺失和风格失真。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Bug not flea",
+        "zh_v1_span": "外族虫",
+        "zh_v2_span": "外族虫",
+        "description": "原文'Bug not flea'可能意为'虫子不是跳蚤'，强调区别，但翻译为'外族虫'（意为外来虫子），意思错误，失去原文对比含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "my learnings",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文'my learnings'（我的知识/学习）在翻译中被完全省略，仅隐含在'位置都标在你图上了'中，导致信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Seek and save lost fleas",
+        "zh_v1_span": "找到那些迷途跳蚤",
+        "zh_v2_span": "找到那些迷途跳蚤",
+        "description": "原文'Seek and save'包含'寻找并拯救'的意思，翻译只译为'找到'，漏掉了'save'（拯救）的层面，信息不全。"
+      }
+    ],
+    "entry_name": "TROUPE_HUNTER_EMPTY"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文的核心意思，但存在多处漏译和细节缺失，影响了准确性和信息的完整性。专有名词 'Fleamaster' 被省略，可能导致角色识别问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Our burly new companion, Vog! Fresh returned from a long time spent tracking.",
+        "zh_v1_span": "见过我们的新成员沃葛了吗？她的追踪术很是了得！",
+        "zh_v2_span": "",
+        "description": "漏译了 'burly'（强壮的）和 'fresh returned'（刚回来）的信息，只提到了追踪术了得。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "We have met, Fleamaster.",
+        "zh_v1_span": "见过了。",
+        "zh_v2_span": "",
+        "description": "漏译了专有名词 'Fleamaster'，影响人物称呼的一致性和角色识别。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Yours was a caravan sorely lacking for protection",
+        "zh_v1_span": "毕竟你们旅团缺少护卫",
+        "zh_v2_span": "",
+        "description": "漏译了 'sorely'（极度地），弱化了缺乏保护的程度。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "and I am too bound by my own tasks to provide it for you.",
+        "zh_v1_span": "而我又有要务在身。",
+        "zh_v2_span": "",
+        "description": "漏译了 'to provide it for you'（为你们提供保护），意思不完整。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Her scent may be strong",
+        "zh_v1_span": "虽然沃葛经常臭烘烘的",
+        "zh_v2_span": "",
+        "description": "原文 'scent may be strong' 意为气味浓，不一定是 '臭烘烘的'，翻译带有负面色彩，可能失真。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "and her taste for brew bottomless",
+        "zh_v1_span": "又嗜酒",
+        "zh_v2_span": "",
+        "description": "漏译了 'bottomless'（无尽的），弱化了对酒的无尽喜好。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_INFO_HUNTER"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文意思，结构标签一致，但存在漏译和语义偏差。部分句子翻译不准确，如‘heard and smelt’缺失，且语气和时序处理有误，影响忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "heard and smelt across the caves.",
+        "zh_v1_span": "各处洞穴都有。",
+        "zh_v2_span": "",
+        "description": "原文中‘heard and smelt’（听和闻）描述感知迷失小辈踪迹的方式，翻译中完全缺失，导致信息不完整。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "now that times turn dark...",
+        "zh_v1_span": "趁黑暗未临......",
+        "zh_v2_span": "",
+        "description": "原文‘now that times turn dark’意为‘既然时代变黑暗’，表示已经发生或正在发生；翻译为‘趁黑暗未临’意为‘趁黑暗还没来临’，时序和逻辑相反。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "For all to come together",
+        "zh_v1_span": "全体跳蚤",
+        "zh_v2_span": "",
+        "description": "原文‘all’泛指所有相关者，翻译指定为‘跳蚤’，添加了未明确的信息，可能不准确或基于臆测。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Until then, we have no trade to make.",
+        "zh_v1_span": "在此之前无可奉告。",
+        "zh_v2_span": "",
+        "description": "原文是直接的‘没有交易可做’，语气较随意；翻译使用‘无可奉告’，后者更正式且常用于拒绝回答，与角色口语化语气不符。"
+      }
+    ],
+    "entry_name": "TROUPE_HUNTER_MEET_NOMAP_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的语义和情绪，但在用词选择上存在一处可以优化的地方。整体结构标签无缺失或错位。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "brew",
+        "zh_v1_span": "药酿",
+        "zh_v2_span": "药酿",
+        "description": "“brew” 直译为“酿造物”，在此语境下指酿造的酒饮或饮品。“药酿”的“药”字增添了原文没有的“药用”含义，可能导致歧义，不够准确。译为“酿饮”或“酿造”会更中性、更贴合原文。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_SHORT_REPEAT_FLEATOPIA_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，角色语气生动，但存在一处明显漏译，影响了原文信息的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "It’s most ingenious.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'It’s most ingenious.' 表示 '非常巧妙'，第一版翻译完全漏译了这一句，导致描述车厢巧妙性的信息缺失。"
+      }
+    ],
+    "entry_name": "CARAVAN_LECH_INTRO"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思，但第二部分存在漏译和用词不当，削弱了原文的戏剧性语气和完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "that I may appreciate the beauty of your agile form while I await my doom",
+        "zh_v1_span": "我想欣赏你美丽灵巧的身姿呢！",
+        "zh_v2_span": "",
+        "description": "漏译了 'while I await my doom'（在我等待末日时），原文表达了角色在末日等待的戏剧性情境，漏掉后影响了语气和上下文连贯性。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "how sweet of you",
+        "zh_v1_span": "有甜心你在",
+        "zh_v2_span": "",
+        "description": "'how sweet of you' 应译为 '你真好' 或类似表达，以准确传达赞美语气；'甜心' 作为名词用在这里不自然，可能导致理解偏差。"
+      }
+    ],
+    "entry_name": "FG_BOUNCE_INTRO_FIRST"
+  },
+  {
+    "overall_comment": "第一版翻译简化了原文，漏译了关键描述和地点信息，并改变了叙述视角，从角色第一人称变为客观描述。整体上不忠实于原文的语义和风格。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Strange beasts prowl these grey lands. I hear them roar and shriek outside camp.",
+        "zh_v1_span": "这片灰地时常能听见怪物吼叫",
+        "zh_v2_span": "",
+        "description": "原句描述了野兽在灰地中潜行（'prowl'），并且角色听到它们在营地外（'outside camp'）咆哮和尖叫。翻译只提到能听见吼叫，漏译了'prowl'的行为和具体地点'outside camp'，并省略了第一人称视角。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "I hear them",
+        "zh_v1_span": "时常能听见",
+        "zh_v2_span": "",
+        "description": "原句是角色直接叙述，使用第一人称'I'，传递了个人体验和语气。翻译变为客观描述'时常能听见'，改变了叙述视角和语气，导致角色人设失真。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_TALL_REPEAT_GREYMOOR"
+  },
+  {
+    "overall_comment": "第一版翻译将 'Compete' 译为 '游玩'，虽然基本传达了参与游戏的含义，但弱化了原文的竞争意味，可能导致语义不准确。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Compete in Flea Dodge?",
+        "zh_v1_span": "游玩跳蚤溜溜？",
+        "zh_v2_span": "",
+        "description": "英文 'Compete' 意为竞争或比赛，翻译为 '游玩' 更偏向于游玩或娱乐，漏掉了竞争的含义，建议使用更准确的词汇如 '参加比赛' 或 '竞争'。"
+      }
+    ],
+    "entry_name": "FG_DODGE_CHOICE"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上大致传达了流浪结束和庆祝的语境，但存在显著漏译，省略了原文中关于'得到家园'的明确目的和对大黄蜂小姐的赞扬，导致语义不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "to claim such a home!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文明确表达忍受苦难是为了'得到这样一个家'，但翻译中完全省略了此目的，仅用'都值了'概括，缺失关键信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Is time for rest and celebrate, and none have earned such more than you, Miss Hornet!",
+        "zh_v1_span": "是时候庆祝了！大黄蜂小姐，和我们一起举杯吧！",
+        "zh_v2_span": "是时候庆祝了！大黄蜂小姐，和我们一起举杯吧！",
+        "description": "翻译只处理了'庆祝'和'举杯'，漏译了'休息'以及'没有人比你更值得'的赞扬部分，使对大黄蜂小姐的敬意和完整语境丢失。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_SHORT_MEET_FLEATOPIA"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的意图，但存在术语不一致、信息遗漏和多余添加的问题，影响了翻译的准确性和流畅度。",
+    "issues": [
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "more fleas",
+        "zh_v1_span": "同胞",
+        "zh_v2_span": "",
+        "description": "术语不一致：英文 'fleas' 在第一句中被译为 '同胞'，但同一概念在第二句的 'fellows' 却被译为 '跳蚤'，导致术语使用不统一，可能混淆玩家理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "lost out on the roads",
+        "zh_v1_span": "迷途的",
+        "zh_v2_span": "",
+        "description": "漏译了 'out on the roads'，原文具体说明同伴是在路上迷失的，翻译中缺失了位置信息，使意思变得模糊。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Please lend your aid",
+        "zh_v1_span": "请继续帮助",
+        "zh_v2_span": "",
+        "description": "添加了 '继续'，英文原文中并没有 'continue' 的含义，是多译，可能改变了请求的初始性质。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_GREYMOOR_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体通顺，但存在关键信息漏译和部分误译，影响了原文的完整性和语气，特别是角色称呼和动作细节方面。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Fleamaster",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中直接称呼 'Fleamaster'（跳蚤大师），但翻译中完全省略，导致角色互动缺失，可能影响玩家对角色的理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "hiding or",
+        "zh_v1_span": "困在",
+        "zh_v2_span": "",
+        "description": "原文 'hiding or stuck'（躲藏或被困）翻译为 '困在'，漏掉了 'hiding'（躲藏）的信息，使描述不完整。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "if you rouse them",
+        "zh_v1_span": "只要脱困",
+        "zh_v2_span": "",
+        "description": "'rouse' 意为唤醒或激起行动，强调玩家的主动帮助；翻译为 '只要脱困' 可能指被动脱离困境，主语和动作不明确，导致语义偏差。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_ACCEPT_QUEST_OUTRO"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于原文，含义基本传达，风格轻松友好，结构标签正确。但存在少量漏译、翻译不准确和语气失真的问题，影响了细节的精确性和情感表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A pleasure perhaps?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的独立问句 'A pleasure perhaps?' 在翻译中被省略，未在中文中体现，可能丢失了询问对方是否感到愉快的细微语气。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Nestled in with our dear little ones...",
+        "zh_v1_span": "和小家伙们挤在一起",
+        "zh_v2_span": "",
+        "description": "'nestled in' 意为舒适地依偎或安顿，带有积极、亲切的意味；翻译为 '挤在一起' 可能暗示拥挤或不舒适，偏离了原文的温馨语气。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Splendid!",
+        "zh_v1_span": "那就好！",
+        "zh_v2_span": "",
+        "description": "'Splendid!' 表达热情、兴奋的肯定，翻译为 '那就好！' 语气较为平淡、弱化，未能充分传达原文的欣喜情绪。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_GREYMOOR_MEET_TRAVELED"
+  },
+  {
+    "overall_comment": "第一版中文翻译简化了原文内容，漏译了关键语句和语气词，且部分翻译改变了原文意思，导致不够忠实于英文原文的风格和信息。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You know what such means! You must have drink! Har har!",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'You know what such means!'（你知道这意味着什么！）和'Har har!'（哈哈！）这两句，原文通过这些语句表达角色的提醒和欢快笑声，增强语气和氛围。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "we will fill flask again! I’m is always brewing!",
+        "zh_v1_span": "我这儿药酿管够！",
+        "zh_v2_span": "",
+        "description": "原文意思是'我们会再次填满瓶子！我总是酿造！'，强调重新填满瓶子的动作和持续酿造的状态；但翻译为'我这儿药酿管够！'，仅表示供应充足，改变了动作和状态，导致信息不准确。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_SHORT_BREW_FULL"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，语气符合原文的幽默风格，但在'fleas'的翻译上可能略有偏差，原文的比喻在中文中未完全保留。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "the other fleas",
+        "zh_v1_span": "那些迷途的同胞",
+        "zh_v2_span": "",
+        "description": "原文'fleas'字面意为'跳蚤'，可能是一种幽默或贬义的比喻，指代其他成员；翻译为'同胞'可能过于正面和正式，失去了原比喻的色彩和潜在语气。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_SHORT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在基本意思上正确，但显著简化了英文原文的诗意和情感表达，漏译了关键词语和比喻，导致风格和语气不够忠实。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ahh, and before the road steals you away from us again, allow me to offer you a humble gift!",
+        "zh_v1_span": "趁您还没走，请收下这份薄礼！",
+        "zh_v2_span": "",
+        "description": "漏译了感叹词 'Ahh'、'again' 以及 'steals you away' 的比喻性表达，使原文的浪漫语气和离别情感丢失，翻译过于简洁直接。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I see no use in it for we fleas, so of course we are all too pleased, eager even, to bestow it upon our dear friend!",
+        "zh_v1_span": "对我们没用，正好赠予挚友！",
+        "zh_v2_span": "",
+        "description": "漏译了 'for we fleas'（角色自称跳蚤的设定）和情感表达 'all too pleased, eager even'（非常高兴甚至急切），简化了原文的丰富语气和角色特征。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_JUDGE_REWARD"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但内容上漏译了关键信息如'永恒的友谊'和'微薄的'，并错译了交易部分为'旅途上'，添加了原文没有的'朋友'，整体意思不忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "For your hard efforts and eternal friendship, please accept these meagre rosaries as reward.",
+        "zh_v1_span": "为了酬谢您的辛劳，请收下这些念珠。",
+        "zh_v2_span": "",
+        "description": "漏译了 'eternal friendship'（永恒的友谊）和 'meagre'（微薄的），原文表达感激和谦逊语气，但翻译中缺失这些含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Think of we fleas when you find chance to trade them!",
+        "zh_v1_span": "旅途上别忘了我们跳蚤，朋友！",
+        "zh_v2_span": "",
+        "description": "原文 'when you find chance to trade them'（当你找到机会交易它们时）被错译为 '旅途上'，意思完全偏离，丢失了交易相关的上下文。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Think of we fleas when you find chance to trade them!",
+        "zh_v1_span": "旅途上别忘了我们跳蚤，朋友！",
+        "zh_v2_span": "",
+        "description": "添加了 '朋友'，原文中没有此称呼，可能不必要地改变了语气或角色关系。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_DELIVERY_FLEATOPIA_POST"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了邀请的意思，但漏译了原文中'my lone light'的情感元素，且'bathe'的翻译不够精确，影响了语义的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "my lone light amongst the darkness!",
+        "zh_v1_span": "黑暗中的明灯！",
+        "zh_v2_span": "",
+        "description": "原文中的'my'（我的）和'lone'（孤独的）未翻译，漏掉了所有格和情感色彩，削弱了亲密感和诗意。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "bathe",
+        "zh_v1_span": "光临",
+        "zh_v2_span": "",
+        "description": "'bathe'意为沐浴或浸泡，但翻译为'光临'（访问），未准确传达原文中在温泉车厢沐浴的具体动作。"
+      }
+    ],
+    "entry_name": "CARAVAN_LECH_TALK_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体语气亲切，基本传达了原文的意图，但存在漏译和意译过度的问题，导致关键信息缺失和原意侧重点改变。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "while you bathe",
+        "zh_v1_span": "我就在这为你站岗",
+        "zh_v2_span": "",
+        "description": "原文明确提到'while you bathe'（当你沐浴时），但翻译中省略了这一关键场景信息，只译为'为你站岗'，可能导致玩家对上下文理解不清晰。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "Right on this very spot!",
+        "zh_v1_span": "寸步不离！",
+        "zh_v2_span": "",
+        "description": "原文强调'Right on this very spot!'（就在这个具体地点），翻译成'寸步不离'意为一步也不离开，虽传达了不离岗的意图，但改变了原句对地点的精确强调，可能导致信息模糊或歧义。"
+      }
+    ],
+    "entry_name": "CARAVAN_LECH_SPA_ACCEPT_2"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语风格符合角色设定，但存在信息漏译和专有名词翻译不准确的问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Want for shelter from the thick, grey air?",
+        "zh_v1_span": "要来避一避吗？",
+        "zh_v2_span": "要来避一避吗？",
+        "description": "原文明确描述空气为'浓厚、灰色的'('thick, grey')，中文翻译仅用'又闷又湿'概括，漏译了颜色和厚度等具体信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Most bugs instinctively obey those with strength and will. Speak with authority, or your commands may go unheeded.",
+        "zh_v1_span": "虫类大多听从强者，你得用权威口吻。",
+        "zh_v2_span": "虫类大多听从强者，你得用权威口吻。",
+        "description": "原文中'本能地'('instinctively')、'意志'('will')以及'否则你的命令可能被无视'('or your commands may go unheeded')等关键内容在翻译中被省略，导致语义不完整。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Fleamaster",
+        "zh_v1_span": "首领",
+        "zh_v2_span": "首领",
+        "description": "'Fleamaster'为专有名词，可能指特定角色或称号，翻译为'首领'过于泛化且可能不符合游戏设定，应统一译法或保留原词。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_TALL_MEET_GREYMOOR"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但漏译了'bug'一词，削弱了原文的轻蔑语气；同时，'shall I'的疑问语气被转换为肯定陈述，导致语气略有失真。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'bug'被漏译，这是一个轻蔑称呼，遗漏后失去对说话对象的贬义表达，影响角色语气和上下文含义。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Await challenger, shall I.",
+        "zh_v1_span": "我会等下一个挑战者。",
+        "zh_v2_span": "我会等下一个挑战者。",
+        "description": "原文'shall I'带有疑问或犹豫的语气，暗示说话者的不确定或嘲讽，翻译成陈述句'我会等'使语气变得肯定直接，失去原文的微妙情感。"
+      }
+    ],
+    "entry_name": "FG_DODGE_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了游戏结束和邀请再玩的核心意思，但漏译了原文的亲切感（如“Our little”），并添加了原文没有的内容（“你应该还没尽全力吧”），导致语义偏差和语气变化。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Our little game has ended.",
+        "zh_v1_span": "游戏结束。",
+        "zh_v2_span": "",
+        "description": "漏译了“Our little”，原文用“little”表示游戏规模小或亲切感，翻译中缺失此信息，影响语气。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "But I trust, after a short rest, you will play with us again?",
+        "zh_v1_span": "不过你应该还没尽全力吧，休息会儿再战？",
+        "zh_v2_span": "",
+        "description": "添加了原文没有的“你应该还没尽全力吧”，臆译了内容，改变了句子的含义，原文是表达信任和邀请，而翻译加入了质疑语气。"
+      }
+    ],
+    "entry_name": "FG_BOUNCE_COMPLETED"
+  },
+  {
+    "overall_comment": "第一版翻译 '跳蚤耍耍' 没有忠实于英文原文 'Juggle'，含义完全错误，可能是个错译或音译失误，导致标题意思偏离。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Juggle",
+        "zh_v1_span": "跳蚤耍耍",
+        "zh_v2_span": "",
+        "description": "英文原文 'Juggle' 意为杂耍或玩弄，但中文翻译 '跳蚤耍耍' 字面意思是 '跳蚤玩耍'，没有正确传达原意，属于语义错译。"
+      }
+    ],
+    "entry_name": "FESTIVAL_BOARD_TITLE_JUGGLE"
+  },
+  {
+    "overall_comment": "第一版翻译在语气和流畅度上表现良好，但存在漏译问题，缺失了原文中的关键信息如'stranger'和'to our caravan'，导致语义不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "stranger",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'stranger'（陌生人）没有被翻译，中文直接用了'您'，漏掉了对说话对象的称呼，可能影响角色关系和语境。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "to our caravan",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'to our caravan'（到我们的商队）没有被翻译，中文只说了'召集流落各处的跳蚤'，漏掉了收集的目的地，导致信息不完整。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_ACCEPT_QUEST1"
+  },
+  {
+    "overall_comment": "第一版翻译基本流畅，但存在多处信息遗漏和一处关键错译，影响了原文的细节完整性和语气准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "This beautiful spot you’ve gifted us, safe apart from the dark and death of the lands beside. A place for fleas to grow smart and strong.",
+        "zh_v1_span": "看看这块宝地！远离外面的危险，跳蚤们肯定能在这茁壮成长！",
+        "zh_v2_span": "",
+        "description": "漏译了'你赠予我们的'（you’ve gifted us）和'聪明地'（smart），原文强调地点是大黄蜂的礼物，且跳蚤会成长得聪明强壮。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I am glad the location suits, Fleamaster.",
+        "zh_v1_span": "合你们的心意就好。",
+        "zh_v2_span": "",
+        "description": "漏译了称呼'Fleamaster'（跳蚤大师），缺失了对特定角色的指向性。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "but still I hope it meets to your satisfaction!",
+        "zh_v1_span": "希望您别失望！",
+        "zh_v2_span": "",
+        "description": "错译：原文表达积极希望'让你满意'，翻译为负面避免'别失望'，扭曲了原意的语气和意图。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_MEET_FLEATOPIA"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，基本传达了原文意思，但存在添加原文未指定内容和误译的问题，导致语义不完全忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "and at this time I cannot participate",
+        "zh_v1_span": "但此刻我无法参与庆典",
+        "zh_v2_span": "但此刻我无法参与庆典",
+        "description": "原文仅为“无法参与”，未指定对象；翻译添加了“庆典”，属于多译，可能误导上下文。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Wretches, wretches, all of us!",
+        "zh_v1_span": "可惜啊，这太令我们难过了！",
+        "zh_v2_span": "",
+        "description": "原文“Wretches, wretches, all of us!”意为“可悲的人啊，可悲的人啊，我们所有人！”，强调人物状态；翻译简化为情绪表达“可惜啊，这太令我们难过了！”，丢失具体指代和重复修辞，语义不准确。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "How can we begin without you, dear friend?",
+        "zh_v1_span": "没有您这位挚友，庆典如何开始？",
+        "zh_v2_span": "",
+        "description": "原文“begin”未指定事件；翻译添加了“庆典”，属于多译，与第一部分类似，可能基于上下文假设但未忠实于原文。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_GAMES_INTRO_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，结构标签正确，但关键短语 'this very final of all festivals' 被译为 '末日庆典'，可能引入负面含义，与原文庆祝性语气不符。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "this very final of all festivals",
+        "zh_v1_span": "末日庆典",
+        "zh_v2_span": "末日庆典",
+        "description": "原文 'this very final of all festivals' 意为 '所有节庆中的这个最终庆典'，强调最终性；翻译为 '末日庆典' 使用 '末日' 一词，暗示灾难性或终结的负面含义，可能与原文的中性/庆祝语境不符，造成语义偏差。"
+      }
+    ],
+    "entry_name": "FESTIVAL_OUTRO_SCENE"
+  },
+  {
+    "overall_comment": "第一版翻译在整体语气和风格上基本忠实于原文，表达流畅自然。但存在一处明显的漏译，导致原文中强调的‘最喜欢’这一程度信息丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The little fleas like this place most of all.",
+        "zh_v1_span": "小家伙们非常喜欢这地方！",
+        "zh_v2_span": "",
+        "description": "原文中的‘most of all’明确表示‘在所有地方中最喜欢’，但中文翻译仅用‘非常喜欢’，缺失了‘最’的程度强调，属于信息遗漏。"
+      }
+    ],
+    "entry_name": "TROUPE_MEMBER_SHORT_REPEAT_FLEATOPIA"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上大致正确，但存在漏译和多译问题，导致翻译不忠实于原文，影响了准确性和语气传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Oh, dear friend, Miss Hornet,",
+        "zh_v1_span": "大黄蜂小姐快看，",
+        "zh_v2_span": "",
+        "description": "原文中的'Oh, dear friend, Miss Hornet'被翻译为'大黄蜂小姐快看'，漏译了'dear friend'（亲爱的朋友），缺失了亲切的语气和角色关系表达。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Their numbers full.",
+        "zh_v1_span": "跳蚤们无一遗漏，",
+        "zh_v2_span": "",
+        "description": "原文'Their numbers full.'仅表示'他们的数量齐全'，但翻译中添加了'跳蚤们'，这是原文中没有的信息，属于臆译，可能不符合游戏设定或误导理解。"
+      }
+    ],
+    "entry_name": "TROUPE_LEADER_ALLRESCUED_INTRO_FULL_EARLY"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但含义不忠实于原文，'游玩'未准确传达'Compete'的竞争含义，导致语义偏差。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "<hpage>Compete in Flea Bounce?</hpage>",
+        "zh_v1_span": "<hpage>游玩跳蚤蹦蹦？</hpage>",
+        "zh_v2_span": "",
+        "description": "'Compete' 意为竞争或比赛，应翻译为如'竞赛'或'参与比赛'等词，而第一版使用'游玩'（意为玩或游览），丢失了竞争含义，造成错译。"
+      }
+    ],
+    "entry_name": "FG_BOUNCE_CHOICE"
+  }
+]

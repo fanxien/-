@@ -1,0 +1,575 @@
+[
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但在细节上存在漏译和语气偏差，例如漏掉修饰词和弱化强调语气，整体流畅但不够精确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the Plasmium’s beautiful glow",
+        "zh_v1_span": "生质液的蓝光",
+        "zh_v2_span": "",
+        "description": "英文原文中‘beautiful’（美丽的）描述了光芒，但中文翻译漏译了该修饰词，只提到‘蓝光’，丢失了原文的赞美意味。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "like myself",
+        "zh_v1_span": "你也",
+        "zh_v2_span": "",
+        "description": "英文原文明确说‘like myself’（像我一样），中文翻译简化为‘你也’，虽然隐含类似意思，但漏译了明确的比较表述，可能弱化角色共鸣。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Then join me, you must!",
+        "zh_v1_span": "那就加入我吧！",
+        "zh_v2_span": "",
+        "description": "英文原文‘you must!’带有强烈建议或命令的语气，中文翻译‘那就’语气较软，更像普通邀请，导致情绪或语气失真，未能完全传达原文的急切感。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "this wondrous substance",
+        "zh_v1_span": "这宝贝",
+        "zh_v2_span": "",
+        "description": "英文原文‘wondrous substance’意为‘奇妙的物质’，中文翻译‘宝贝’过于口语化和非正式，用词选择不当，可能降低描述的准确性或风格一致性。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文信息，但'There'被误译为'拿好'，添加了原文没有的动作，且'at once'被省略，影响了准确性和语气。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "There,",
+        "zh_v1_span": "拿好，",
+        "zh_v2_span": "",
+        "description": "原文'There'是一个语气词或表示状态（如'好了'），但翻译成'拿好'错误地添加了'拿取'的动作，这在原文中不存在。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "at once",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文'at once'（立刻）在翻译'你又可以注射了'中被完全省略，没有传达出立即行动的紧迫感，导致信息缺失。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_REFILL_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义、风格和结构上忠实于英文原文，准确传达了原文的请求语气和科幻氛围，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "BS_SIT_QUEST1_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在开头部分基本传达了原文的比喻和指令，但结尾处漏译了英文原文中的关键信息 'what I need'，导致整体含义不完整，可能影响玩家对任务要求的理解。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Give me what I need...",
+        "zh_v1_span": "把东西给我……",
+        "zh_v2_span": "",
+        "description": "英文 'Give me what I need...' 强调给予说话者所需的东西，但中文翻译 '把东西给我……' 漏译了 '我需要' 这个限定词，使得原文中特定需求的含义丢失，可能导致玩家误解为泛指任何物品。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签和基本意思上正确，但存在漏译问题，影响了原文的完整性和角色称呼的语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Return that precious liquid life to me... Assistant.",
+        "zh_v1_span": "把生质液带回来……",
+        "zh_v2_span": "",
+        "description": "漏译了'precious liquid life'（珍贵的液体生命）和'Assistant'（助理）称呼，导致信息缺失和角色互动感减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Strike deep the ripened buds.",
+        "zh_v1_span": "扎进成熟花苞……",
+        "zh_v2_span": "",
+        "description": "漏译了'deep'（深深），原文强调刺入深度，翻译未体现这一关键修饰。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST1_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体风格口语化，流畅自然，但有多处信息遗漏，如'两只虫子'和'消失前'等细节缺失，且结尾存在语法错误，导致原文部分含义和语境丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Excellent! With two bugs at the task, the rate of discovery shall greatly increase!",
+        "zh_v1_span": "太好了！效率翻倍！",
+        "zh_v2_span": "",
+        "description": "漏译了'With two bugs at the task'（有两只虫子执行任务）的具体信息，仅概括为'效率翻倍'，丢失了原文强调参与者的细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Now! Before he up and vanished, my previous assistant seeded the warrens below with Plasmium buds.",
+        "zh_v1_span": "我那前任助手在下面虫道种了生质液花苞。",
+        "zh_v2_span": "",
+        "description": "漏译了'Before he up and vanished'（在他突然消失之前）的时间关系和情节细节，使助手背景信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "The buds should be ripening as we speak, and the nectar within must be extracted before they reach maturity.",
+        "zh_v1_span": "现在应该快成熟了，得在成熟前提取生质液。",
+        "zh_v2_span": "",
+        "description": "简化了'as we speak'（就在我们说话时）的即时强调，且'nectar within'（内部的花蜜）被泛化为'生质液'，略有信息损失。"
+      },
+      {
+        "type": "fluency.grammar",
+        "source_span": "Return them to me when you’ve retrieved the necessary samples.",
+        "zh_v1_span": "把带样本回来。",
+        "zh_v2_span": "",
+        "description": "词序错误，'把带样本回来'不符合中文语法，应为'把样本带回来'或类似表达，影响理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "With the right nectar, and the right testing, Plasmium can reveal even more of its wondrous properties!",
+        "zh_v1_span": "有了它们做实验，生质液会更神奇！",
+        "zh_v2_span": "",
+        "description": "漏译了'with the right nectar, and the right testing'（用正确的花蜜和正确的测试）的强调，简化了实验条件的具体性。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思传达基本准确，语句通顺。主要问题在于轻微漏译，丢失了原文中的一个具有明确情绪色彩的感叹词，使得语气和情绪表现力略有不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "aahhh...",
+        "zh_v1_span": "……",
+        "zh_v2_span": "……",
+        "description": "英文原文中的‘aahhh...’是一个带有明显感叹语气的拟声词，翻译仅用省略号代替，丢失了此处的具体情绪色彩（如惊讶、感叹），属于轻微信息缺失。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_CANCOMPLETE"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体准确，流畅传达了英文原意，风格自然，结构标签<page>正确且位置一致。",
+    "issues": [],
+    "entry_name": "BLUE_SCIENTIST_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义和语气，句子结构对应，没有明显的错译、漏译或多译。风格和流畅度也基本匹配原文的鼓励性语气。",
+    "issues": [],
+    "entry_name": "BS_SIT_REFILL_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构上模仿了原文的省略风格，但关键语义元素缺失，未能忠实传达英文原文的完整含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "What we might become...",
+        "zh_v1_span": "成为……",
+        "zh_v2_span": "",
+        "description": "英文原文中的'what'（什么）和'might'（可能）在翻译中被省略，导致意思不完整。原文意为'我们可能成为什么'，翻译只传达了'成为'，缺少了疑问和可能性元素。"
+      }
+    ],
+    "entry_name": "BS_SIT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体质量很高，准确传达了原文神秘、断续的语气和核心指令。术语使用一致，结构标签也完全正确。",
+    "issues": [],
+    "entry_name": "BS_SIT_QUEST1_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的催促语气，但存在多处漏译，包括'纯净'修饰语、针管状态描述以及提取动作的精确性，影响了翻译的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "pure Plasmium",
+        "zh_v1_span": "新鲜生质液",
+        "zh_v2_span": "",
+        "description": "漏译了 'pure'，原文中强调生质液的纯净性，翻译中缺失了这个关键修饰语。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "fully charged stab",
+        "zh_v1_span": "用储液针管扎",
+        "zh_v2_span": "",
+        "description": "漏译了 'fully charged'，这个短语描述了针管的状态（充满或准备好），翻译中未体现，可能影响玩家对机制的理解。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "extract it for me",
+        "zh_v1_span": "干活",
+        "zh_v2_span": "",
+        "description": "翻译过于简化，漏了 'for me'（为我）和 'extract it'（提取它）的具体动作，使指令不够精确。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_QUEST_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文意思和角色语气，但存在几处细节上的漏译和语义偏差，影响了对原文精确含义的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "A wonder beyond wonders, miracle made material!",
+        "zh_v1_span": "这是奇迹中的奇迹，实体化的魔法！",
+        "zh_v2_span": "",
+        "description": "将'miracle made material'（奇迹化为物质）翻译为'实体化的魔法'，其中'miracle'应译为'奇迹'而非'魔法'，导致语义偏差，可能误导玩家对物质性质的认知。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "It heals wounds and strengthens shells!",
+        "zh_v1_span": "疗伤健体，说不定还能起死回生！",
+        "zh_v2_span": "",
+        "description": "原文明确提到'strengthens shells'（强化外壳），但翻译泛化为'健体'，漏译了'shells'这一特定游戏设定或身体部位的指代，可能影响机制描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have encountered its like before, or else a substance of remarkable similarity...",
+        "zh_v1_span": "我好像见过类似的……",
+        "zh_v2_span": "",
+        "description": "漏译了'or else a substance of remarkable similarity'部分，原文表达更精确，暗示可能不是完全相同物质，翻译简化后丢失了细微含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Plasmium was discovered by my master at the farthest edge of Pharloom, hidden deep in salt-stricken waters.",
+        "zh_v1_span": "最初是我的导师在王国边陲的咸水深处发现了它。",
+        "zh_v2_span": "",
+        "description": "简化了'at the farthest edge'（最边缘）的强调，并将'Pharloom'（可能为专有地名）泛化为'王国'，可能导致地理位置信息模糊或术语不一致。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_OFFER_ZANGO"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文，含义准确，风格相似，但个别用词在语气上略有不足。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "And a new assistant is sorely needed.",
+        "zh_v1_span": "正好缺新助手，",
+        "zh_v2_span": "",
+        "description": "'sorely needed' 意为 '急需'，强调紧迫性，但翻译为 '正好缺' 在语气上较弱，可能未完全传达原文的急切感。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译总体不错，基本还原了原文的语气和内容，结构标签也完全对应。主要问题在于个别词语的语义处理可以更精准，以求与角色性格和世界观设定更贴合。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "a shell not dissimilar from your own",
+        "zh_v1_span": "和你挺像的尸壳",
+        "zh_v2_span": "和你挺像的尸壳",
+        "description": "“shell”在此处更可能指代虫类的“甲壳”或“空壳”，暗示助手已死但留下外壳，而不是强调“尸体”。“尸壳”一词带有明确的尸体意味，可能过度解读且略显惊悚，与原文和游戏风格略有出入。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "That lump",
+        "zh_v1_span": "废物",
+        "zh_v2_span": "废物",
+        "description": "“lump”本意指“笨拙的人、块状物”，在这里是科学家对助手的轻蔑称呼，强调其愚钝、不中用。译为“废物”在情绪上是符合的，但丢失了原文中“块状物”这个形象化的比喻，可以考虑更贴近字面且符合中文贬义的译法，如“那坨烂泥”或“那块废料”。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_MEET_ZANGO"
+  },
+  {
+    "overall_comment": "第一版翻译整体传达了原文的大意，但存在漏译和不准确之处，影响了语气和细节的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Those who hesitate learn nothing, you know!",
+        "zh_v1_span": "犹豫可学不到新知识！",
+        "zh_v2_span": "",
+        "description": "原文中的口语化强调语 'you know!' 被完全省略，导致语气损失，可能影响角色表达。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The wondrous bright glow of Plasmium",
+        "zh_v1_span": "生质液的美丽蓝光",
+        "zh_v2_span": "",
+        "description": "'wondrous'（奇妙的）被误译为 '美丽的'，且 'bright glow'（明亮的光芒）被额外添加了颜色 '蓝'，原文未指定颜色，可能导致不准确或歧义。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Plasmium",
+        "zh_v1_span": "生质液",
+        "zh_v2_span": "",
+        "description": "'Plasmium' 是专有名词，翻译为 '生质液' 可能不符合术语约定或世界观设定，建议检查一致性。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_REFILL_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译“生质液腺”准确传达了原文“Plasmium Gland”的科学术语含义，风格正式且一致，没有发现明显的翻译或结构问题。",
+    "issues": [],
+    "entry_name": "LIFEBLOOD_GLAND_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心信息，但存在多处信息省略，特别是漏译了'wonders'、'full with'和'precious nectar'等关键修饰语，削弱了原文对Plasmium奇妙性和血液珍贵性的强调。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "to learn more of Plasmium’s wonders",
+        "zh_v1_span": "想更了解生质液",
+        "zh_v2_span": "想更了解生质液",
+        "description": "原文'Plasmium’s wonders'强调Plasmium的奇妙之处，翻译仅译为'生质液'，漏译了'wonders'，使描述失去神奇氛围。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "their bodies are full with Plasmified Blood",
+        "zh_v1_span": "体内有生质血",
+        "zh_v2_span": "体内有生质血",
+        "description": "原文'full with'表示完全充满，翻译为'有'弱化了程度，漏译了'full'的强调意义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "extract this precious nectar",
+        "zh_v1_span": "提取",
+        "zh_v2_span": "提取",
+        "description": "原文'this precious nectar'比喻Plasmified Blood的珍贵性，翻译中省略了'precious nectar'，漏译了对物质价值的描述。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体准确，传达了原文的含义和语气，结构标签正确，但在结尾部分漏译了'As always...'，使赞赏的连续性有所缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You have done well. As always...",
+        "zh_v1_span": "干得好……",
+        "zh_v2_span": "",
+        "description": "原文中的'As always...'（一如既往地）未被翻译，导致赞赏的连续性缺失，信息不完整。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST1_COMPLETE_1"
+  },
+  {
+    "overall_comment": "第一版翻译在多个地方简化和误译了原文，漏掉了关键细节和比喻，如生物描述、变化强调和主语一致性，整体忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "the creatures bloom so beautifully",
+        "zh_v1_span": "花苞绽放",
+        "zh_v2_span": "",
+        "description": "将 'creatures'（生物）误译为 '花苞'，原文指生物绽放得美丽，可能误导玩家以为指的是花。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "These lands have taken the Plasmium well... the soil has drunk it deep",
+        "zh_v1_span": "这片土地吸收了生质液……深入土壤",
+        "zh_v2_span": "",
+        "description": "漏译了 'well'（很好地）和 'drunk it deep'（深深吸收）的强调，简化了吸收过程的生动描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Great change has been inflicted upon them",
+        "zh_v1_span": "影响太明显了",
+        "zh_v2_span": "",
+        "description": "原文明确提到 'great change'（巨大变化）被施加在野兽身上，翻译只提及影响明显，漏了变化的具体性和负面含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I wonder at the meaning of it all... or if I am perhaps imagining similarities where there are none",
+        "zh_v1_span": "不知是巧合还是……",
+        "zh_v2_span": "",
+        "description": "翻译大幅简化，漏了 'meaning of it all'（这一切的意义）和 'imagining similarities where there are none'（想象不存在的相似性）的完整表达。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Let us think on it",
+        "zh_v1_span": "让我想想……",
+        "zh_v2_span": "",
+        "description": "将 'us'（我们）误译为 '我'，改变了主语，原文暗示共同思考，翻译漏了集体性。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_OFFER_PRE"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文核心意思，但漏译了 'ever' 和 'greatest' 等强调词汇，导致语气弱化和信息不完整。翻译简洁，但准确性有待提高。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "greed was ever your greatest failing.",
+        "zh_v1_span": "贪婪是你的弱点……",
+        "zh_v2_span": "",
+        "description": "原文中 'ever'（一直）和 'greatest'（最大的）强调了贪婪是你始终如一的重大缺点，但中文翻译仅译为 '是你的弱点'，漏掉了这些强调含义，使句子语气减弱且信息不完整。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST1_REFUSE"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的意思，但在细节上存在漏译和意译偏差，导致原文的强调和具体意象有所丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "drink deep",
+        "zh_v1_span": "喝吧",
+        "zh_v2_span": "",
+        "description": "原文中“drink deep”强调深入、彻底地喝，但中文翻译“喝吧”漏译了“deep”一词，弱化了动作的强度和强调意味。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "my liquid life",
+        "zh_v1_span": "我的生命精华",
+        "zh_v2_span": "",
+        "description": "原文“liquid life”直译为“液体生命”，强调生命的流动性或具体形态，但中文翻译“生命精华”意译为抽象的本质，可能偏离了原文的具体意象，导致语义偏差。"
+      }
+    ],
+    "entry_name": "BS_SIT_REPEAT_DONE"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和风格上基本忠实于英文原文，但存在一处关键错译，将‘身体’误译为‘甲壳’，导致语义偏差。其他部分翻译流畅，术语使用一致。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "into your body",
+        "zh_v1_span": "往甲壳里",
+        "zh_v2_span": "",
+        "description": "英文原文是‘into your body’（注入你的身体），但中文翻译为‘往甲壳里’（注入甲壳）。这改变了所指对象，可能基于角色设定（如虫子外壳），但原文未提及甲壳，属于语义错译。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_QUEST_COMPLETE_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本传达了原文的核心意思，但在细节上存在忠实性问题：漏译了'助理'的称呼，并且将'理解这种奇妙物质'译为'破解奥秘'，可能丢失了科学探索的具体性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A satisfactory effort, assistant!",
+        "zh_v1_span": "干得不错！",
+        "zh_v2_span": "干得不错！",
+        "description": "原文中的'助理'（assistant）被遗漏，这可能导致角色互动和语气的缺失，影响对话的亲切感和上下文。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I may finally come to understand this wondrous substance.",
+        "zh_v1_span": "终于能破解奥秘了！",
+        "zh_v2_span": "终于能破解奥秘了！",
+        "description": "原文强调'理解这种奇妙的物质'（understand this wondrous substance），中文翻译'破解奥秘'虽可读，但将'物质'（substance）抽象化为'奥秘'，可能弱化了科学研究的对象，并改变动作从'理解'到'破解'，语义有偏差。"
+      }
+    ],
+    "entry_name": "BLUE_SCIENTIST_QUEST_COMPLETE_1"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的指令式风格，但存在多处漏译和术语不一致问题，影响准确性和细节完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "find the plasmified bugs below...",
+        "zh_v1_span": "找到因生质液进化的生物……",
+        "zh_v2_span": "",
+        "description": "原文中的 'below'（下方）未翻译，丢失了位置信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pierce them deep...",
+        "zh_v1_span": "扎入它们体内……",
+        "zh_v2_span": "",
+        "description": "原文中的 'deep'（深深）未翻译，丢失了强调刺入深度的信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Charge the Phial to full strength...",
+        "zh_v1_span": "蓄满力……",
+        "zh_v2_span": "",
+        "description": "原文中的 'the Phial'（针管）未明确翻译，中文只提 '蓄满力'，可能使对象信息模糊。"
+      },
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "plasmified bugs... Plasmified Blood",
+        "zh_v1_span": "因生质液进化的生物……生质血",
+        "zh_v2_span": "",
+        "description": "原文统一的 'plasmified' 在中文中翻译不一致：'因生质液进化' 和 '生质血'，可能导致术语混淆。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，含义准确，风格和语气匹配，结构标签无遗漏或错位。翻译流畅自然，没有明显问题。",
+    "issues": [],
+    "entry_name": "BS_SIT_QUEST1_OFFER"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本传达了原文的核心意思，结构标签使用正确，但在细节上存在信息省略，导致部分描述不够精确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "extract this precious nectar",
+        "zh_v1_span": "提取",
+        "zh_v2_span": "",
+        "description": "原文中 'extract this precious nectar' 明确指出了提取的对象是 '这种珍贵的花蜜'，但第一版中文翻译只译为 '提取'，省略了这个重要描述，导致信息不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Plasmified Blood",
+        "zh_v1_span": "生质血",
+        "zh_v2_span": "",
+        "description": "原文 'Plasmified Blood' 中的 'Plasmified' 可能表示血浆化或特殊状态，但中文翻译为 '生质血'，简化了术语，丢失了关键修饰信息。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的意思和狂热的语气，风格符合角色设定。但存在个别关键信息漏译、专有名词处理需要确认以及一处意象翻译不够精准的问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Take it, sir,",
+        "zh_v1_span": "拿去吧，",
+        "zh_v2_span": "",
+        "description": "漏译了称呼语 'sir'（先生）。原文中说话者对受话者（玩家）使用了敬称，这在对话关系和人物性格塑造上有重要意义，不应省略。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Plasmium",
+        "zh_v1_span": "生质液",
+        "zh_v2_span": "",
+        "description": "术语 'Plasmium' 被译为 '生质液'。这涉及关键科幻设定或物质名称，需要检查此译名在游戏上下文中是否统一、准确。目前仅就当前条目无法判断，因此归类为待确认项。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "shimmering back at us...",
+        "zh_v1_span": "等着我们……",
+        "zh_v2_span": "",
+        "description": "'shimmering back at us' 意为 '（未来）闪烁着回望我们'，带有生动、迷幻的意象和互动感。译为 '等着我们' 丢失了原文的视觉动态和诗意，显得过于平淡和静态。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_COMPLETE_1"
+  },
+  {
+    "overall_comment": "第一版翻译有漏译问题，缺失了原文中的关键元素，如对助手的称呼和拒绝的强调，导致意思不完整，未能忠实传达原文的含义和语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You decline, Assistant? You cannot.",
+        "zh_v1_span": "你拒绝？",
+        "zh_v2_span": "",
+        "description": "原文中的 'Assistant?' 和 'You cannot.' 完全漏译，导致缺失对助手的直接称呼和强调拒绝的不可行性，削弱了语境的清晰度和情感强度。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST1_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译在关键部分存在误译和漏译，未能准确传达原文的含义和语气，整体忠实度不足。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "This must be done...",
+        "zh_v1_span": "不这么做……",
+        "zh_v2_span": "",
+        "description": "原文意思是'这必须完成'，表达肯定必要性，但中文翻译成'不这么做'，变成了条件否定，改变了原意。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "the deeper truth",
+        "zh_v1_span": "真相",
+        "zh_v2_span": "",
+        "description": "原文中的'deeper'（更深层的）被遗漏，只翻译了'truth'（真相），导致信息缺失，削弱了语义深度。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Never become what is needed...",
+        "zh_v1_span": "永远无法进化……",
+        "zh_v2_span": "",
+        "description": "原文意思是'永远无法成为需要的事物'，表达抽象的必要性，但中文翻译成'进化'，词义不匹配，可能引起误解。"
+      }
+    ],
+    "entry_name": "BS_SIT_QUEST2_DECLINE"
+  }
+]

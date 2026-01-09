@@ -1,0 +1,255 @@
+[
+  {
+    "overall_comment": "第一版翻译'圣堡汤殿'在含义上基本对应'Citadel Spa'，符合游戏可能的神圣或古风风格。然而，翻译完全忽略了原文中的换行标签<br>，这可能导致显示格式不一致或错误。",
+    "issues": [
+      {
+        "type": "tech.markup",
+        "source_span": "Citadel<br>Spa",
+        "zh_v1_span": "圣堡汤殿",
+        "zh_v2_span": "圣堡汤殿",
+        "description": "原文包含换行标签<br>，用于分隔'Citadel'和'Spa'，但中文翻译中没有保留该标签，导致文本可能显示为单行而非预期的两行，影响格式正确性。"
+      }
+    ],
+    "entry_name": "BATHHOUSE"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '骸冢' 准确传达了英文 'Bonegrave' 的含义，作为地名，简洁且风格一致。",
+    "issues": [],
+    "entry_name": "BONETOWN_GRAVEYARD"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '钟居' 忠实地传达了英文 'Bellhome' 的地名含义，风格自然且符合中文命名习惯，没有明显的翻译或结构问题。",
+    "issues": [],
+    "entry_name": "BELLHOME"
+  },
+  {
+    "overall_comment": "第一版翻译'深渊'准确传达了'The Abyss'的含义，风格简洁，与原文保持一致。无结构标签问题，翻译质量良好。",
+    "issues": [],
+    "entry_name": "ABYSS"
+  },
+  {
+    "overall_comment": "第一版翻译将‘The Cradle’译为‘摇篮圣所’，添加了‘圣所’一词，未完全忠实于英文原文的简洁含义，属于臆译。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "The Cradle",
+        "zh_v1_span": "摇篮圣所",
+        "zh_v2_span": "摇篮圣所",
+        "description": "原文仅为‘The Cradle’，翻译中添加了‘圣所’，属于多译或臆译，原文没有此信息。"
+      }
+    ],
+    "entry_name": "CRADLE"
+  },
+  {
+    "overall_comment": "第一版翻译 '中途酒馆' 在含义上不忠实于英文原文 'Halfway Home'，将 '家' 误译为 '酒馆'，导致核心语义偏差，但结构和风格上没有其他问题。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Halfway Home",
+        "zh_v1_span": "中途酒馆",
+        "zh_v2_span": "中途酒馆",
+        "description": "英文 'Halfway Home' 意为 '中途之家'，指过渡性住所，但翻译为 '中途酒馆'，错误地将 '家' 译为 '酒馆'，语义错译，改变了原意。"
+      }
+    ],
+    "entry_name": "HALFWAY_HOUSE"
+  },
+  {
+    "overall_comment": "第一版翻译'颓败教堂'准确传达了'Ruined Chapel'的语义，风格与原文描述性氛围一致，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "BONECHURCH"
+  },
+  {
+    "overall_comment": "第一版翻译'骸底镇'在含义上基本传达了'Bone Bottom'的意象，但添加了'镇'字，属于本地化调整，可能为了地名更自然，但严格来说有添加信息。整体翻译流畅，无结构标签问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Bone Bottom",
+        "zh_v1_span": "骸底镇",
+        "zh_v2_span": "骸底镇",
+        "description": "英文原文'Bone Bottom'中无'town'或类似词，翻译中添加了'镇'，属于多译或臆译，可能改变了原意。"
+      }
+    ],
+    "entry_name": "BONETOWN"
+  },
+  {
+    "overall_comment": "第一版翻译 '蚀阶' 在含义上基本对应 'Blasted Steps'，暗示了被腐蚀或毁坏的台阶，风格符合游戏名称的常见处理方式；结构标签无问题。",
+    "issues": [],
+    "entry_name": "JUDGE_STEPS"
+  },
+  {
+    "overall_comment": "第一版翻译'苔穴'准确传达了'Moss Grotto'的语义，即长满苔藓的洞穴，风格简洁且符合地名描述。没有发现明显的结构标签问题或翻译错误。",
+    "issues": [],
+    "entry_name": "MOSS_CAVE"
+  },
+  {
+    "overall_comment": "第一版翻译 '卡拉卡沙川' 基本传达了 'Sands of Karak' 的含义，'Karak' 音译为 '卡拉卡' 合理，但 '沙川' 一词在中文中不常用，可能引起歧义，建议考虑更标准的译法如 '沙漠' 或 '沙地'。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "Sands",
+        "zh_v1_span": "沙川",
+        "zh_v2_span": "沙川",
+        "description": "'Sands' 通常指沙漠或沙地，翻译为 '沙川' 可能不准确，因为 '川' 在中文中更常用于河流或平原，导致用词搭配不当，建议调整以更符合中文表达习惯。"
+      }
+    ],
+    "entry_name": "RED_CORAL_GORGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译'白愈厅'忠实地传达了'Whiteward'的字面含义，'白'对应'white'，'愈厅'创造性地表达了'ward'的可能含义，整体翻译准确且风格一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "WARD"
+  },
+  {
+    "overall_comment": "第一版翻译 '废鸣管风琴' 在术语准确性上存在问题，'Exhaust' 被译为 '废鸣' 可能偏离原词语义，未能忠实传达英文名称的意图，整体名称翻译有待优化。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Exhaust Organ",
+        "zh_v1_span": "废鸣管风琴",
+        "zh_v2_span": "废鸣管风琴",
+        "description": "'Exhaust' 作为专有名词部分被翻译为 '废鸣'，但 'Exhaust' 通常指排气、耗尽或废弃，而 '废鸣' 字面意为废弃的鸣叫，可能造成语义偏差，未能准确反映原名称含义。'Organ' 翻译为 '管风琴' 虽可接受，但整体名称需确保术语一致和准确。"
+      }
+    ],
+    "entry_name": "ORGAN"
+  },
+  {
+    "overall_comment": "第一版翻译'圣堡'在含义上添加了神圣元素，可能不忠实于原文'The Citadel'的中性描述。第二版翻译相同，可能游戏设定如此，但基于原文分析，存在多译问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "The Citadel",
+        "zh_v1_span": "圣堡",
+        "zh_v2_span": "圣堡",
+        "description": "原文'The Citadel'直译为'堡垒'或'要塞'，没有神圣含义；中文翻译添加了'圣'字，引入了原文没有的信息，属于多译。"
+      }
+    ],
+    "entry_name": "CITY_OF_SONG"
+  },
+  {
+    "overall_comment": "第一版翻译“大议厅”准确对应英文原文“The Forum”，作为地点名忠实传达了集会场所的含义。翻译风格正式得体，与游戏上下文相符。无结构标签或内容错误。",
+    "issues": [],
+    "entry_name": "CITADEL_FORUM"
+  },
+  {
+    "overall_comment": "第一版翻译 '珊瑚尖塔' 准确传达了 'Coral Tower' 的含义，无错译或漏译，风格中性，与原文一致。由于原文无结构标签，未发现技术性问题。",
+    "issues": [],
+    "entry_name": "RED_CORAL_TOWER"
+  },
+  {
+    "overall_comment": "第一版翻译‘蚤托邦’完全忠实于英文原文‘Fleatopia’，准确结合了‘跳蚤’和‘乌托邦’的创意，风格一致，没有发现翻译问题。",
+    "issues": [],
+    "entry_name": "FLEATOPIA"
+  },
+  {
+    "overall_comment": "第一版翻译将'Brightvein'译为'冰晶脉窟'，其中'Bright'部分被误译为'冰晶'，未忠实于原文的明亮含义，可能基于条目名ICECORE进行了本地化改编，但导致语义不准确。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Brightvein",
+        "zh_v1_span": "冰晶脉窟",
+        "zh_v2_span": "",
+        "description": "英文'Brightvein'由'Bright'（明亮的）和'vein'（脉络）组成，但翻译为'冰晶脉窟'，将'Bright'错误地译为'冰晶'（意指冰晶体），忽略了明亮的意思，未准确传达原词语义。"
+      }
+    ],
+    "entry_name": "ICECORE"
+  },
+  {
+    "overall_comment": "第一版翻译将 'Unknown' 译为 '未知区域'，添加了原文没有的 '区域' 具体信息，可能导致含义偏差，不够忠实于原文的通用性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Unknown",
+        "zh_v1_span": "未知区域",
+        "zh_v2_span": "",
+        "description": "原文 'Unknown' 是通用术语，表示未知的事物，不特指区域；翻译添加了 '区域'，具体化为未知区域，这可能多译了原文没有的信息。"
+      }
+    ],
+    "entry_name": "NONE"
+  },
+  {
+    "overall_comment": "第一版翻译 '远野边际' 大致捕捉了 'Frontier' 的边远和边界含义，风格上具有文学色彩，适合作为游戏中的洞穴名称。没有发现明显错误，翻译基本忠实于原文。",
+    "issues": [],
+    "entry_name": "SPRINTMASTER_CAVE"
+  },
+  {
+    "overall_comment": "第一版翻译 '低语书库' 在风格上较好地传达了原文 'Whispering Vaults' 的神秘感，但 'Vaults' 的翻译可能不够准确，需要确认游戏设定中该地点的具体功能。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Whispering Vaults",
+        "zh_v1_span": "低语书库",
+        "zh_v2_span": "低语书库",
+        "description": "原文 'Vaults' 通常指拱顶、地窖或金库等隐蔽存储空间，翻译为 '书库' 可能过于具体，除非上下文明确该地点是用于藏书。这可能导致语义偏差。"
+      }
+    ],
+    "entry_name": "LIBRARY"
+  },
+  {
+    "overall_comment": "第一版翻译“腐安乡”尝试意译地名，但将“Bile”译为“腐”可能不准确，未能完全传达原文中“胆汁”或“苦味”的潜在含义，整体风格虽符合地名格式，但语义上有偏差。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Bilehaven",
+        "zh_v1_span": "腐安乡",
+        "zh_v2_span": "",
+        "description": "“Bile”在英文中通常指胆汁或象征苦味，而“腐”在中文中更接近“腐烂”或“腐败”，语义不匹配；这可能导致地名含义失真，影响玩家对游戏世界观的感知。"
+      }
+    ],
+    "entry_name": "MUCKVILLAGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译“苔栖乡”准确捕捉了英文“Mosshome”的含义（苔藓之家或栖息地），风格与合成词地名一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "MOSSTOWN"
+  },
+  {
+    "overall_comment": "第一版翻译'丝咒侵蚀的钟心镇'对原文'Haunted Bellhart'进行了意译，但'Haunted'的核心含义（闹鬼）未被准确传达，属于语义错译；同时，专有名词'Bellhart'的翻译'钟心镇'可能不符合游戏设定或官方译名，存在术语不一致的风险。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Haunted",
+        "zh_v1_span": "丝咒侵蚀",
+        "zh_v2_span": "",
+        "description": "英文'Haunted'意为闹鬼或被鬼魂缠身，强调超自然现象；中文'丝咒侵蚀'意为诅咒侵蚀，扩展了原意且未准确对应，导致语义失真。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Bellhart",
+        "zh_v1_span": "钟心镇",
+        "zh_v2_span": "",
+        "description": "'Bellhart'是专有地名，翻译为'钟心镇'属于创意意译，但缺乏上下文确认是否符合游戏世界观或官方译名，可能存在术语不一致问题。"
+      }
+    ],
+    "entry_name": "BELLTOWN_HAUNTED"
+  },
+  {
+    "overall_comment": "第一版翻译“机枢核心”在含义上忠实于英文原文“Cog Core”，术语选择合理，风格简洁，且没有结构标签错误。整体质量良好。",
+    "issues": [],
+    "entry_name": "COG_CORE_SHORT"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '费耶山' 准确传达了英文 'Mount Fay' 的含义，音译恰当，风格与结构均符合原文，且与第二版翻译一致，无明显问题。",
+    "issues": [],
+    "entry_name": "PEAK"
+  },
+  {
+    "overall_comment": "第一版翻译“迷瘴”在含义上基本对应英文“The Mist”，但“瘴”字可能暗示有害雾气，而原文“Mist”更中性，需结合游戏设定确认是否准确。结构标签无缺失或错位，翻译整体流畅。",
+    "issues": [],
+    "entry_name": "DUST_MAZE"
+  },
+  {
+    "overall_comment": "第一版翻译'剧台'准确传达了英文原文'The Stage'的意思，与第二版一致，没有明显错误或偏差。",
+    "issues": [],
+    "entry_name": "CITADEL_STAGE"
+  },
+  {
+    "overall_comment": "第一版翻译“高庭”准确反映了英文原文“High Halls”的含义，作为地名翻译简洁且符合中文习惯，没有明显错误或风格不匹配。",
+    "issues": [],
+    "entry_name": "HANG"
+  },
+  {
+    "overall_comment": "第一版翻译“阿特拉织巢”准确传达了英文原文“Weavenest Atla”的含义，音译“阿特拉”和意译“织巢”结合自然，结构与风格与原文一致，没有明显问题。",
+    "issues": [],
+    "entry_name": "WEAVER_SHRINE"
+  }
+]

@@ -1,0 +1,371 @@
+[
+  {
+    "overall_comment": "第一版翻译整体语气和结构基本匹配原文，但在具体动作和位置描述上存在错译和多余添加，导致准确性偏差。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "strike them down",
+        "zh_v1_span": "挥针",
+        "zh_v2_span": "",
+        "description": "英文'strike them down'意为攻击或击倒，未指定武器；中文翻译为'挥针'，引入了'针'这一具体工具，可能不符合原文语义或游戏上下文。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "beneath the bone",
+        "zh_v1_span": "骸骨缝隙",
+        "zh_v2_span": "",
+        "description": "英文'beneath the bone'简单指在骨头下面；中文翻译为'骸骨缝隙'，添加了'缝隙'（裂缝或间隙）的细节，原文未提及此信息。"
+      }
+    ],
+    "entry_name": "NOTE_CRYPT_WORM"
+  },
+  {
+    "overall_comment": "第一版翻译'滑水者'未能完整传达英文原文，漏译了'Pond'部分，且翻译风格可能不匹配原文所指的生物或角色。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pond Skipper",
+        "zh_v1_span": "滑水者",
+        "zh_v2_span": "滑水者",
+        "description": "原文'Pond Skipper'中的'Pond'（池塘）没有被翻译，中文仅对应了'Skipper'部分，导致信息缺失；此外，'滑水者'通常指人类滑水运动，可能与原文描述的生物或角色不符。"
+      }
+    ],
+    "entry_name": "NAME_POND_SKATER"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上不忠实于英文原文。第一句将'purity'误译为'虔信'，词义错误；第二句完全改变了原意，漏掉了英文中关于信仰衡量的关键信息，并添加了原文未提及的'虫'和'罪孽'概念。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "purity",
+        "zh_v1_span": "虔信",
+        "zh_v2_span": "",
+        "description": "英文'purity'意为纯洁或纯净，但中文翻译为'虔信'（虔诚信仰），语义错误，导致意思偏差。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The way faith is measured in this land is curious indeed.",
+        "zh_v1_span": "多数虫肯定视此等囤积为罪孽。",
+        "zh_v2_span": "",
+        "description": "英文句子讨论'信仰在这个地方被衡量的方式确实好奇'，但中文翻译完全错误，变为'多数虫肯定视此等囤积为罪孽'，意思完全偏离，同时漏译了'faith is measured'和'curious'等关键信息。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "",
+        "zh_v1_span": "多数虫肯定视此等囤积为罪孽。",
+        "zh_v2_span": "",
+        "description": "中文翻译添加了原文没有的内容，如'多数虫'和'罪孽'，这些在英文中未提及，属于臆译或多译。"
+      }
+    ],
+    "entry_name": "NOTE_ROSARY_PILGRIM"
+  },
+  {
+    "overall_comment": "第一版中文翻译在风格上较为流畅，但准确性存在偏差，漏译了英文原文中的关键信息如'from their subjects'和'rise'，且对'unstrung'的翻译可能不准确，导致含义不忠实。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Once they summoned song from their subjects.",
+        "zh_v1_span": "昔日的乐章指挥者",
+        "zh_v2_span": "",
+        "description": "原文'from their subjects'（从他们的臣民中）未被翻译，中文简化了'summoned song'为'乐章指挥者'，导致信息缺失，未能体现控制或利用臣民的意味。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "those unstrung",
+        "zh_v1_span": "清醒者",
+        "zh_v2_span": "",
+        "description": "'unstrung'原意是弦未上紧，可能引申为混乱、失控或特定状态，但译为'清醒者'（awake ones）不准确，可能与游戏设定不符，造成歧义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "rise only to",
+        "zh_v1_span": "只为",
+        "zh_v2_span": "",
+        "description": "英文'rise'（起来或开始行动）的含义未被明确翻译，中文直接使用'挥棒'来暗示行动，但省略了'rise'的动态感，导致信息不完整。"
+      }
+    ],
+    "entry_name": "NOTE_SONG_PILGRIM_MAESTRO"
+  },
+  {
+    "overall_comment": "第一版翻译“壳王卡汗”准确传达了英文原文“Crust King Khann”的含义，专有名词的音译和意译结合得当，风格匹配，无显著问题。",
+    "issues": [],
+    "entry_name": "NAME_CORAL_KING"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了自动机和致命舞姿的核心意思，但漏译了 'to their chamber' 这一地点信息，导致描述不够完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "welcoming entrants to their chamber",
+        "zh_v1_span": "迎接访客",
+        "zh_v2_span": "",
+        "description": "英文原文中 'to their chamber' 指定了自动机欢迎访客进入他们的房间，中文翻译只提到 '访客'，漏译了地点信息，使内容不完整。"
+      }
+    ],
+    "entry_name": "DESC_CLOCKWORK_DANCER"
+  },
+  {
+    "overall_comment": "第一版翻译在核心含义上基本正确，但完全遗漏了原文中'很少出现在她的巢穴外'的描述，导致角色设定信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "rarely seen outside her warren",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中'rarely seen outside her warren'（很少出现在她的巢穴外）的描述在第一版翻译中被完全省略，丢失了关于角色行为的重要信息。"
+      }
+    ],
+    "entry_name": "DESC_SLAB_FLY_BROODMOTHER"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了翅膀功能有限的核心意思，但漏译了原文中的具体环境细节和飞行能力的直接描述，且代词单复数不一致，导致准确性有所欠缺。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Flight it possesses, but only just. It may lift from the stone",
+        "zh_v1_span": "那对萎缩的翅膀勉强能使它们离地数尺",
+        "zh_v2_span": "",
+        "description": "原文明确提到'Flight it possesses'（它拥有飞行能力）和'from the stone'（从石头），翻译中只概括为翅膀勉强离地，漏掉了这些关键细节。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "it",
+        "zh_v1_span": "它们",
+        "zh_v2_span": "",
+        "description": "原文使用单数代词'it'指代生物，翻译中错误地使用了复数'它们'，导致指代不一致，可能引起歧义。"
+      }
+    ],
+    "entry_name": "NOTE_PILGRIM_FLY"
+  },
+  {
+    "overall_comment": "第一版翻译'引路朝圣者'准确传达了英文原文'Pilgrim Guide'的含义，作为名称翻译忠实且自然，没有明显的结构或风格问题。",
+    "issues": [],
+    "entry_name": "NAME_PILGRIM_STAFFWIELDER"
+  },
+  {
+    "overall_comment": "第一版翻译 '特罗比奥' 是英文 'Trobbio' 的准确音译，专有名词处理得当，与第二版翻译完全一致，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "NAME_TROBBIO"
+  },
+  {
+    "overall_comment": "第一版翻译简洁，但漏译了'infant'和'thick'等细节，导致语义信息不完整，削弱了原文的描述力。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Mindless infant larva, coated in thick slime.",
+        "zh_v1_span": "覆满黏液的无智幼虫。",
+        "zh_v2_span": "覆满黏液的无智幼虫。",
+        "description": "原文中的'infant'（意为幼小）和'thick'（意为厚）在翻译中被漏译，使得生物的描述不够准确和完整，丢失了关键特征。"
+      }
+    ],
+    "entry_name": "DESC_MAGGOTS"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思，但在准确性上存在几处问题，包括漏译时间副词、关键动词的语义偏差以及术语不一致。风格大致符合，但细节需要修正。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "forever raging",
+        "zh_v1_span": "切齿痛恨",
+        "zh_v2_span": "",
+        "description": "原文中的'forever'表示持续不断的仇恨，但中文翻译遗漏了这个时间副词，未能传达出永恒的愤怒感。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "chokes their caves",
+        "zh_v1_span": "毁掉了斯提金部族的洞穴",
+        "zh_v2_span": "",
+        "description": "'chokes'原意为窒息或压迫，比喻性地表示限制或挤压洞穴，翻译成'毁掉'可能夸大了破坏程度，导致语义偏差，应更贴近'窒息'或'压迫'的意味。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "sees them suffer",
+        "zh_v1_span": "令其族虫苦不堪言",
+        "zh_v2_span": "",
+        "description": "'sees them suffer'强调圣堡是目睹或导致受苦的一方，翻译成'令'更直接地表示使役，可能丢失了'目睹'或'旁观'的细微含义，使因果关系过于强化。"
+      },
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "their",
+        "zh_v1_span": "族虫",
+        "zh_v2_span": "",
+        "description": "英文中'Stilkin'被统一翻译为'斯提金部族'，但后续用'族虫'指代部族成员，造成术语不一致。建议统一使用如'斯提金族'或明确部族成员的称呼，以避免混淆。"
+      }
+    ],
+    "entry_name": "DESC_SWAMP_SHAMAN"
+  },
+  {
+    "overall_comment": "第一版翻译 '仆从博兰' 忠实于英文原文 'Servitor Boran'，含义准确，术语和专有名词处理恰当，没有明显的结构或风格问题。",
+    "issues": [],
+    "entry_name": "NAME_WEAVER_SERVITOR_LARGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译“阿利塔”准确音译了英文名字“Alita”，忠实于原文，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "NAME_CORAL_HUNTER"
+  },
+  {
+    "overall_comment": "第一版翻译误解了原文的'one'（泛指人），将其错误地译为'其他虫'，并添加了原文未提及的限制性条件'没有其他虫能在'，导致意思偏离了英文原意。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "An essential bug if one ever hoped to navigate that dark maze of stacks and scrolls.",
+        "zh_v1_span": "如果没有此虫引路，没有其他虫能在那个由书卷堆砌的黑暗迷宫中穿行。",
+        "zh_v2_span": "",
+        "description": "原文意思是'对于一个希望导航那个黑暗迷宫的人来说，这是一个必不可少的虫子'。中文翻译错误地将'one'（泛指人）翻译为'其他虫'，并添加了'没有其他虫能在'的限制，改变了原意，属于语义错译。"
+      }
+    ],
+    "entry_name": "NOTE_LIGHTBEARER"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于英文原文，准确传达了'Verdania的孩子尽管年幼但能战斗'的核心含义，风格符合游戏描述语气。结构标签一致（无标签），整体无重大错误，但'战力完备'的用词稍显生硬，可优化为更自然的表达。",
+    "issues": [],
+    "entry_name": "DESC_GRASSHOPPER_CHILD"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地表达了核心动作，但漏译了英文原文中的关键描述部分，导致信息不完整，缺乏转折和细节。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "yet it seems to matter little",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的 'yet it seems to matter little' 未被翻译，漏掉了转折和无关紧要的含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "They have no care for their own safety",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'They have no care for their own safety' 部分未被翻译，漏掉了描述其不关心安全的信息。"
+      }
+    ],
+    "entry_name": "NOTE_SLAB_PRISONER_FLY_NEW"
+  },
+  {
+    "overall_comment": "第一版翻译将'Tallcraw'译为'高囊虫'，可能不忠实于原意，因为'囊虫'在中文中通常指寄生虫，而英文名可能暗示高大爬行的生物，导致含义偏差，需要复核上下文或设定。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Tallcraw",
+        "zh_v1_span": "高囊虫",
+        "zh_v2_span": "高囊虫",
+        "description": "'Tallcraw'可能由'tall'（高）和'craw'（爬行或类似动作）组成，但中文翻译'高囊虫'中'囊虫'在中文中通常指寄生虫（如绦虫幼虫），与原文可能的生物或角色形象不符，属于语义错译。"
+      }
+    ],
+    "entry_name": "NAME_CROWMAN"
+  },
+  {
+    "overall_comment": "第一版中文翻译基本准确地传达了英文原文的含义，风格符合描述性文本，句子流畅自然。没有发现明显的翻译错误或技术问题。",
+    "issues": [],
+    "entry_name": "DESC_CORAL_BIG_JELLYFISH"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '圣咏长老' 基本忠实于英文原文 'Choir Elder'，含义准确，风格简洁，结构一致，无标签问题。",
+    "issues": [],
+    "entry_name": "NAME_PILGRIM_STOMPER_SONG"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义和风格，用词自然流畅，没有发现明显的错误或问题。",
+    "issues": [],
+    "entry_name": "DESC_BONE_FLYER"
+  },
+  {
+    "overall_comment": "第一版翻译添加了原文未提及的地名‘纺络’，属于多译；同时将‘Blade maiden’误译为‘女针客’，导致语义错误，与原文含义不符。整体风格基本一致，但准确性有较大问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Blade maiden of a once renowned warrior sect",
+        "zh_v1_span": "纺络曾出现过一个赫赫有名的勇士宗派",
+        "zh_v2_span": "",
+        "description": "原文未提及任何地点，但翻译中加入了‘纺络’，这是额外的臆译内容，不符合原文信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Blade maiden",
+        "zh_v1_span": "女针客",
+        "zh_v2_span": "",
+        "description": "'Blade maiden' 意为刀锋少女或剑之女，指使用刀剑的女性，但翻译为‘女针客’，‘针’意为针，与‘blade’（刀剑）语义不符，属于错译。"
+      }
+    ],
+    "entry_name": "DESC_PINSTRESS_BOSS"
+  },
+  {
+    "overall_comment": "第一版翻译‘仆从伊格尼姆’准确传达了英文原文‘Servitor Ignim’的含义，专有名词音译正确，风格与原文一致，整体没有明显问题。",
+    "issues": [],
+    "entry_name": "NAME_WEAVER_SERVITOR"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于原文，含义覆盖完整，但用词略显生硬，流畅度有提升空间。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "winged warrior",
+        "zh_v1_span": "飞翼勇士",
+        "zh_v2_span": "",
+        "description": "‘winged warrior’ 翻译为‘飞翼勇士’搭配不自然，建议调整为更符合中文习惯的表达，如‘有翼勇士’或‘带翅战士’，以提升流畅度。"
+      }
+    ],
+    "entry_name": "DESC_GRASSHOPPER_FLY"
+  },
+  {
+    "overall_comment": "第一版翻译'裁决者'准确对应英文原文'Judge'的含义，作为角色名称或头衔风格恰当，且没有结构标签问题。与第二版翻译一致，整体质量良好。",
+    "issues": [],
+    "entry_name": "NAME_CORAL_JUDGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '末代裁决者' 准确传达了英文原文 'Last Judge' 的含义，作为名称翻译得当，风格一致，没有结构标签问题。",
+    "issues": [],
+    "entry_name": "NAME_LAST_JUDGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '狱卒蝇' 准确翻译了英文原文 'Wardenfly' 的含义，组合词结构保持一致，风格适合名称翻译，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "NAME_SLAB_FLY_LARGE"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上基本准确，但漏译了'leaping'这一关键描述，可能影响猎手形象的生动性和完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Leaping hunter of a bygone age.",
+        "zh_v1_span": "传奇猎手",
+        "zh_v2_span": "",
+        "description": "原文中'Leaping'（跳跃的）描述了猎手的特征，翻译中省略了这个词，导致信息缺失，使角色形象不够丰满。"
+      }
+    ],
+    "entry_name": "DESC_CORAL_HUNTER"
+  },
+  {
+    "overall_comment": "第一版翻译整体传达了原文的大致意思，但存在多处添加和意译问题，例如添加了‘族群’和‘劝解’，并将‘提供回应’改为‘终结这愚行’，降低了忠实度，风格上也有所偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "They seek to slay their only chance at survival.",
+        "zh_v1_span": "它们想要斩断族群最后的生机。",
+        "zh_v2_span": "",
+        "description": "添加了‘族群’，原文没有指定群体类型，可能基于上下文，但本句中没有体现。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Alas, any words would fall useless.",
+        "zh_v1_span": "我任何的言语劝解皆为徒劳，",
+        "zh_v2_span": "",
+        "description": "添加了‘劝解’，原文只是‘words’（话语），没有修饰为劝解，翻译增加了额外含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I have only my blade to offer response.",
+        "zh_v1_span": "唯有利刃能终结这愚行。",
+        "zh_v2_span": "",
+        "description": "将‘提供回应’翻译为‘终结这愚行’，意思改变，添加了评价‘愚行’，原文没有此含义，属于语义错译。"
+      }
+    ],
+    "entry_name": "NOTE_CROWMAN_DAGGER_JUROR"
+  },
+  {
+    "overall_comment": "第一版翻译“黑寡妇”准确对应英文“Widow”，作为BOSS名称忠实且合适，无结构标签问题。",
+    "issues": [],
+    "entry_name": "NAME_SPINNER_BOSS"
+  }
+]

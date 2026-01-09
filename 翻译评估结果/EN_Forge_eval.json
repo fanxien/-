@@ -1,0 +1,422 @@
+[
+  {
+    "overall_comment": "第一版中文翻译整体质量良好，准确传达了英文原文的含义和口语化风格，结构标签使用正确，无明显错误。",
+    "issues": [],
+    "entry_name": "BALLOW_CONTROL_KEY"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语化风格生动，符合角色语气，但在准确性上有小问题，如漏译时间副词、术语翻译模糊以及不必要的添加。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Soon I will act",
+        "zh_v1_span": "就在此一举",
+        "zh_v2_span": "",
+        "description": "漏译了'soon'（很快），原文强调立即行动的时间紧迫性，翻译未体现。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "stop the quakes",
+        "zh_v1_span": "终结动荡",
+        "zh_v2_span": "",
+        "description": "将'quakes'（特指震动或地震）翻译为'动荡'，含义变得模糊，可能失去原文的具体性。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "diving bell",
+        "zh_v1_span": "老破钟",
+        "zh_v2_span": "",
+        "description": "添加了原文没有的形容词'老破'，属于多译，可能改变中性描述或增加主观色彩。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_ACT_3_WHITE_FLOWER_REPAIR_UNSEEN"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，意思基本准确，风格与原文匹配。但存在一处漏译，漏掉了 'measly' 的翻译，削弱了原文对念珠价值的强调。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "We’ve not a single measly rosary left between us.",
+        "zh_v1_span": "半颗念珠都不剩！",
+        "zh_v2_span": "",
+        "description": "漏译了 'measly'（微不足道的）一词，原文强调念珠的微薄价值，中文翻译只表达了 '没有念珠'，但未传达 '微不足道' 的含义。"
+      }
+    ],
+    "entry_name": "LADY_BUG_DEPLETED_A"
+  },
+  {
+    "overall_comment": "第一版翻译在整体语意上大致准确，但结构标签放置错误，且关键游戏术语'bug'和'drop'的翻译可能丢失了特定含义，影响游戏体验的一致性。",
+    "issues": [
+      {
+        "type": "tech.markup",
+        "source_span": "Grfff... So it’s gotten that bad, aye? I guess... If that’s how it is, I’ll be your bug.<page>Meet me below, at the diving bell. We’ll see if I can get you ready for the drop.",
+        "zh_v1_span": "<page>嘶……已经糟到这地步了？行吧……如果真是这样，那我帮你。<page>去潜钟底下碰头，我看能不能给你整备好。",
+        "zh_v2_span": "",
+        "description": "英文原文中只有一个<page>标签在句子之间，但第一版中文翻译在开头额外添加了一个<page>标签，导致标签顺序错位，可能影响文本显示或分页。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "I’ll be your bug.",
+        "zh_v1_span": "那我帮你。",
+        "zh_v2_span": "",
+        "description": "'bug'可能是一个游戏特定术语，指代某个角色或概念，翻译成'帮你'丢失了原意，应使用更准确的译名。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "get you ready for the drop",
+        "zh_v1_span": "给你整备好",
+        "zh_v2_span": "",
+        "description": "'drop'可能指潜水下落或游戏机制，翻译成'整备'未传达具体含义，应保留或翻译为相关术语。"
+      }
+    ],
+    "entry_name": "BALLOW_DIVING_BELL_PT2"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了'准备好时呼喊'和'潜钟状态绝佳'的含义，风格口语化且流畅，没有发现重大问题。",
+    "issues": [],
+    "entry_name": "DIVING_BELL_POST_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，语气与原文匹配，但在细节上添加了原文未明确提及的内容，属于轻微多译。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "All your troubles dripping away...",
+        "zh_v1_span": "烦心事都在随着汗液滴落……",
+        "zh_v2_span": "",
+        "description": "原文仅说‘dripping away’，未指定液体；中文添加了‘随着汗液’，属于多译，虽然可能基于桑拿语境合理，但不完全忠实于原文。"
+      }
+    ],
+    "entry_name": "BALLOW_SAUNA_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文意思，但在准确性、流畅度和风格方面存在多处问题。例如，添加了原文没有的问号和元素，漏译了关键条件信息，并有语法错误和语气失真，导致翻译不够忠实于原文。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "The deposits around here, those long-burning rocks.",
+        "zh_v1_span": "储备在附近的长效燃烧石？",
+        "zh_v2_span": "",
+        "description": "原文是陈述句，描述客观事实，翻译却添加问号变为疑问句，改变了说话者的语气和意图，可能导致语气失真。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "in whatever their shadowy business",
+        "zh_v1_span": "搞些见不得虫的勾当",
+        "zh_v2_span": "",
+        "description": "原文'shadowy business'（隐秘事务）被添加了'虫'的修饰（'见不得虫'），引入了原文没有的信息，属于臆译，可能源于游戏本地化但需验证一致性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "but useless if you require tools of us",
+        "zh_v1_span": "对我们来说屁用没有！",
+        "zh_v2_span": "",
+        "description": "原文有条件从句'if you require tools of us'（如果你需要我们制造工具），翻译省略了此条件，直接简化为'对我们来说无用'，导致信息丢失，影响准确性。"
+      },
+      {
+        "type": "fluency.grammar",
+        "source_span": "Pharloom would provide a bounty to the able explorer.",
+        "zh_v1_span": "只要你有本事，纺络遍地都是是宝贝。",
+        "zh_v2_span": "",
+        "description": "'都是是'存在明显的语法错误；'bounty'（丰厚的报酬或资源）翻译为'宝贝'可能不准确，且表达啰嗦，流畅度差。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "violent aids",
+        "zh_v1_span": "那些家伙什",
+        "zh_v2_span": "",
+        "description": "原文'violent aids'（暴力工具或辅助）中的'violent'一词未被翻译，仅译出'aids'为'家伙什'，漏掉了关键修饰，影响语义准确性和风格。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "We need finer material. Rare metal.",
+        "zh_v1_span": "去找些更好、更稀有的金属！",
+        "zh_v2_span": "",
+        "description": "原文是陈述需求'We need...'，翻译改为命令语气'去找些...'，改变了说话者的态度（从表达需求变为下达指令），导致语气失真。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_CANCEL_NOMETAL"
+  },
+  {
+    "overall_comment": "第一版翻译基本准确，传达了'女士脱靶'和'挑战结束'的核心信息，但省略了原文中的连接词'so thusly'，使得结束语气略显生硬，缺乏原文的强调和逻辑衔接。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "and so thusly ends our challenge!",
+        "zh_v1_span": "挑战结束！",
+        "zh_v2_span": "",
+        "description": "原文中的'so thusly'表示'因此'或强调挑战结束的原因，翻译中完全省略了这部分，导致语气和逻辑连接缺失，可能影响玩家对上下文的理解。"
+      }
+    ],
+    "entry_name": "LADY_BUG_CHALLENGE_FINAL_END"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上忠实于原文的片段化表现形式，使用了省略号来对应英文的省略号。含义上基本捕捉了关键词，但部分词语的翻译可能不够精确，需要根据游戏上下文确认。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "...erwhelm...",
+        "zh_v1_span": "……过载……",
+        "zh_v2_span": "……过载……",
+        "description": "原文 'erwhelm' 可能对应 'overwhelm'，意为“压倒”或“淹没”；中文翻译为“过载”通常用于电子或系统负荷，可能不准确，除非游戏设定中特指压力过载。建议根据上下文核实。"
+      }
+    ],
+    "entry_name": "BALLOW_DIVING_BELL_ABYSS_BLACK"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的含义，但在准确性上存在偏差，将'strong limbs'译为'矫健的风姿'未能准确表达身体部位的力量；此外，语气稍显口语化，与原文的正式恭敬风格不完全匹配。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "those strong limbs of yours",
+        "zh_v1_span": "您矫健的风姿",
+        "zh_v2_span": "",
+        "description": "英文中的'strong limbs'特指强健的四肢，强调身体部位的力量；中文翻译为'矫健的风姿'，侧重于姿态和风度，没有准确传达'limbs'的具体所指和'strong'的强度。"
+      },
+      {
+        "type": "style.register",
+        "source_span": "My lady, I pray you reconsider",
+        "zh_v1_span": "女士，再考虑考虑吧",
+        "zh_v2_span": "",
+        "description": "原文使用'My lady'和'I pray'表达正式、恭敬的恳求语气；中文翻译较为口语化，'吧'的使用使语气变得轻松，与原文的正式感不符。"
+      }
+    ],
+    "entry_name": "LADY_BUG_DECLINED"
+  },
+  {
+    "overall_comment": "第一版翻译整体表达流畅，基本传达了鼓励的语气，但存在漏译和语气偏差的细节问题，影响了原意的精准传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "A respectable enough effort, truly.",
+        "zh_v1_span": "表现非常不错！",
+        "zh_v2_span": "",
+        "description": "原文中的 'truly' 一词未翻译，导致遗漏了强调真实性的语气，属于信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "but that should only spur you on to try again!",
+        "zh_v1_span": "或许正好能激励您再试一次！",
+        "zh_v2_span": "",
+        "description": "'should only' 表示肯定的鼓励，意为'应该只会'；翻译为'或许正好能' 引入了不确定性，改变了原文的确定语气，属于语义错译。"
+      }
+    ],
+    "entry_name": "LADY_BUG_CHALLENGE_FINAL_POOR"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，用词专业且流畅，忠实于原文的风格和结构。",
+    "issues": [],
+    "entry_name": "DOCK_KEY_RECEPTICLE_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，语气和重复的强调都得到了恰当保留，整体流畅自然，与角色情境相符。",
+    "issues": [],
+    "entry_name": "BALLOW_REPAIR_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在主要部分（如牵引、无法、修理、抱歉）基本忠实于原文，但存在明显的漏译和错译，导致信息不完整和语义错误。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "...ap...en...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的 '...ap...en...' 部分在翻译中完全缺失，这可能是 'up...end...' 或其他内容的省略，导致整体信息遗漏。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "..iss...",
+        "zh_v1_span": "小",
+        "zh_v2_span": "小",
+        "description": "英文 'iss' 可能对应 'miss'，意为错过或小姐等，但翻译成 '小'（意为 small/little）是错误的，应调整为更准确的译法如 '错过'。"
+      }
+    ],
+    "entry_name": "BALLOW_DIVING_BELL_ABYSS_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的兴奋语气和游戏开始的意思，风格活泼，但'straight pins'的翻译可能不够准确，丢失了'直'的细节。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "straight pins",
+        "zh_v1_span": "掷针",
+        "zh_v2_span": "掷针",
+        "description": "'straight pins'翻译为'掷针'可能不精确，原文'straight'意为'直的'，未在翻译中体现；'掷针'暗示投掷用途，而原文是'strike'（击打），可能存在语义偏差。"
+      }
+    ],
+    "entry_name": "LADY_BUG_ACCEPTED_3"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义和风格，结构标签正确且与原文一致，翻译流畅自然，无明显问题。",
+    "issues": [],
+    "entry_name": "BALLOW_DIVING_BELL_TO_BENCH_REPAIRED"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文的口语化、略带幽默的语气基本匹配，但在细节处存在信息漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’ve found these lowlands hot enough already",
+        "zh_v1_span": "我倒觉得这里已经够热了",
+        "zh_v2_span": "",
+        "description": "漏译了'lowlands'（低地），原文明确指代特定地理环境，中文简化为'这里'，可能丢失了世界观设定或地点暗示。"
+      }
+    ],
+    "entry_name": "BALLOW_SAUNA_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译简洁流畅，基本传达了英文原意，但漏译了尊称'my lady'和动态描述'rattling around'，可能影响角色语气和场景生动性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "my lady",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文使用'my lady'作为尊称，译文省略了此称呼，可能导致角色关系表达不完整或语气减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "rattling around",
+        "zh_v1_span": "摸着兜里的念珠",
+        "zh_v2_span": "",
+        "description": "原文中'rattling around'描述了念珠在口袋里叮当作响的音响效果，译文仅翻译了'摸着念珠'，漏掉了此动态描述，可能减少文本的生动性和细节。"
+      }
+    ],
+    "entry_name": "LADY_BUG_DEPLETED_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译“取消下潜？”准确传达了英文原文“Cancel Descent?”的含义和风格，问句形式恰当，没有漏译或误译。",
+    "issues": [],
+    "entry_name": "DIVING_BELL_TO_BENCH_INSPECT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，语气符合角色设定，核心意思传达准确。但在个别细节上未能完全忠实于原文的措辞和语法结构。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Not for us. We cannot leave, not ever.",
+        "zh_v1_span": "从来就没得选。",
+        "zh_v2_span": "",
+        "description": "原文明确区分了‘对我们而言没得选’和‘永远不能离开’两层意思。第一版翻译将这两句合并简化为‘从来就没得选’，丢失了‘离开’这个具体行为的描述，略显笼统。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "We are a Forge Daughter",
+        "zh_v1_span": "咱是熔炉之女",
+        "zh_v2_span": "",
+        "description": "原文使用单数‘a Forge Daughter’，暗示说话者自身是众多‘熔炉之女’中的一员。第一版翻译的‘咱’通常用于复数第一人称（我们）或口语化的单数第一人称（我），在此语境下与原文的单数‘a’所指不完全对应，虽然语气更口语化，但存在语法层面的不匹配。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_ACT_3_START_FIRST_MEET_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，含义准确，风格亲切口语化，符合角色语气。句子结构对应，无漏译或错译。",
+    "issues": [],
+    "entry_name": "FORGE_DAUGHTER_DIVING_BELL_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于原文，口语化语气匹配，但存在两处添加原文未指定的内容，可能影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "I would not see this land’s bugs abandoned to their end.",
+        "zh_v1_span": "我不愿抛下此地生灵，让它们无力地面对终结来临。",
+        "zh_v2_span": "",
+        "description": "中文添加了 '无力地'，原文中没有对应词汇，属于多译或臆译。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Why do you choose to remain so diligent at your task",
+        "zh_v1_span": "为何还要死守这熔炉",
+        "zh_v2_span": "",
+        "description": "英文原文是 'at your task'（你的任务），中文具体化为 '这熔炉'，添加了原文未指定的信息。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_ACT_3_START_FIRST_MEET_1"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，口语风格与原文匹配，但存在一处信息漏译，使'调查'的含义缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "called me to investigate",
+        "zh_v1_span": "引我前来",
+        "zh_v2_span": "引我前来",
+        "description": "英文 'called me to investigate' 明确表示'吸引我来调查'，但中文翻译为'引我前来'，漏译了'调查'这一关键动作，导致信息不完整。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_MEET_1"
+  },
+  {
+    "overall_comment": "第一版翻译整体质量很高。译文忠实准确地传达了原文的指令、条件和活泼的语气，结构标签使用正确，风格也符合原文的欢快游戏感。",
+    "issues": [],
+    "entry_name": "LADY_BUG_ACCEPTED_1"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上基本正确，但存在多处细节遗漏和结构错误。'pointy bug' 的漏译削弱了角色对话的特色，英文第二部分的完整信息未被准确传达，且结构标签的错位可能影响游戏内文本的显示。",
+    "issues": [
+      {
+        "type": "tech.markup",
+        "source_span": "A smith? Hardly so crude! We are Forge Daughter! How can a pointy bug not tell?<page>Ours is the ancient line and honoured role. These docks and lands around are fortunate to have our skills.<hpage>If you are as talented as you suggest, would you lend me your aid? I’ve lacked for my usual tools, and I suspect you could craft fine replacements.<page>Blades and traps, no doubt? We know your type!<hpage>Of sorts, but maybe strange to this land? Some would likely prove fine challenge for your craft.<page>Hmph! Then we’ll construct them. But! You’ll provide the materials, and compensation for our time.",
+        "zh_v1_span": "铁匠？太掉价了！我们可是熔炉之女！你竟然不认识我们？我们祖传的手艺让整个深坞都沾光！<hpage>若你们的技艺真如你所夸耀那样好，可否帮我个忙？我的一些工具没有了，我想你们应该能打造合用的替代品。<page>要做刺针还是陷阱？你这种客人我见多了！<hpage>有些可能是你没见过的款式，对你们的工艺应该是不小的挑战。<page>哼！那咱就造出来给你看。但材料你得自备，工钱也得结清。",
+        "zh_v2_span": "",
+        "description": "结构标签顺序错乱且类型不匹配：英文使用 <page>, <hpage>, <page>, <hpage>, <page> 分隔各部分，而中文使用 <hpage>, <page>, <hpage>, <page> 且最后部分缺少标签，可能导致文本显示或分页错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "How can a pointy bug not tell?",
+        "zh_v1_span": "你竟然不认识我们？",
+        "zh_v2_span": "",
+        "description": "漏译了 'pointy bug'，原文中是对对方的特定称呼，可能体现角色关系或世界观细节，中文简化为 '你'，失去了原文的语言特色和语境信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ours is the ancient line and honoured role. These docks and lands around are fortunate to have our skills.",
+        "zh_v1_span": "我们祖传的手艺让整个深坞都沾光！",
+        "zh_v2_span": "",
+        "description": "翻译不完整且信息丢失：'ancient line and honoured role'（古老血统和光荣职责）只译为 '祖传的手艺'，漏掉了血统和职责的表述；'These docks and lands around'（这些码头和周边土地）简化为 '整个深坞'，范围和信息不全。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Blades and traps, no doubt?",
+        "zh_v1_span": "要做刺针还是陷阱？",
+        "zh_v2_span": "",
+        "description": "'Blades' 译为 '刺针' 可能不准确：'blades' 在上下文中可能指刀片、刀刃或武器类物品，译成 '刺针' 过于具体且可能误导玩家理解，建议使用更通用的译法如 '刀刃' 或 '刀片'。"
+      }
+    ],
+    "entry_name": "FORGE_DAUGHTER_MEET_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，准确传达了游戏开始的兴奋语气和游戏规则，结构标签正确且一致，整体翻译自然流畅。",
+    "issues": [],
+    "entry_name": "LADY_BUG_ACCEPTED_2"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于英文原文，含义准确，风格口语化与原文匹配，结构标签正确无误。",
+    "issues": [],
+    "entry_name": "LADY_BUG_REST"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文中世界末日和坚持职责的含义，口语化风格如'咱'和'把活干完'可能符合角色设定，整体流畅自然。",
+    "issues": [],
+    "entry_name": "FORGE_DAUGHTER_ACT_3_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文的含义，句式流畅自然，风格与原文的说明性口吻匹配。没有发现错译、漏译或结构性问题。",
+    "issues": [],
+    "entry_name": "FORGE_SHARD_POUCH_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译在开头添加了原文中没有的关于钥匙的句子，这属于多余信息，破坏了原文的忠实度；其余部分翻译大致准确，但添加内容导致整体意思偏离。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Pop inside the diving bell once you’re feelin’ good and ready.",
+        "zh_v1_span": "这是这个大铁肚子的钥匙。",
+        "zh_v2_span": "",
+        "description": "英文原文只提到进入潜水钟（diving bell），没有提及钥匙；翻译中添加了'这是这个大铁肚子的钥匙'，这是原文中没有的信息，属于多译/臆译。"
+      }
+    ],
+    "entry_name": "BALLOW_CONTROL_REPEAT"
+  }
+]

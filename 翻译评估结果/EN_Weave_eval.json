@@ -1,0 +1,407 @@
+[
+  {
+    "overall_comment": "第一版翻译大体传达了对话的脉络，但存在多处语义不准确和内容遗漏，导致原文的细节和语气有所失真，需要修正以提高忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "No. Not their enemy, and their prisoner not through malice. I am Eva, a thing... difficult to describe, a child of Weavers, yet not quite their kin...",
+        "zh_v1_span": "不是，也并非因为罪行囚禁。我叫伊娃，是……有点复杂，是织者后裔但又不完全是……",
+        "zh_v2_span": "",
+        "description": "翻译不忠实：'malice' 错译为 '罪行'（应为'恶意'），且漏译了 'a thing... difficult to describe' 的具体表达，原文中 'a child of Weavers, yet not quite their kin' 的微妙关系也未准确传达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "How strange. That description could fit me as well as yourself.",
+        "zh_v1_span": "真奇妙。这番描述同样适用于我。",
+        "zh_v2_span": "",
+        "description": "漏译 'as well as yourself'，原文明确表示描述也适用于对方（'yourself'），但中文只提到适用于自己，缺失了对比关系。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "What are you creature?",
+        "zh_v1_span": "你究竟是什么？",
+        "zh_v2_span": "",
+        "description": "漏译 'creature'，原文中可能作为称呼或强调词（如'生物'或'家伙'），中文未体现，削弱了语句的语气和特定指向。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_MEET_PT2"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的大意，但在几个关键表达上存在准确性偏差，如漏译'still'、误译'gaze'和'offer clarity'，可能削弱了原文的正式语气和诗意风格。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "still my senses resound",
+        "zh_v1_span": "我的感知再度震颤",
+        "zh_v2_span": "",
+        "description": "原文'still'表示持续或仍然，但翻译中未体现，漏译了感官持续回响的持续状态。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "gaze again upon your nature",
+        "zh_v1_span": "再次深入感知",
+        "zh_v2_span": "",
+        "description": "'gaze'意为凝视，强调视觉聚焦，'nature'指本质或本性；翻译成'深入感知'过于宽泛，未准确传达凝视本质的视觉意象。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "that I may offer clarity",
+        "zh_v1_span": "才好仔细说明",
+        "zh_v2_span": "",
+        "description": "'offer clarity'是提供清晰度或阐明，翻译成'仔细说明'虽意思相关，但不够精确，丢失了正式和提供清晰解释的语气。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_PRE_REPEAT_ADDITIONAL"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上高度忠实于英文原文，准确传达了角色的语气和情感。结构标签使用正确，整体翻译流畅自然，无明显问题。",
+    "issues": [],
+    "entry_name": "CREST_UPGRADE_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格神秘符合语境，结构标签一致，但在描述事物价值时漏译了‘worth my long life to behold’的关键部分，影响了原文的强调点。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "worth my long life to behold",
+        "zh_v1_span": "是我前所未见的存在",
+        "zh_v2_span": "",
+        "description": "原文‘worth my long life to behold’强调该事物值得用漫长生命去目睹，传递出极高的价值感；翻译为‘是我前所未见的存在’只表达了新奇性，漏译了‘值得一生见证’的价值含义，导致信息缺失。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_POST_ADDITIONAL_AVAILABLE"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和结构上基本忠实，但准确性存在缺陷，包括漏译和一处错译，影响了信息的完整性和原意。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "told to be somewhere in this structure.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'被告知在这个结构某处'的信息，导致上下文缺失，玩家可能不清楚信息来源。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Do you know of it?",
+        "zh_v1_span": "你知道在哪么？",
+        "zh_v2_span": "你知道在哪么？",
+        "description": "将'知道它吗'误译为'知道在哪吗'，改变了询问焦点，从是否知晓工具本身变为询问具体位置。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "all traps and bindings.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'all traps and bindings'（所有的陷阱和捆绑物），省略了对工具具体类型的描述，削弱了细节。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_TALK_SNARE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文的对话语气基本匹配，但在两处有轻微漏译，影响了信息的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I shall prove your faith in the meeting ahead.",
+        "zh_v1_span": "我必将不负所托。",
+        "zh_v2_span": "",
+        "description": "漏译了'in the meeting ahead'（在即将到来的会面中），原文明确了行动发生的具体场合，中文省略后丢失了上下文信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "our great pale god",
+        "zh_v1_span": "那苍白之神",
+        "zh_v2_span": "",
+        "description": "漏译了'our'（我们的），原文强调'我们的伟大苍白之神'，具有归属感和集体含义，中文省略所有格后可能削弱了这种情感色彩。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_READY"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上保持了一致，整体语气符合原文的礼貌请求风格，但关键短语的翻译存在语义偏差，影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Permit me to look upon your nature",
+        "zh_v1_span": "深入感知",
+        "zh_v2_span": "",
+        "description": "英文 'look upon your nature' 意为 '观察你的本质'，强调视觉或理性审视；中文翻译为 '深入感知' 侧重感觉和抽象感知，语义偏离，可能导致意思不准确。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_PRE_RETURNED"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和大部分内容上基本忠实，语言流畅，风格符合角色对话。但存在两处关键问题：一是漏译了'值得我长久的生命去见证'这一重要表述，二是对'expands as you say'的翻译有偏差，影响了整体准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "It is a marvelous thing, worth my long life to behold.",
+        "zh_v1_span": "真是奇妙，是我前所未见的存在。",
+        "zh_v2_span": "",
+        "description": "原文中'worth my long life to behold'（值得我长久的生命去见证）未被翻译，中文用'是我前所未见的存在'替代，但遗漏了'长久的生命'这一含义，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "If my nature expands as you say",
+        "zh_v1_span": "若我本质确实再度进化",
+        "zh_v2_span": "",
+        "description": "原文'expands'（扩展）被翻译为'再度进化'，与前半句'further evolve'重复且可能不精确；'as you say'（如你所说）翻译为'确实'，改变了条件语气，使语义偏差。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_POST"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达原文含义，但漏译了敬语'sir'，影响角色间的礼貌语气；其他部分风格口语化，与原文对话氛围匹配。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have known your kind before, sir.",
+        "zh_v1_span": "我曾见过你的同族。",
+        "zh_v2_span": "",
+        "description": "漏译了'sir'（先生），原文中表示对对方的敬称，翻译中缺失，可能削弱角色间的礼貌关系或正式感。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_TALK1"
+  },
+  {
+    "overall_comment": "第一版翻译基本流畅，整体含义大致正确，但存在术语不一致和少量漏译问题。标签结构保持一致，无技术错误。",
+    "issues": [
+      {
+        "type": "terminology.inconsistent_term",
+        "source_span": "a bug",
+        "zh_v1_span": "生灵",
+        "zh_v2_span": "",
+        "description": "术语 'bug' 在第二句翻译为 '生灵'，但在第三句翻译为 '虫民'（对应 'a bug’s essence'），同一概念用了不同译法，应保持一致以维护游戏内术语统一性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "invisible yoke born through a lifetime",
+        "zh_v1_span": "无形枷锁",
+        "zh_v2_span": "",
+        "description": "漏译了 'born through a lifetime'（一生形成的），原文强调枷锁是生命过程中形成的，中文仅翻译为 '无形枷锁'，缺失了时间维度的含义，可能导致玩家理解不完整。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_PRE"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '允许洞察？' 完全忠实于英文原文 'Allow Insight?'，准确传达了询问含义，风格一致，且无结构标签问题。",
+    "issues": [],
+    "entry_name": "CREST_UPGRADE_PROMPT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义、风格和结构上基本忠实于英文原文，准确传达了原文的恳求语气，结构标签使用正确，无重大错误。",
+    "issues": [],
+    "entry_name": "CREST_UPGRADE_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的询问意图，但关键动词 'bind' 的翻译 '联结' 可能不够准确，建议参考游戏常用术语进行调整。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Bind Eva?",
+        "zh_v1_span": "与伊娃联结？",
+        "zh_v2_span": "",
+        "description": "将 'bind' 翻译为 '联结' 可能不准确。在游戏上下文中，'bind' 通常指 '绑定'，表示永久关联或限制操作（如物品绑定），而 '联结' 可能意味着连接或联系，语义有偏差，可能导致玩家误解机制。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_ACCEPT_DIALOGUE"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和风格上基本忠实于英文原文，准确传达了愤怒警告的语气，结构标签处理正确，整体流畅自然。",
+    "issues": [],
+    "entry_name": "CREST_UPGRADE_MEET_CURSED"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格基本符合奇幻对话语境，但存在多处添加和漏译，影响了忠实度，未能完全传达原文的精确含义和语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Worth my long life to behold.",
+        "zh_v1_span": "是我前所未见的存在。",
+        "zh_v2_span": "",
+        "description": "原文表达“值得我漫长的生命去目睹”，强调价值和时间跨度，但中文只译为“是我前所未见的存在”，遗漏了“值得”和“漫长生命”的关键信息。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Only to have my own soul, my own memories, bound within your shell...",
+        "zh_v1_span": "请您将我的灵魂与记忆缚于您的壳中",
+        "zh_v2_span": "",
+        "description": "原文是陈述句“只希望将我的灵魂和记忆绑定在你的壳中”，但中文添加了“请您”，使语气更礼貌，属于额外添加，可能改变角色间的平等关系。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "As you have done with those others throughout these lands.",
+        "zh_v1_span": "就像您其他生物所做的那样。",
+        "zh_v2_span": "",
+        "description": "原文中的“遍及这些土地”（throughout these lands）在翻译中被遗漏，导致地点范围的描述缺失，信息不完整。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "To be united with one unbound... This is the kind of escape I once prayed for, though the weight of ages had almost made me forget.",
+        "zh_v1_span": "我明白，但自愿如此。能与无羁者合而为一……是我昔日渴求的解脱，尽管岁月让我几乎遗忘。",
+        "zh_v2_span": "",
+        "description": "中文添加了“我明白，但自愿如此。”，原文中没有对应内容，属于臆译，可能干扰对话的自然流动和角色意图的直白表达。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Lady, would you grant me this request?",
+        "zh_v1_span": "亲爱的女士，您愿意成全我吗？",
+        "zh_v2_span": "",
+        "description": "原文是简单的“女士”，中文添加了“亲爱的”，改变了称呼的亲密程度，可能影响角色间正式或疏远的关系设定。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_FIRST_ALL"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了对话的核心意思，但在关键细节上有漏译和含义偏差，影响了原文的细腻表达和自谦语气。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "To aid your growth has proved a grand task, even for one as limited as me.",
+        "zh_v1_span": "能助您成长，是我的荣幸。",
+        "zh_v2_span": "",
+        "description": "英文原文强调'帮助成长被证明是一项重大任务，即使对像我这样有限的存在而言'，传达了难度和自谦；中文翻译成'是我的荣幸'，遗漏了'grand task'和'even for one as limited as me'，将含义简化为单纯的荣幸，改变了语气和语义焦点。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "As you have done with those others throughout these lands.",
+        "zh_v1_span": "就像您其他生物所做的那样。",
+        "zh_v2_span": "",
+        "description": "英文有'throughout these lands'（在这片土地各处），修饰地点范围，中文翻译漏译了这个细节，可能弱化了世界观的连贯性和动作的普遍性。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_ALL"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格匹配，但漏译了 'prisoner' 一词，导致角色身份信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I am Hornet, prisoner, only a traveller and not here to slay you.",
+        "zh_v1_span": "我名为大黄蜂，只是一名旅者，无意取你性命。",
+        "zh_v2_span": "",
+        "description": "原文中 'prisoner'（囚犯）一词被漏译，中文翻译只提到了 '旅者'，但遗漏了 Hornet 自称囚犯的关键身份信息，导致语义不忠实。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文意思，但在准确性上存在偏差，如‘resound’的翻译不够精确，且漏译了‘nature’关键信息，影响了整体忠实度和风格。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "my senses resound",
+        "zh_v1_span": "我的感知在震颤",
+        "zh_v2_span": "",
+        "description": "‘resound’ 意为回响或共鸣，带有诗意感，翻译为‘震颤’（震动）可能不准确，语义有偏差。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "gaze again upon your nature",
+        "zh_v1_span": "再次深入感知",
+        "zh_v2_span": "",
+        "description": "原文中‘your nature’（你的本质/本性）在翻译中被省略，只处理了‘gaze again upon’，导致关键信息缺失。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_PRE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体结构正确、语言流畅，但在细节准确性上存在一些问题：漏译了关键形容词，且有两处关键句子意思发生偏移，导致原文信息不完整或失真。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "to conceive a child is a painful, near impossible task.",
+        "zh_v1_span": "生育子嗣近乎不可能。",
+        "zh_v2_span": "",
+        "description": "原文明确描述生育是 '痛苦的，近乎不可能的'，但中文翻译漏译了 '痛苦的'，导致关键信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "spawn of one who managed to overcome its limits",
+        "zh_v1_span": "更是突破禁忌的产物",
+        "zh_v2_span": "",
+        "description": "'overcome its limits' 意为 '克服其限制'（指诅咒的限制），译为 '突破禁忌' 不准确，'禁忌' 通常指被禁止的事物，与原文 'limits'（限制）含义不符。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "My thoughts may mimic a Weavers, but my senses are my own.",
+        "zh_v1_span": "我虽能模仿织者，但终究不是织者。",
+        "zh_v2_span": "",
+        "description": "原文强调 '我的感官是我自己的'，意思是虽然思想可以模仿织者，但感官体验是独立的。中文翻译为 '终究不是织者'，简化并改变了原意，可能导致对角色本质的误解。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_TALK_PURPOSE"
+  },
+  {
+    "overall_comment": "第一版翻译忠实传达了英文原文的含义，风格庄重且结构标签处理正确，整体质量良好。",
+    "issues": [],
+    "entry_name": "CREST_UPGRADE_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实，传达了原文的警告语气和基本含义，结构标签处理正确。但存在细微的用词偏差，可能影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "that which grows and reshapes the world in its own vulgar image",
+        "zh_v1_span": "那以粗鄙之形生长并重塑世界的秽物",
+        "zh_v2_span": "",
+        "description": "翻译中添加了'秽物'一词，原文中'that which'指的是禁忌之血，但未直接称为'秽物'，可能过度强化了负面含义，属于多译。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "afflicted",
+        "zh_v1_span": "侵蚀",
+        "zh_v2_span": "",
+        "description": "'afflicted'意为'受折磨'或'受苦'，翻译为'侵蚀'（eroded）语义不准确，可能导致理解偏差。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_MEET_OVERBLUE"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本传达，但存在两处明显的漏译，导致原文信息不完整，并可能影响角色识别和对话连贯性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Lady, if in your travels you are able to further expand your nature",
+        "zh_v1_span": "女士，如果你的本质再度进化",
+        "zh_v2_span": "",
+        "description": "漏译了 'in your travels'（在你的旅途中），中文直接简化为 '如果'，省略了原文中关于旅行背景的上下文信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "If my nature expands as you say, Eva, I shall return.",
+        "zh_v1_span": "若我本质确实再度进化，我会回来找你。",
+        "zh_v2_span": "",
+        "description": "漏译了 'as you say' 和专有名词 'Eva'。原文中明确提及 Eva 并引用对方话语，中文没有保留，可能导致角色混淆和语气失真。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体风格与原文一致，语气礼貌恳切，但存在一处明显的漏译，影响了信息的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "my last request",
+        "zh_v1_span": "我的请求",
+        "zh_v2_span": "",
+        "description": "原文 'my last request' 意为 '我最后的请求'，翻译中漏掉了 'last'（最后的），导致关键的时间或顺序信息缺失。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和核心含义上基本准确，标签使用正确。但最后一句的意译添加了额外情感，可能偏离了原文的冷静语气。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "I will be here, if ever you reconsider.",
+        "zh_v1_span": "希望您能改变心意，我会永远在此等候。",
+        "zh_v2_span": "希望您能改变心意，我会永远在此等候。",
+        "description": "翻译中添加了 '希望' 和 '永远'，原文没有这些元素，属于多译，可能将原文的条件承诺语气转变为更情感化的恳求。"
+      }
+    ],
+    "entry_name": "CREST_UPGRADE_DECLINE"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的含义，将'sweet fruit'译为'甜味浆果'，'toxic to most creatures'译为'对大多数生物有毒'，意思完整，风格与原文一致。结构上，中文用逗号连接两个分句，保持了描述的连贯性。",
+    "issues": [],
+    "entry_name": "INV_DESC_MOSSBERRY"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达英文原文含义，风格简洁，与游戏物品名称一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "INV_NAME_DRESS_BROLLY"
+  },
+  {
+    "overall_comment": "第一版翻译 '花芯' 简洁地表达了 'Heart' 的核心含义，但将 'Pollip' 这一专有名词部分意译为 '花'，可能未完全忠实于原文的术语设定。整体风格匹配，但专有名词处理有待商榷。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Pollip Heart",
+        "zh_v1_span": "花芯",
+        "zh_v2_span": "花芯",
+        "description": "原文 'Pollip' 疑似专有名词或特定术语，在翻译中被意译为 '花'，未保留原词形式或音译，可能导致含义失真或与游戏设定不一致。"
+      }
+    ],
+    "entry_name": "INV_NAME_SHELL_FLOWER"
+  },
+  {
+    "overall_comment": "第一版翻译整体质量很高，准确传达了原文的技术报告风格和核心信息，结构标签使用正确。仅有一处用词的准确性可商榷。",
+    "issues": [
+      {
+        "type": "accuracy.word_choice",
+        "source_span": "Verdanian environment exceeded - Destined to forget.",
+        "zh_v1_span": "翠庭生态失控——注定遗忘。",
+        "zh_v2_span": "翠庭生态失控——注定遗忘。",
+        "description": "原文 'exceeded' 直译为 '超出（界限）' 更准确，暗示环境参数越过了某个阈值。'失控' 意为 '失去控制'，在语境中虽可理解，但与原意 '超出' 有细微差别，可能弱化了环境参数已突破设计限度的含义。"
+      }
+    ],
+    "entry_name": "RELIC_SEAL_CHIT_MEMORIUM_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译“花粉之心”准确传达了英文“Pollen Heart”的直译含义，风格简洁一致，符合物品名称的翻译要求，没有发现明显错误。",
+    "issues": [],
+    "entry_name": "INV_NAME_HEART_BLOOM"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，结构标签处理正确，中文表达自然流畅，符合游戏物品描述的风格。",
+    "issues": [],
+    "entry_name": "INV_DESC_SHARD_POUCH_USE"
+  },
+  {
+    "overall_comment": "第一版翻译 '缩小' 准确对应英文原文 'Zoom Out' 的含义，风格简洁直接，适合作为游戏 UI 中的控制命令。没有发现翻译错误或结构问题。",
+    "issues": [],
+    "entry_name": "CTRL_ZOOM_OUT"
+  },
+  {
+    "overall_comment": "第一版翻译'蚤托邦忆痕'忠实于英文原文'Fleatopia Memento'，准确传达了'跳蚤乌托邦纪念品'的含义，创意地处理了合成词，风格一致。",
+    "issues": [],
+    "entry_name": "INV_NAME_MEMENTO_FLEA"
+  },
+  {
+    "overall_comment": "第一版翻译整体准确流畅，完整传达了原文信息并保持了描述性风格。但存在一处可能因上下文导致的概念性译法选择问题。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "home",
+        "zh_v1_span": "钟居",
+        "zh_v2_span": "",
+        "description": "原文 \"home\" 在常规语境下指“房屋”或“家”。译文 \"钟居\" 疑似是结合道具名 \"Crawbell\" (腐囊钟巢) 创造的特定建筑名称，这可能是游戏内设定的专有名词。若无明确设定依据，此译法可能造成概念偏差或理解障碍，使玩家误以为是一种特定建筑（如钟楼）而非普通住宅。"
+      }
+    ],
+    "entry_name": "INV_DESC_CRAWBELL"
+  },
+  {
+    "overall_comment": "第一版翻译“地图 & 羽毛笔”忠实于英文原文“Map & Quill”，含义准确，风格简洁，符合物品名称的本地化要求，没有明显错误。",
+    "issues": [],
+    "entry_name": "INV_NAME_MAPANDQUILL"
+  },
+  {
+    "overall_comment": "第一版翻译“掷骰”准确传达了英文“Roll”在游戏上下文中的含义，简洁且风格匹配，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "CTRL_ROLL"
+  },
+  {
+    "overall_comment": "第一版翻译简洁流畅，基本传达了物品的核心功能，但在准确性上有轻微偏差，部分原文细节被简化或泛化，可能影响描述的精确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Produces incendiary sparks when abraded",
+        "zh_v1_span": "摩擦生火",
+        "zh_v2_span": "",
+        "description": "原文“incendiary sparks”意为“燃烧的火花”，翻译为“生火”省略了“火花”的细节，可能导致信息模糊。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "may explode if cracked or dropped",
+        "zh_v1_span": "碰撞易爆",
+        "zh_v2_span": "",
+        "description": "原文条件为“裂开或掉落时”，翻译为“碰撞”泛化了具体情境，未能准确对应原文的“cracked or dropped”。"
+      }
+    ],
+    "entry_name": "INV_DESC_ROCK_ROLLER_ITEM"
+  },
+  {
+    "overall_comment": "第一版翻译'圣歌音筒'在含义上不完全忠实于英文原文'Sacred Cylinder'，添加了原文未明确提及的'歌'（song）元素，导致语义偏差。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Sacred Cylinder",
+        "zh_v1_span": "圣歌音筒",
+        "zh_v2_span": "",
+        "description": "英文原文'Sacred Cylinder'字面意思是'神圣的圆柱体'，未包含'song'或'歌'的概念，但中文翻译'圣歌音筒'加入了'歌'的元素，属于多译或臆译，可能基于上下文但原文信息缺失。"
+      }
+    ],
+    "entry_name": "INV_NAME_R_PSALM_CYL_MELODY"
+  },
+  {
+    "overall_comment": "第一版中文翻译“面甲残片”与英文原文“Mask Shard”在含义上基本对应，结构无标签问题，且与第二版翻译一致，整体忠实。",
+    "issues": [],
+    "entry_name": "SHOP_SHELLFRAG_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，包括物品描述和功能说明，风格简洁直接，与游戏文本匹配。结构标签<br><br>处理正确，没有遗漏或错位。",
+    "issues": [],
+    "entry_name": "INV_DESC_CREST_SOCKET"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了英文原文的核心含义，风格简洁自然，符合游戏本地化语境。没有结构标签问题，翻译整体质量良好。",
+    "issues": [],
+    "entry_name": "GET_JOURNAL_1"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，含义准确，风格与游戏指令一致，结构标签无问题。",
+    "issues": [],
+    "entry_name": "GET_JOURNAL_2"
+  },
+  {
+    "overall_comment": "第一版翻译'返回'准确传达了英文'Back'的含义，简洁自然，符合游戏UI按钮的常用译法，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "OPT_MENU_BACK_BUTTON"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，用词恰当且风格一致，没有明显的翻译问题或结构标签错误。",
+    "issues": [],
+    "entry_name": "INV_DESC_TOOLPOUCH"
+  },
+  {
+    "overall_comment": "第一版翻译在字面上基本准确，但将‘Needle’译为‘织针’可能添加了原文没有的‘编织’具体信息，需确认游戏设定中是否为通用针。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Sharpened Needle",
+        "zh_v1_span": "尖锐织针",
+        "zh_v2_span": "",
+        "description": "英文原文‘Needle’是通用针，翻译为‘织针’加入了‘编织’的限定，原文没有此信息，属于多译或臆测。"
+      }
+    ],
+    "entry_name": "INV_NAME_NAIL2"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构和风格上基本忠实于原文，但存在关键信息遗漏的问题，导致描述不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the fastest bug in Pharloom",
+        "zh_v1_span": "纺络速度最快者",
+        "zh_v2_span": "",
+        "description": "原文明确提到 'bug'（虫子），指代特定生物类型，但中文翻译中遗漏了这个词，只翻译了 'fastest'，使得信息缺失，可能影响玩家对游戏设定的理解。"
+      }
+    ],
+    "entry_name": "INV_DESC_SPRINT_MEMENTO"
+  },
+  {
+    "overall_comment": "第一版翻译在流畅度和风格上基本符合原文，但漏译了关键成分 'regulators'，导致信息不完整，未忠实还原英文原意。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "containing a fine array of wheels and regulators",
+        "zh_v1_span": "内含精密的轮组阵列",
+        "zh_v2_span": "内含精密的轮组阵列",
+        "description": "英文原文明确包含 'wheels and regulators'（轮子和调节器），但中文翻译只提到 '轮组'，完全漏译了 'regulators'，使得描述缺失重要信息。"
+      }
+    ],
+    "entry_name": "INV_DESC_COG_HEART"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '神秘蛋' 准确传达了英文原文 'Arcane Egg' 的含义，翻译恰当且自然。与第二版翻译一致，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "INV_NAME_R_ANCIENT_EGG"
+  },
+  {
+    "overall_comment": "第一版中文翻译‘圣脉枢管’作为专有名词的翻译，可能基于游戏上下文进行了合理的意译，含义上忠实于英文‘Ventrica’。风格一致，无结构标签问题，且与第二版翻译相同，无明显错误。",
+    "issues": [],
+    "entry_name": "KEY_TUBE"
+  },
+  {
+    "overall_comment": "第一版翻译‘新物质录入’准确传达了英文‘New Materium Entry’的基本含义，风格中性且结构一致，没有明显错误。",
+    "issues": [],
+    "entry_name": "MATERIUM_UPDATE_MSG"
+  },
+  {
+    "overall_comment": "第一版翻译 '叛教之钥' 准确传达了英文原文 'Key of Apostate' 的含义，风格与原文匹配，结构上没有问题，整体翻译质量良好。",
+    "issues": [],
+    "entry_name": "INV_NAME_SLAB_KEY_C"
+  },
+  {
+    "overall_comment": "第一版翻译“异端之钥”准确表达了英文“Key of Heretic”的含义，作为物品名称，风格简洁且符合游戏语境，没有发现明显的翻译或结构问题。",
+    "issues": [],
+    "entry_name": "INV_NAME_SLAB_KEY_B"
+  },
+  {
+    "overall_comment": "第一版翻译‘物质库’准确对应英文原文‘Materium’，含义清晰且与第二版翻译一致，符合游戏本地化的术语规范。",
+    "issues": [],
+    "entry_name": "COLLECTION_HEADING_MATERIUM"
+  },
+  {
+    "overall_comment": "第一版翻译意思准确，基本忠实于原文，但在标点使用和句子结构上存在小问题：英文原为两个独立句子，中文合并为一句，且引号添加不规范。",
+    "issues": [
+      {
+        "type": "fluency.punctuation",
+        "source_span": "Enlivened heart of Skarrsinger Karmelita. Its beat is steady and strong.",
+        "zh_v1_span": "斯卡尔歌后”卡梅莉塔复苏的心脏，跳动稳健有力。",
+        "zh_v2_span": "",
+        "description": "原文使用句点分隔两个句子，中文翻译改为逗号连接，合并为一个句子，改变了原文的断句结构。同时，中文中加入了全角引号“””，而原文无引号，标点使用不一致，可能影响阅读流畅度。"
+      }
+    ],
+    "entry_name": "INV_DESC_HEART_HUNTER"
+  },
+  {
+    "overall_comment": "第一版翻译“修复此物品？”准确传达了英文原文“Repair Item?”的询问意图，语气直接且符合游戏UI的确认场景，整体翻译质量良好。",
+    "issues": [],
+    "entry_name": "SHOP_REPAIR_CONFIRM"
+  }
+]

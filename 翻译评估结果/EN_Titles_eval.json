@@ -1,0 +1,216 @@
+[
+  {
+    "overall_comment": "英文原文、第一版和第二版中文翻译均为空，无实际文本内容可分析，因此无法评估翻译忠实度。",
+    "issues": [],
+    "entry_name": "LARGE_COG_WORK_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译将英文原文 'Absolom' 音译为 '阿布索伦'，但额外添加了 '织巢'，与原文内容不符，属于添加未出现在原文中的信息，降低了忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Absolom",
+        "zh_v1_span": "阿布索伦织巢",
+        "zh_v2_span": "阿布索伦织巢",
+        "description": "英文原文为专有名词 'Absolom'，翻译中额外添加了 '织巢'，添加了原文没有的信息，导致翻译不忠实。"
+      }
+    ],
+    "entry_name": "WEAVE_ABYSS_MAIN"
+  },
+  {
+    "overall_comment": "英文原文和中文翻译均为空，无法评估翻译质量。",
+    "issues": [],
+    "entry_name": "ABYSS_MASS_SUB"
+  },
+  {
+    "overall_comment": "第一版翻译 '火灵竹丛' 在含义上对英文 'Wisp' 进行了添加，引入了原文没有的 '竹丛' 元素，可能导致设定偏差或误导玩家。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Wisp",
+        "zh_v1_span": "火灵竹丛",
+        "zh_v2_span": "火灵竹丛",
+        "description": "原文 'Wisp' 通常指灵体或鬼火，但翻译中添加了 '竹丛'（bamboo cluster），这是原文没有的信息，可能改变游戏实体的性质或背景。"
+      }
+    ],
+    "entry_name": "WISP_MAIN"
+  },
+  {
+    "overall_comment": "英文原文为空，第一版中文翻译也为空，翻译忠实无问题。",
+    "issues": [],
+    "entry_name": "CITADEL_SHRINE_SUB"
+  },
+  {
+    "overall_comment": "英文原文和第一版中文翻译均为空，没有文本内容需要翻译或检查，因此第一版翻译无误。",
+    "issues": [],
+    "entry_name": "COGWORK_DANCERS_SUB"
+  },
+  {
+    "overall_comment": "第一版翻译'担忧的朝圣者'在'Pilgrim'的基础上添加了'担忧的'，多译了原文没有的信息，导致含义和风格失真，不够忠实于原文。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Pilgrim",
+        "zh_v1_span": "担忧的朝圣者",
+        "zh_v2_span": "担忧的朝圣者",
+        "description": "原文'Pilgrim'意为'朝圣者'，是中性描述；翻译添加了'担忧的'，多译了原文没有的情绪信息，改变了含义和简洁风格。"
+      }
+    ],
+    "entry_name": "ENCLAVE_PILGRIM_LARGE_ACT3_MAIN"
+  },
+  {
+    "overall_comment": "英文原文和第一版中文翻译均为空，没有文本内容，因此第一版翻译在含义、风格和结构上与原文一致，未发现明显问题。",
+    "issues": [],
+    "entry_name": "GREEN_PRINCE_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译“育母幼虫”准确传达了英文原文“Broodling”的含义，术语使用恰当，风格符合游戏设定，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "BROODMOTHER_TINY_MAIN"
+  },
+  {
+    "overall_comment": "本条为完全空白的条目。英文原文、第一版中文翻译、第二版中文翻译三者均无任何文本内容（包括结构标签）。由于没有实际的文本内容，无法进行语义、风格或结构标签一致性的评估。",
+    "issues": [],
+    "entry_name": "FLEA_TRACKER_SUPER"
+  },
+  {
+    "overall_comment": "第一版中文翻译为空，完全漏译了英文原文 'The'，未能提供任何翻译内容，属于严重错误。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文为 'The'，但第一版中文翻译没有提供任何内容，导致原文信息完全缺失。"
+      }
+    ],
+    "entry_name": "CRADLE_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译“壳王”准确传达了英文原文“Crust King”的含义，作为专有名词的直译，结构简洁且风格一致，无明显问题。",
+    "issues": [],
+    "entry_name": "CORAL_KING_BC_SUPER"
+  },
+  {
+    "overall_comment": "原文和翻译均为空，第一版中文翻译与英文原文一致，没有可分析的内容。",
+    "issues": [],
+    "entry_name": "FLEAMASTER_SUB"
+  },
+  {
+    "overall_comment": "该条目的英文原文与中译版本均为空白内容。由于没有实质文本，无法评估翻译的准确性、流畅度或风格等问题。",
+    "issues": [],
+    "entry_name": "SPINNER_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译将“Chorus”译为“圣咏团”，加入了“圣”字以暗示神圣性，而原文并未指定此含义，因此可能造成含义偏差，属于添加了额外信息。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Chorus",
+        "zh_v1_span": "圣咏团",
+        "zh_v2_span": "圣咏团",
+        "description": "原文“Chorus”在上下文中可能指合唱团或类似概念，但翻译“圣咏团”添加了“圣”字（意为神圣），引入了原文没有的宗教或神圣含义，这可能与原文的简洁风格不符。"
+      }
+    ],
+    "entry_name": "SONG_GOLEM_MAIN"
+  },
+  {
+    "overall_comment": "英文原文和第一版中文翻译均为空，无翻译内容需要审核。",
+    "issues": [],
+    "entry_name": "GARMOND_SUPER"
+  },
+  {
+    "overall_comment": "英文原文和翻译版本均为空，没有文本内容可审核，因此第一版翻译在含义、风格和结构上没有问题。",
+    "issues": [],
+    "entry_name": "BELLWAY_PILGRIM_SUB"
+  },
+  {
+    "overall_comment": "第一版翻译将英文'And'直接译为符号'&'，意思基本正确，但表达方式不自然，不符合中文文本的常规习惯，可能影响阅读流畅度。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "And",
+        "zh_v1_span": "&",
+        "zh_v2_span": "&",
+        "description": "英文单词'And'被翻译为符号'&'。在中文本地化中，表示连接的'and'通常应译为'和'或'与'等词语，使用符号'&'可能使文本显得生硬或不自然，不符合流畅的书面表达。"
+      }
+    ],
+    "entry_name": "DUST_TRADERS_1_SUB"
+  },
+  {
+    "overall_comment": "第一版中文翻译为空，与英文原文一致，因为没有文本内容需要翻译，因此总体上忠实。",
+    "issues": [],
+    "entry_name": "BONEBOTTOM_SUB"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '朱比拉娜' 是对英文原文 'Jubilana' 的准确音译，忠实于原文含义，风格和结构均无问题。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_MAIN"
+  },
+  {
+    "overall_comment": "英文原文为空，第一版中文翻译也为空，因此在含义、风格和结构上完全忠实，没有翻译问题。",
+    "issues": [],
+    "entry_name": "MAPPER_SUPER"
+  },
+  {
+    "overall_comment": "第一版翻译将'Pilgrim'译为'沉默的朝圣者'，添加了'沉默的'这一未在原文中出现的形容词，可能不忠实于原文的简洁含义和直接性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Pilgrim",
+        "zh_v1_span": "沉默的朝圣者",
+        "zh_v2_span": "沉默的朝圣者",
+        "description": "英文原文'Pilgrim'仅表示'朝圣者'，没有指定'沉默'的属性，但中文翻译添加了形容词'沉默的'，增加了原文没有的信息，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "BB_PILGRIM_ROUND_MAIN"
+  },
+  {
+    "overall_comment": "第一版翻译 '尼莱斯' 准确音译了英文人名 'Nyleth'，忠实于原文，没有语义或结构问题。",
+    "issues": [],
+    "entry_name": "FLOWER_QUEEN_MAIN"
+  },
+  {
+    "overall_comment": "原文和翻译文本均为空，没有可检查的翻译内容。",
+    "issues": [],
+    "entry_name": "UNDERSTORE_SUB"
+  },
+  {
+    "overall_comment": "第一版翻译准确地将英文名字\"Sula\"音译为\"苏拉\"，符合专有名词本地化惯例，且与第二版翻译一致，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "STEEL_SERVANT_MAIN"
+  },
+  {
+    "overall_comment": "第一版中文翻译'圣堡工厂'在含义上与英文原文'Underworks'存在偏差，可能丢失了'under'的暗示并添加了'圣堡'的元素，导致语义不忠实。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Underworks",
+        "zh_v1_span": "圣堡工厂",
+        "zh_v2_span": "圣堡工厂",
+        "description": "英文'Underworks'可能意为'地下工程'或类似，强调地下或底层概念；中文翻译'圣堡工厂'添加了'神圣城堡'的含义且未体现'under'部分，导致整体意思改变，不符合原文语义。"
+      }
+    ],
+    "entry_name": "UNDERSTORE_MAIN"
+  },
+  {
+    "overall_comment": "由于英文原文和中文翻译都为空，第一版翻译在含义、风格和结构上忠实于原文，没有内容需要审查。",
+    "issues": [],
+    "entry_name": "DUST_TRADERS_1_SUPER"
+  },
+  {
+    "overall_comment": "第一版中文翻译为空，与英文原文一致，没有内容需要审核。",
+    "issues": [],
+    "entry_name": "DUSTPENS_SUB"
+  },
+  {
+    "overall_comment": "第一版翻译 '黑寡妇' 直接对应英文 'Widow'，作为专有名词或术语，翻译准确且与第二版一致。没有发现明显问题。",
+    "issues": [],
+    "entry_name": "SPINNER_MAIN"
+  },
+  {
+    "overall_comment": "英文原文和第一版中文翻译均为空字符串，没有实际文本内容可分析。因此，无法评估翻译的准确性或问题，但结构上一致（无标签）。",
+    "issues": [],
+    "entry_name": "WISP_SUPER"
+  }
+]

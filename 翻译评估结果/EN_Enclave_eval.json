@@ -1,0 +1,531 @@
+[
+  {
+    "overall_comment": "第一版翻译在基本含义上大致正确，但存在复数处理错误和漏译问题，导致准确性不足；同时风格上丢失了原文的口语化语气。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "them’n their noble blades",
+        "zh_v1_span": "他那伟大的刺刃",
+        "zh_v2_span": "",
+        "description": "英文使用复数 'them’n'（them and）指代多个骑士及其刀剑，但中文翻译为单数 '他' 和 '刺刃'，扭曲了原意，可能暗示只有一位骑士。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Reckon",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文中的 'Reckon'（意为'认为'或'估计'）在中文翻译中被完全省略，丢失了句子的口语化开头和部分语义。"
+      },
+      {
+        "type": "style.register",
+        "source_span": "sister, Reckon",
+        "zh_v1_span": "小姐，",
+        "zh_v2_span": "",
+        "description": "原文使用口语化词汇如 'sister' 和 'Reckon'，营造亲切、随意的语气，但中文翻译使用较正式的 '小姐' 并省略 'Reckon'，导致语体不匹配，削弱了角色对话的自然感。"
+      }
+    ],
+    "entry_name": "PILGRIM_LARGE_SK_SAVED_ACT3_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，保持了口语化的风格和语气，用词恰当，没有明显的错误或遗漏。",
+    "issues": [],
+    "entry_name": "CARETAKER_DELIVERY_POST"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，意思大致准确，但存在漏译'heavy'关键信息和添加'削弱她'等不必要细节的问题，影响了对原文的忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I’m headin’ up now to set the heavy thing.",
+        "zh_v1_span": "我这就上去布置。",
+        "zh_v2_span": "",
+        "description": "原文中的'the heavy thing'（重物/重型陷阱）被简化为'布置'，漏译了'heavy'的含义，可能影响对陷阱特性的理解。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "That blade of yours is gonna have to do its work ‘fore this thing can snap.",
+        "zh_v1_span": "你得先用你的针刃削弱她，这玩意才能触发。",
+        "zh_v2_span": "",
+        "description": "原文'do its work'含义较泛（指刀刃完成工作），中文添加了'削弱她'，指定了动作，可能偏离原文意图或引入不必要信息。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_COMPLETE_POST"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思基本正确，但第一句中加入了原文没有的地点信息，可能轻微影响原意的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Everything is falling apart, my dear one.",
+        "zh_v1_span": "亲爱的，这里的一切都在分崩离析。",
+        "zh_v2_span": "",
+        "description": "原文'Everything is falling apart'没有指定地点，翻译中加入了'这里'，增加了原文没有的信息。"
+      }
+    ],
+    "entry_name": "CITY_MERCHANT_SHOP_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，对话风格自然流畅，结构标签处理正确无误，整体质量优秀。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_TALK1"
+  },
+  {
+    "overall_comment": "第一版翻译整体口语风格匹配，语气自然，但存在一处细节漏译，削弱了原文的强调效果。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Ringin’ that great clanging bell just now!",
+        "zh_v1_span": "叮呤咣啷的！",
+        "zh_v2_span": "",
+        "description": "原文描述了‘敲响那个巨大叮当作响的钟’，包含了‘great’和‘clanging’的强调细节，而翻译只用了拟声词，漏译了这些具体描述，可能导致语气减弱。"
+      }
+    ],
+    "entry_name": "CARETAKER_MEET_2"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义上基本传达了原文信息，但将 'sister' 译为 '小姐' 可能在准确性或风格上存在偏差，影响了角色关系的表达。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "sister",
+        "zh_v1_span": "小姐",
+        "zh_v2_span": "",
+        "description": "原文 'sister' 表示姐妹关系或亲昵称呼，翻译为 '小姐' 失去了这种亲密含义，可能不准确或不符合角色设定，导致语义偏差。"
+      }
+    ],
+    "entry_name": "PILGRIM_LARGE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上不忠实于英文原文，将原文中让对方向离开的意图误译为说话者自己不能回去，并将位置'这里'错译为'路上'，导致整体语义失真。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "There must be a few more goodies to gather up here",
+        "zh_v1_span": "路上可能还有好东西等着我捡漏呢",
+        "zh_v2_span": "",
+        "description": "英文原文指当前位置'here'还有好东西可收集，中文翻译为'路上'，错误地改变了位置含义。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "and I don’t need you lingering around in the meantime",
+        "zh_v1_span": "我这会儿可没法跟你一块回去",
+        "zh_v2_span": "",
+        "description": "英文意思是'我不需要你在此期间逗留'，中文翻译为'我这会儿不能跟你一块回去'，语义错误，扭曲了说话者让对方向离开的意图。"
+      }
+    ],
+    "entry_name": "CITY_MERCHANT_BRIDGE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的口语化和嘲讽语气，但存在语义错译和漏译问题，影响了内容的准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "its insidious attraction",
+        "zh_v1_span": "被它的谎话骗来",
+        "zh_v2_span": "",
+        "description": "英文 'insidious attraction' 意为阴险的吸引力，中文译为 '谎话' 是错误翻译，导致意思偏差，应译为 '阴险的诱惑' 或类似表达以保持原意。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "inside and out",
+        "zh_v1_span": "外表光鲜",
+        "zh_v2_span": "",
+        "description": "英文 'inside and out' 表示里里外外，中文翻译只强调了 '外表光鲜'，漏译了内部同样虚假的含义，造成信息缺失。"
+      }
+    ],
+    "entry_name": "CARETAKER_LV1_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，含义准确，风格自然，句子流畅。结构标签不存在，无需检查。整体质量良好。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_ITEM_SEAL_CHIT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格上成功再现了原文的口语化和略带幽默的语气，但在准确性方面存在几处细节问题，包括漏译关键词语和语义偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I promised the wish of bugs concerned for your safety.",
+        "zh_v1_span": "我是受其他虫子所托来确保你的安全。",
+        "zh_v2_span": "",
+        "description": "漏译了'wish'（愿望）的具体概念，原文强调'答应了关心你安全的虫子的愿望'，中文简化为'受所托'，使委托的动机信息略有损失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "beside the old bell, up and over",
+        "zh_v1_span": "上方那座古钟",
+        "zh_v2_span": "",
+        "description": "漏译了'beside'（在旁边）和'up and over'（向上并越过）的方向与位置细节，只概括为'上方'，可能影响玩家对目的地的准确理解。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "ward away the worst of the Citadel’s many dangers",
+        "zh_v1_span": "驱散圣堡的大部分危险",
+        "zh_v2_span": "",
+        "description": "将'the worst'（最严重的危险）误译为'大部分危险'，语义偏差，弱化了原文强调驱散最致命威胁的意图，可能影响游戏氛围传达。"
+      }
+    ],
+    "entry_name": "CITY_MERCHANT_SAVED_1"
+  },
+  {
+    "overall_comment": "第一版翻译在催促离开部分基本忠实，但在关键的第二句描述中严重偏离原文，漏译了'bugs settled safe'并添加了额外信息，整体忠实度较低。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "If this settlement of yours truly has bugs settled safe",
+        "zh_v1_span": "要是你那庇护所真能安生做生意",
+        "zh_v2_span": "",
+        "description": "原文'bugs settled safe'可能指虫子被安全安置或问题解决，但翻译为'安生做生意'，意思完全改变，漏译了关键元素。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "I’ll be able to make some lucrative trades.",
+        "zh_v1_span": "老婆子我定能大赚一笔！",
+        "zh_v2_span": "",
+        "description": "翻译添加了'老婆子'，指定了性别和自称，原文中仅为'I'，没有此信息。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "trinkets and baubles",
+        "zh_v1_span": "宝贝货物",
+        "zh_v2_span": "",
+        "description": "'trinkets and baubles'本意是小饰品或廉价珠宝，译为'宝贝货物'可能过于泛化，丢失了原意的具体性。"
+      }
+    ],
+    "entry_name": "CITY_MERCHANT_SAVED_2"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的核心意思和口语风格，但存在多处漏译，导致部分细节和情感表达缺失，影响了原文的细微之处和角色张力。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "That fated meeting won’t hold forever...",
+        "zh_v1_span": "迟早要碰面……",
+        "zh_v2_span": "",
+        "description": "漏译了 'fated'（命中注定的）和 'won't hold forever'（不会永远持续）的含义，使会面的紧迫感和宿命感减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "and share some part of it",
+        "zh_v1_span": "既然你已了解我的想法",
+        "zh_v2_span": "",
+        "description": "英文原文中 'share some part of it' 表示分享部分愿望，中文翻译只提及了解，漏译了分享的互动性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I can barely bear to tell it...",
+        "zh_v1_span": "啊……或许可以吧。我有一计……",
+        "zh_v2_span": "",
+        "description": "漏译了 'I can barely bear to tell it...'（几乎无法忍受说出来），忽略了角色犹豫和情感挣扎的表达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "one to go further than just her binding",
+        "zh_v1_span": "那是一种陷阱，一种超越圣堡的陷阱。",
+        "zh_v2_span": "",
+        "description": "英文原文强调陷阱不仅超越圣堡的技能，还超越仅仅束缚她（'her binding'），中文漏译了后者，使陷阱的目的不够完整。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在风格和结构上基本忠实于原文，口语化语气处理得当，结构标签一致。但存在几处明显的漏译，影响了原文信息的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "once powerful bug",
+        "zh_v1_span": "强大的甲虫",
+        "zh_v2_span": "强大的甲虫",
+        "description": "漏译 'once'（曾经），原文强调虫子曾经强大，中文仅说'强大的'，缺失时间维度。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Braver’n most, and as little a fan of this Citadel as you yourself.",
+        "zh_v1_span": "而且跟你一样厌恶圣堡。",
+        "zh_v2_span": "而且跟你一样厌恶圣堡。",
+        "description": "漏译 'Braver’n most'（比大多数更勇敢），原文描述虫子的勇敢特质，中文完全缺失此信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Now he’s as dead as he was daft!",
+        "zh_v1_span": "现在死得渣都不剩！",
+        "zh_v2_span": "现在死得渣都不剩！",
+        "description": "漏译 'as he was daft'（和他一样愚蠢），原文用愚蠢类比死亡程度，中文只强调死亡，失去比喻和语气色彩。"
+      }
+    ],
+    "entry_name": "CARETAKER_SWAMP_SOUL"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文基本匹配，但在描述圣堡顶端人物时，将'等待'误译为'邀请'，导致语义偏差，影响准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The one who waits atop this Citadel... Through their hospitality, I arrived in this kingdom.",
+        "zh_v1_span": "圣堡顶端那位邀请我来到这个王国……盛情难却，现在轮到我回礼了。",
+        "zh_v2_span": "",
+        "description": "英文原文中 'waits' 意为'等待'，但中文翻译为'邀请'，改变了动作的语义，从被动等待变为主动邀请，造成意思不准确。"
+      }
+    ],
+    "entry_name": "CARETAKER_BEAST"
+  },
+  {
+    "overall_comment": "第一版翻译在整体流畅度上不错，但存在关键信息漏译和语义偏差。漏掉了英文中的称呼'bellringer'，影响了角色身份的传达；同时将'before the construction'误译为'参与构建'，改变了原文的时间关系。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "bellringer?",
+        "zh_v1_span": "找齐了是吧？",
+        "zh_v2_span": "",
+        "description": "英文原文中称呼'bellringer'（可能指角色名或绰号）被完全漏译，这缺失了关键的角色互动信息，可能导致玩家不清楚说话对象。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "‘fore the construction",
+        "zh_v1_span": "参与构建",
+        "zh_v2_span": "",
+        "description": "原文'‘fore the construction'意为'在构建之前'，强调时间顺序；翻译成'参与构建'则变为在构建过程中需要，语义错误，可能误导玩家关于任务准备的时序。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_COMPLETE_PREPARE"
+  },
+  {
+    "overall_comment": "第一版翻译总体上忠实于原文，语气自然流畅，但在处理 'a little more living' 时添加了具体时间 '两天'，可能偏离了原文的模糊性。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "granted us a little more living",
+        "zh_v1_span": "赏我们多活两天",
+        "zh_v2_span": "",
+        "description": "原文 'a little more living' 表示模糊的额外生存时间，未指定具体时长。翻译为 '多活两天' 添加了具体天数 '两天'，属于多译，可能改变原意。"
+      }
+    ],
+    "entry_name": "PILGRIM_SMALL_02"
+  },
+  {
+    "overall_comment": "第一版翻译在基本含义上正确，但漏译了原文中的语气词 'best' 和 'best as I can'，并且未体现口语化风格，削弱了角色的人设。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "you’d best get to collectin’",
+        "zh_v1_span": "就快去收集所需的部分",
+        "zh_v2_span": "",
+        "description": "漏译了 'best'（最好），原文强调建议或必要性，翻译中缺失了这层语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "best as I can",
+        "zh_v1_span": "我会告诉你需要做什么。",
+        "zh_v2_span": "",
+        "description": "漏译了 'best as I can'（尽可能），原文表示尽力而为，翻译中未体现。"
+      },
+      {
+        "type": "style.character_voice",
+        "source_span": "If’n your wantin’ that trap made, you’d best get to collectin’. I’ll point you toward what’s needed, best as I can.",
+        "zh_v1_span": "如果决定要把那个陷阱造出来，就快去收集所需的部分。我会告诉你需要做什么。",
+        "zh_v2_span": "",
+        "description": "原文有明显的口语化和方言特征（如 'If’n', 'your wantin’', 'collectin’'），翻译使用了标准中文，未保留角色的人设和语气。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体意思和口语风格上基本符合原文，但第二段漏译了关键信息'S she’s a useful sort'，影响了角色描述的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "She’s a useful sort",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'She’s a useful sort'（她是个有用的人）在中文翻译中被完全遗漏，导致对商人的评价缺失，信息不完整。"
+      }
+    ],
+    "entry_name": "CARETAKER_MERCHANT"
+  },
+  {
+    "overall_comment": "第一版翻译整体上准确，保持了原文的口语风格，但存在两处信息遗漏，影响了语气和角色信息的传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "for sure,",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的 'for sure' 未翻译，缺失了肯定语气的强调，使句子语气减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "hunter",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文明确指出对方是 'hunter'（猎人），翻译中未提及此词，可能丢失角色设定和上下文信息。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构上保持了标签一致性，但在关键句子上存在错译和漏译，影响了原文的准确性和角色语气，部分细节被简化或错误处理。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I may indeed choose to trigger it",
+        "zh_v1_span": "我愿成为那个安放它的猎手",
+        "zh_v2_span": "",
+        "description": "原文意思是'我可能确实选择触发它'，但翻译成了'我愿成为那个安放它的猎手'，'trigger'（触发）被误译为'安放'，且添加了原文没有的'猎手'概念，语义错误。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "bellringer",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的称呼'bellringer'被完全漏译，这可能是专有名词或重要角色指代，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "dead and drained in swamps choked rotten",
+        "zh_v1_span": "死在了腐臭的沼泽",
+        "zh_v2_span": "",
+        "description": "原文'dead and drained'（死去并被抽干）和'choked rotten'（腐烂到窒息）的生动描述被简化，只翻译了部分，漏译了关键细节。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "fascination at the act",
+        "zh_v1_span": "对你这种勇气的欣赏",
+        "zh_v2_span": "",
+        "description": "原文'fascination at the act'（对行为的迷恋）被翻译为'对你这种勇气的欣赏'，'act'指触发陷阱的具体行为，而非泛指的勇气，意思不准确。"
+      },
+      {
+        "type": "fluency.punctuation",
+        "source_span": "the thrill of defiance",
+        "zh_v1_span": "享受反抗带来的的亢奋",
+        "zh_v2_span": "",
+        "description": "翻译中'的的'重复，应为'的'，是标点或用词错误，影响阅读流畅度。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和风格上基本忠实于英文原文，保持了口语化的推销语气，没有发现重大错误。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_ITEM_WARDKEY"
+  },
+  {
+    "overall_comment": "第一版翻译在整体意思上大致正确，但存在多处漏译和添加，影响了准确性和风格忠实度。例如，漏译了称呼'miss bellringer'，并添加了'先生'和负面词汇'怂包'，导致语气偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "miss bellringer",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文中称呼对方为'miss bellringer'，中文翻译完全省略，属于信息缺失的漏译。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Caretaker",
+        "zh_v1_span": "看守者先生",
+        "zh_v2_span": "",
+        "description": "原文直接称呼'Caretaker'，中文翻译添加了'先生'，属于原文没有的多余添加。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "this mob",
+        "zh_v1_span": "这帮怂包",
+        "zh_v2_span": "",
+        "description": "原文'mob'指一群人，语气中性或略带贬义，中文翻译为'怂包'添加了强烈负面评价，导致语气从抱怨变为侮辱，与原文不符。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "chambers beside",
+        "zh_v1_span": "附近",
+        "zh_v2_span": "",
+        "description": "原文中'chambers beside'指定了具体地点（旁边的房间），中文翻译简化为'附近'，丢失了细节信息，属于部分漏译。"
+      }
+    ],
+    "entry_name": "CARETAKER_DELIVERY"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文含义，风格偏向口语化，但将 'warren of bells' 简化为 '到处是钟的地方'，损失了原文的隐喻意象，整体忠实度有轻微不足。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Buried in the warren of bells",
+        "zh_v1_span": "在到处是钟的地方",
+        "zh_v2_span": "",
+        "description": "原文 'warren of bells' 意指钟的迷宫或错综复杂的地方，但翻译漏译了 'warren' 的意象，仅译为 '到处是钟的地方'，导致信息不完整，可能影响诗意描述。"
+      }
+    ],
+    "entry_name": "CARETAKER_SNARE_REPEAT_BELLHERMIT"
+  },
+  {
+    "overall_comment": "第一版翻译在忠实度上存在明显缺陷：添加了原文没有的感叹句“我们可真是走运”，并完全错译了第二页的句子“We’re amongst the blessed few...”，同时额外加入描述性内容，导致整体含义和风格与原文不符。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "So you found this place too, sister? This Citadel’s grand promise has been strangled away by cursed thread, but at least the great bell here grants us some sanctuary.",
+        "zh_v1_span": "我们可真是走运。",
+        "zh_v2_span": "",
+        "description": "原文在问候后直接描述圣堡现状，中文却插入“我们可真是走运”这一感叹句，属于无依据的添加，可能改变对话的平实语气。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "<page>We’re amongst the blessed few... granted just a little more living.",
+        "zh_v1_span": "<page>也许只是片刻安宁，但能多活一会儿……但在这病怏怏的鬼地方，多活片刻就是最好的福报了。",
+        "zh_v2_span": "",
+        "description": "原文“We’re amongst the blessed few”意为“我们是幸运的少数人”，但中文译为“也许只是片刻安宁”，语义错误；且中文添加了“但在这病怏怏的鬼地方”等描述，属于多译，扭曲了原文简洁的陈述。"
+      }
+    ],
+    "entry_name": "PILGRIM_SMALL_01"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上忠实于英文原文，句子结构对应，语气自然友好，无明显错误。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上基本忠实于英文原文，准确传达了原文的疑问和思考语气，结构标签一致，没有明显错误。",
+    "issues": [],
+    "entry_name": "PILGRIM_GENERIC_ACT3_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上忠实于英文原文，准确传达了金属被争抢、外观普通但价值高的信息；风格上保持了口语化和非正式语气，与原文匹配；整体流畅自然。",
+    "issues": [],
+    "entry_name": "CITY_MERCHANT_ITEM_TOOLMETAL"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的非正式喊话含义和风格，保持了口语化语气，翻译自然且无误。",
+    "issues": [],
+    "entry_name": "CARETAKER_MEET_1"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上存在错误，多了一个<page>标签；内容方面有漏译和多译问题，如省略了原文的细节描述并添加了额外贬义词，整体忠实度一般，需要调整以更准确反映原文含义和风格。",
+    "issues": [
+      {
+        "type": "tech.markup",
+        "source_span": "<page>Well, what’s done is done, and what’s rung is rung. Just make sure you come back here soon, you lout! I ain’t dealing with all the fresh intake myself!<hpage>",
+        "zh_v1_span": "<page>就像在那些家伙耳边低语“这里安全，快来！”，然后他们就会屁颠屁颠地涌向这座被诅咒的城堡。<page>事已至此，你最好尽快回来帮忙！我可不想独自应付这些新来的蠢货！<hpage>",
+        "zh_v2_span": "",
+        "description": "原文结构标签为 <page> 和 <hpage> 各一个，但中文翻译多插入了一个 <page> 标签，将原文第二部分内容拆分，导致标签顺序和数量不一致，可能影响游戏内文本的分页显示。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "you see. “It’s safe here. Come on over!” ringing in the ears of every lost pilgrim and grubby so-and-so unlucky enough to have made it to this blasted Citadel with their wits intact",
+        "zh_v1_span": "只要这钟殿醒着，那些迷途的朝圣者和肮脏的食腐者就会收到召唤。",
+        "zh_v2_span": "",
+        "description": "原文中的‘you see’以及钟声在朝圣者耳边回响的详细描述（包括‘unlucky enough... with their wits intact’）被省略，中文翻译只概括为‘收到召唤’，丢失了原文的生动性和关键信息。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Just make sure you come back here soon, you lout! I ain’t dealing with all the fresh intake myself!",
+        "zh_v1_span": "你最好尽快回来帮忙！我可不想独自应付这些新来的蠢货！",
+        "zh_v2_span": "",
+        "description": "原文中‘fresh intake’指新来的人，但中文翻译添加了‘蠢货’这一贬义词，属于额外添加，可能改变角色语气和原文意图。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "sir bug",
+        "zh_v1_span": "先生",
+        "zh_v2_span": "",
+        "description": "‘sir bug’是特定称呼，可能为角色名或昵称，翻译为‘先生’遗漏了‘bug’部分，导致信息丢失，可能影响游戏设定或角色识别。"
+      }
+    ],
+    "entry_name": "CARETAKER_MEET_REPEAT"
+  }
+]

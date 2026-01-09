@@ -1,0 +1,605 @@
+[
+  {
+    "overall_comment": "第一版翻译基本流畅，风格符合口语化游戏对话，但存在漏译和语义不准确的问题，影响了原文的完整性和语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You’re a skilled one, clear enough.",
+        "zh_v1_span": "身手不错，",
+        "zh_v2_span": "",
+        "description": "原文中的 'clear enough'（很明显）被漏译，这削弱了赞赏语气的强调。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I hope my training has granted some insight.",
+        "zh_v1_span": "我的指导对你有用吧？",
+        "zh_v2_span": "",
+        "description": "'granted some insight' 应翻译为 '给予一些洞见' 以准确传达原意，中文版简化为 '有用' 损失了洞察力的含义，且将陈述句改为问句可能改变原文语气。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_POST"
+  },
+  {
+    "overall_comment": "翻译整体流畅，风格和语气与原文匹配，但在第四句存在一处明显的漏译，导致语义不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Aye! A Pinstress!",
+        "zh_v1_span": "没错！刺针才是纺络的荣耀武器——",
+        "zh_v2_span": "",
+        "description": "原文中的 'A Pinstress!'（指角色自称或强调）未被翻译，中文直接跳过了这部分，导致信息缺失。应在 '没错！' 后补充 '针姬！' 或类似翻译以忠实于原文。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在整体意思和结构上大致忠实，但存在多处漏译和细节偏差，如专有名词缺失、具体意象泛化及语义不准确，影响了对原文的完整传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pinstress",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文中直接称呼角色为 'Pinstress'，中文翻译中完全漏译，缺失了对话的针对性和角色识别。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "needle bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文中称对方为 'needle bug'，中文翻译中漏掉了这个昵称或称呼，丢失了角色间的特定互动和语气色彩。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Your blade",
+        "zh_v1_span": "你的技艺",
+        "zh_v2_span": "你的技艺",
+        "description": "'Your blade' 特指刀刃或剑术，具有具体意象；中文翻译为 '技艺' 过于泛化，没有体现武器相关的细节，可能导致语义模糊。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "met in less troubled times",
+        "zh_v1_span": "生在太平年代",
+        "zh_v2_span": "生在太平年代",
+        "description": "英文 'met' 意为相遇，中文 '生在' 意为出生在，语义错误，扭曲了原文关于相遇时机的描述。应改为 '相遇在' 或 '遇见在' 以准确传达。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "strength and skills",
+        "zh_v1_span": "实力",
+        "zh_v2_span": "实力",
+        "description": "英文明确并列 'strength and skills'（力量与技能），中文用 '实力' 概括，漏掉了 'skills' 的独立提及，简化过多可能丢失信息精度。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_TALK_ACT_3"
+  },
+  {
+    "overall_comment": "第一版翻译在战斗语气上基本匹配原文，但漏译了关键称呼‘needle bug’，并且将‘shells a’shaking’意译为‘战个痛快’，丢失了原文的特定意象和游戏设定元素。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "needle bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的‘needle bug’被完全漏译，这是一个重要称呼或术语，可能导致角色身份或互动信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Let’s get our shells a’shaking!",
+        "zh_v1_span": "让我们战个痛快！",
+        "zh_v2_span": "",
+        "description": "原文使用‘shells a’shaking’的比喻性表达，涉及‘壳’的意象，翻译为‘战个痛快’虽然传达了战斗意图，但改变了具体含义，可能影响游戏设定或风格的一致性。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_ACCEPTED"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，保持了问句风格。表达略显生硬，但整体可接受。",
+    "issues": [],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_PROMPT"
+  },
+  {
+    "overall_comment": "第一版中文翻译忠实于英文原文，含义准确，风格与原文的叙述性和决心语气一致，结构标签使用正确无遗漏。",
+    "issues": [],
+    "entry_name": "WORLD_EDGE"
+  },
+  {
+    "overall_comment": "第一版中文翻译直接复制了英文原文，这可能是一个标识符或条目名，没有实际翻译内容。在忠实性上没有明显问题，但需确认是否应为翻译文本而非标识符。",
+    "issues": [],
+    "entry_name": "PINSTRESS_NPC_TALK_01"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但存在多处漏译，包括称呼和关键信息，导致整体含义和风格与原文有较大偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Back again, needle bug?",
+        "zh_v1_span": "还不走？",
+        "zh_v2_span": "",
+        "description": "英文中的问候和昵称 'needle bug' 被完全省略，直接译为 '还不走？'，失去了原文的个性和对话开头。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "these sandy steps?",
+        "zh_v1_span": "没有更要紧的事要做吗？",
+        "zh_v2_span": "",
+        "description": "原文提到的具体地点 'these sandy steps' 在翻译中未被体现，导致上下文信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pinstress.",
+        "zh_v1_span": "我不会久留。",
+        "zh_v2_span": "",
+        "description": "直接称呼 'Pinstress' 被省略，影响了人物对话的互动性和角色识别。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your home",
+        "zh_v1_span": "不过有你这般身手",
+        "zh_v2_span": "",
+        "description": "原文中 'Your home' 部分被漏译，只翻译了 'your skills'，导致 'safety' 的来源描述不完整。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_STAND_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构和风格上基本忠实于原文，使用了省略号保持了破碎感，但在最后一句有信息缺失，漏译了关键部分。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Save us both from the Masters’ wrath.",
+        "zh_v1_span": "平息主人怒火。",
+        "zh_v2_span": "",
+        "description": "原文中 'Save us both from the Masters’ wrath.' 被翻译为 '平息主人怒火。'，漏译了 'us both'（我们俩）和 'save'（拯救）的完整含义，导致拯救的对象和目的不明确。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_QUEST_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在主要内容上基本传达了原意，但完全漏译了开头的称呼 'Needle bug!'，影响了文本的完整性和角色互动。结构标签使用正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Needle bug! ",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文开头的 'Needle bug!' 是一个重要的称呼或绰号，在中文翻译中被完全省略，导致信息丢失和上下文不完整。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_MEET_RETURN"
+  },
+  {
+    "overall_comment": "第一版翻译在整体流畅度和基本意思传达上尚可，但存在多处关键信息漏译，特别是专有名词和限制性短语的省略，影响了原文的角色互动细节和语气准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Needle bug! Who else would dare wake a Pinstress with such force?!",
+        "zh_v1_span": "是你！除了你谁敢这么粗暴地吵醒一名针姬！",
+        "zh_v2_span": "",
+        "description": "漏译了'Needle bug'这个特定称呼。原文中'Needle bug'是针姬对说话对象的绰号或术语，翻译中直接用人称代词'你'替代，丢失了原文的术语色彩和角色互动细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I know what you are seeking, Pinstress...",
+        "zh_v1_span": "我知道你在渴求什么……",
+        "zh_v2_span": "",
+        "description": "漏译了'Pinstress'这个称呼。原文中针姬在对话中直接称呼对方为'Pinstress'，翻译中省略，削弱了角色间的直接互动和语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I can oblige... to a point...",
+        "zh_v1_span": "我可以满足你……",
+        "zh_v2_span": "",
+        "description": "漏译了'to a point'。原文意思是'我可以答应...但仅限于一定程度...'，翻译中省略了这个限制性短语，导致承诺的意味变得绝对，与原文的保留态度不符。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的断断续续结构，但存在多处准确性问题和漏译，导致语义偏差和关键信息缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Creature, higher...",
+        "zh_v1_span": "上位者……",
+        "zh_v2_span": "",
+        "description": "原文中的'Creature'未被翻译，只翻译了'higher'为'上位者'，漏掉了对生物的提及，导致信息不完整。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "It has been sent... by Masters served...",
+        "zh_v1_span": "主人派你来……",
+        "zh_v2_span": "",
+        "description": "原文是被动语态，指某个生物（it）被服务的大师（Masters served）派遣；中文改为主动语态并改变主语为'你'，扭曲了原意和动作执行者。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Zi’s vassal lost",
+        "zh_v1_span": "失联仆从",
+        "zh_v2_span": "",
+        "description": "原文中的专有名词'Zi's'未被翻译，中文只提到'失联仆从'，漏掉了所有者的关键信息。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在准确性上有较大问题，包括关键术语误译、多处漏译以及风格简化，导致不忠实于原文含义和语气。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "My saviour slain!",
+        "zh_v1_span": "我的眷属被毁了！",
+        "zh_v2_span": "",
+        "description": "将'saviour'（拯救者）误译为'眷属'，语义错误，改变了原文角色关系。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "cruel slasher",
+        "zh_v1_span": "你这么残忍",
+        "zh_v2_span": "",
+        "description": "漏译了'slasher'（切割者）这个称呼，原文完整意思是'残忍的切割者'，翻译中只保留了'残忍'。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "so long, long, long",
+        "zh_v1_span": "永世",
+        "zh_v2_span": "",
+        "description": "原文中'long, long, long'的重复表达被简化，失去了强调和延长的语气效果。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'bug'，可能是一个称呼或术语，导致原文对话对象不完整。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "these lands",
+        "zh_v1_span": "纺络",
+        "zh_v2_span": "",
+        "description": "将'these lands'（这些土地）翻译为'纺络'，疑似术语错误或误译，上下文未显示这是约定译名。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "For this moment at least, your shell is saved.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了整个句子'至少此刻，你的外壳得救了'，导致信息缺失和语气变化。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "and fear of her Masters’ punishment",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'以及对她主人惩罚的恐惧'，原文中到达的原因之一被忽略，削弱了叙事逻辑。"
+      }
+    ],
+    "entry_name": "STEEL_SERVANT_END_1_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文核心意思，但存在多处关键信息漏译，导致内容不完整，削弱了原文的细节和语气对比。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Bested fair",
+        "zh_v1_span": "你已经赢了",
+        "zh_v2_span": "",
+        "description": "原文中'fair'（公平地）被漏译，忽略了强调对决公平性的语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I can test you, Pinstress, and myself for what’s to come",
+        "zh_v1_span": "我可以与你比试",
+        "zh_v2_span": "",
+        "description": "原文中'Pinstress'（专有名称）、'and myself'（以及我自己）和'for what’s to come'（为了即将到来的事情）均被漏译，导致句子信息严重缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Despite its quakes",
+        "zh_v1_span": "纺络的命运尚有转机",
+        "zh_v2_span": "",
+        "description": "原文'Despite its quakes'（尽管有震动）被完全漏译，失去了对Pharloom状态的描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "while you’re looking to a future fair...",
+        "zh_v1_span": "显得我像个只想着末日的蠢货……",
+        "zh_v2_span": "",
+        "description": "原文对比部分'while you’re looking to a future fair...'（而你却看向一个公平的未来）被漏译，导致角色间语气对比缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "needle bug",
+        "zh_v1_span": "你赢了我两次",
+        "zh_v2_span": "",
+        "description": "原文中'needle bug'（针虫，可能为昵称或称呼）被漏译，影响了角色互动的具体细节。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_DEFEATED_PRE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文意思，但在一些细节处理上不够精确，存在意愿强调偏差、专有名词模糊和信息漏译的问题。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "but by my own will",
+        "zh_v1_span": "而是为了我自己",
+        "zh_v2_span": "",
+        "description": "原文 'by my own will' 强调出自我意愿或意志，翻译为 '为了我自己' 侧重于目的而非意愿，可能丢失原意，建议调整为更强调意愿的译法，如 '出于我自己的意志'。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "For pale It...",
+        "zh_v1_span": "苍白者",
+        "zh_v2_span": "",
+        "description": "原文 'For pale It...' 可能指代特定角色或对象，翻译为 '苍白者' 含义模糊，未明确传达原文的专有名词或上下文指代，易造成歧义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "either will aid...",
+        "zh_v1_span": "皆能平息怒火……",
+        "zh_v2_span": "",
+        "description": "原文 'either will aid...' 等细节在翻译中被省略，仅概括为 '皆能平息怒火……'，丢失了 'either will aid'（两者都将有助于）的具体信息，影响意思完整性。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，结构标签正确，但存在一处重要漏译，省略了原文中关于针与刺针对比的细节，影响了角色对话的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Aye! A Pinstress! Your needle there might fit you fair, but the pin that’s the glorious weapon of Pharloom, least it was... It’s sure starting to feel like Pharloom doesn’t have long left.",
+        "zh_v1_span": "没错！刺针曾是纺络的荣耀武器……虽然这王国恐怕撑不久了。",
+        "zh_v2_span": "",
+        "description": "原文中包含了'Your needle there might fit you fair, but the pin'的对比描述，翻译中省略了这部分，导致角色对话的细节和语气丢失，属于漏译。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_MEET_ACT_3"
+  },
+  {
+    "overall_comment": "第一版中文翻译与英文原文完全相同，可能是一个键名或标识符，未进行实际翻译处理，但内容忠实。",
+    "issues": [],
+    "entry_name": "PINSTRESS_NPC_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在核心含义上基本忠实，句子流畅，但漏译了 'needle bug' 这个元素，可能影响原文的角色互动语气或设定细节。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "needle bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的 'needle bug' 被完全省略，这可能导致丢失角色称呼或昵称的特定意味，影响整体风格的完整性。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_SIT_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体意思大致正确，风格口语化，但存在明显的漏译问题，影响了对话的完整性和角色互动。结构标签使用正确，无技术性问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Dunno if you’ve heard it, needle bug",
+        "zh_v1_span": "你听说过吗？",
+        "zh_v2_span": "",
+        "description": "漏译了称呼 'needle bug'，这可能是角色昵称或专有名词，缺失后对话的针对性减弱。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "I have visited the core, Pinstress.",
+        "zh_v1_span": "我去过那",
+        "zh_v2_span": "",
+        "description": "漏译了称呼 'Pinstress'，这可能是对说话对象的尊称或名字，缺失后导致对话对象不明确。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "You’ve proven yourself an imposing talent.",
+        "zh_v1_span": "（中文翻译中未明确体现此句）",
+        "zh_v2_span": "",
+        "description": "英文中独立的一句 'You’ve proven yourself an imposing talent.' 未被翻译，中文仅整合了前文意思，导致赞扬语气和关键信息缺失。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_ICECORE_VISITED"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思上基本正确，但存在多处信息漏译，省略了原文的细节描述和情感强调，导致准确性不足，整体忠实度较低。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Nothing of the pain. All small Sula’s to bear... To watch, watch these lands dying, slow, the bugs suffering, falling, while our shell sustains...",
+        "zh_v1_span": "苏拉独自承受……看着大地衰亡……虫民受苦……",
+        "zh_v2_span": "",
+        "description": "原文详细描述了'不懂痛苦'、'苏拉承受一切'、'大地缓慢衰亡'、'虫民受苦和坠落'以及'壳的支撑'，但中文翻译简化过度，漏译了'Nothing of the pain'、'All'、'slow'、'falling'和'while our shell sustains'等关键信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "but we forced to serve",
+        "zh_v1_span": "而我们独自承受一切……",
+        "zh_v2_span": "",
+        "description": "原文中'我们被迫服务'（we forced to serve）被完全漏译，导致'我们'的处境描述不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "knowingly return me to that pain",
+        "zh_v1_span": "逼我回到那里",
+        "zh_v2_span": "",
+        "description": "原文中的'knowingly'（明知地）被漏译，削弱了对方行为的刻意性和情感色彩。"
+      }
+    ],
+    "entry_name": "STEEL_SERVANT_END_2"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地处理了部分内容，但严重漏译了英文原文中的关键描述，包括角色忠于职责和与矿石相关的部分，导致翻译不完整，可能影响角色设定和整体含义。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Always she is true to her function... Ore-bound...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'Always she is true to her function... Ore-bound...' 被完全漏译，这部分描述了角色总是忠于她的职责和与矿石的绑定，漏译导致信息缺失，可能削弱角色塑造和世界观表达。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文的友好和鼓励语气，但漏译了'all important'这一关键形容词，导致语义不够完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Time now you get to your all important business.",
+        "zh_v1_span": "快去忙你的事吧。",
+        "zh_v2_span": "",
+        "description": "原文中的'all important'（至关重要的）在翻译中被遗漏，中文仅翻译为'忙你的事'，未强调事务的重要性。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_DEFEATED_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在风格上保持了原文的断续感，但存在漏译和关键信息的翻译偏差，影响了准确性和忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "By Masters served?...",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了原文中的 'By Masters served?...'，这部分是在询问是否由主人服务或派遣，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "It has been sent to Zi, yes?",
+        "zh_v1_span": "是主人派你来？",
+        "zh_v2_span": "",
+        "description": "将英文中的 'It'（它）错误地翻译为 '你'，改变了主语所指；同时添加了 '主人'，而原文中 'Masters' 是独立部分，造成语义错位。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体结构清晰，语言流畅，较好地传达了对话的主要信息和针姬的人物性格。但在细节上存在两处信息缺失，未能完整传达原文的语义，可进一步优化以提升准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "How else is one expected to maintain their wits?",
+        "zh_v1_span": "（被省略）",
+        "zh_v2_span": "（被省略）",
+        "description": "漏译了完整的反问句。原文“不然怎么保持头脑敏锐？（How else is one expected to maintain their wits?）”是针姬对自己选择生活在艰苦环境核心理由的解释。只保留前句“那样只会让我变迟钝”不足以完全体现角色以艰苦磨砺心志的逻辑。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "the strong who’d choose to remain apart",
+        "zh_v1_span": "自由的强者",
+        "zh_v2_span": "自由的强者",
+        "description": "原文“the strong who’d choose to remain apart”意为“选择保持独立的强者”。中文“自由的强者”遗漏了“选择保持独立（remain apart）”这一关键限定，它特指像针姬及其教团这样不依附于圣堡、自主生存的强者，而不仅仅是泛泛的“自由”。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_SIT_TALK_01"
+  },
+  {
+    "overall_comment": "第一版翻译在准确性上存在显著问题，漏译了关键地理信息 'this land' 并错误处理了 'until' 条件句的逻辑，导致整体含义与原文不符。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I cannot yet leave this land.",
+        "zh_v1_span": "我还不能离开。",
+        "zh_v2_span": "",
+        "description": "原文明确指定 'this land'（这片土地），但翻译中漏译了此信息，只译为 '离开'，造成信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Until I slay its source",
+        "zh_v1_span": "只要源头尚存",
+        "zh_v2_span": "",
+        "description": "英文 'Until I slay its source' 意为 '直到我杀死它的源头'，强调动作完成；翻译为 '只要源头尚存' 意为 '只要源头还存在'，改变了逻辑关系，导致语义偏差。"
+      }
+    ],
+    "entry_name": "WORLD_EDGE_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体意思和风格上基本忠实于原文，结构标签使用正确。但存在少量漏译，导致部分信息缺失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You would reject the role?",
+        "zh_v1_span": "你要违抗？",
+        "zh_v2_span": "",
+        "description": "原文中的 'role'（角色或职责）没有被翻译，中文只译为 '违抗'，漏掉了具体概念，可能影响语义完整性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Are you not tamed, bound, by Masters?",
+        "zh_v1_span": "你未被主宰驯服？",
+        "zh_v2_span": "",
+        "description": "原文中的 'bound'（束缚）没有被翻译，中文只译为 '驯服'，漏掉了 '束缚' 的含义，使句子信息不完整。"
+      }
+    ],
+    "entry_name": "STEEL_SENTINEL_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译整体上传达了原文的调侃语气，但用词'出鞘'对于针的隐喻可能不够贴切，导致含义略有偏差；风格和结构基本匹配。",
+    "issues": [
+      {
+        "type": "fluency.word_choice",
+        "source_span": "is your needle too shy to show its edge?",
+        "zh_v1_span": "你的针不敢出鞘吗？",
+        "zh_v2_span": "",
+        "description": "'出鞘'通常用于刀剑从鞘中拔出，而针没有'鞘'，英文'edge'指针的尖端或锋利部分；该词选择不当，可能导致理解上的不自然，建议调整为更准确的表达如'不敢露锋'。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_DECLINED"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但翻译内容存在严重问题，包括漏译关键术语和错译核心词语，导致原文信息不完整且含义偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Even my welcome has limits, needle bug.",
+        "zh_v1_span": "我的耐心有限。",
+        "zh_v2_span": "",
+        "description": "漏译了'needle bug'，这是一个重要的称呼或术语，未在中文中体现，影响角色互动和上下文。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Even my welcome has limits",
+        "zh_v1_span": "我的耐心有限",
+        "zh_v2_span": "",
+        "description": "'welcome'意为'欢迎'或'接待'，被误译为'耐心'，改变了原文中关于容忍限度的语义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "and it’s unnerving to play host to your strange strength overlong.",
+        "zh_v1_span": "你这种异常存在让我不安。",
+        "zh_v2_span": "",
+        "description": "翻译过度简化，漏译了'strange strength'中的'strength'（力量）和'overlong'（过久）的关键信息，导致原文关于长时间招待的细节缺失。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_STAND_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在句子主体意思上基本正确，但漏译了英文中的昵称 'needle bug'，这削弱了原文的语气和角色互动感。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "needle bug?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文原文包含称呼 'needle bug'，但中文翻译中完全缺失，导致信息丢失和原文俏皮语气的弱化。"
+      }
+    ],
+    "entry_name": "PINSTRESS_INTERIOR_GROUND_REOFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在核心意思和语气上基本正确，但漏译了原文中的关键元素如'our bout'和'needle bug'，导致信息不完整，可能影响角色互动和上下文连贯性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Having second thoughts on our bout, needle bug?",
+        "zh_v1_span": "回心转意了？",
+        "zh_v2_span": "",
+        "description": "原文包含'our bout'（我们的战斗）和昵称'needle bug'，但第一版翻译完全省略了这些信息，导致含义缺失，可能削弱了对话的挑衅性和角色个性。"
+      }
+    ],
+    "entry_name": "PINSTRESS_FINAL_REOFFER"
+  }
+]

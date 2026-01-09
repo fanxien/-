@@ -1,0 +1,191 @@
+[
+  {
+    "overall_comment": "第一版翻译正确地将英文角色名'Hornet'译为'大黄蜂'，含义准确，风格一致，无结构标签问题。",
+    "issues": [],
+    "entry_name": "CREDITS_CHARVOICE_HORNET"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全复制了英文原文的人名和标签，含义和结构忠实，没有翻译问题。标签<br>正确无误，保持了Credits部分的常见风格。",
+    "issues": [],
+    "entry_name": "CREDITS_KNIGHTS_OF_U_SUPPORT_NAME_L"
+  },
+  {
+    "overall_comment": "第一版翻译 '游戏测试' 在风格上简洁，与原文匹配，但可能遗漏了 'QA' 部分，导致含义不够完整。建议考虑更准确的翻译以涵盖测试和质量保证。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Testing & QA",
+        "zh_v1_span": "游戏测试",
+        "zh_v2_span": "",
+        "description": "英文原文 'Testing & QA' 明确包括测试（Testing）和质量保证（QA）两部分，但中文翻译 '游戏测试' 只覆盖了测试部分，遗漏了 QA 的信息，可能导致含义不完整。"
+      }
+    ],
+    "entry_name": "CREDITS_TEST_QA"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全复制了英文原文，包括所有标签，在含义、风格和结构上完全忠实，但未提供实际的中文翻译，可能为测试或占位符内容。",
+    "issues": [],
+    "entry_name": "CREDITS_TESTERS_NAMES_L"
+  },
+  {
+    "overall_comment": "第一版翻译 '附加环境加工' 基本对应了英文的结构，但在术语准确性上有待改进。'环境加工' 未能准确传达 'Environment Dressing' 在游戏语境中的专业含义，可能导致玩家误解。",
+    "issues": [
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "Additional Environment Dressing",
+        "zh_v1_span": "附加环境加工",
+        "zh_v2_span": "",
+        "description": "'Environment Dressing' 是游戏开发常用术语，指环境中添加的装饰或点缀元素，以增强沉浸感。翻译为 '环境加工' 不准确，'加工' 通常指制造或处理，与原文的装饰含义不符，应使用更贴切的术语如 '环境装饰' 或 '环境点缀'。"
+      }
+    ],
+    "entry_name": "CREDITS_ENVIRONDRESSING"
+  },
+  {
+    "overall_comment": "第一版中文翻译直接保留了英文原名“Jack Vine”，与原文完全一致，在含义、风格和结构上均无问题。",
+    "issues": [],
+    "entry_name": "TUTORIAL_CREDIT_NAME_03"
+  },
+  {
+    "overall_comment": "第一版中文翻译'弦乐组'准确传达了英文原文'Strings'在音乐术语中的含义，风格正式且符合本地化习惯，结构上无标签错误。",
+    "issues": [],
+    "entry_name": "CREDITS_MUSIC_STRINGS"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确，忠实对应英文原文 'Production'，翻译简洁且符合上下文。",
+    "issues": [],
+    "entry_name": "CREDITS_MUSIC_PROD_SUB"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '游戏结束' 准确传达了英文原文 'GAME OVER' 的含义，风格与游戏语境完全匹配，没有出现结构标签错误或翻译问题。",
+    "issues": [],
+    "entry_name": "PERMA_GAME_OVER"
+  },
+  {
+    "overall_comment": "第一版翻译'以及'准确对应英文'and'，意思忠实，风格适合制作人员名单的正式语境，没有明显问题。",
+    "issues": [],
+    "entry_name": "CREDITS_CHARVOICE_TROBBIO_AND"
+  },
+  {
+    "overall_comment": "第一版翻译与英文原文完全一致，忠实保留了原文的人名，没有翻译问题。",
+    "issues": [],
+    "entry_name": "CREDITS_MUSIC_EDITING_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译准确无误，忠实传达了原文的含义，符合语言名称的常见译法。",
+    "issues": [],
+    "entry_name": "CREDITS_USS_BPORTUGUESE_TITLE"
+  },
+  {
+    "overall_comment": "第一版中文翻译“意大利语”准确对应英文原文“Italian”的含义，在风格和结构上忠实无误，没有明显问题。",
+    "issues": [],
+    "entry_name": "CREDITS_USS_ITALIAN_TITLE"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文含义，'Special Thanks' 译为 '特别感谢'，'Music & Sound' 译为 '音乐和音效'，风格简洁且符合原文语境。没有发现翻译错误或结构问题。",
+    "issues": [],
+    "entry_name": "CREDITS_THANKS_MUSIC"
+  },
+  {
+    "overall_comment": "第一版中文翻译‘管乐与铜管乐组’准确反映了英文原文‘Wind & Brass’的音乐组分类含义，风格中性且流畅，没有结构标签或翻译问题。",
+    "issues": [],
+    "entry_name": "CREDITS_MUSIC_WIND_BRASS"
+  },
+  {
+    "overall_comment": "第一版中文翻译与英文原文完全一致，直接保留了原始文本和结构标签，由于内容涉及专有名词（人名），这种处理方式是忠实的。没有发现任何翻译或技术问题。",
+    "issues": [],
+    "entry_name": "CREDITS_TRANSLATE_CHINESE_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译直接保留了英文原名 'Nathan Cummins'，与原文完全一致，在人名处理上符合本地化惯例，没有翻译错误、结构问题或风格不符。",
+    "issues": [],
+    "entry_name": "CREDITS_ORCHESTRA_TYPESET_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全忠实于英文原文，专有名词保留原样，结构标签正确无误。",
+    "issues": [],
+    "entry_name": "CREDITS_ENVIRONDRESSING_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全复制了英文原文的人名和结构标签，由于人名通常保留原样，这种做法是合理的。没有发现翻译错误或标签不一致的问题。",
+    "issues": [],
+    "entry_name": "CREDITS_KNIGHTS_OF_U_SUPPORT_NAME_R"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全忠实于英文原文，保留了原文的人名和结构标签，没有出现翻译错误、漏译或技术问题。",
+    "issues": [],
+    "entry_name": "CREDITS_USS_ITALIAN_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文的祝贺和感谢语气，但存在关键信息漏译和多译的问题，需要修正以忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Thank you for taking the time to explore and conquer the world of<br>Hollow Knight: Silksong.",
+        "zh_v1_span": "感谢你花时间探索和征服我们建立的世界。",
+        "zh_v2_span": "",
+        "description": "原文明确提及游戏名称 'Hollow Knight: Silksong'，但翻译中遗漏了，改为 '我们建立的世界'，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "We’ll meet again with a new challenge for you...",
+        "zh_v1_span": "我们很快会在新的挑战中再次相遇……",
+        "zh_v2_span": "",
+        "description": "原文没有表示时间快慢的副词，翻译中添加了 '很快'，属于多译。"
+      }
+    ],
+    "entry_name": "CREDITS_CONGRATS_BODY_PERMA"
+  },
+  {
+    "overall_comment": "第一版翻译直接复制了英文人名，未进行本地化处理。结构与原文完全一致，包括所有<br>标签，没有发现翻译或格式问题。",
+    "issues": [],
+    "entry_name": "CREDITS_MUSIC_SINGERS_ADDITIONAL_NAME_R"
+  },
+  {
+    "overall_comment": "第一版中文翻译‘管弦乐编曲与谱面制作’准确传达了英文原文‘Orchestration & Typesetting’的含义，其中‘Orchestration’译为‘管弦乐编曲’贴切，‘Typesetting’在游戏语境下译为‘谱面制作’合理，整体风格简洁且忠实于原文。",
+    "issues": [],
+    "entry_name": "CREDITS_ORCHESTRA_TYPESET"
+  },
+  {
+    "overall_comment": "第一版翻译 '特别鸣谢' 在风格和结构上忠实，但含义上可能略有不准确，未完全传达 'extra' 的额外强调意味。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Extra Special Thanks",
+        "zh_v1_span": "特别鸣谢",
+        "zh_v2_span": "",
+        "description": "原文 'Extra Special Thanks' 中的 'extra' 强调了比普通更特别的感谢，但翻译 '特别鸣谢' 只对应了 'Special Thanks'，漏译了 'extra' 的额外含义。"
+      }
+    ],
+    "entry_name": "CREDITS_EXTRA_THANKS"
+  },
+  {
+    "overall_comment": "第一版翻译完全忠实于英文原文，直接保留了人名 'Makoto Koji' 的罗马字表示，无任何翻译或结构错误。",
+    "issues": [],
+    "entry_name": "CREDITS_CHAR_DESIGN_ADDIT_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译直接复制了英文原文，未进行本地化翻译，但含义和结构完全一致，忠实于原文；在制作人员名单中，专有名词可能保留原样，因此无明显错误。",
+    "issues": [],
+    "entry_name": "CREDITS_TRANSLATE_JAPAN_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译直接复制了英文原文的人名，忠实于含义、风格和结构，没有翻译错误。",
+    "issues": [],
+    "entry_name": "CREDITS_UNITY_TECH_SUPPORT_NAME_L"
+  },
+  {
+    "overall_comment": "第一版中文翻译 '日语' 准确对应英文原文 'Japanese'，术语正确，含义忠实，没有结构标签错误或内容问题。",
+    "issues": [],
+    "entry_name": "CREDITS_TRANSLATE_JAPAN_BASIC"
+  },
+  {
+    "overall_comment": "第一版中文翻译直接保留了英文名字 'Huy Le'，符合专有名词的本地化惯例，忠实于原文，没有明显问题。",
+    "issues": [],
+    "entry_name": "CREDITS_PROGRAM_ADDIT_NAME"
+  },
+  {
+    "overall_comment": "第一版中文翻译完全忠实于英文原文，所有名字和结构标签都正确复制，没有翻译错误。",
+    "issues": [],
+    "entry_name": "CREDITS_CHARVOICES_NAMES_R"
+  }
+]

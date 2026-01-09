@@ -1,0 +1,399 @@
+[
+  {
+    "overall_comment": "第一版翻译在结构标签上保持一致，但存在多处准确性问题和漏译，导致关键信息（如时间接近性、动词含义）与原文不符，影响整体意思传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The time... of birth is close.",
+        "zh_v1_span": "诞生……之时。",
+        "zh_v2_span": "诞生……之时。",
+        "description": "原文中 'is close' 表示 '接近'，但中文翻译只译了 '之时'，漏掉了 '接近' 的意思，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Host... the final rite.",
+        "zh_v1_span": "宿主……终仪。",
+        "zh_v2_span": "宿主……终仪。",
+        "description": "原文 'Host' 作为动词可能意为 '主持' 或 '举办'，但中文翻译为 '宿主'，通常作名词，指主人或载体，语义错译，可能扭曲动作意图。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The time of birth... is near.",
+        "zh_v1_span": "诞辰……已至。",
+        "zh_v2_span": "诞辰……已至。",
+        "description": "原文 'is near' 意为 '接近'，但中文翻译为 '已至'，意为 '已经到达'，意思相反，造成时间描述错误。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_CURSE_ACCEPTED"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了警告的核心意思，但漏译了'sacred place'（神圣之地），使场景的庄严性和设定细节丢失，整体风格略有简化。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "in this sacred place",
+        "zh_v1_span": "在此处",
+        "zh_v2_span": "",
+        "description": "英文原文明确提到'in this sacred place'（在这个神圣之地），但中文翻译仅译为'此处'，完全漏译了'sacred'（神圣的）这一关键形容词，削弱了场景的宗教或庄严氛围，影响世界观一致性。"
+      }
+    ],
+    "entry_name": "SETH_GUARDIAN_TALK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体结构正确，标签使用一致，但存在漏译和措辞不准确的问题，影响原文的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Yearning.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的'Yearning.'（渴望）在第一版中文翻译中被遗漏，没有对应译文，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "White shell.",
+        "zh_v1_span": "白面",
+        "zh_v2_span": "白面",
+        "description": "'shell'通常指外壳或壳，翻译为'面'可能指脸或表面，与原意不符，可能造成误解。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Aid now the final rite.",
+        "zh_v1_span": "此刻助我终仪。",
+        "zh_v2_span": "此刻助我终仪。",
+        "description": "原文没有指定主语'我'，翻译中添加了人称，改变了原句的命令式语气，可能影响语义。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_CURSE_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译简洁地传达了基本意思，风格上模仿了原文的断句节奏，但在术语准确性和细节完整性上存在不足。",
+    "issues": [
+      {
+        "type": "terminology.proper_name",
+        "source_span": "P... Pollip Hearts.",
+        "zh_v1_span": "花……花芯。",
+        "zh_v2_span": "",
+        "description": "原文中的 'Pollip' 是一个专有名词，可能指特定植物或物品，但翻译中简化为 '花'，未保留原词，导致术语不忠实，可能影响设定一致性。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Gathered. Gathered all.",
+        "zh_v1_span": "集齐。",
+        "zh_v2_span": "",
+        "description": "原文有两个独立的短句 'Gathered.' 和 'Gathered all.'，翻译合并为一个 '集齐'，丢失了原文的重复结构和可能的语气强调。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_COMPLETE_1"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了拒绝的意图，但存在明显的漏译问题，导致原文的具体信息和细节丢失，不够忠实于英文原文。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "I hear your request, but I must decline. My travels will take me far beyond this wood.",
+        "zh_v1_span": "很遗憾，我有要事在身，没法帮忙。",
+        "zh_v2_span": "",
+        "description": "漏译了'I hear your request'和'My travels will take me far beyond this wood.'，用概括性语句代替，丢失了原文的具体开场白和旅行描述，可能影响角色表达和世界观细节。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Decline. No. Decline, not.",
+        "zh_v1_span": "拒绝。不可。",
+        "zh_v2_span": "",
+        "description": "'Decline, not.'没有完整翻译，'not'部分缺失，导致表达不完整，可能削弱原文中重复强调的语气或否定意味。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译存在多处漏译，关键元素如'power'和'bug'未被翻译，且'knowledge'可能被误写为'只是'，导致含义不完整，影响忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "If you have knowledge or power to grant",
+        "zh_v1_span": "若你能分享只是",
+        "zh_v2_span": "",
+        "description": "原文为'knowledge or power'，翻译仅提及'只是'（可能意为知识），完全漏译'power'，信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Yes, bug.",
+        "zh_v1_span": "对。",
+        "zh_v2_span": "",
+        "description": "原文中的'bug'（可能为角色称呼或游戏元素）被漏译，导致对话不完整。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Bring them, bug, and power will be shared.",
+        "zh_v1_span": "带来花芯，共享力量。",
+        "zh_v2_span": "",
+        "description": "翻译漏掉了'bug'，原文中此词重复出现，漏译影响角色互动或设定一致性。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译在整体结构和含义上基本忠实于原文，结构标签使用正确。但在个别用词的准确性和流畅度上存在小问题，如'红袍虫'未能精确传达'被红色覆盖'的意象，以及'准备'对'Prepared'的状态描述不够到位。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Bug. Cloaked by red.",
+        "zh_v1_span": "红袍虫。",
+        "zh_v2_span": "红袍虫。",
+        "description": "'Cloaked by red' 意为'被红色覆盖'，强调覆盖的状态；'红袍虫'虽简洁但可能误导，暗示虫穿着袍子而非被覆盖，导致语义偏差。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "Prepared.",
+        "zh_v1_span": "准备。",
+        "zh_v2_span": "准备。",
+        "description": "'Prepared' 是过去分词，表示准备好的状态；中文'准备'更常作为动词或名词使用，未能准确传达状态，建议改为'已准备'或'准备就绪'以提升流畅度。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_COMPLETE_3"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上基本忠实于英文原文，结构对应良好，术语使用与第二版一致，风格匹配角色犹豫的语气。",
+    "issues": [],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_KEEPITEMS"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上正确，但存在多处漏译和信息模糊，导致原文的完整含义和破碎风格未能充分传达，影响角色语气和语境清晰度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Not now.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了英文原文中的'Not now.'，使拒绝帮助的语气不完整，原文强调'现在不行'以增强角色犹豫感。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "None... none come now.",
+        "zh_v1_span": "无虫……",
+        "zh_v2_span": "无虫……",
+        "description": "翻译只提到'无虫'，漏译了'come now'部分，原文意思是'没有...没有现在来'，暗示虫子到来的时间或情境，信息缺失。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "Once times, many bugs. Many.",
+        "zh_v1_span": "曾有许多……",
+        "zh_v2_span": "曾有许多……",
+        "description": "原文明确指'bugs'（虫子），翻译泛化为'许多'，没有指定对象，导致信息模糊，玩家可能无法理解所指。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_CURSE_DECLINED"
+  },
+  {
+    "overall_comment": "第一版翻译在基本含义和结构上忠实于原文，结构标签正确。但在语气和情感表达上存在偏差，将祈使句转为陈述句，并漏译了'cries'的情感色彩。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "Bring it here... the bud.",
+        "zh_v1_span": "你带来了……花苞。",
+        "zh_v2_span": "",
+        "description": "将英文的祈使句'Bring it here'（把它带来这里）翻译为陈述句'你带来了'（你已经带来了），改变了语气，可能削弱了命令或请求的意味。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "It cries for the rite.",
+        "zh_v1_span": "呼唤仪式。",
+        "zh_v2_span": "",
+        "description": "漏译了'cries'的情感含义，英文中'cries'表示哭泣或急切呼唤，带有情感色彩，中文'呼唤'较为中性，丢失了这种情感表达。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_MANDRAKE_ASK"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，保持了正式和礼貌的语气，句子流畅自然，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "SETH_GUARDIAN_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，准确传达了含义和风格，结构标签使用正确，中文表达流畅自然。",
+    "issues": [],
+    "entry_name": "WOOD_WITCH_MANDRAKE_ACCEPT"
+  },
+  {
+    "overall_comment": "第一版翻译存在明显漏译问题，缺失了英文原文中的关键信息 'Pollip Hearts are needed.' 和称呼 'bug'，导致翻译不完整且可能影响玩家对任务要求和角色互动的理解。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Pollip Hearts are needed.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文明确提到需要 Pollip Hearts，但第一版翻译完全漏译了这句话，使得任务要求不清晰。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "bug",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中 'bug' 作为称呼出现，可能指代玩家或角色，但第一版翻译中漏译，影响了对话的语气和人物关系。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_ACCEPTED"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了核心意思，但有多处漏译，尤其是开头'Bug.'的缺失和英文中重复强调部分的简化，导致原文的细节和语气有所损失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Bug.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "英文开头有'Bug.'，可能是一个角色名或术语，中文翻译完全漏掉，导致玩家可能无法理解上下文。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "None more tread here. None.",
+        "zh_v1_span": "无虫来此。",
+        "zh_v2_span": "无虫来此。",
+        "description": "英文中'None more tread here. None.'包含重复和细节（'tread'意为踩踏或行走），中文简化为一句话，漏掉了重复强调和动作描述。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "The Pollip Hearts. They are needed.",
+        "zh_v1_span": "仪式需要花芯。",
+        "zh_v2_span": "仪式需要花芯。",
+        "description": "英文中单独强调'The Pollip Hearts.'并说明其必要性，中文直接融入'仪式需要花芯.'，漏掉了对物品名称的明确指代，可能导致信息模糊。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Bring them here, for the rite.",
+        "zh_v1_span": "带来此处。",
+        "zh_v2_span": "带来此处。",
+        "description": "英文中'Bring them here, for the rite.'重复了'for the rite'以强调目的，中文只翻译了'带来此处.'，漏掉了目的的重复强调，削弱了语气。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_REOFFER"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确无误地传达了英文原文的含义，保持了疑问句的风格和结构，没有发现任何问题。",
+    "issues": [],
+    "entry_name": "SETH_GUARDIAN_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于英文原文，意思基本对应，结构匹配，风格简洁，可能适合游戏设定。术语'花芯'对'pollip'的处理可能是意译，鉴于第二版翻译相同，应视为可接受。",
+    "issues": [],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_COMPLETE_2"
+  },
+  {
+    "overall_comment": "第一版翻译准确地传达了英文原文的含义和风格，保持了原文的神秘氛围和命令语气，没有发现明显的翻译错误或结构问题。",
+    "issues": [],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_CANCOMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和结构上基本忠实于英文原文，保持了原文的破碎、神秘风格，标签位置正确。但在第二段中，翻译省略了原文的重复强调，导致轻微的漏译。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "None more tread here. None.",
+        "zh_v1_span": "无虫来此。",
+        "zh_v2_span": "无虫来此。",
+        "description": "原文中'None more tread here. None.'包含了重复的'None.'以加强强调语气，但翻译只译为'无虫来此。'，漏译了第二个'None.'，削弱了原文的强调效果。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_FLOWER_QUEST_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和风格上基本忠实于原文，但有两处明显的漏译，影响了内容的完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Slumber. Long sleep. But now is the waking.",
+        "zh_v1_span": "长眠。苏醒时分已至。",
+        "zh_v2_span": "",
+        "description": "漏译了原文中的'Long sleep.'部分，导致信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Heed, bug. The time of birth approaches.",
+        "zh_v1_span": "听着，诞生之时将至。",
+        "zh_v2_span": "",
+        "description": "漏译了'bug'，原文中'Heed, bug.'被简化为'听着，'，缺失了称呼对象。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译忠实于英文原文，准确传达了'花苞必须献上'的核心含义和'呼唤仪式'的神秘语气，省略号的使用与原文风格一致，没有发现显著问题。",
+    "issues": [],
+    "entry_name": "WOOD_WITCH_MANDRAKE_DECLINE"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上准确，但漏译了 'Soon.' 一词，导致时间紧迫感缺失，含义不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Soon.",
+        "zh_v1_span": "时刻将至……诞生之时将至。",
+        "zh_v2_span": "",
+        "description": "英文原文中的 'Soon.' 被漏译。该词表示时间紧迫，中文翻译省略了 '很快' 或类似表达，使得整体时间指示模糊。"
+      }
+    ],
+    "entry_name": "WOOD_WITCH_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译在结构标签上符合原文，无技术问题。但语义上存在两处可能的不准确：'stranger' 译为 '虫' 可能偏离常规含义，'beyond' 译为 '后方' 可能未准确传达原意。整体风格基本匹配，但需确认游戏设定。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "stranger",
+        "zh_v1_span": "虫",
+        "zh_v2_span": "",
+        "description": "英文 'stranger' 通常意为 '陌生人'，翻译为 '虫' 可能是错译，除非是游戏设定中的特殊术语。若无上下文支持，此处理解有误。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "beyond",
+        "zh_v1_span": "后方",
+        "zh_v2_span": "",
+        "description": "'beyond' 意为 '在更远处' 或 '那边'，描述圣所的位置；翻译为 '后方' 可能不准确，易误解方向，应为 '前方的' 或 '那边的' 更贴切。"
+      }
+    ],
+    "entry_name": "SETH_GUARDIAN_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体上传达了原文大意，但存在多处准确性问题，包括漏译、错译和添加内容，影响了忠实度和流畅度。结构标签保持正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You may remain here and rest, if you choose. I am no enemy of yours. Only if you try to step beyond will I raise my weapon against you.",
+        "zh_v1_span": "你可以在此处休息，只要不越界，我就不是你的敌人。",
+        "zh_v2_span": "",
+        "description": "漏译了'if you choose'（如果你选择）和'raise my weapon against you'（举起武器对抗你）的具体表述，简化了条件句，导致细节缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Then tell me, warrior, of the shrine you guard.",
+        "zh_v1_span": "那就说说这处圣所吧。",
+        "zh_v2_span": "",
+        "description": "漏译了'warrior'（战士），直接称呼未翻译，影响角色互动和语境。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "The shrine remains to remember the wood’s first seed, her that once was and always is.",
+        "zh_v1_span": "最初之种记得这处圣所，而她永恒存在。",
+        "zh_v2_span": "",
+        "description": "关系错译：英文原意是圣所存在是为了记住森林的第一个种子（'the shrine remains to remember'），但翻译成了种子记住圣所，意思相反，严重偏离原意。"
+      },
+      {
+        "type": "fluency.grammar",
+        "source_span": "Some things may be hidden, but never forgotten.",
+        "zh_v1_span": "事物或许会被被隐藏，但不会被遗忘。",
+        "zh_v2_span": "",
+        "description": "错别字'被被隐藏'，应为'被隐藏'，语法错误，影响阅读流畅度。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Sadly, in that service, many have fallen to my blade.",
+        "zh_v1_span": "很遗憾，至今已有无数试图越界的亡魂。",
+        "zh_v2_span": "",
+        "description": "添加了'试图越界的'，原文未指定原因，属于臆译，可能误导玩家对情境的理解。"
+      }
+    ],
+    "entry_name": "SETH_GUARDIAN_TALK1"
+  }
+]

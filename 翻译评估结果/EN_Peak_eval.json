@@ -1,0 +1,396 @@
+[
+  {
+    "overall_comment": "第一版翻译整体流畅，基本传达了原文含义，风格贴近。但在个别句子中存在漏译和语气调整，导致细节丢失和修辞效果减弱。",
+    "issues": [
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "<page>Aye. But isn’t it always such for those snared to serve your higher caste?",
+        "zh_v1_span": "<page>是啊，但被你们高等族群使唤的不都这样。",
+        "zh_v2_span": "",
+        "description": "英文使用反问句以增强对话语气和情感色彩，中文翻译改为陈述句，可能削弱了原有的修辞效果。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "<page>Our mortal mob did once act some defiance, unawares maybe, but successful in part, goaded towards it by Weavers’ will’n all.",
+        "zh_v1_span": "<page>我们凡虫不是没反抗过。当年被织者忽悠着，居然还真成了点事。",
+        "zh_v2_span": "",
+        "description": "英文中 'unawares maybe'（可能不知情）未明确翻译，且 'Weavers’ will’n all'（织者的意志等）的细节被简化为 '忽悠'，导致部分信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "A system, or a web they’d likely call it, a way to keep their mother sealed in slumber, and themselves free to lavish in their false rule.",
+        "zh_v1_span": "用狡猾心思织成网，让母亲陷入沉眠，自己却在外面称王。",
+        "zh_v2_span": "",
+        "description": "英文中 'A system, or a web they’d likely call it'（一个系统，或他们可能称之为网）被完全省略，直接融入 '织成网'，丢失了原文对结构的具体描述。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_TALK_04"
+  },
+  {
+    "overall_comment": "第一版翻译整体语言流畅，风格符合游戏语境，但在关键句子中存在错译和漏译，导致部分含义失真，未能完全忠实于英文原文的语义和语气。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Know you distort the order of things",
+        "zh_v1_span": "这怎么合适",
+        "zh_v2_span": "",
+        "description": "原文意为'你知道你扭曲了事物的秩序'，是陈述或指责语气；译文翻译为'这怎么合适'，转为疑问或感叹，意思完全不同，丢失了原文的特定含义和角色互动。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "If your blood allows it so...",
+        "zh_v1_span": "不知您的同族会怎么想……",
+        "zh_v2_span": "",
+        "description": "原文'If your blood allows it so...'意为'如果你的血脉/本质允许如此...'，是条件从句；译文翻译为'不知您的同族会怎么想……'，将条件转为对同族想法的猜测，含义偏差较大。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "welcome its sheen",
+        "zh_v1_span": "会喜欢的",
+        "zh_v2_span": "",
+        "description": "原文'welcome its sheen'指'欢迎它的光泽'，译文只翻译了'会喜欢的'，漏译了'sheen'（光泽）这一具体描述，导致信息不完整，削弱了原文的生动性。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_DELIVERY"
+  },
+  {
+    "overall_comment": "翻译基本传达了紧迫感和时间限制，但漏译了关键名词“masks”，导致信息不够完整和准确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "the masks must be made",
+        "zh_v1_span": "雕刻都不能停",
+        "zh_v2_span": "",
+        "description": "原文明确提及“masks”（面具），但翻译中仅用了“雕刻”，漏译了具体对象“面具”，可能影响玩家对任务或上下文的理解。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_REPEAT1_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了对话的意图和语气，但在关键细节上存在准确性偏差：原文的'work'被不必要地具体化，且'caverns'误译为'大地'，导致语义不准确。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "I’ll work till caverns’ collapse.",
+        "zh_v1_span": "我要继续刻面甲，直到大地崩塌。",
+        "zh_v2_span": "",
+        "description": "原文中'work'是泛指工作，但翻译添加了'刻面甲'（雕刻面具），具体化了动作，而原文未指定，属于多译或臆译。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "I’ll work till caverns’ collapse.",
+        "zh_v1_span": "我要继续刻面甲，直到大地崩塌。",
+        "zh_v2_span": "",
+        "description": "'caverns’ collapse'意为'洞穴崩塌'，但翻译为'大地崩塌'，将'caverns'（洞穴）误译为'大地'，导致地理环境描述错误，可能误导玩家。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_REPEAT_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译大致传达了原文的对话意图，但存在多处信息缺失和简化，导致细节丢失，影响完整性和准确性。结构标签顺序正确。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Unmasked, the task becomes heavy.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了'Unmasked, the task becomes heavy.'，原文描述不戴面甲时任务变重，中文版本完全缺失此信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Maker",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了称呼'Maker'，这可能是一个重要的专有名词或角色头衔，翻译中未体现。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "the tremors of her kin brought close.",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "在'I've felt the stirrings of our monarch...'句中，漏译了'the tremors of her kin brought close.'，原文关于君主亲属震颤的细节缺失。"
+      },
+      {
+        "type": "terminology.proper_name",
+        "source_span": "Our great, frayed god?",
+        "zh_v1_span": "找我们伟大却又衰败的女王？",
+        "zh_v2_span": "",
+        "description": "原文中的'god'（神）被翻译为'女王'，可能是一个专有名词错误或设定不一致，需根据游戏世界观确认正确译法。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "you should well know the necessity of my service.",
+        "zh_v1_span": "我的活都不能停。",
+        "zh_v2_span": "",
+        "description": "漏译了'you should well know'（你应清楚知道），原文强调对方知晓服务的必要性，翻译中仅简化表达为'活都不能停'，丢失语气和部分含义。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体风格和结构标签正确，但在关键信息上存在漏译和多译问题，影响了原文的准确性和完整性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "The fate for these caverns feels grim.",
+        "zh_v1_span": "不过看来情况不太妙。",
+        "zh_v2_span": "",
+        "description": "中文翻译漏译了 'these caverns'（这些洞穴），原文明确提到洞穴的命运，而中文仅泛泛说 '情况不太妙'，丢失了具体对象。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "It’s always the way, aye?",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "原文中的短语 'It’s always the way, aye?'（总是这样，对吧？）被完全省略，影响语气和对话的连贯性。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "It was freedom I sought, Maker. Naive perhaps, but this is not the fate I wished to come.",
+        "zh_v1_span": "我想要自由，匠师。既为了我也为了你们。或许是有些天真，但这不是我要的结局。",
+        "zh_v2_span": "",
+        "description": "中文翻译添加了 '既为了我也为了你们。'，原文中没有此信息，属于多译或臆译。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_PREVIOUSLY_MET_ACT3"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体上忠实于英文原文，准确传达了‘所有生灵都应拥有面孔并有机会存在’的核心含义，风格保持了宣言式的庄严感，句子结构对应无误。",
+    "issues": [],
+    "entry_name": "MASK_MAKER_REPEAT1"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上基本忠实于英文原文，准确传达了'存在与死亡需要一张脸'的核心概念，并用'根本'对应'essential thing'，整体表达简洁自然。",
+    "issues": [],
+    "entry_name": "MASK_MAKER_REPEAT2_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体含义准确，结构标签处理正确，风格与原文一致。但在描述漆料部分，中文添加了额外信息，略微偏离了原文的侧重点。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "lacquer for your long work",
+        "zh_v1_span": "漆料，够你用很久",
+        "zh_v2_span": "",
+        "description": "原文 'lacquer for your long work' 强调漆料的用途（用于长期工作），而中文翻译 '够你用很久' 添加了 '足够' 的数量含义，可能导致语义偏差。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_DELIVERY"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了核心意思，但遗漏了原文中关于奖励原因和礼物性质的细节，导致信息不完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "for service made",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了“for service made”，原文指定奖励是针对提供的服务，翻译中省略了此上下文信息。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Gift for you",
+        "zh_v1_span": "",
+        "zh_v2_span": "",
+        "description": "漏译了“Gift for you”，原文强调这是一个礼物，翻译中只提到“报酬”，未体现礼物性质。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_POST"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，保持了尊敬和诗意的风格，没有明显的错译或漏译，整体质量良好。",
+    "issues": [],
+    "entry_name": "MASK_MAKER_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译在术语准确性上存在问题，将'masks'错误翻译为'面甲'，应为'面具'；'To work'翻译成'雕刻'可能不够准确，但保留了重复强调的风格。结构标签无问题。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "To work! To work!",
+        "zh_v1_span": "雕刻！雕刻！",
+        "zh_v2_span": "",
+        "description": "原文'To work!'意为'去工作！'或'干活！'，翻译成'雕刻！'可能不准确，除非上下文明确工作特指雕刻面具，但直接翻译应更通用。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "The masks must be carved.",
+        "zh_v1_span": "必须继续雕刻面甲。",
+        "zh_v2_span": "",
+        "description": "'masks'应翻译为'面具'，而不是'面甲'。'面甲'通常指头盔的面部护甲，与面具概念不符，属于术语错误。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_REPEAT3"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和结构上基本忠实于原文，风格较为口语化，但存在几处准确性问题，包括术语误译和细节遗漏，可能影响原意的精确传达。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Did you treat with the creature upon the summit?",
+        "zh_v1_span": "见过山顶上那位了吗？",
+        "zh_v2_span": "",
+        "description": "原文 'treat with' 意为 '与...交涉' 或 '打交道'，强调主动互动，翻译为 '见过' 弱化了这一含义，可能导致意思不准确。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Your legged ancestors",
+        "zh_v1_span": "你那些多足的先祖",
+        "zh_v2_span": "",
+        "description": "'legged' 意为 '有腿的'，翻译为 '多足的' 可能不准确，因为 '多足' 通常指 '多足的'（如昆虫），而原文可能泛指有腿的生物，需结合游戏设定判断。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "found her company compelling",
+        "zh_v1_span": "对她十分信服",
+        "zh_v2_span": "",
+        "description": "原文 'found her company compelling' 意为 '觉得她的陪伴很吸引人'，强调吸引力，翻译为 '信服' 更偏向信任或说服，语义有偏差。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "does much to ward against the frost of these heights",
+        "zh_v1_span": "得了这身御寒的绒毛",
+        "zh_v2_span": "",
+        "description": "原文明确描述绒毛 '能有效抵御高处的寒霜'，中文翻译 '得了这身御寒的绒毛' 隐含御寒，但漏译了 'does much to ward against the frost of these heights' 的强调和具体环境描述。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "harsher change to come",
+        "zh_v1_span": "有大事要发生了",
+        "zh_v2_span": "",
+        "description": "原文 'harsher change' 意为 '更严厉或更严峻的变化'，翻译为 '有大事要发生了' 弱化了 'harsher'（更严酷）的情感色彩和具体性。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_PEAK"
+  },
+  {
+    "overall_comment": "第一版翻译在整体语气和大部分内容上基本忠实于原文，但存在几处明显的漏译，导致部分信息缺失，影响了完整性和准确性。结构标签使用正确，无技术问题。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Unmasked, the task becomes heavy.",
+        "zh_v1_span": "啊呀，古老者，你们这一族最清楚，不戴面甲交谈太失礼了。",
+        "zh_v2_span": "",
+        "description": "原文中 'Unmasked, the task becomes heavy.'（未戴面具，任务变得沉重）完全没有翻译，导致句子后半部分的信息缺失。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "It’s always the way, aye?",
+        "zh_v1_span": "哈！一点都不意外！你们古族争权夺利，我们小虫子活该被碾碎。",
+        "zh_v2_span": "",
+        "description": "原文中 'It’s always the way, aye?'（总是这样，对吧？）没有翻译，漏掉了表达惯常语气的部分。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "squashed unseen underneath",
+        "zh_v1_span": "活该被碾碎",
+        "zh_v2_span": "",
+        "description": "原文中 'unseen'（未被看见地）未在翻译中体现，中文简化后丢失了 '在无人注意之下被碾碎' 的细微含义。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了原文的含义、重复结构和神秘语气，整体忠实度高。",
+    "issues": [],
+    "entry_name": "MASK_MAKER_MEET_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在意思和风格上大致忠实于原文，语言流畅，但存在一处漏译，未能传达安全送达的关键信息。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "deliver that sloshing stuff safe",
+        "zh_v1_span": "抱着晃荡的漆罐爬这么高不容易",
+        "zh_v2_span": "",
+        "description": "原文中'deliver that sloshing stuff safe'强调安全送达，但翻译中未体现'safe'，漏译了安全这个关键信息。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_POST_UNMASK"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上基本忠实，但存在明显的漏译和多译问题，影响了信息的完整性和准确性。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Some form of Pharloom and our old, legged, stewards.",
+        "zh_v1_span": "和古时候那些多足管事的一样。",
+        "zh_v2_span": "",
+        "description": "漏译了'Some form of Pharloom'部分。原文明确提到与Pharloom（纺络）的关系，但中文只提及多足管事，导致关键信息缺失。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "The masks are needed.",
+        "zh_v1_span": "需要更多面甲！",
+        "zh_v2_span": "",
+        "description": "原文没有'更多'的含义，中文添加了'更多'，属于多译，可能改变原意。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_RELATIONSHIP"
+  },
+  {
+    "overall_comment": "第一版翻译在大部分内容上准确传达了原文含义，风格口语化，符合游戏对话语境。但存在两处明显的漏译，导致信息缺失，可能影响角色互动和语气表达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your mask... It reads clear enough, Old One.",
+        "zh_v1_span": "你的面甲……上面清清楚楚。",
+        "zh_v2_span": "",
+        "description": "漏译了 'Old One'，原文中称呼对方为 'Old One'，中文翻译缺失，影响了角色称呼和对话的完整性与语气。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Rigid I’m sure, but",
+        "zh_v1_span": "不过",
+        "zh_v2_span": "",
+        "description": "漏译了 'Rigid I’m sure'，原文表达了对面具 rigid 的肯定，然后转折，中文直接开始 '不过'，缺失了这部分信息，可能导致语义不完整。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_TALK_03"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文大意，但存在漏译关键信息、添加多余成分以及术语使用不当的问题，导致在准确性和风格上与原文有偏差。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Our world cries its end!",
+        "zh_v1_span": "虽然世界在哀嚎！",
+        "zh_v2_span": "",
+        "description": "漏译了 'Our' 和 'its end'，原文意为'我们的世界哭泣它的终结'，强调所有格和终结概念，翻译只提到'世界在哀嚎'，信息不完整。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "Our world cries its end!",
+        "zh_v1_span": "虽然世界在哀嚎！",
+        "zh_v2_span": "",
+        "description": "英文原文没有连词，中文添加了'虽然'，引入了让步关系，改变了原文的并列或转折结构，影响逻辑表达。"
+      },
+      {
+        "type": "terminology.wrong_term",
+        "source_span": "masks",
+        "zh_v1_span": "面甲",
+        "zh_v2_span": "",
+        "description": "术语错误，根据上下文（如条目名 MASK_MAKER），'masks' 应翻译为'面具'，'面甲'通常指面部护甲，与游戏设定可能不符。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_REPEAT3_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译整体结构正确，标签无误，但 'scant allows rest' 的翻译略有偏差，可能导致语义不够精确。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "Mine is a calling that scant allows rest.",
+        "zh_v1_span": "我的使命可不让休息。",
+        "zh_v2_span": "",
+        "description": "原文 'scant allows rest' 意为 '几乎不允许休息'，强调休息的稀少；翻译 '可不让休息' 意为 '不允许休息'，可能过于绝对，未能准确传达 'scant' 的细微含义。"
+      }
+    ],
+    "entry_name": "MASK_MAKER_UNMASK_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了英文原文的含义，风格简洁，忠实于原文。翻译流畅自然，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "MASK_MAKER_REPEAT2"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "overall_comment": "第一版翻译在整体意思上基本忠实，但存在添加原文没有的内容以及简化表达的问题，导致结构不一致和细微含义丢失。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "It’s a sad thing, but I can’t say most folk down here’ve fared so fortunate. And our once fine camp below ain’t no longer safe for any bug, all crushed and consumed by this black calamity.",
+        "zh_v1_span": "可惜底下多数虫没这运气。咱们的好营地也被黑灾碾碎吞没了，没一处安全。",
+        "zh_v2_span": "",
+        "description": "中文在第一段末尾添加了“没一处安全”，而英文原文中“Nowhere is safe”是单独在<hpage>后出现的，这导致内容重复和结构错位，属于多译。"
+      },
+      {
+        "type": "fluency.word_choice",
+        "source_span": "but it’s heartenin’ knowing you’ve still got fire enough to feel different.",
+        "zh_v1_span": "但您有这份心总是好的。",
+        "zh_v2_span": "",
+        "description": "“fire enough to feel different”被简化为“有这份心”，丢失了“热情如火”的比喻和“感觉不同”的细微含义，用词不够准确，影响表达丰富度。"
+      }
+    ],
+    "entry_name": "BB_FIXER_ACT3_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体含义基本忠实，风格口语化匹配原文，但存在少量准确性偏差，如所有格模糊和程度过度翻译。",
+    "issues": [
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "your camp",
+        "zh_v1_span": "此营地",
+        "zh_v2_span": "",
+        "description": "原文 'your camp' 明确指对方的营地，翻译为 '此营地' 模糊了所有格关系，可能导致理解不清，建议保留 '你的营地' 以准确传达归属。"
+      },
+      {
+        "type": "accuracy.addition",
+        "source_span": "make things a little easier on ‘em",
+        "zh_v1_span": "解了燃眉之急",
+        "zh_v2_span": "",
+        "description": "原文意思是 '让事情对他们来说轻松一点'，程度较轻；翻译为 '解了燃眉之急' 添加了 '紧急困难' 的含义，可能过度强调，建议调整为更贴近原意的表达。"
+      }
+    ],
+    "entry_name": "BB_FIXER_DELIVERY"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体准确流畅，结构标签正确，但漏译了'humble'一词，轻微影响角色语气。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "a humble druid",
+        "zh_v1_span": "德鲁伊",
+        "zh_v2_span": "",
+        "description": "漏译了形容词'humble'（谦虚的），可能削弱了角色自我描述的语气。"
+      }
+    ],
+    "entry_name": "MOSSCREEP_MEET_ALT"
+  },
+  {
+    "overall_comment": "第一版翻译语言流畅自然，风格符合祝福与威胁的语境，但在准确性方面存在明显缺陷，漏译了英文原文中的关键概念，导致祝福和威胁的含义被简化或失真。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "May your travels bring you fortune",
+        "zh_v1_span": "祝你一路顺风",
+        "zh_v2_span": "",
+        "description": "原文的 'fortune'（好运、财富）被省略，仅翻译为 '一路顺风'，后者主要表示旅途顺利，丢失了祝福运气的核心含义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "fear your freedom",
+        "zh_v1_span": "因你在这片土地上行走而战栗",
+        "zh_v2_span": "",
+        "description": "原文中的 'freedom'（自由）被漏译，将 'fear your freedom'（害怕你的自由）意译为 '因你行走而战栗'，导致核心概念缺失，威胁对象从自由变为行走行为，语义不忠实。"
+      }
+    ],
+    "entry_name": "BB_CARETAKER_BASEMENT_REPEAT"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅自然，意思基本正确，但在第二句中简化过度，漏译了原文的细节，可能影响语气和情境的传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Are you composing yourself here before you leave on your own journey?",
+        "zh_v1_span": "是在为启程做准备？",
+        "zh_v2_span": "",
+        "description": "原文中 'composing yourself here before you leave' 包含了使自己平静/整理思绪的细微含义以及具体位置 'here'，翻译简化为 '为启程做准备'，漏掉了这些细节，导致信息不完整。"
+      }
+    ],
+    "entry_name": "BELLWAY_PILGRIM_MEET_2"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅，风格与原文基本一致，结构标签正确，但存在一处信息遗漏。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Must be terrifying out there, beyond the settlement.",
+        "zh_v1_span": "外面肯定很可怕，",
+        "zh_v2_span": "",
+        "description": "原文中'beyond the settlement'（定居点之外）的明确指代被漏译，中文只翻译了'外面肯定很可怕'，缺失了具体语境信息。"
+      }
+    ],
+    "entry_name": "BB_RESIDENT_GOT_SILKSPEAR"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义和风格上基本忠实于原文，采用了文学化的中文表达，与原文的朝圣者主题匹配。然而，在细节处理上存在简化，导致部分原文意象丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "we aim our sights high and never waver from our path",
+        "zh_v1_span": "需心志坚定",
+        "zh_v2_span": "",
+        "description": "英文原文具体描述了朝圣者'目标高远且不偏离道路'的行为，但中文简化为'需心志坚定'，漏译了'aim our sights high'的意象，使翻译不够完整和精确。"
+      }
+    ],
+    "entry_name": "FUNERAL_2"
+  },
+  {
+    "overall_comment": "第一版翻译在流畅度和风格上基本贴近原文，语气自然，但关键术语 'steps' 的翻译存在偏差，将 '脚步/行动' 译为 '针刃'，可能影响语义准确性。",
+    "issues": [
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "how your steps might shake our world",
+        "zh_v1_span": "你的针刃撼动这片土地的那天",
+        "zh_v2_span": "",
+        "description": "英文 'steps' 意为脚步或行动，指角色的行为可能震撼世界；中文翻译为 '针刃'（可能指武器），改变了原文含义，导致语义错译。"
+      }
+    ],
+    "entry_name": "BB_CARETAKER_REPEAT"
+  },
+  {
+    "overall_comment": "第一版中文翻译准确传达了原文的含义和情感，保持了相似的语气和节奏，结构对应，没有发现明显问题。",
+    "issues": [],
+    "entry_name": "MOSSCREEP_COMPLETED_ACT3"
+  },
+  {
+    "overall_comment": "第一版翻译在含义和风格上基本忠实于原文，但存在一处漏译，导致英文中重复强调的 'Return here' 部分丢失。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Return here and grant my wish!",
+        "zh_v1_span": "应我祈愿！",
+        "zh_v2_span": "应我祈愿！",
+        "description": "原文句子 'Return here and grant my wish!' 中，中文只翻译了 'grant my wish' 为 '应我祈愿！'，漏掉了 'Return here' 部分，这使得重复的强调效果未能体现。"
+      }
+    ],
+    "entry_name": "MOSSCREEP_REFUSE"
+  },
+  {
+    "overall_comment": "第一版中文翻译整体准确，风格与原文的古风语气匹配，结构标签一致。但存在一处轻微漏译，影响了原文细节的完整传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "though one long abandoned",
+        "zh_v1_span": "似是废弃驿站。",
+        "zh_v2_span": "",
+        "description": "原文 'long abandoned' 强调长期废弃，翻译中只用了 '废弃'，漏译了 '长期' 这一关键修饰语，导致信息不完整。"
+      }
+    ],
+    "entry_name": "BELLWAY_PILGRIM_MEET_1"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义和风格上忠实于英文原文，准确传达了原文的调皮口语语气，结构标签正确无误。",
+    "issues": [],
+    "entry_name": "BB_FIXER_Q1_UNACCEPTED"
+  },
+  {
+    "overall_comment": "第一版翻译忠实传达了英文原文的含义和责备语气，结构完整，没有明显的准确性或流畅度问题。",
+    "issues": [],
+    "entry_name": "MOSSCREEP_DONT_GIVE"
+  },
+  {
+    "overall_comment": "第一版翻译整体流畅自然，忠实地传达了原文的含义和风格，但在一个关键细节上存在漏译，导致信息不够完整。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "It’s been some time since I had such ample opportunity for friendly conversation.",
+        "zh_v1_span": "很久没有过友善交谈了。",
+        "zh_v2_span": "很久没有过友善交谈了。",
+        "description": "漏译了 'ample'（充分的）一词，原文强调有充分的机会进行友善交谈，中文只译为 '友善交谈'，信息缺失，降低了原意的强调程度。"
+      }
+    ],
+    "entry_name": "BB_RESIDENT_NAME"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文意思，风格和结构标签使用正确。但有两处关键信息遗漏，导致原文的情感递进和逻辑完整性受损。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "My wish was granted, but clear now that more are needed!",
+        "zh_v1_span": "我祈愿已实现，但需要更多！",
+        "zh_v2_span": "",
+        "description": "漏译了“clear now”（现已清楚）这一层含义，原文强调愿望实现后，现在意识到了新的需求，译文削弱了这种认知转变。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Yes, we will trade.",
+        "zh_v1_span": "以念珠换鲜果！",
+        "zh_v2_span": "",
+        "description": "完全漏译了“Yes, we will trade.”（是的，我们将进行交易）这个关键句子。这直接跳过了一个完整的对话环节：从提出要求（带更多苔莓来）到确认交易意向再到提出具体交易物品。"
+      }
+    ],
+    "entry_name": "MOSSCREEP_TRADE_INTRO"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上忠实于英文原文，准确传达了对话内容和情感语气，结构标签与原文一致，整体风格自然流畅。",
+    "issues": [],
+    "entry_name": "MOSSCREEP_CANCOMPLETE"
+  },
+  {
+    "overall_comment": "第一版翻译基本传达了原文大意，语句流畅自然，但漏译了 'holy' 一词，削弱了原文的宗教神圣感。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "As holy as I am with rosaries",
+        "zh_v1_span": "揣着这么多念珠",
+        "zh_v2_span": "",
+        "description": "原文 'As holy as I am with rosaries' 强调因念珠而神圣，翻译只提到 '揣着这么多念珠'，漏译了 'holy'（神圣）这一关键形容词，导致宗教语气丢失。"
+      }
+    ],
+    "entry_name": "BB_SHOPKEEP_NOSTOCK_RETURN"
+  },
+  {
+    "overall_comment": "第一版翻译忠实传达了原文含义，口语风格处理得当，结构标签使用正确，无重大错误。",
+    "issues": [],
+    "entry_name": "BB_FIXER_ACT3_DELIVERY_POST"
+  },
+  {
+    "overall_comment": "第一版翻译在结构和大部分内容上基本忠实于原文，但处理英文中的重复主语和昵称时存在信息遗漏和意译偏差，可能影响原意的准确传达。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "so why did you send you?",
+        "zh_v1_span": "为何派你来？",
+        "zh_v2_span": "",
+        "description": "原文中 'you send you' 明确表达了施动者和受动者都是 'you'（可能是角色自语或游戏特定表达），翻译省略了第一个 'you'，导致重复强调的意味丢失，信息不完整。"
+      },
+      {
+        "type": "accuracy.mistranslation",
+        "source_span": "little you",
+        "zh_v1_span": "小小虫",
+        "zh_v2_span": "",
+        "description": "原文 'little you' 直译为 '小小的你'，用于指代角色或玩家，翻译改为 '小小虫'，引入了 '虫' 这一意象，可能不符合原文的角色称呼或游戏设定，改变了原意。"
+      }
+    ],
+    "entry_name": "MOSSCREEP_OFFER"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实，但漏译了原文中的反问语气，使对话的交互感减弱。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "Your travels have taken you far, haven’t they?",
+        "zh_v1_span": "你已去过许多地方，",
+        "zh_v2_span": "",
+        "description": "原文中的反问句 'haven’t they?' 被完全省略，导致翻译失去确认或强调的语气，影响对话的自然性。"
+      }
+    ],
+    "entry_name": "BB_RESIDENT_BELLHART"
+  },
+  {
+    "overall_comment": "第一版翻译在基本意思上准确，但存在轻微漏译和语气不匹配的问题，影响了风格忠实度。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "They say it’ll help you gather up rosaries on the road ahead.",
+        "zh_v1_span": "据说能助你在路上收集念珠。",
+        "zh_v2_span": "",
+        "description": "英文原文中的 'ahead'（表示未来的路或前方）在翻译中被省略，导致语义不完整。"
+      },
+      {
+        "type": "style.tone_mismatch",
+        "source_span": "You’ll come back and share some with me, won’t you?",
+        "zh_v1_span": "等你回来可要分我一些！",
+        "zh_v2_span": "",
+        "description": "英文使用反问句 'won't you?' 表达委婉的请求，中文使用感叹句，语气更直接，与原文的亲切、确认情绪不符。"
+      }
+    ],
+    "entry_name": "BB_SHOPKEEP_ITEM_ROSARY_MAGNET_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译忠实地传达了英文原文的含义，保持了相同的风格和结构，翻译流畅自然，没有明显问题。",
+    "issues": [],
+    "entry_name": "FUNERAL_NAME_2"
+  },
+  {
+    "overall_comment": "第一版翻译整体上忠实于原文的语义、风格和韵律，用词（如‘搏动’、‘节拍’、‘吾等’）和断句基本符合原文意境。存在一处无中生有的转折关联词，属于轻微的加译问题。",
+    "issues": [
+      {
+        "type": "accuracy.addition",
+        "source_span": "Faint... Our very own...",
+        "zh_v1_span": "但渐弱……吾等独有的……",
+        "zh_v2_span": "",
+        "description": "英文原文中‘Faint’与‘Our very own’是并列的形容词短语，共同描述前面的‘pulse’或‘beat’。第一版翻译在‘渐弱’前增加了转折连词‘但’，这在原文中并无对应，改变了句子的逻辑关系，属于无中生有的加译。应译为‘渐弱……吾等独有的……’，保持并列关系。"
+      }
+    ],
+    "entry_name": "MOSSCREEP_COMPLETED"
+  },
+  {
+    "overall_comment": "第一版翻译整体良好，准确传达了原文含义，风格口语化与原文匹配，流畅自然，无重大错误。",
+    "issues": [],
+    "entry_name": "BB_SHOPKEEP_ITEM_ROSARY_SET_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译在整体含义上基本忠实，但存在几处细节漏译和模糊处理，导致原文的口语语气和精确性有所削弱，需要微调以更贴合原文风格。",
+    "issues": [
+      {
+        "type": "accuracy.omission",
+        "source_span": "You’ve returned to the camp, then?",
+        "zh_v1_span": "重返营地了？",
+        "zh_v2_span": "",
+        "description": "原文中的 'then?' 表示推测或确认的语气，翻译中省略，使对话语气显得不够自然。"
+      },
+      {
+        "type": "accuracy.ambiguity",
+        "source_span": "though I have travelled their paths",
+        "zh_v1_span": "但走过他们路途",
+        "zh_v2_span": "",
+        "description": "原文 'their paths' 明确指朝圣者的路径，中文 '他们路途' 中的 '他们' 指代不清，可能引起歧义。"
+      },
+      {
+        "type": "accuracy.omission",
+        "source_span": "Well, it makes no difference, I suppose.",
+        "zh_v1_span": "也罢。",
+        "zh_v2_span": "",
+        "description": "原文 'Well' 和 'I suppose' 表达犹豫或无奈的语气，翻译简化为 '也罢'，丢失了部分语体色彩。"
+      }
+    ],
+    "entry_name": "BB_RESIDENT_MEET_ALT"
+  },
+  {
+    "overall_comment": "第一版翻译基本忠实于英文原文，传达了核心意思和语气。整体流畅自然，符合游戏对话风格，虽有细微调整如省略语气词 'Yes'，但无重大错误。",
+    "issues": [],
+    "entry_name": "MOSSCREEP_TRADE_ACCEPT_2"
+  },
+  {
+    "overall_comment": "第一版中文翻译在含义、风格和结构上基本忠实于英文原文，翻译流畅自然，角色语气恰当，结构标签使用正确。整体质量良好，无明显问题。",
+    "issues": [],
+    "entry_name": "BB_SHOPKEEP_MEET"
+  },
+  {
+    "overall_comment": "第一版翻译整体忠实于原文，含义准确，风格口语化，结构对应无误，与第二版翻译一致。",
+    "issues": [],
+    "entry_name": "BB_SHOPKEEP_ITEM_TOKEN_FAITH_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译在含义上基本忠实于英文原文，比喻生动，语言流畅，风格与原文的诗意口语感匹配。整体质量较高。",
+    "issues": [],
+    "entry_name": "BB_SHOPKEEP_ITEM_TOOLMETAL_DESC"
+  },
+  {
+    "overall_comment": "第一版翻译准确传达了原文含义，口语化风格匹配，流畅自然，没有明显问题。",
+    "issues": [],
+    "entry_name": "BB_FIXER_DELIVERY_POST"
+  }
+]
