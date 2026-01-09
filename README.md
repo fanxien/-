@@ -1,0 +1,2 @@
+ai_evaluate.py为ai评估翻译的代码  
+deepseek.bas为negative_translation_reviews.xlsm中进行情感分析的vba宏
